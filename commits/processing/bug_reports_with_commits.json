@@ -1,284 +1,1188 @@
 {
     "14": {
-        "commit": "5eb3a6b29432a58e0f708a58db6358bb445dbbdb"
+        "commit": "5eb3a6b29432a58e0f708a58db6358bb445dbbdb",
+        "modified_files": [
+            "Makefile",
+            "clean/baton_rouge_so_cprr.py",
+            "clean/scott_pd_cprr.py",
+            "match/scott_pd.py",
+            "scripts/download_input.py"
+        ]
     },
     "22": {
-        "commit": "7fd7889c33bd9fac0555aadbc61e1449a80e0c8a"
+        "commit": "7fd7889c33bd9fac0555aadbc61e1449a80e0c8a",
+        "modified_files": [
+            "match/scott_pd.py"
+        ]
     },
     "32": {
-        "commit": "648fc882aa2dc32ad25c986e42f2b17e38d05ac2"
+        "commit": "648fc882aa2dc32ad25c986e42f2b17e38d05ac2",
+        "modified_files": [
+            "clean/st_tammany_so_pprr.py",
+            "scripts/download_input.py"
+        ]
     },
     "33": {
-        "commit": "55d20c4b7fe91dcb1cc320b8cadef82f3f63bd9d"
+        "commit": "55d20c4b7fe91dcb1cc320b8cadef82f3f63bd9d",
+        "modified_files": [
+            "clean/grand_isle_pd.py",
+            "clean/mandeville_pd.py",
+            "match/grand_isle_pd.py",
+            "scripts/download_input.py"
+        ]
     },
     "35": {
-        "commit": "b166ec385bfe7596dd13ed0dcc8f3b6b5870485f"
+        "commit": "b166ec385bfe7596dd13ed0dcc8f3b6b5870485f",
+        "modified_files": [
+            "clean/grand_isle_pd.py",
+            "match/grand_isle_pd.py",
+            "scripts/download_input.py"
+        ]
     },
     "36": {
-        "commit": "fbf2becf28ba036770fe74070816c5170929a992"
+        "commit": "fbf2becf28ba036770fe74070816c5170929a992",
+        "modified_files": [
+            "Makefile"
+        ]
     },
     "42": {
-        "commit": "69c550ccf4fc4dcf8bde2afae6bdd9168c152f44"
+        "commit": "69c550ccf4fc4dcf8bde2afae6bdd9168c152f44",
+        "modified_files": [
+            "clean/baton_rouge_csd_pprr.py",
+            "clean/grand_isle_pd.py",
+            "clean/ipm_new_orleans_iapro_pprr.py",
+            "match/grand_isle_pd.py",
+            "scripts/download_input.py"
+        ]
     },
     "43": {
-        "commit": "954cc0d8878cdbea3a2d6466ace5fe31de1564ab"
+        "commit": "954cc0d8878cdbea3a2d6466ace5fe31de1564ab",
+        "modified_files": [
+            "Makefile",
+            "clean/baton_rouge_csd_pprr.py",
+            "clean/caddo_parish_so_pprr.py",
+            "clean/covington_pd.py",
+            "clean/gretna_pd.py",
+            "clean/ipm_new_orleans_iapro_pprr.py",
+            "clean/kenner_pd.py",
+            "clean/mandeville_pd.py",
+            "clean/new_orleans_harbor_pd_pprr.py"
+        ]
     },
     "44": {
-        "commit": "4ee22a26e6a1b794a310717da74471a3fcdf213c"
+        "commit": "4ee22a26e6a1b794a310717da74471a3fcdf213c",
+        "modified_files": [
+            "clean/grand_isle_pd.py",
+            "match/grand_isle_pd.py"
+        ]
     },
     "45": {
-        "commit": "5344a74457928b984dbea24f256f9b686ab06d7f"
+        "commit": "5344a74457928b984dbea24f256f9b686ab06d7f",
+        "modified_files": [
+            "Makefile",
+            "clean/baton_rouge_csd_pprr.py",
+            "clean/caddo_parish_so_pprr.py",
+            "clean/covington_pd.py",
+            "clean/grand_isle_pd.py",
+            "clean/gretna_pd.py",
+            "clean/ipm_new_orleans_iapro_pprr.py",
+            "clean/kenner_pd.py",
+            "clean/new_orleans_harbor_pd_pprr.py",
+            "match/grand_isle_pd.py"
+        ]
     },
     "49": {
-        "commit": "504e16172b81bdd355680d72d60aabdace41ff3f"
+        "commit": "504e16172b81bdd355680d72d60aabdace41ff3f",
+        "modified_files": [
+            ".vscode/extensions.json",
+            ".vscode/settings.json",
+            "clean/louisiana_csd_pprr_2021.py",
+            "clean/port_allen_csd_pprr.py",
+            "clean/shreveport_pd_cprr.py",
+            "clean/slidell_pd.py",
+            "clean/st_tammany_so_cprr.py",
+            "clean/st_tammany_so_pprr.py",
+            "clean/vivian_csd.py",
+            "fuse/louisiana_state_csc.py",
+            "fuse/shreveport_pd.py",
+            "lib/personnel.py",
+            "match/shreveport_pd.py",
+            "notebooks/louisiana_csd_pprr.ipynb",
+            "notebooks/shreveport_pd.ipynb"
+        ]
     },
     "50": {
-        "commit": "aeb878669f5de56833fa57f9cfe26ff69937d8b2"
+        "commit": "aeb878669f5de56833fa57f9cfe26ff69937d8b2",
+        "modified_files": [
+            ".flake8",
+            "Makefile",
+            "clean/baton_rouge_csd_pprr.py",
+            "clean/caddo_parish_so_pprr.py",
+            "clean/covington_pd.py",
+            "clean/grand_isle_pd.py",
+            "clean/gretna_pd.py",
+            "clean/ipm_new_orleans_iapro_pprr.py",
+            "clean/kenner_pd.py",
+            "clean/lafayette_so.py",
+            "clean/mandeville_pd.py",
+            "clean/new_orleans_harbor_pd_pprr.py",
+            "clean/post_pprr.py",
+            "data/.wrglsync.yaml",
+            "fuse/lafayette_so.py",
+            "fuse/tangipahoa_so.py",
+            "match/grand_isle_pd.py",
+            "match/lafayette_so.py",
+            "match/tangipahoa_so.py",
+            "notebooks/lafayette_so.ipynb",
+            "scripts/download_input.py"
+        ]
     },
     "61": {
-        "commit": "48bc0eec08e0e150b2cc089f5a6f86363a461242"
+        "commit": "48bc0eec08e0e150b2cc089f5a6f86363a461242",
+        "modified_files": [
+            "Makefile",
+            "clean/baton_rouge_so_cprr.py",
+            "clean/brusly_pd.py",
+            "clean/hammond_pd_cprr.py",
+            "clean/ipm_new_orleans_iapro_pprr.py",
+            "clean/new_orleans_harbor_pd_cprr.py",
+            "clean/scott_pd_pprr.py",
+            "clean/tangipahoa_so_cprr.py",
+            "data/.wrglsync.yaml",
+            "data/datavalid.yml",
+            "fuse/baton_rouge_pd.py",
+            "fuse/hammond_pd.py",
+            "lib/clean.py",
+            "lib/standardize.py",
+            "match/hammond_pd.py",
+            "notebooks/combined.ipynb",
+            "notebooks/ipm_new_orleans_iapro_pprr.ipynb",
+            "notebooks/lafayette_pd.ipynb",
+            "scripts/download_input.py"
+        ]
     },
     "64": {
-        "commit": "5ed7437bf164aa3015c7718132e5bfaa9afd0967"
+        "commit": "5ed7437bf164aa3015c7718132e5bfaa9afd0967",
+        "modified_files": [
+            "clean/baton_rouge_pd_cprr.py",
+            "clean/baton_rouge_so_cprr.py",
+            "clean/lafayette_so.py",
+            "clean/post_pprr.py",
+            "data/.wrglsync.yaml",
+            "fuse/baton_rouge_pd.py",
+            "fuse/baton_rouge_so.py",
+            "fuse/greenwood_pd.py",
+            "fuse/plaquemines_so.py",
+            "fuse/ponchatoula_pd.py",
+            "fuse/tangipahoa_so.py",
+            "lib/clean_test.py",
+            "lib/events_test.py",
+            "match/baton_rouge_pd.py",
+            "match/baton_rouge_so.py",
+            "match/ponchatoula_pd.py",
+            "notebooks/combined.ipynb",
+            "notebooks/ipm_new_orleans_iapro_pprr.ipynb",
+            "notebooks/lafayette_pd.ipynb",
+            "notebooks/ponchatoula_pd.ipynb",
+            "raw_datasets.json"
+        ]
     },
     "69": {
-        "commit": "a52e049547fb0c93e37c4c09993517764a37a946"
+        "commit": "a52e049547fb0c93e37c4c09993517764a37a946",
+        "modified_files": [
+            "clean/grand_isle_pd.py",
+            "clean/ipm_new_orleans_pd_cprr_allegations.py",
+            "clean/tangipahoa_so_cprr.py",
+            "data/datavalid.yml",
+            "lib/clean.py",
+            "lib/clean_test.py",
+            "notebooks/combined.ipynb",
+            "notebooks/grand_isle_pd.ipynb",
+            "notebooks/ipm_new_orleans_pd_cprr_allegations.ipynb",
+            "raw_datasets.json",
+            "requirements.txt",
+            "scripts/rawfiles.sh"
+        ]
     },
     "77": {
-        "commit": "586ad7f54188e2d4de464f0a0f2d7a438b64d43f"
+        "commit": "586ad7f54188e2d4de464f0a0f2d7a438b64d43f",
+        "modified_files": [
+            "scripts/rawfiles.sh",
+            "scripts/write_download_links.py"
+        ]
     },
     "78": {
-        "commit": "fed4b893b1117dbbe31ec14f57ddacef239c75d3"
+        "commit": "fed4b893b1117dbbe31ec14f57ddacef239c75d3",
+        "modified_files": [
+            "raw_datasets.json"
+        ]
     },
     "82": {
-        "commit": "200b7a3f876e88a42645485e1f0ea15eeb499031"
+        "commit": "200b7a3f876e88a42645485e1f0ea15eeb499031",
+        "modified_files": [
+            "clean/lake_charles_pd_cprr.py",
+            "clean/new_orleans_pd_award.py",
+            "data/datavalid.yml",
+            "fuse/all.py",
+            "raw_datasets.json",
+            "scripts/write_download_links.py"
+        ]
     },
     "92": {
-        "commit": "a4adea47ef97b2e4e158e75805b9a27204710cc6"
+        "commit": "a4adea47ef97b2e4e158e75805b9a27204710cc6",
+        "modified_files": [
+            "clean/baton_rouge_fpcsb_lprr.py",
+            "fuse/baton_rouge_pd.py"
+        ]
     },
     "104": {
-        "commit": "e12193e0d1327cb4204791d0fc48339221ae459a"
+        "commit": "e12193e0d1327cb4204791d0fc48339221ae459a",
+        "modified_files": [
+            "clean/baton_rouge_pd_cprr.py",
+            "clean/plaquemines_so_pprr.py",
+            "data/datavalid.yml",
+            "fuse/plaquemines_so.py",
+            "match/plaquemines_so.py",
+            "notebooks/baton_rouge_pd.ipynb",
+            "notebooks/combined.ipynb",
+            "raw_datasets.json",
+            "scripts/write_download_links.py"
+        ]
     },
     "105": {
-        "commit": "c30a0e98536dfdc5d64a2103a6d5b005bf7d87bf"
+        "commit": "c30a0e98536dfdc5d64a2103a6d5b005bf7d87bf",
+        "modified_files": [
+            "clean/louisiana_state_csc_lprr.py",
+            "clean/new_orleans_pd_pprr.py",
+            "clean/plaquemines_so_pprr.py",
+            "data/datavalid.yml",
+            "fuse/louisiana_state_csc.py",
+            "lib/events.py"
+        ]
     },
     "115": {
-        "commit": "488056a93488d3de882c0b619a495111490d5fad"
+        "commit": "488056a93488d3de882c0b619a495111490d5fad",
+        "modified_files": [
+            "clean/ipm_new_orleans_pd_cprr_allegations.py",
+            "lib/clean.py"
+        ]
     },
     "121": {
-        "commit": "37dbad2beb0d14353570d834378f7b5e38ac39c4"
+        "commit": "37dbad2beb0d14353570d834378f7b5e38ac39c4",
+        "modified_files": [
+            "clean/new_orleans_booking.py",
+            "clean/scott_pd_cprr.py",
+            "fuse/scott_pd.py",
+            "match/scott_pd.py",
+            "raw_datasets.json"
+        ]
     },
     "126": {
-        "commit": "b8a690e4f3cde76397b523792ff1063d4acf6727"
+        "commit": "b8a690e4f3cde76397b523792ff1063d4acf6727",
+        "modified_files": [
+            "clean/ipm_new_orleans_pd_cprr_allegations.py",
+            "fuse/new_orleans_pd.py",
+            "lib/clean.py",
+            "scripts/write_deps.py"
+        ]
     },
     "130": {
-        "commit": "c9f4fa1e1a1dcf08537f5b085be4a87aae83dd81"
+        "commit": "c9f4fa1e1a1dcf08537f5b085be4a87aae83dd81",
+        "modified_files": [
+            "clean/ipm_new_orleans_pd_cprr_allegations.py"
+        ]
     },
     "137": {
-        "commit": "888afcaa60e5bf159a8aa9cdb84ef9da19592a4e"
+        "commit": "888afcaa60e5bf159a8aa9cdb84ef9da19592a4e",
+        "modified_files": [
+            "clean/ipm_new_orleans_iapro_pprr.py",
+            "clean/new_orleans_csd_pprr.py",
+            "fuse/new_orleans_pd.py",
+            "lib/events.py",
+            "match/new_orleans_pd.py"
+        ]
     },
     "142": {
-        "commit": "a823a67bf017941f429394790cad82c30aabd85e"
+        "commit": "a823a67bf017941f429394790cad82c30aabd85e",
+        "modified_files": [
+            "clean/ipm_new_orleans_iapro_pprr.py",
+            "data/datavalid.yml",
+            "fuse/new_orleans_pd.py",
+            "lib/columns.py",
+            "lib/events.py",
+            "lib/events_test.py",
+            "lib/uid.py",
+            "lib/uid_test.py",
+            "match/new_orleans_pd.py"
+        ]
     },
     "155": {
-        "commit": "a283141a7289e023a92cafd646914e5f70b53dd9"
+        "commit": "a283141a7289e023a92cafd646914e5f70b53dd9",
+        "modified_files": [
+            "clean/baton_rouge_fpcsb_lprr.py",
+            "clean/new_orleans_booking.py",
+            "clean/new_orleans_csc.py",
+            "fuse/baton_rouge_pd.py",
+            "fuse/new_orleans_pd.py"
+        ]
     },
     "170": {
-        "commit": "c2efd24d885511e28b3631d38e63a6c9901398f8"
+        "commit": "c2efd24d885511e28b3631d38e63a6c9901398f8",
+        "modified_files": [
+            "clean/baton_rouge_da_cprr_2021.py",
+            "clean/baton_rouge_pd_cprr.py",
+            "clean/baton_rouge_so_cprr.py",
+            "clean/bossier_city_pd_cprr.py",
+            "clean/brusly_pd.py",
+            "clean/covington_pd.py",
+            "clean/greenwood_pd_cprr.py",
+            "clean/hammond_pd_cprr.py",
+            "clean/ipm_new_orleans_pd_cprr_allegations.py",
+            "clean/lafayette_pd.py",
+            "clean/lafayette_so_cprr.py",
+            "clean/lake_charles_pd_cprr.py",
+            "clean/levee_pd.py",
+            "clean/madisonville_pd_cprr.py",
+            "clean/mandeville_pd.py",
+            "clean/new_orleans_da_cprr_2021_brady.py",
+            "clean/new_orleans_harbor_pd_cprr.py",
+            "clean/new_orleans_pd_stop_and_search.py",
+            "clean/new_orleans_so_cprr.py",
+            "clean/ouachita_da_cprr.py",
+            "clean/plaquemines_so_cprr.py",
+            "clean/ponchatoula_pd.py",
+            "clean/port_allen_pd_cprr.py",
+            "clean/post_cprr.py",
+            "clean/scott_pd_cprr.py",
+            "clean/shreveport_pd_cprr.py",
+            "clean/st_tammany_so_cprr.py",
+            "clean/tangipahoa_so_cprr.py",
+            "data/datavalid.yml",
+            "fuse/baton_rouge_pd.py",
+            "fuse/baton_rouge_so.py",
+            "fuse/bossier_city_pd.py",
+            "fuse/brusly_pd.py",
+            "fuse/caddo_parish_so.py",
+            "fuse/carencro_pd.py",
+            "fuse/covington_pd.py",
+            "fuse/grand_isle_pd.py",
+            "fuse/greenwood_pd.py",
+            "fuse/gretna_pd.py",
+            "fuse/hammond_pd.py",
+            "fuse/kenner_pd.py",
+            "fuse/lafayette_pd.py",
+            "fuse/lafayette_so.py",
+            "fuse/lake_charles_pd.py",
+            "fuse/levee_pd.py",
+            "fuse/louisiana_state_csc.py",
+            "fuse/madisonville_pd.py",
+            "fuse/mandeville_pd.py",
+            "fuse/new_orleans_harbor_pd.py",
+            "fuse/new_orleans_pd.py",
+            "fuse/new_orleans_so.py",
+            "fuse/plaquemines_so.py",
+            "fuse/ponchatoula_pd.py",
+            "fuse/port_allen_pd.py",
+            "fuse/scott_pd.py",
+            "fuse/shreveport_pd.py",
+            "fuse/slidell_pd.py",
+            "fuse/st_tammany_so.py",
+            "fuse/sterlington_pd.py",
+            "fuse/tangipahoa_so.py",
+            "fuse/vivian_pd.py",
+            "fuse/west_monroe_pd.py",
+            "fuse/youngsville_pd.py",
+            "lib/columns.py",
+            "lib/events.py"
+        ]
     },
     "171": {
-        "commit": "568b4589d99802a727e8429d204468e8348c6970"
+        "commit": "568b4589d99802a727e8429d204468e8348c6970",
+        "modified_files": [
+            "clean/plaquemines_so_cprr.py"
+        ]
     },
     "177": {
-        "commit": "d362b55dc97cdd6a14055573273e441de8c2e249"
+        "commit": "d362b55dc97cdd6a14055573273e441de8c2e249",
+        "modified_files": [
+            ".gitignore",
+            "Makefile",
+            "clean/new_orleans_pd_stop_and_search.py",
+            "data/datavalid.yml",
+            "fuse/all.py",
+            "fuse/baton_rouge_pd.py",
+            "fuse/baton_rouge_so.py",
+            "fuse/bossier_city_pd.py",
+            "fuse/brusly_pd.py",
+            "fuse/greenwood_pd.py",
+            "fuse/hammond_pd.py",
+            "fuse/lafayette_pd.py",
+            "fuse/lafayette_so.py",
+            "fuse/lake_charles_pd.py",
+            "fuse/levee_pd.py",
+            "fuse/madisonville_pd.py",
+            "fuse/mandeville_pd.py",
+            "fuse/new_orleans_harbor_pd.py",
+            "fuse/new_orleans_pd.py",
+            "fuse/new_orleans_so.py",
+            "fuse/plaquemines_so.py",
+            "fuse/ponchatoula_pd.py",
+            "fuse/port_allen_pd.py",
+            "fuse/scott_pd.py",
+            "fuse/shreveport_pd.py",
+            "fuse/st_tammany_so.py",
+            "fuse/tangipahoa_so.py",
+            "lib/columns.py",
+            "notebooks/combined.ipynb",
+            "notebooks/new_orleans_pd_stop_and_search.ipynb",
+            "requirements.txt",
+            "scripts/write_deps.py"
+        ]
     },
     "181": {
-        "commit": "de83c5c06fe8913478eb06ad9b98c5745d4efb8b"
+        "commit": "de83c5c06fe8913478eb06ad9b98c5745d4efb8b",
+        "modified_files": [
+            "clean/new_orleans_pd_stop_and_search.py",
+            "data/datavalid.yml",
+            "requirements.txt"
+        ]
     },
     "182": {
-        "commit": "f439b5c2231a96d9329f35bd9bae79ad02a78725"
+        "commit": "f439b5c2231a96d9329f35bd9bae79ad02a78725",
+        "modified_files": [
+            ".gitignore",
+            "Makefile",
+            "clean/baker_pd_cprr.py",
+            "clean/houma_pd_cprr.py",
+            "data/.wrglsync.yaml",
+            "data/datavalid.yml",
+            "fuse/all.py",
+            "fuse/baton_rouge_pd.py",
+            "fuse/baton_rouge_so.py",
+            "fuse/bossier_city_pd.py",
+            "fuse/brusly_pd.py",
+            "fuse/greenwood_pd.py",
+            "fuse/hammond_pd.py",
+            "fuse/houma_pd.py",
+            "fuse/lafayette_pd.py",
+            "fuse/lafayette_so.py",
+            "fuse/lake_charles_pd.py",
+            "fuse/levee_pd.py",
+            "fuse/madisonville_pd.py",
+            "fuse/mandeville_pd.py",
+            "fuse/new_orleans_harbor_pd.py",
+            "fuse/new_orleans_pd.py",
+            "fuse/new_orleans_so.py",
+            "fuse/plaquemines_so.py",
+            "fuse/ponchatoula_pd.py",
+            "fuse/port_allen_pd.py",
+            "fuse/scott_pd.py",
+            "fuse/shreveport_pd.py",
+            "fuse/st_tammany_so.py",
+            "fuse/tangipahoa_so.py",
+            "lib/columns.py",
+            "match/houma_pd.py",
+            "notebooks/combined.ipynb",
+            "notebooks/new_orleans_pd_stop_and_search.ipynb",
+            "raw_datasets.json",
+            "scripts/write_deps.py"
+        ]
     },
     "184": {
-        "commit": "235da91219b31f11b618fd4bd128b2d508fa29c0"
+        "commit": "235da91219b31f11b618fd4bd128b2d508fa29c0",
+        "modified_files": [
+            "lib/columns.py"
+        ]
     },
     "206": {
-        "commit": "71708e00fa736bfa417c8a20b3f336cfbd925dcf"
+        "commit": "71708e00fa736bfa417c8a20b3f336cfbd925dcf",
+        "modified_files": [
+            "scripts/extract_tables_from_doc.py"
+        ]
     },
     "214": {
-        "commit": "2a4f735388e65292856226c1d6968340feb790d9"
+        "commit": "2a4f735388e65292856226c1d6968340feb790d9",
+        "modified_files": [
+            "README.md"
+        ]
     },
     "218": {
-        "commit": "cd522b1a529681be631608157a9339df6f3113ef"
+        "commit": "cd522b1a529681be631608157a9339df6f3113ef",
+        "modified_files": [
+            "wrgl.mk"
+        ]
     },
     "224": {
-        "commit": "4dff07c033dce6de939a86849140d4df0fccf9ac"
+        "commit": "4dff07c033dce6de939a86849140d4df0fccf9ac",
+        "modified_files": [
+            ".wrgl/config.yaml"
+        ]
     },
     "235": {
-        "commit": "71ed3666afc356c8fade11ad4f6060cb015df2b4"
+        "commit": "71ed3666afc356c8fade11ad4f6060cb015df2b4",
+        "modified_files": [
+            "fuse/bossier_city_pd.py",
+            "match/bossier_city_pd.py"
+        ]
     },
     "243": {
-        "commit": "c420d186bb2a32bdc4adc2289a081d4226e1d9a6"
+        "commit": "c420d186bb2a32bdc4adc2289a081d4226e1d9a6",
+        "modified_files": [
+            ".wrgl/config.yaml",
+            "clean/abbeville_pd_cprr.py",
+            "clean/baton_rouge_csd_pprr.py",
+            "clean/baton_rouge_fpcsb_lprr.py",
+            "clean/baton_rouge_pd_cprr.py",
+            "clean/baton_rouge_pd_pprr.py",
+            "clean/baton_rouge_so_cprr.py",
+            "clean/bossier_city_pd_pprr.py",
+            "clean/brusly_pd.py",
+            "clean/caddo_parish_so_pprr.py",
+            "clean/central_csd_pprr.py",
+            "clean/covington_pd.py",
+            "clean/gretna_pd.py",
+            "clean/harahan_csd.py",
+            "clean/houma_pd_cprr.py",
+            "clean/ipm_new_orleans_iapro_pprr.py",
+            "clean/kenner_pd.py",
+            "clean/kenner_pd_uof.py",
+            "clean/lafayette_pd.py",
+            "clean/lafayette_so_cprr.py",
+            "clean/levee_pd.py",
+            "clean/louisiana_csd_pprr_2021.py",
+            "clean/louisiana_state_csc_lprr.py",
+            "clean/madisonville_pd_cprr.py",
+            "clean/new_orleans_csc_lprr.py",
+            "clean/new_orleans_harbor_pd_pprr.py",
+            "clean/new_orleans_pd_award.py",
+            "clean/new_orleans_so_cprr.py",
+            "clean/new_orleans_so_pprr.py",
+            "clean/plaquemines_so_cprr.py",
+            "clean/plaquemines_so_pprr.py",
+            "clean/ponchatoula_pd.py",
+            "clean/port_allen_csd_pprr.py",
+            "clean/scott_pd_pprr.py",
+            "clean/shreveport_pd_cprr.py",
+            "clean/st_landry_so_cprr.py",
+            "clean/st_tammany_so_cprr.py",
+            "clean/tangipahoa_so_cprr.py",
+            "data/datavalid.yml",
+            "fuse/new_orleans_pd.py",
+            "fuse/st_landry_so.py",
+            "match/baton_rouge_pd.py",
+            "match/kenner_pd.py",
+            "match/new_orleans_pd.py",
+            "match/new_orleans_so.py"
+        ]
     },
     "251": {
-        "commit": "5386d56d5c570929b1bbe6cc9b1b3ba31eadc886"
+        "commit": "5386d56d5c570929b1bbe6cc9b1b3ba31eadc886",
+        "modified_files": [
+            "raw_datasets.json"
+        ]
     },
     "254": {
-        "commit": "3d86a302e4618fcf13eae22143d697d64dda9e74"
+        "commit": "3d86a302e4618fcf13eae22143d697d64dda9e74",
+        "modified_files": [
+            "bolo.mk",
+            "bolo.yaml",
+            "match/rayne_pd.py",
+            "requirements.txt"
+        ]
     },
     "260": {
-        "commit": "3f72296f850e2939901eae7f137f070e5ce22d7e"
+        "commit": "3f72296f850e2939901eae7f137f070e5ce22d7e",
+        "modified_files": [
+            "clean/st_tammany_so_cprr.py"
+        ]
     },
     "266": {
-        "commit": "8feef129f60324c2d13653e16b76e8a020d33dd0"
+        "commit": "8feef129f60324c2d13653e16b76e8a020d33dd0",
+        "modified_files": [
+            ".wrgl/config.yaml",
+            "clean/abbeville_pd_cprr.py",
+            "clean/baton_rouge_csd_pprr.py",
+            "clean/baton_rouge_fpcsb_lprr.py",
+            "clean/baton_rouge_pd_cprr.py",
+            "clean/baton_rouge_pd_pprr.py",
+            "clean/baton_rouge_so_booking.py",
+            "clean/baton_rouge_so_cprr.py",
+            "clean/benton_pd_cprr.py",
+            "clean/bossier_city_pd_cprr.py",
+            "clean/bossier_city_pd_pprr.py",
+            "clean/carencro_pd_pprr.py",
+            "clean/denham_springs_pd_cprr.py",
+            "clean/hammond_pd_cprr.py",
+            "clean/houma_pd_cprr.py",
+            "clean/ipm_new_orleans_iapro_pprr.py",
+            "clean/ipm_new_orleans_pd_cprr_allegations.py",
+            "clean/ipm_new_orleans_pd_use_of_force.py",
+            "clean/lafayette_pd.py",
+            "clean/lafayette_so_cprr.py",
+            "clean/lafourche_so_cprr.py",
+            "clean/lake_charles_pd_cprr.py",
+            "clean/levee_pd.py",
+            "clean/louisiana_csd_pprr_2021.py",
+            "clean/louisiana_state_csc_lprr.py",
+            "clean/madisonville_pd_cprr.py",
+            "clean/mandeville_pd.py",
+            "clean/new_orleans_booking.py",
+            "clean/new_orleans_csc_lprr.py",
+            "clean/new_orleans_da_brady.py",
+            "clean/new_orleans_harbor_pd_cprr.py",
+            "clean/new_orleans_pd_award.py",
+            "clean/new_orleans_pd_uof.py",
+            "clean/new_orleans_so_cprr.py",
+            "clean/new_orleans_so_pprr.py",
+            "clean/plaquemines_so_cprr.py",
+            "clean/plaquemines_so_pprr.py",
+            "clean/ponchatoula_pd.py",
+            "clean/port_allen_csd_pprr.py",
+            "clean/port_allen_pd_cprr.py",
+            "clean/rayne_pd_pprr.py",
+            "clean/shreveport_pd_cprr.py",
+            "clean/slidell_pd.py",
+            "clean/st_john_cprr.py",
+            "clean/st_landry_so_cprr.py",
+            "clean/tangipahoa_so_cprr.py",
+            "clean/vivian_csd.py",
+            "clean/washington_so_cprr.py",
+            "data/datavalid.yml",
+            "fuse/all.py",
+            "fuse/new_orleans_pd.py",
+            "fuse/new_orleans_so.py",
+            "lib/clean.py",
+            "lib/columns.py",
+            "match/hammond_pd.py",
+            "match/new_orleans_so.py",
+            "match/shreveport_pd.py"
+        ]
     },
     "270": {
-        "commit": "1bcac59dd9829e662121fcd97b87420fffac4a98"
+        "commit": "1bcac59dd9829e662121fcd97b87420fffac4a98",
+        "modified_files": [
+            "lib/clean_test.py"
+        ]
     },
     "272": {
-        "commit": "07779c7ce3eaecaa80af968b203653b62b4b8230"
+        "commit": "07779c7ce3eaecaa80af968b203653b62b4b8230",
+        "modified_files": [
+            "clean/ipm_new_orleans_iapro_pprr.py",
+            "clean/madisonville_pd_cprr.py",
+            "clean/new_orleans_harbor_pd_cprr.py",
+            "clean/new_orleans_pd_award.py",
+            "clean/new_orleans_so_cprr.py",
+            "clean/west_monroe_pd_cprr.py",
+            "fuse/baton_rouge_pd.py",
+            "fuse/bossier_city_pd.py",
+            "fuse/caddo_parish_so.py",
+            "fuse/jefferson_so.py",
+            "fuse/lafayette_so.py",
+            "fuse/new_orleans_pd.py",
+            "fuse/plaquemines_so.py",
+            "fuse/rayne_pd.py",
+            "fuse/st_tammany_so.py",
+            "match/baton_rouge_pd.py",
+            "match/bossier_city_pd.py",
+            "match/caddo_parish_so.py",
+            "match/hammond_pd.py",
+            "match/houma_pd.py",
+            "match/jefferson_so.py",
+            "match/lafayette_pd.py",
+            "match/lafayette_so.py",
+            "match/lake_charles_pd.py",
+            "match/new_orleans_da.py",
+            "match/new_orleans_pd.py",
+            "match/new_orleans_so.py",
+            "match/plaquemines_so.py",
+            "match/rayne_pd.py",
+            "match/st_tammany_so.py",
+            "match/tangipahoa_so.py"
+        ]
     },
     "278": {
-        "commit": "5971ddd51c7308cc0f22c9f9a8e11b0cbeeb7243"
+        "commit": "5971ddd51c7308cc0f22c9f9a8e11b0cbeeb7243",
+        "modified_files": [
+            "clean/ascension_so_cprr.py",
+            "clean/baton_rouge_csd_pprr.py",
+            "clean/bossier_city_pd_pprr.py",
+            "clean/ipm_new_orleans_iapro_pprr.py",
+            "clean/lafayette_so_awards.py",
+            "clean/lafourche_so_cprr.py",
+            "clean/louisiana_csd_pprr_2021.py",
+            "clean/louisiana_state_csc_lprr.py",
+            "clean/new_orleans_pd_uof.py",
+            "clean/port_allen_pd_cprr.py",
+            "clean/rayne_pd_pprr.py",
+            "clean/st_john_cprr.py",
+            "data/datavalid.yml",
+            "fuse/hammond_pd.py",
+            "fuse/lake_charles_pd.py",
+            "match/baton_rouge_pd.py",
+            "match/caddo_parish_so.py"
+        ]
     },
     "284": {
-        "commit": "561006c704c2d52416db5d659b517c96c6b0d49c"
+        "commit": "561006c704c2d52416db5d659b517c96c6b0d49c",
+        "modified_files": [
+            ".github/workflows/apply_transaction.yml"
+        ]
     },
     "285": {
-        "commit": "37f7362ac0658152628d5bcdf588e6c573de0c4e"
+        "commit": "37f7362ac0658152628d5bcdf588e6c573de0c4e",
+        "modified_files": [
+            ".github/workflows/apply_transaction.yml"
+        ]
     },
     "286": {
-        "commit": "07d3b1f60417f26aa24e4d09f33ad8a610a041b4"
+        "commit": "07d3b1f60417f26aa24e4d09f33ad8a610a041b4",
+        "modified_files": [
+            "clean/new_orleans_harbor_pd_cprr.py",
+            "fuse/hammond_pd.py",
+            "fuse/houma_pd.py",
+            "match/acadia_so.py",
+            "match/benton_pd.py",
+            "match/erath_pd.py",
+            "match/eunice_pd.py",
+            "requirements.txt"
+        ]
     },
     "288": {
-        "commit": "be89a964173f0bbeaf6625ec8232d2d7acf78415"
+        "commit": "be89a964173f0bbeaf6625ec8232d2d7acf78415",
+        "modified_files": [
+            ".wrgl/config.yaml",
+            "clean/kenner_pd_uof.py",
+            "deba.yaml",
+            "fuse/all.py",
+            "fuse/kenner_pd.py",
+            "fuse/new_orleans_pd.py",
+            "match/kenner_pd.py",
+            "requirements.txt"
+        ]
     },
     "291": {
-        "commit": "4eafe0a7f243a3efcccb4bd26536e62a720a0a4c"
+        "commit": "4eafe0a7f243a3efcccb4bd26536e62a720a0a4c",
+        "modified_files": [
+            "clean/new_orleans_pd_uof.py",
+            "datavalid.yml"
+        ]
     },
     "293": {
-        "commit": "bab39597aed1f6e1ec2fe8681442cdec9ea927e5"
+        "commit": "bab39597aed1f6e1ec2fe8681442cdec9ea927e5",
+        "modified_files": [
+            "clean/new_orleans_pd_uof.py",
+            "datavalid.yml",
+            "fuse/new_orleans_pd.py"
+        ]
     },
     "297": {
-        "commit": "bd4929ba3d3673d27131fce34e11f2fe57da9947"
+        "commit": "bd4929ba3d3673d27131fce34e11f2fe57da9947",
+        "modified_files": [
+            ".github/workflows/process_data.yml"
+        ]
     },
     "299": {
-        "commit": "5968d3ee7f56c8c08ba5f0f4e67ec4fd584c9be6"
+        "commit": "5968d3ee7f56c8c08ba5f0f4e67ec4fd584c9be6",
+        "modified_files": [
+            "clean/new_orleans_pd_uof.py",
+            "datavalid.yml",
+            "fuse/new_orleans_pd.py",
+            "fuse/post_officer_history.py",
+            "lib/events.py"
+        ]
     },
     "300": {
-        "commit": "d7e281263191f3dbe85787f1db2507439e3df385"
+        "commit": "d7e281263191f3dbe85787f1db2507439e3df385",
+        "modified_files": [
+            "clean/new_orleans_pd_claims.py",
+            "fuse/new_orleans_pd.py"
+        ]
     },
     "304": {
-        "commit": "f1d97d0ee69056f52862506229696b5c03421d3d"
+        "commit": "f1d97d0ee69056f52862506229696b5c03421d3d",
+        "modified_files": [
+            "fuse/new_orleans_pd.py"
+        ]
     },
     "306": {
-        "commit": "b9cc7f8ef6a0c06f39a154872d89d97f80863547"
+        "commit": "b9cc7f8ef6a0c06f39a154872d89d97f80863547",
+        "modified_files": [
+            "datavalid.yml"
+        ]
     },
     "309": {
-        "commit": "5bb50187f87f857b435eced10fec1d6de7931d0c"
+        "commit": "5bb50187f87f857b435eced10fec1d6de7931d0c",
+        "modified_files": [
+            "match/baton_rouge_da.py",
+            "match/new_orleans_da.py",
+            "match/ouachita_da.py",
+            "match/tangipahoa_da.py"
+        ]
     },
     "313": {
-        "commit": "0563e55643329565d7d208701d02595f291e16e5"
+        "commit": "0563e55643329565d7d208701d02595f291e16e5",
+        "modified_files": [
+            ".wrgl/config.yaml",
+            "match/baton_rouge_da.py",
+            "match/new_orleans_da.py",
+            "match/ouachita_da.py",
+            "match/tangipahoa_da.py",
+            "wrgl.mk"
+        ]
     },
     "314": {
-        "commit": "6654ad906ab947fb869dadbef801d0e96d175b6d"
+        "commit": "6654ad906ab947fb869dadbef801d0e96d175b6d",
+        "modified_files": [
+            "match/baton_rouge_da.py",
+            "match/new_orleans_da.py",
+            "match/ouachita_da.py",
+            "match/tangipahoa_da.py"
+        ]
     },
     "326": {
-        "commit": "927b68831541b17795cca0e95ad1ccb807d49e18"
+        "commit": "927b68831541b17795cca0e95ad1ccb807d49e18",
+        "modified_files": [
+            ".github/workflows/process_data.yml",
+            "dvc/data/raw/baker_pd.dvc",
+            "fuse/all.py",
+            "fuse/baton_rouge_pd.py",
+            "match/baton_rouge_pd.py"
+        ]
     },
     "327": {
-        "commit": "b26a31f72b31a297fe44e6cc45219c3785951278"
+        "commit": "b26a31f72b31a297fe44e6cc45219c3785951278",
+        "modified_files": [
+            ".dockerignore",
+            ".github/workflows/process_data.yml",
+            "Dockerfile",
+            "gh_k8s_runner/README.md",
+            "gh_k8s_runner/cdi_runner_deployment.yaml",
+            "gh_k8s_runner/install.sh"
+        ]
     },
     "341": {
-        "commit": "9a3189f06fbc8003d492dc705739cbde7bb30c7b"
+        "commit": "9a3189f06fbc8003d492dc705739cbde7bb30c7b",
+        "modified_files": [
+            "match/post_officer_history.py"
+        ]
     },
     "342": {
-        "commit": "119a3504bc833777c871f19a8d586ab5bbd038a9"
+        "commit": "119a3504bc833777c871f19a8d586ab5bbd038a9",
+        "modified_files": [
+            "ner/post_officer_history_reports_advocate.py",
+            "ocr_cache.dvc"
+        ]
     },
     "343": {
-        "commit": "ead99e8bf2a32b4c2c42af93d649cbd9b2458a73"
+        "commit": "ead99e8bf2a32b4c2c42af93d649cbd9b2458a73",
+        "modified_files": [
+            "requirements.txt"
+        ]
     },
     "344": {
-        "commit": "ccd7a0ef00443cc8e217dc6391191642ed8c5fe7"
+        "commit": "ccd7a0ef00443cc8e217dc6391191642ed8c5fe7",
+        "modified_files": [
+            "match/new_orleans_da.py"
+        ]
     },
     "347": {
-        "commit": "01350290bc89fc0f2399e01217b30103ca1cdfa2"
+        "commit": "01350290bc89fc0f2399e01217b30103ca1cdfa2",
+        "modified_files": [
+            "clean/post_pprr.py"
+        ]
     },
     "348": {
-        "commit": "49c836c0902b35a41522d5511854ade003eccab4"
+        "commit": "49c836c0902b35a41522d5511854ade003eccab4",
+        "modified_files": [
+            "clean/post_officer_history.py",
+            "clean/post_pprr.py"
+        ]
     },
     "349": {
-        "commit": "f66e3ff942006b600da692b2011d48e551aacb2d"
+        "commit": "f66e3ff942006b600da692b2011d48e551aacb2d",
+        "modified_files": [
+            "clean/abbeville_pd_cprr.py",
+            "clean/post_officer_history.py",
+            "clean/post_pprr.py"
+        ]
     },
     "351": {
-        "commit": "b5d930064108c3d9fc796d7663077d65bdc515d8"
+        "commit": "b5d930064108c3d9fc796d7663077d65bdc515d8",
+        "modified_files": [
+            "clean/post_officer_history.py",
+            "match/post_officer_history.py"
+        ]
     },
     "353": {
-        "commit": "4d84cdced538352413095ef2ad801c2558abd489"
+        "commit": "4d84cdced538352413095ef2ad801c2558abd489",
+        "modified_files": [
+            "datavalid.yml",
+            "fuse/new_orleans_pd.py"
+        ]
     },
     "357": {
-        "commit": "27c6488d0b74a0e4d682267db6e3579085e3bd1b"
+        "commit": "27c6488d0b74a0e4d682267db6e3579085e3bd1b",
+        "modified_files": [
+            "datavalid.yml",
+            "fuse/new_orleans_pd.py"
+        ]
     },
     "359": {
-        "commit": "fd323c34e6c894130a55b4be4dd0e02793b4620c"
+        "commit": "fd323c34e6c894130a55b4be4dd0e02793b4620c",
+        "modified_files": [
+            ".wrgl/config.yaml"
+        ]
     },
     "361": {
-        "commit": "b6e66e800b12911087bb3552e2377f325801bbe0"
+        "commit": "b6e66e800b12911087bb3552e2377f325801bbe0",
+        "modified_files": [
+            "clean/post_officer_history.py",
+            "clean/post_pprr.py"
+        ]
     },
     "362": {
-        "commit": "f1bf850dfcc61fb9f2d637e44f1a4e5a062b92bc"
+        "commit": "f1bf850dfcc61fb9f2d637e44f1a4e5a062b92bc",
+        "modified_files": [
+            "clean/post_officer_history.py"
+        ]
     },
     "364": {
-        "commit": "4b61fcccc0522b9c4a3438e5339011836116e077"
+        "commit": "4b61fcccc0522b9c4a3438e5339011836116e077",
+        "modified_files": [
+            ".wrgl/config.yaml",
+            "clean/baton_rouge_da_brady.py",
+            "clean/new_orleans_da_brady.py",
+            "fuse/all.py",
+            "fuse/baton_rouge_da.py",
+            "fuse/baton_rouge_pd.py",
+            "fuse/new_orleans_pd.py",
+            "fuse/orleans_da.py",
+            "fuse/ouachita_so.py",
+            "fuse/tangipahoa_so.py",
+            "match/new_orleans_da.py",
+            "match/tangipahoa_da.py"
+        ]
     },
     "366": {
-        "commit": "f1f02252b79eb0b26c5e4a034f65bdef91121142"
+        "commit": "f1f02252b79eb0b26c5e4a034f65bdef91121142",
+        "modified_files": [
+            "datavalid.yml",
+            "fuse/levee_pd.py",
+            "fuse/new_orleans_pd.py",
+            "fuse/shreveport_pd.py",
+            "match/levee_pd.py",
+            "match/new_orleans_pd.py"
+        ]
     },
     "367": {
-        "commit": "dabb43bdeaf56439622fa7d849ce7192a2d934f6"
+        "commit": "dabb43bdeaf56439622fa7d849ce7192a2d934f6",
+        "modified_files": [
+            "clean/new_orleans_da_cprr.py"
+        ]
     },
     "368": {
-        "commit": "f20a841df2ce7f27f86ffcc6e126df1adaa6fbe3"
+        "commit": "f20a841df2ce7f27f86ffcc6e126df1adaa6fbe3",
+        "modified_files": [
+            "fuse/post_officer_history.py"
+        ]
     },
     "369": {
-        "commit": "3efe371d7d965790a437794766f14a6bed1152dd"
+        "commit": "3efe371d7d965790a437794766f14a6bed1152dd",
+        "modified_files": [
+            "clean/louisiana_state_pd_cprr.py",
+            "datavalid.yml",
+            "dvc/data/raw/louisiana_state_pd.dvc",
+            "fuse/louisiana_state_csc.py",
+            "lib/ner.py",
+            "match/louisiana_state_csc.py",
+            "meta/louisiana_state_pd_reports_2020.py",
+            "ner/louisiana_state_pd_reports_2020.py",
+            "ocr/louisiana_state_pd_reports_2020.py",
+            "ocr_cache.dvc",
+            "raw_louisiana_state_pd_reports_2020.dvc",
+            "reports_louisiana_state_pd_2020_model.dvc"
+        ]
     },
     "370": {
-        "commit": "e18b30b3bb4dd2b942c180a62fdc088181e5c9e8"
+        "commit": "e18b30b3bb4dd2b942c180a62fdc088181e5c9e8",
+        "modified_files": [
+            "clean/louisiana_state_pd_cprr.py"
+        ]
     },
     "371": {
-        "commit": "e58413a29b22ce8c8d1fea84239778619d5811e3"
+        "commit": "e58413a29b22ce8c8d1fea84239778619d5811e3",
+        "modified_files": [
+            "match/post_officer_history.py"
+        ]
     },
     "372": {
-        "commit": "60753c62e10bf8f63b124f68e2e6f02c6bf887a5"
+        "commit": "60753c62e10bf8f63b124f68e2e6f02c6bf887a5",
+        "modified_files": [
+            "clean/baton_rouge_pd_cprr.py",
+            "clean/baton_rouge_so_cprr.py",
+            "clean/new_orleans_da_cprr.py",
+            "clean/new_orleans_pd_pprr.py",
+            "clean/post_officer_history.py",
+            "datavalid.yml",
+            "fuse/baton_rouge_so.py"
+        ]
     },
     "377": {
-        "commit": "47560de4fa841ffab23d8dafe1e4dbc0015a312b"
+        "commit": "47560de4fa841ffab23d8dafe1e4dbc0015a312b",
+        "modified_files": [
+            "clean/post_officer_history.py",
+            "fuse/baker_pd.py",
+            "fuse/baton_rouge_pd.py",
+            "fuse/bossier_city_pd.py",
+            "fuse/brusly_pd.py",
+            "fuse/caddo_parish_so.py",
+            "fuse/carencro_pd.py",
+            "fuse/central_csd.py",
+            "fuse/covington_pd.py",
+            "fuse/gonzales_pd.py",
+            "fuse/grand_isle_pd.py",
+            "fuse/greenwood_pd.py",
+            "fuse/gretna_pd.py",
+            "fuse/hammond_pd.py",
+            "fuse/harahan_pd.py",
+            "fuse/jefferson_so.py",
+            "fuse/kenner_pd.py",
+            "fuse/lafayette_pd.py",
+            "fuse/lake_charles_pd.py",
+            "fuse/louisiana_state_csc.py",
+            "fuse/madisonville_pd.py",
+            "fuse/mandeville_pd.py",
+            "fuse/new_orleans_harbor_pd.py",
+            "fuse/new_orleans_pd.py",
+            "fuse/new_orleans_so.py",
+            "fuse/plaquemines_so.py",
+            "fuse/ponchatoula_pd.py",
+            "fuse/port_allen_pd.py",
+            "fuse/rayne_pd.py",
+            "fuse/scott_pd.py",
+            "fuse/slidell_pd.py",
+            "fuse/st_tammany_so.py",
+            "fuse/sterlington_pd.py",
+            "fuse/vivian_pd.py",
+            "fuse/west_monroe_pd.py",
+            "fuse/youngsville_pd.py"
+        ]
     },
     "378": {
-        "commit": "c1326cf568744e67b27845f83f8376194955b703"
+        "commit": "c1326cf568744e67b27845f83f8376194955b703",
+        "modified_files": [
+            "clean/post_officer_history.py"
+        ]
     },
     "379": {
-        "commit": "6929067f58da998face7fe9d3e67f10b2f018542"
+        "commit": "6929067f58da998face7fe9d3e67f10b2f018542",
+        "modified_files": [
+            "clean/post_officer_history.py"
+        ]
     },
     "380": {
-        "commit": "971c0b41038efa5cea66d0f99d0e2c8c5d01748e"
+        "commit": "971c0b41038efa5cea66d0f99d0e2c8c5d01748e",
+        "modified_files": [
+            "notebooks/post_officer_history_reports.ipynb"
+        ]
     },
     "382": {
-        "commit": "d27680f90e33a1f44139827902ad8f1959f5e0d9"
+        "commit": "d27680f90e33a1f44139827902ad8f1959f5e0d9",
+        "modified_files": [
+            "clean/post_officer_history.py",
+            "clean/post_pprr.py"
+        ]
     },
     "383": {
-        "commit": "663f5bc5b33143cdd7a5c9c99f42c8fedc5f58af"
+        "commit": "663f5bc5b33143cdd7a5c9c99f42c8fedc5f58af",
+        "modified_files": [
+            "clean/post_officer_history.py",
+            "clean/post_pprr.py"
+        ]
     },
     "387": {
-        "commit": "bda4e88de205e5477be0e1c5497c8bfc39f6eb2c"
+        "commit": "bda4e88de205e5477be0e1c5497c8bfc39f6eb2c",
+        "modified_files": [
+            ".wrgl/config.yaml",
+            "fuse/baker_pd.py",
+            "fuse/baton_rouge_pd.py",
+            "fuse/bossier_city_pd.py",
+            "fuse/brusly_pd.py",
+            "fuse/caddo_parish_so.py",
+            "fuse/carencro_pd.py",
+            "fuse/central_csd.py",
+            "fuse/covington_pd.py",
+            "fuse/gonzales_pd.py",
+            "fuse/grand_isle_pd.py",
+            "fuse/greenwood_pd.py",
+            "fuse/gretna_pd.py",
+            "fuse/hammond_pd.py",
+            "fuse/harahan_pd.py",
+            "fuse/jefferson_so.py",
+            "fuse/kenner_pd.py",
+            "fuse/lafayette_pd.py",
+            "fuse/lake_charles_pd.py",
+            "fuse/louisiana_state_csc.py",
+            "fuse/madisonville_pd.py",
+            "fuse/mandeville_pd.py",
+            "fuse/new_orleans_harbor_pd.py",
+            "fuse/new_orleans_pd.py",
+            "fuse/new_orleans_so.py",
+            "fuse/plaquemines_so.py",
+            "fuse/ponchatoula_pd.py",
+            "fuse/port_allen_pd.py",
+            "fuse/scott_pd.py",
+            "fuse/slidell_pd.py",
+            "fuse/st_tammany_so.py",
+            "fuse/sterlington_pd.py",
+            "fuse/vivian_pd.py",
+            "fuse/west_monroe_pd.py",
+            "match/post_officer_history.py"
+        ]
     },
     "388": {
-        "commit": "f7ba1d907bf053616a5083b450c7a30f0aeac28c"
+        "commit": "f7ba1d907bf053616a5083b450c7a30f0aeac28c",
+        "modified_files": [
+            "fuse/post_officer_history.py"
+        ]
     },
     "389": {
-        "commit": "18fbcd058abaec288ec9a77281cbe50769916181"
+        "commit": "18fbcd058abaec288ec9a77281cbe50769916181",
+        "modified_files": [
+            "fuse/ouachita_da.py",
+            "fuse/post_officer_history.py"
+        ]
     },
     "390": {
-        "commit": "ae2e5b307ff40bf220f29dda38d48e4a75dbc8bd"
+        "commit": "ae2e5b307ff40bf220f29dda38d48e4a75dbc8bd",
+        "modified_files": [
+            ".wrgl/config.yaml",
+            "README.md",
+            "clean/baton_rouge_da_brady.py",
+            "clean/baton_rouge_so_cprr.py",
+            "clean/cameron_so_cprr.py",
+            "clean/jefferson_so_pprr.py",
+            "clean/lafayette_pd.py",
+            "clean/lafayette_so_cprr.py",
+            "clean/lafourche_so_cprr.py",
+            "clean/lake_charles_pd_cprr.py",
+            "clean/louisiana_state_pd_cprr.py",
+            "clean/new_orleans_so_cprr.py",
+            "clean/ouachita_da_brady.py",
+            "clean/tangipahoa_da_brady.py",
+            "datavalid.yml",
+            "fuse/all.py",
+            "fuse/baton_rouge_da.py",
+            "fuse/caddo_parish_so.py",
+            "fuse/new_orleans_pd.py",
+            "fuse/new_orleans_so.py",
+            "fuse/ouachita_da.py",
+            "lib/events.py",
+            "match/iberia_da.py",
+            "match/ouachita_da.py",
+            "match/tangipahoa_da.py",
+            "notebooks/allegations_all_years.ipynb",
+            "notebooks/post_officer_history_reports.ipynb"
+        ]
     }
 }

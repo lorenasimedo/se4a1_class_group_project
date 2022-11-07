@@ -1,62 +1,93 @@
 {
     "14": {
+        "closed_at": "2021-05-26T00:17:41Z",
         "commit": "5eb3a6b29432a58e0f708a58db6358bb445dbbdb",
+        "created_at": "2021-05-25T08:26:26Z",
+        "hours_to_resolution": "15.85",
         "modified_files": [
             "Makefile",
             "clean/baton_rouge_so_cprr.py",
             "clean/scott_pd_cprr.py",
             "match/scott_pd.py",
             "scripts/download_input.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "22": {
+        "closed_at": "2021-06-13T00:10:41Z",
         "commit": "7fd7889c33bd9fac0555aadbc61e1449a80e0c8a",
+        "created_at": "2021-06-08T04:07:17Z",
+        "hours_to_resolution": "116.06",
         "modified_files": [
             "match/scott_pd.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "32": {
+        "closed_at": "2021-07-02T08:48:00Z",
         "commit": "648fc882aa2dc32ad25c986e42f2b17e38d05ac2",
+        "created_at": "2021-07-01T07:33:02Z",
+        "hours_to_resolution": "25.25",
         "modified_files": [
             "clean/st_tammany_so_pprr.py",
             "scripts/download_input.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "33": {
+        "closed_at": "2021-07-04T20:06:07Z",
         "commit": "55d20c4b7fe91dcb1cc320b8cadef82f3f63bd9d",
+        "created_at": "2021-07-01T08:15:06Z",
+        "hours_to_resolution": "83.85",
         "modified_files": [
             "clean/grand_isle_pd.py",
             "clean/mandeville_pd.py",
             "match/grand_isle_pd.py",
             "scripts/download_input.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "35": {
+        "closed_at": "2021-07-04T20:17:43Z",
         "commit": "b166ec385bfe7596dd13ed0dcc8f3b6b5870485f",
+        "created_at": "2021-07-02T19:44:29Z",
+        "hours_to_resolution": "48.55",
         "modified_files": [
             "clean/grand_isle_pd.py",
             "match/grand_isle_pd.py",
             "scripts/download_input.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "36": {
+        "closed_at": "2021-07-04T20:17:53Z",
         "commit": "fbf2becf28ba036770fe74070816c5170929a992",
+        "created_at": "2021-07-02T20:00:49Z",
+        "hours_to_resolution": "48.28",
         "modified_files": [
             "Makefile"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "42": {
+        "closed_at": "2021-07-05T08:03:16Z",
         "commit": "69c550ccf4fc4dcf8bde2afae6bdd9168c152f44",
+        "created_at": "2021-07-05T05:26:31Z",
+        "hours_to_resolution": "2.61",
         "modified_files": [
             "clean/baton_rouge_csd_pprr.py",
             "clean/grand_isle_pd.py",
             "clean/ipm_new_orleans_iapro_pprr.py",
             "match/grand_isle_pd.py",
             "scripts/download_input.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "43": {
+        "closed_at": "2021-07-08T00:03:25Z",
         "commit": "954cc0d8878cdbea3a2d6466ace5fe31de1564ab",
+        "created_at": "2021-07-06T06:46:04Z",
+        "hours_to_resolution": "41.29",
         "modified_files": [
             "Makefile",
             "clean/baton_rouge_csd_pprr.py",
@@ -67,17 +98,25 @@
             "clean/kenner_pd.py",
             "clean/mandeville_pd.py",
             "clean/new_orleans_harbor_pd_pprr.py"
-        ]
+        ],
+        "number_of_comments": 1
     },
     "44": {
+        "closed_at": "2021-07-08T00:22:35Z",
         "commit": "4ee22a26e6a1b794a310717da74471a3fcdf213c",
+        "created_at": "2021-07-08T00:18:43Z",
+        "hours_to_resolution": "0.06",
         "modified_files": [
             "clean/grand_isle_pd.py",
             "match/grand_isle_pd.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "45": {
+        "closed_at": "2021-07-09T01:53:46Z",
         "commit": "5344a74457928b984dbea24f256f9b686ab06d7f",
+        "created_at": "2021-07-09T01:11:25Z",
+        "hours_to_resolution": "0.71",
         "modified_files": [
             "Makefile",
             "clean/baton_rouge_csd_pprr.py",
@@ -89,10 +128,14 @@
             "clean/kenner_pd.py",
             "clean/new_orleans_harbor_pd_pprr.py",
             "match/grand_isle_pd.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "49": {
+        "closed_at": "2021-07-14T00:50:55Z",
         "commit": "504e16172b81bdd355680d72d60aabdace41ff3f",
+        "created_at": "2021-07-10T12:10:57Z",
+        "hours_to_resolution": "84.67",
         "modified_files": [
             ".vscode/extensions.json",
             ".vscode/settings.json",
@@ -109,10 +152,14 @@
             "match/shreveport_pd.py",
             "notebooks/louisiana_csd_pprr.ipynb",
             "notebooks/shreveport_pd.ipynb"
-        ]
+        ],
+        "number_of_comments": 4
     },
     "50": {
+        "closed_at": "2021-07-13T07:27:49Z",
         "commit": "aeb878669f5de56833fa57f9cfe26ff69937d8b2",
+        "created_at": "2021-07-13T01:21:38Z",
+        "hours_to_resolution": "6.10",
         "modified_files": [
             ".flake8",
             "Makefile",
@@ -135,10 +182,14 @@
             "match/tangipahoa_so.py",
             "notebooks/lafayette_so.ipynb",
             "scripts/download_input.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "61": {
+        "closed_at": "2021-07-27T07:08:28Z",
         "commit": "48bc0eec08e0e150b2cc089f5a6f86363a461242",
+        "created_at": "2021-07-27T02:39:49Z",
+        "hours_to_resolution": "4.48",
         "modified_files": [
             "Makefile",
             "clean/baton_rouge_so_cprr.py",
@@ -159,10 +210,14 @@
             "notebooks/ipm_new_orleans_iapro_pprr.ipynb",
             "notebooks/lafayette_pd.ipynb",
             "scripts/download_input.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "64": {
+        "closed_at": "2021-08-18T13:18:49Z",
         "commit": "5ed7437bf164aa3015c7718132e5bfaa9afd0967",
+        "created_at": "2021-08-06T21:43:31Z",
+        "hours_to_resolution": "279.59",
         "modified_files": [
             "clean/baton_rouge_pd_cprr.py",
             "clean/baton_rouge_so_cprr.py",
@@ -185,10 +240,14 @@
             "notebooks/lafayette_pd.ipynb",
             "notebooks/ponchatoula_pd.ipynb",
             "raw_datasets.json"
-        ]
+        ],
+        "number_of_comments": 15
     },
     "69": {
+        "closed_at": "2021-08-17T18:54:35Z",
         "commit": "a52e049547fb0c93e37c4c09993517764a37a946",
+        "created_at": "2021-08-17T01:09:39Z",
+        "hours_to_resolution": "17.75",
         "modified_files": [
             "clean/grand_isle_pd.py",
             "clean/ipm_new_orleans_pd_cprr_allegations.py",
@@ -202,23 +261,35 @@
             "raw_datasets.json",
             "requirements.txt",
             "scripts/rawfiles.sh"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "77": {
+        "closed_at": "2021-09-07T00:35:58Z",
         "commit": "586ad7f54188e2d4de464f0a0f2d7a438b64d43f",
+        "created_at": "2021-09-06T07:22:20Z",
+        "hours_to_resolution": "17.23",
         "modified_files": [
             "scripts/rawfiles.sh",
             "scripts/write_download_links.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "78": {
+        "closed_at": "2021-09-08T17:33:27Z",
         "commit": "fed4b893b1117dbbe31ec14f57ddacef239c75d3",
+        "created_at": "2021-09-07T17:34:05Z",
+        "hours_to_resolution": "23.99",
         "modified_files": [
             "raw_datasets.json"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "82": {
+        "closed_at": "2021-09-15T00:05:21Z",
         "commit": "200b7a3f876e88a42645485e1f0ea15eeb499031",
+        "created_at": "2021-09-14T01:47:06Z",
+        "hours_to_resolution": "22.30",
         "modified_files": [
             "clean/lake_charles_pd_cprr.py",
             "clean/new_orleans_pd_award.py",
@@ -226,17 +297,25 @@
             "fuse/all.py",
             "raw_datasets.json",
             "scripts/write_download_links.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "92": {
+        "closed_at": "2021-09-17T19:33:09Z",
         "commit": "a4adea47ef97b2e4e158e75805b9a27204710cc6",
+        "created_at": "2021-09-17T00:13:11Z",
+        "hours_to_resolution": "19.33",
         "modified_files": [
             "clean/baton_rouge_fpcsb_lprr.py",
             "fuse/baton_rouge_pd.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "104": {
+        "closed_at": "2021-09-24T00:24:03Z",
         "commit": "e12193e0d1327cb4204791d0fc48339221ae459a",
+        "created_at": "2021-09-23T13:47:01Z",
+        "hours_to_resolution": "10.62",
         "modified_files": [
             "clean/baton_rouge_pd_cprr.py",
             "clean/plaquemines_so_pprr.py",
@@ -247,10 +326,14 @@
             "notebooks/combined.ipynb",
             "raw_datasets.json",
             "scripts/write_download_links.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "105": {
+        "closed_at": "2021-09-25T15:17:38Z",
         "commit": "c30a0e98536dfdc5d64a2103a6d5b005bf7d87bf",
+        "created_at": "2021-09-23T16:50:17Z",
+        "hours_to_resolution": "46.46",
         "modified_files": [
             "clean/louisiana_state_csc_lprr.py",
             "clean/new_orleans_pd_pprr.py",
@@ -258,52 +341,76 @@
             "data/datavalid.yml",
             "fuse/louisiana_state_csc.py",
             "lib/events.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "115": {
+        "closed_at": "2021-10-08T04:20:05Z",
         "commit": "488056a93488d3de882c0b619a495111490d5fad",
+        "created_at": "2021-10-02T21:33:25Z",
+        "hours_to_resolution": "126.78",
         "modified_files": [
             "clean/ipm_new_orleans_pd_cprr_allegations.py",
             "lib/clean.py"
-        ]
+        ],
+        "number_of_comments": 7
     },
     "121": {
+        "closed_at": "2021-10-12T15:13:03Z",
         "commit": "37dbad2beb0d14353570d834378f7b5e38ac39c4",
+        "created_at": "2021-10-08T19:33:14Z",
+        "hours_to_resolution": "91.66",
         "modified_files": [
             "clean/new_orleans_booking.py",
             "clean/scott_pd_cprr.py",
             "fuse/scott_pd.py",
             "match/scott_pd.py",
             "raw_datasets.json"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "126": {
+        "closed_at": "2021-10-13T01:23:48Z",
         "commit": "b8a690e4f3cde76397b523792ff1063d4acf6727",
+        "created_at": "2021-10-12T01:17:51Z",
+        "hours_to_resolution": "24.10",
         "modified_files": [
             "clean/ipm_new_orleans_pd_cprr_allegations.py",
             "fuse/new_orleans_pd.py",
             "lib/clean.py",
             "scripts/write_deps.py"
-        ]
+        ],
+        "number_of_comments": 3
     },
     "130": {
+        "closed_at": "2021-10-15T14:55:21Z",
         "commit": "c9f4fa1e1a1dcf08537f5b085be4a87aae83dd81",
+        "created_at": "2021-10-13T19:08:52Z",
+        "hours_to_resolution": "43.77",
         "modified_files": [
             "clean/ipm_new_orleans_pd_cprr_allegations.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "137": {
+        "closed_at": "2021-10-20T00:38:48Z",
         "commit": "888afcaa60e5bf159a8aa9cdb84ef9da19592a4e",
+        "created_at": "2021-10-17T18:30:03Z",
+        "hours_to_resolution": "54.15",
         "modified_files": [
             "clean/ipm_new_orleans_iapro_pprr.py",
             "clean/new_orleans_csd_pprr.py",
             "fuse/new_orleans_pd.py",
             "lib/events.py",
             "match/new_orleans_pd.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "142": {
+        "closed_at": "2021-10-22T00:48:31Z",
         "commit": "a823a67bf017941f429394790cad82c30aabd85e",
+        "created_at": "2021-10-21T08:37:47Z",
+        "hours_to_resolution": "16.18",
         "modified_files": [
             "clean/ipm_new_orleans_iapro_pprr.py",
             "data/datavalid.yml",
@@ -314,20 +421,28 @@
             "lib/uid.py",
             "lib/uid_test.py",
             "match/new_orleans_pd.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "155": {
+        "closed_at": "2021-11-09T01:37:03Z",
         "commit": "a283141a7289e023a92cafd646914e5f70b53dd9",
+        "created_at": "2021-11-04T21:33:56Z",
+        "hours_to_resolution": "100.05",
         "modified_files": [
             "clean/baton_rouge_fpcsb_lprr.py",
             "clean/new_orleans_booking.py",
             "clean/new_orleans_csc.py",
             "fuse/baton_rouge_pd.py",
             "fuse/new_orleans_pd.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "170": {
+        "closed_at": "2021-11-23T17:02:22Z",
         "commit": "c2efd24d885511e28b3631d38e63a6c9901398f8",
+        "created_at": "2021-11-18T15:47:13Z",
+        "hours_to_resolution": "121.25",
         "modified_files": [
             "clean/baton_rouge_da_cprr_2021.py",
             "clean/baton_rouge_pd_cprr.py",
@@ -394,16 +509,24 @@
             "fuse/youngsville_pd.py",
             "lib/columns.py",
             "lib/events.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "171": {
+        "closed_at": "2021-11-23T17:02:37Z",
         "commit": "568b4589d99802a727e8429d204468e8348c6970",
+        "created_at": "2021-11-18T15:56:14Z",
+        "hours_to_resolution": "121.11",
         "modified_files": [
             "clean/plaquemines_so_cprr.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "177": {
+        "closed_at": "2021-11-25T06:18:52Z",
         "commit": "d362b55dc97cdd6a14055573273e441de8c2e249",
+        "created_at": "2021-11-24T08:48:40Z",
+        "hours_to_resolution": "21.50",
         "modified_files": [
             ".gitignore",
             "Makefile",
@@ -437,18 +560,26 @@
             "notebooks/new_orleans_pd_stop_and_search.ipynb",
             "requirements.txt",
             "scripts/write_deps.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "181": {
+        "closed_at": "2021-12-02T00:02:25Z",
         "commit": "de83c5c06fe8913478eb06ad9b98c5745d4efb8b",
+        "created_at": "2021-11-30T00:22:34Z",
+        "hours_to_resolution": "47.66",
         "modified_files": [
             "clean/new_orleans_pd_stop_and_search.py",
             "data/datavalid.yml",
             "requirements.txt"
-        ]
+        ],
+        "number_of_comments": 1
     },
     "182": {
+        "closed_at": "2021-12-02T00:49:42Z",
         "commit": "f439b5c2231a96d9329f35bd9bae79ad02a78725",
+        "created_at": "2021-11-30T16:41:36Z",
+        "hours_to_resolution": "32.13",
         "modified_files": [
             ".gitignore",
             "Makefile",
@@ -486,47 +617,75 @@
             "notebooks/new_orleans_pd_stop_and_search.ipynb",
             "raw_datasets.json",
             "scripts/write_deps.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "184": {
+        "closed_at": "2021-12-07T14:45:43Z",
         "commit": "235da91219b31f11b618fd4bd128b2d508fa29c0",
+        "created_at": "2021-12-02T01:02:32Z",
+        "hours_to_resolution": "133.72",
         "modified_files": [
             "lib/columns.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "206": {
+        "closed_at": "2021-12-16T00:19:07Z",
         "commit": "71708e00fa736bfa417c8a20b3f336cfbd925dcf",
+        "created_at": "2021-12-09T08:25:55Z",
+        "hours_to_resolution": "159.89",
         "modified_files": [
             "scripts/extract_tables_from_doc.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "214": {
+        "closed_at": "2021-12-19T01:47:44Z",
         "commit": "2a4f735388e65292856226c1d6968340feb790d9",
+        "created_at": "2021-12-18T00:17:01Z",
+        "hours_to_resolution": "25.51",
         "modified_files": [
             "README.md"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "218": {
+        "closed_at": "2021-12-22T00:47:56Z",
         "commit": "cd522b1a529681be631608157a9339df6f3113ef",
+        "created_at": "2021-12-21T09:19:43Z",
+        "hours_to_resolution": "15.47",
         "modified_files": [
             "wrgl.mk"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "224": {
+        "closed_at": "2022-01-04T13:26:36Z",
         "commit": "4dff07c033dce6de939a86849140d4df0fccf9ac",
+        "created_at": "2022-01-04T08:24:32Z",
+        "hours_to_resolution": "5.03",
         "modified_files": [
             ".wrgl/config.yaml"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "235": {
+        "closed_at": "2022-01-19T17:48:49Z",
         "commit": "71ed3666afc356c8fade11ad4f6060cb015df2b4",
+        "created_at": "2022-01-18T18:58:22Z",
+        "hours_to_resolution": "22.84",
         "modified_files": [
             "fuse/bossier_city_pd.py",
             "match/bossier_city_pd.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "243": {
+        "closed_at": "2022-02-24T03:07:19Z",
         "commit": "c420d186bb2a32bdc4adc2289a081d4226e1d9a6",
+        "created_at": "2022-01-25T20:26:33Z",
+        "hours_to_resolution": "702.68",
         "modified_files": [
             ".wrgl/config.yaml",
             "clean/abbeville_pd_cprr.py",
@@ -573,31 +732,47 @@
             "match/kenner_pd.py",
             "match/new_orleans_pd.py",
             "match/new_orleans_so.py"
-        ]
+        ],
+        "number_of_comments": 9
     },
     "251": {
+        "closed_at": "2022-02-17T02:34:04Z",
         "commit": "5386d56d5c570929b1bbe6cc9b1b3ba31eadc886",
+        "created_at": "2022-02-16T19:26:41Z",
+        "hours_to_resolution": "7.12",
         "modified_files": [
             "raw_datasets.json"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "254": {
+        "closed_at": "2022-02-20T01:46:27Z",
         "commit": "3d86a302e4618fcf13eae22143d697d64dda9e74",
+        "created_at": "2022-02-19T03:48:04Z",
+        "hours_to_resolution": "21.97",
         "modified_files": [
             "bolo.mk",
             "bolo.yaml",
             "match/rayne_pd.py",
             "requirements.txt"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "260": {
+        "closed_at": "2022-03-04T00:44:22Z",
         "commit": "3f72296f850e2939901eae7f137f070e5ce22d7e",
+        "created_at": "2022-03-02T22:41:24Z",
+        "hours_to_resolution": "26.05",
         "modified_files": [
             "clean/st_tammany_so_cprr.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "266": {
+        "closed_at": "2022-04-05T17:38:14Z",
         "commit": "8feef129f60324c2d13653e16b76e8a020d33dd0",
+        "created_at": "2022-03-16T22:16:32Z",
+        "hours_to_resolution": "475.36",
         "modified_files": [
             ".wrgl/config.yaml",
             "clean/abbeville_pd_cprr.py",
@@ -656,16 +831,24 @@
             "match/hammond_pd.py",
             "match/new_orleans_so.py",
             "match/shreveport_pd.py"
-        ]
+        ],
+        "number_of_comments": 5
     },
     "270": {
+        "closed_at": "2022-03-25T19:21:35Z",
         "commit": "1bcac59dd9829e662121fcd97b87420fffac4a98",
+        "created_at": "2022-03-24T14:36:11Z",
+        "hours_to_resolution": "28.76",
         "modified_files": [
             "lib/clean_test.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "272": {
+        "closed_at": "2022-03-31T19:17:30Z",
         "commit": "07779c7ce3eaecaa80af968b203653b62b4b8230",
+        "created_at": "2022-03-29T00:14:11Z",
+        "hours_to_resolution": "67.06",
         "modified_files": [
             "clean/ipm_new_orleans_iapro_pprr.py",
             "clean/madisonville_pd_cprr.py",
@@ -698,10 +881,14 @@
             "match/rayne_pd.py",
             "match/st_tammany_so.py",
             "match/tangipahoa_so.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "278": {
+        "closed_at": "2022-04-07T06:11:09Z",
         "commit": "5971ddd51c7308cc0f22c9f9a8e11b0cbeeb7243",
+        "created_at": "2022-04-06T10:08:02Z",
+        "hours_to_resolution": "20.05",
         "modified_files": [
             "clean/ascension_so_cprr.py",
             "clean/baton_rouge_csd_pprr.py",
@@ -720,22 +907,34 @@
             "fuse/lake_charles_pd.py",
             "match/baton_rouge_pd.py",
             "match/caddo_parish_so.py"
-        ]
+        ],
+        "number_of_comments": 0
     },
     "284": {
+        "closed_at": "2022-04-28T00:36:40Z",
         "commit": "561006c704c2d52416db5d659b517c96c6b0d49c",
+        "created_at": "2022-04-26T23:55:41Z",
+        "hours_to_resolution": "24.68",
         "modified_files": [
             ".github/workflows/apply_transaction.yml"
-        ]
+        ],
+        "number_of_comments": 3
     },
     "285": {
+        "closed_at": "2022-04-28T10:38:37Z",
         "commit": "37f7362ac0658152628d5bcdf588e6c573de0c4e",
+        "created_at": "2022-04-28T10:25:50Z",
+        "hours_to_resolution": "0.21",
         "modified_files": [
             ".github/workflows/apply_transaction.yml"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "286": {
+        "closed_at": "2022-04-30T11:07:43Z",
         "commit": "07d3b1f60417f26aa24e4d09f33ad8a610a041b4",
+        "created_at": "2022-04-30T10:33:20Z",
+        "hours_to_resolution": "0.57",
         "modified_files": [
             "clean/new_orleans_harbor_pd_cprr.py",
             "fuse/hammond_pd.py",
@@ -745,10 +944,14 @@
             "match/erath_pd.py",
             "match/eunice_pd.py",
             "requirements.txt"
-        ]
+        ],
+        "number_of_comments": 3
     },
     "288": {
+        "closed_at": "2022-05-06T07:46:01Z",
         "commit": "be89a964173f0bbeaf6625ec8232d2d7acf78415",
+        "created_at": "2022-05-02T13:48:41Z",
+        "hours_to_resolution": "89.96",
         "modified_files": [
             ".wrgl/config.yaml",
             "clean/kenner_pd_uof.py",
@@ -758,69 +961,105 @@
             "fuse/new_orleans_pd.py",
             "match/kenner_pd.py",
             "requirements.txt"
-        ]
+        ],
+        "number_of_comments": 18
     },
     "291": {
+        "closed_at": "2022-05-12T08:43:35Z",
         "commit": "4eafe0a7f243a3efcccb4bd26536e62a720a0a4c",
+        "created_at": "2022-05-11T11:21:40Z",
+        "hours_to_resolution": "21.37",
         "modified_files": [
             "clean/new_orleans_pd_uof.py",
             "datavalid.yml"
-        ]
+        ],
+        "number_of_comments": 5
     },
     "293": {
+        "closed_at": "2022-05-20T10:22:06Z",
         "commit": "bab39597aed1f6e1ec2fe8681442cdec9ea927e5",
+        "created_at": "2022-05-13T13:09:41Z",
+        "hours_to_resolution": "165.21",
         "modified_files": [
             "clean/new_orleans_pd_uof.py",
             "datavalid.yml",
             "fuse/new_orleans_pd.py"
-        ]
+        ],
+        "number_of_comments": 10
     },
     "297": {
+        "closed_at": "2022-05-17T00:52:13Z",
         "commit": "bd4929ba3d3673d27131fce34e11f2fe57da9947",
+        "created_at": "2022-05-16T00:59:05Z",
+        "hours_to_resolution": "23.89",
         "modified_files": [
             ".github/workflows/process_data.yml"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "299": {
+        "closed_at": "2022-05-18T09:30:13Z",
         "commit": "5968d3ee7f56c8c08ba5f0f4e67ec4fd584c9be6",
+        "created_at": "2022-05-16T09:47:51Z",
+        "hours_to_resolution": "47.71",
         "modified_files": [
             "clean/new_orleans_pd_uof.py",
             "datavalid.yml",
             "fuse/new_orleans_pd.py",
             "fuse/post_officer_history.py",
             "lib/events.py"
-        ]
+        ],
+        "number_of_comments": 12
     },
     "300": {
+        "closed_at": "2022-05-18T12:40:08Z",
         "commit": "d7e281263191f3dbe85787f1db2507439e3df385",
+        "created_at": "2022-05-16T14:57:53Z",
+        "hours_to_resolution": "45.70",
         "modified_files": [
             "clean/new_orleans_pd_claims.py",
             "fuse/new_orleans_pd.py"
-        ]
+        ],
+        "number_of_comments": 3
     },
     "304": {
+        "closed_at": "2022-05-19T11:42:00Z",
         "commit": "f1d97d0ee69056f52862506229696b5c03421d3d",
+        "created_at": "2022-05-19T08:31:57Z",
+        "hours_to_resolution": "3.17",
         "modified_files": [
             "fuse/new_orleans_pd.py"
-        ]
+        ],
+        "number_of_comments": 5
     },
     "306": {
+        "closed_at": "2022-05-26T11:33:44Z",
         "commit": "b9cc7f8ef6a0c06f39a154872d89d97f80863547",
+        "created_at": "2022-05-26T10:58:58Z",
+        "hours_to_resolution": "0.58",
         "modified_files": [
             "datavalid.yml"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "309": {
+        "closed_at": "2022-05-31T02:19:42Z",
         "commit": "5bb50187f87f857b435eced10fec1d6de7931d0c",
+        "created_at": "2022-05-30T18:20:09Z",
+        "hours_to_resolution": "7.99",
         "modified_files": [
             "match/baton_rouge_da.py",
             "match/new_orleans_da.py",
             "match/ouachita_da.py",
             "match/tangipahoa_da.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "313": {
+        "closed_at": "2022-06-07T00:21:23Z",
         "commit": "0563e55643329565d7d208701d02595f291e16e5",
+        "created_at": "2022-06-06T14:11:03Z",
+        "hours_to_resolution": "10.17",
         "modified_files": [
             ".wrgl/config.yaml",
             "match/baton_rouge_da.py",
@@ -828,29 +1067,41 @@
             "match/ouachita_da.py",
             "match/tangipahoa_da.py",
             "wrgl.mk"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "314": {
+        "closed_at": "2022-06-14T12:20:23Z",
         "commit": "6654ad906ab947fb869dadbef801d0e96d175b6d",
+        "created_at": "2022-06-09T15:23:16Z",
+        "hours_to_resolution": "116.95",
         "modified_files": [
             "match/baton_rouge_da.py",
             "match/new_orleans_da.py",
             "match/ouachita_da.py",
             "match/tangipahoa_da.py"
-        ]
+        ],
+        "number_of_comments": 3
     },
     "326": {
+        "closed_at": "2022-08-25T11:08:10Z",
         "commit": "927b68831541b17795cca0e95ad1ccb807d49e18",
+        "created_at": "2022-08-24T10:09:30Z",
+        "hours_to_resolution": "24.98",
         "modified_files": [
             ".github/workflows/process_data.yml",
             "dvc/data/raw/baker_pd.dvc",
             "fuse/all.py",
             "fuse/baton_rouge_pd.py",
             "match/baton_rouge_pd.py"
-        ]
+        ],
+        "number_of_comments": 7
     },
     "327": {
+        "closed_at": "2022-08-25T05:33:15Z",
         "commit": "b26a31f72b31a297fe44e6cc45219c3785951278",
+        "created_at": "2022-08-25T01:27:12Z",
+        "hours_to_resolution": "4.10",
         "modified_files": [
             ".dockerignore",
             ".github/workflows/process_data.yml",
@@ -858,96 +1109,152 @@
             "gh_k8s_runner/README.md",
             "gh_k8s_runner/cdi_runner_deployment.yaml",
             "gh_k8s_runner/install.sh"
-        ]
+        ],
+        "number_of_comments": 3
     },
     "341": {
+        "closed_at": "2022-09-08T07:17:14Z",
         "commit": "9a3189f06fbc8003d492dc705739cbde7bb30c7b",
+        "created_at": "2022-09-08T07:01:52Z",
+        "hours_to_resolution": "0.26",
         "modified_files": [
             "match/post_officer_history.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "342": {
+        "closed_at": "2022-09-10T12:43:23Z",
         "commit": "119a3504bc833777c871f19a8d586ab5bbd038a9",
+        "created_at": "2022-09-10T12:08:14Z",
+        "hours_to_resolution": "0.59",
         "modified_files": [
             "ner/post_officer_history_reports_advocate.py",
             "ocr_cache.dvc"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "343": {
+        "closed_at": "2022-09-11T13:01:22Z",
         "commit": "ead99e8bf2a32b4c2c42af93d649cbd9b2458a73",
+        "created_at": "2022-09-11T12:38:31Z",
+        "hours_to_resolution": "0.38",
         "modified_files": [
             "requirements.txt"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "344": {
+        "closed_at": "2022-09-12T21:14:20Z",
         "commit": "ccd7a0ef00443cc8e217dc6391191642ed8c5fe7",
+        "created_at": "2022-09-12T20:53:53Z",
+        "hours_to_resolution": "0.34",
         "modified_files": [
             "match/new_orleans_da.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "347": {
+        "closed_at": "2022-09-16T05:26:04Z",
         "commit": "01350290bc89fc0f2399e01217b30103ca1cdfa2",
+        "created_at": "2022-09-16T04:38:21Z",
+        "hours_to_resolution": "0.80",
         "modified_files": [
             "clean/post_pprr.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "348": {
+        "closed_at": "2022-09-16T08:12:04Z",
         "commit": "49c836c0902b35a41522d5511854ade003eccab4",
+        "created_at": "2022-09-16T07:21:18Z",
+        "hours_to_resolution": "0.85",
         "modified_files": [
             "clean/post_officer_history.py",
             "clean/post_pprr.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "349": {
+        "closed_at": "2022-09-16T10:28:23Z",
         "commit": "f66e3ff942006b600da692b2011d48e551aacb2d",
+        "created_at": "2022-09-16T10:04:19Z",
+        "hours_to_resolution": "0.40",
         "modified_files": [
             "clean/abbeville_pd_cprr.py",
             "clean/post_officer_history.py",
             "clean/post_pprr.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "351": {
+        "closed_at": "2022-09-19T06:30:57Z",
         "commit": "b5d930064108c3d9fc796d7663077d65bdc515d8",
+        "created_at": "2022-09-19T04:15:38Z",
+        "hours_to_resolution": "2.26",
         "modified_files": [
             "clean/post_officer_history.py",
             "match/post_officer_history.py"
-        ]
+        ],
+        "number_of_comments": 3
     },
     "353": {
+        "closed_at": "2022-09-19T15:18:21Z",
         "commit": "4d84cdced538352413095ef2ad801c2558abd489",
+        "created_at": "2022-09-19T14:54:15Z",
+        "hours_to_resolution": "0.40",
         "modified_files": [
             "datavalid.yml",
             "fuse/new_orleans_pd.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "357": {
+        "closed_at": "2022-09-20T12:49:47Z",
         "commit": "27c6488d0b74a0e4d682267db6e3579085e3bd1b",
+        "created_at": "2022-09-20T12:12:57Z",
+        "hours_to_resolution": "0.61",
         "modified_files": [
             "datavalid.yml",
             "fuse/new_orleans_pd.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "359": {
+        "closed_at": "2022-09-21T17:07:37Z",
         "commit": "fd323c34e6c894130a55b4be4dd0e02793b4620c",
+        "created_at": "2022-09-20T17:44:03Z",
+        "hours_to_resolution": "23.39",
         "modified_files": [
             ".wrgl/config.yaml"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "361": {
+        "closed_at": "2022-09-22T06:48:35Z",
         "commit": "b6e66e800b12911087bb3552e2377f325801bbe0",
+        "created_at": "2022-09-22T05:00:00Z",
+        "hours_to_resolution": "1.81",
         "modified_files": [
             "clean/post_officer_history.py",
             "clean/post_pprr.py"
-        ]
+        ],
+        "number_of_comments": 4
     },
     "362": {
+        "closed_at": "2022-09-22T08:47:21Z",
         "commit": "f1bf850dfcc61fb9f2d637e44f1a4e5a062b92bc",
+        "created_at": "2022-09-22T08:07:36Z",
+        "hours_to_resolution": "0.66",
         "modified_files": [
             "clean/post_officer_history.py"
-        ]
+        ],
+        "number_of_comments": 4
     },
     "364": {
+        "closed_at": "2022-09-22T16:23:41Z",
         "commit": "4b61fcccc0522b9c4a3438e5339011836116e077",
+        "created_at": "2022-09-22T15:56:15Z",
+        "hours_to_resolution": "0.46",
         "modified_files": [
             ".wrgl/config.yaml",
             "clean/baton_rouge_da_brady.py",
@@ -961,10 +1268,14 @@
             "fuse/tangipahoa_so.py",
             "match/new_orleans_da.py",
             "match/tangipahoa_da.py"
-        ]
+        ],
+        "number_of_comments": 3
     },
     "366": {
+        "closed_at": "2022-09-23T07:54:54Z",
         "commit": "f1f02252b79eb0b26c5e4a034f65bdef91121142",
+        "created_at": "2022-09-23T06:02:54Z",
+        "hours_to_resolution": "1.87",
         "modified_files": [
             "datavalid.yml",
             "fuse/levee_pd.py",
@@ -972,22 +1283,34 @@
             "fuse/shreveport_pd.py",
             "match/levee_pd.py",
             "match/new_orleans_pd.py"
-        ]
+        ],
+        "number_of_comments": 4
     },
     "367": {
+        "closed_at": "2022-09-23T12:16:53Z",
         "commit": "dabb43bdeaf56439622fa7d849ce7192a2d934f6",
+        "created_at": "2022-09-23T11:54:32Z",
+        "hours_to_resolution": "0.37",
         "modified_files": [
             "clean/new_orleans_da_cprr.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "368": {
+        "closed_at": "2022-09-23T13:15:29Z",
         "commit": "f20a841df2ce7f27f86ffcc6e126df1adaa6fbe3",
+        "created_at": "2022-09-23T12:58:30Z",
+        "hours_to_resolution": "0.28",
         "modified_files": [
             "fuse/post_officer_history.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "369": {
+        "closed_at": "2022-09-25T16:42:49Z",
         "commit": "3efe371d7d965790a437794766f14a6bed1152dd",
+        "created_at": "2022-09-25T12:43:10Z",
+        "hours_to_resolution": "3.99",
         "modified_files": [
             "clean/louisiana_state_pd_cprr.py",
             "datavalid.yml",
@@ -1001,22 +1324,34 @@
             "ocr_cache.dvc",
             "raw_louisiana_state_pd_reports_2020.dvc",
             "reports_louisiana_state_pd_2020_model.dvc"
-        ]
+        ],
+        "number_of_comments": 4
     },
     "370": {
+        "closed_at": "2022-09-25T17:06:36Z",
         "commit": "e18b30b3bb4dd2b942c180a62fdc088181e5c9e8",
+        "created_at": "2022-09-25T16:51:46Z",
+        "hours_to_resolution": "0.25",
         "modified_files": [
             "clean/louisiana_state_pd_cprr.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "371": {
+        "closed_at": "2022-09-27T14:27:36Z",
         "commit": "e58413a29b22ce8c8d1fea84239778619d5811e3",
+        "created_at": "2022-09-27T14:12:17Z",
+        "hours_to_resolution": "0.26",
         "modified_files": [
             "match/post_officer_history.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "372": {
+        "closed_at": "2022-09-27T15:57:51Z",
         "commit": "60753c62e10bf8f63b124f68e2e6f02c6bf887a5",
+        "created_at": "2022-09-27T15:17:52Z",
+        "hours_to_resolution": "0.67",
         "modified_files": [
             "clean/baton_rouge_pd_cprr.py",
             "clean/baton_rouge_so_cprr.py",
@@ -1025,10 +1360,14 @@
             "clean/post_officer_history.py",
             "datavalid.yml",
             "fuse/baton_rouge_so.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "377": {
+        "closed_at": "2022-09-28T08:14:15Z",
         "commit": "47560de4fa841ffab23d8dafe1e4dbc0015a312b",
+        "created_at": "2022-09-28T06:50:07Z",
+        "hours_to_resolution": "1.40",
         "modified_files": [
             "clean/post_officer_history.py",
             "fuse/baker_pd.py",
@@ -1066,42 +1405,66 @@
             "fuse/vivian_pd.py",
             "fuse/west_monroe_pd.py",
             "fuse/youngsville_pd.py"
-        ]
+        ],
+        "number_of_comments": 5
     },
     "378": {
+        "closed_at": "2022-09-28T09:17:21Z",
         "commit": "c1326cf568744e67b27845f83f8376194955b703",
+        "created_at": "2022-09-28T09:04:05Z",
+        "hours_to_resolution": "0.22",
         "modified_files": [
             "clean/post_officer_history.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "379": {
+        "closed_at": "2022-09-28T09:38:13Z",
         "commit": "6929067f58da998face7fe9d3e67f10b2f018542",
+        "created_at": "2022-09-28T09:24:43Z",
+        "hours_to_resolution": "0.23",
         "modified_files": [
             "clean/post_officer_history.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "380": {
+        "closed_at": "2022-09-28T09:59:31Z",
         "commit": "971c0b41038efa5cea66d0f99d0e2c8c5d01748e",
+        "created_at": "2022-09-28T09:54:59Z",
+        "hours_to_resolution": "0.08",
         "modified_files": [
             "notebooks/post_officer_history_reports.ipynb"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "382": {
+        "closed_at": "2022-09-28T11:43:01Z",
         "commit": "d27680f90e33a1f44139827902ad8f1959f5e0d9",
+        "created_at": "2022-09-28T10:37:49Z",
+        "hours_to_resolution": "1.09",
         "modified_files": [
             "clean/post_officer_history.py",
             "clean/post_pprr.py"
-        ]
+        ],
+        "number_of_comments": 4
     },
     "383": {
+        "closed_at": "2022-09-28T12:37:01Z",
         "commit": "663f5bc5b33143cdd7a5c9c99f42c8fedc5f58af",
+        "created_at": "2022-09-28T11:52:16Z",
+        "hours_to_resolution": "0.75",
         "modified_files": [
             "clean/post_officer_history.py",
             "clean/post_pprr.py"
-        ]
+        ],
+        "number_of_comments": 3
     },
     "387": {
+        "closed_at": "2022-10-01T12:37:19Z",
         "commit": "bda4e88de205e5477be0e1c5497c8bfc39f6eb2c",
+        "created_at": "2022-09-30T07:05:02Z",
+        "hours_to_resolution": "29.54",
         "modified_files": [
             ".wrgl/config.yaml",
             "fuse/baker_pd.py",
@@ -1138,23 +1501,35 @@
             "fuse/vivian_pd.py",
             "fuse/west_monroe_pd.py",
             "match/post_officer_history.py"
-        ]
+        ],
+        "number_of_comments": 4
     },
     "388": {
+        "closed_at": "2022-10-03T04:52:16Z",
         "commit": "f7ba1d907bf053616a5083b450c7a30f0aeac28c",
+        "created_at": "2022-10-03T04:29:20Z",
+        "hours_to_resolution": "0.38",
         "modified_files": [
             "fuse/post_officer_history.py"
-        ]
+        ],
+        "number_of_comments": 2
     },
     "389": {
+        "closed_at": "2022-10-03T06:05:49Z",
         "commit": "18fbcd058abaec288ec9a77281cbe50769916181",
+        "created_at": "2022-10-03T05:25:56Z",
+        "hours_to_resolution": "0.66",
         "modified_files": [
             "fuse/ouachita_da.py",
             "fuse/post_officer_history.py"
-        ]
+        ],
+        "number_of_comments": 3
     },
     "390": {
+        "closed_at": "2022-10-05T05:35:50Z",
         "commit": "ae2e5b307ff40bf220f29dda38d48e4a75dbc8bd",
+        "created_at": "2022-10-03T09:01:41Z",
+        "hours_to_resolution": "44.57",
         "modified_files": [
             ".wrgl/config.yaml",
             "README.md",
@@ -1183,6 +1558,7 @@
             "match/tangipahoa_da.py",
             "notebooks/allegations_all_years.ipynb",
             "notebooks/post_officer_history_reports.ipynb"
-        ]
+        ],
+        "number_of_comments": 9
     }
 }

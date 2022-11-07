@@ -1,0 +1,744 @@
+{
+    "104": {
+        "closed_at": "2018-03-07T23:17:10Z",
+        "commit": "be43f9351a5154996221952ccc8c736fbc839314",
+        "created_at": "2017-12-30T05:30:49Z",
+        "hours_to_resolution": "1625.77",
+        "modified_files": [
+            "doc/install.rst"
+        ],
+        "number_of_comments": 19
+    },
+    "164": {
+        "closed_at": "2018-06-16T04:34:39Z",
+        "commit": "3daf293395216ebdd77c54c9d5113b01112d9118",
+        "created_at": "2018-04-20T15:53:10Z",
+        "hours_to_resolution": "1356.69",
+        "modified_files": [
+            ".stickler.yml",
+            ".travis.yml",
+            "ci/deploy-docs.sh",
+            "ci/deploy-pypi.sh",
+            "ci/install-miniconda.sh",
+            "gmt/clib/core.py",
+            "gmt/tests/test_clib.py",
+            "requirements.txt"
+        ],
+        "number_of_comments": 16
+    },
+    "222": {
+        "closed_at": "2018-08-17T04:06:37Z",
+        "commit": "13bac6c12c0da3024db843d05553274b134dd4b2",
+        "created_at": "2018-08-03T01:59:35Z",
+        "hours_to_resolution": "338.12",
+        "modified_files": [
+            ".travis.yml",
+            "environment.yml",
+            "gmt/clib/session.py",
+            "requirements.txt"
+        ],
+        "number_of_comments": 5
+    },
+    "247": {
+        "closed_at": "2022-03-13T15:46:29Z",
+        "commit": "a2628e6f484973daa515cb81cb47be8317452495",
+        "created_at": "2018-11-26T05:25:13Z",
+        "hours_to_resolution": "28882.35",
+        "modified_files": [
+            "doc/api/index.rst",
+            "doc/index.rst",
+            "examples/tutorials/subplots.py",
+            "pygmt/figure.py",
+            "pygmt/src/__init__.py",
+            "pygmt/src/subplot.py",
+            "pygmt/tests/test_subplot.py"
+        ],
+        "number_of_comments": 3
+    },
+    "352": {
+        "closed_at": "2019-10-29T02:25:07Z",
+        "commit": "882dbba4b0953176d717fec307a7534e824c985e",
+        "created_at": "2019-10-27T19:41:12Z",
+        "hours_to_resolution": "30.73",
+        "modified_files": [
+            "Makefile",
+            "pygmt/tests/baseline/test_basemap_aliases.png",
+            "pygmt/tests/baseline/test_basemap_polar.png",
+            "pygmt/tests/baseline/test_basemap_power_axis.png",
+            "pygmt/tests/baseline/test_basemap_winkel_tripel.png",
+            "pygmt/tests/baseline/test_coast.png",
+            "pygmt/tests/baseline/test_coast_aliases.png",
+            "pygmt/tests/baseline/test_coast_iceland.png",
+            "pygmt/tests/baseline/test_coast_world_mercator.png",
+            "pygmt/tests/baseline/test_grdcontour.png",
+            "pygmt/tests/baseline/test_grdcontour_file.png",
+            "pygmt/tests/baseline/test_grdcontour_interval_file_full_opts.png",
+            "pygmt/tests/baseline/test_grdcontour_labels.png",
+            "pygmt/tests/baseline/test_grdcontour_slice.png",
+            "pygmt/tests/baseline/test_grdimage.png",
+            "pygmt/tests/baseline/test_grdimage_file.png",
+            "pygmt/tests/baseline/test_grdimage_slice.png",
+            "pygmt/tests/baseline/test_image.png",
+            "pygmt/tests/baseline/test_logo.png",
+            "pygmt/tests/baseline/test_logo_on_a_map.png",
+            "pygmt/tests/baseline/test_makecpt_continuous.png",
+            "pygmt/tests/baseline/test_makecpt_reverse_color_and_zsign.png",
+            "pygmt/tests/baseline/test_makecpt_reverse_color_only.png",
+            "pygmt/tests/baseline/test_makecpt_reverse_zsign_only.png",
+            "pygmt/tests/baseline/test_makecpt_to_plot_grid.png",
+            "pygmt/tests/baseline/test_makecpt_to_plot_grid_scaled_with_series.png",
+            "pygmt/tests/baseline/test_makecpt_truncated_at_zhigh_only.png",
+            "pygmt/tests/baseline/test_makecpt_truncated_at_zlow_only.png",
+            "pygmt/tests/baseline/test_makecpt_truncated_to_zlow_zhigh.png",
+            "pygmt/tests/baseline/test_plot_colors.png",
+            "pygmt/tests/baseline/test_plot_colors_sizes.png",
+            "pygmt/tests/baseline/test_plot_colors_sizes_proj.png",
+            "pygmt/tests/baseline/test_plot_matrix.png",
+            "pygmt/tests/baseline/test_plot_matrix_color.png",
+            "pygmt/tests/baseline/test_plot_projection.png",
+            "pygmt/tests/baseline/test_plot_red_circles.png",
+            "pygmt/tests/baseline/test_plot_sizes.png",
+            "pygmt/tests/test_basemap.py"
+        ],
+        "number_of_comments": 0
+    },
+    "364": {
+        "closed_at": "2020-10-15T01:40:02Z",
+        "commit": "a6a09198404899d4d4f672cbab366b36a903249f",
+        "created_at": "2019-11-02T18:08:40Z",
+        "hours_to_resolution": "8335.52",
+        "modified_files": [
+            "pygmt/tests/test_grdimage.py"
+        ],
+        "number_of_comments": 18
+    },
+    "406": {
+        "closed_at": "2020-06-24T04:40:13Z",
+        "commit": "516e799bb9753ed45b9e122b8ebb5fd446320866",
+        "created_at": "2020-03-30T21:19:17Z",
+        "hours_to_resolution": "2047.35",
+        "modified_files": [
+            "pygmt/clib/session.py",
+            "pygmt/tests/baseline/test_plot_lines_with_arrows.png",
+            "pygmt/tests/test_clib.py",
+            "pygmt/tests/test_plot.py"
+        ],
+        "number_of_comments": 3
+    },
+    "476": {
+        "closed_at": "2020-07-16T05:34:39Z",
+        "commit": "9a4c0a0177dac03e05d219c01105f272c9911655",
+        "created_at": "2020-06-10T05:27:43Z",
+        "hours_to_resolution": "864.12",
+        "modified_files": [
+            "Makefile",
+            "pygmt/clib/conversion.py",
+            "pygmt/clib/session.py",
+            "pygmt/helpers/decorators.py",
+            "pygmt/tests/baseline/test_grdimage_over_dateline.png",
+            "pygmt/tests/test_grdimage.py",
+            "pygmt/tests/test_grdinfo.py",
+            "pygmt/tests/test_grdview.py",
+            "setup.cfg"
+        ],
+        "number_of_comments": 23
+    },
+    "490": {
+        "closed_at": "2020-06-24T04:40:13Z",
+        "commit": "516e799bb9753ed45b9e122b8ebb5fd446320866",
+        "created_at": "2020-06-24T03:42:58Z",
+        "hours_to_resolution": "0.95",
+        "modified_files": [
+            "pygmt/clib/session.py",
+            "pygmt/tests/baseline/test_plot_lines_with_arrows.png",
+            "pygmt/tests/test_clib.py",
+            "pygmt/tests/test_plot.py"
+        ],
+        "number_of_comments": 0
+    },
+    "531": {
+        "closed_at": "2020-07-17T20:51:32Z",
+        "commit": "960cd0e42607ce8b79490a0c7ae566f70894385f",
+        "created_at": "2020-07-17T20:10:09Z",
+        "hours_to_resolution": "0.69",
+        "modified_files": [
+            "Makefile",
+            "examples/gallery/grid/track_sampling.py",
+            "pygmt/tests/test_grdimage.py",
+            "setup.cfg"
+        ],
+        "number_of_comments": 0
+    },
+    "537": {
+        "closed_at": "2020-07-21T04:17:37Z",
+        "commit": "ac28e72ff6d6bfcf6ff1d836ff668f28ebf72719",
+        "created_at": "2020-07-18T05:18:38Z",
+        "hours_to_resolution": "70.98",
+        "modified_files": [
+            "pygmt/helpers/decorators.py"
+        ],
+        "number_of_comments": 1
+    },
+    "539": {
+        "closed_at": "2020-07-21T18:52:26Z",
+        "commit": "87e7d42352966fe5cadd6c29f27eb39982673771",
+        "created_at": "2020-07-21T07:39:28Z",
+        "hours_to_resolution": "11.22",
+        "modified_files": [
+            "pygmt/gridding.py",
+            "pygmt/gridops.py",
+            "pygmt/tests/test_grdcut.py",
+            "pygmt/tests/test_surface.py"
+        ],
+        "number_of_comments": 0
+    },
+    "548": {
+        "closed_at": "2020-07-25T23:21:17Z",
+        "commit": "a8fee8b85d203dcf70a65113db4908da55cb3bb8",
+        "created_at": "2020-07-25T22:47:55Z",
+        "hours_to_resolution": "0.56",
+        "modified_files": [
+            "pygmt/tests/test_config.py"
+        ],
+        "number_of_comments": 0
+    },
+    "556": {
+        "closed_at": "2020-08-07T03:10:33Z",
+        "commit": "b9ca6825bc76c0676354a7bcb3dbdec66a3ba2dd",
+        "created_at": "2020-08-06T21:24:59Z",
+        "hours_to_resolution": "5.76",
+        "modified_files": [
+            "pygmt/tests/test_clib_put_matrix.py"
+        ],
+        "number_of_comments": 0
+    },
+    "560": {
+        "closed_at": "2020-09-11T22:14:07Z",
+        "commit": "555b1351360f134345f03f0358a146becbed639c",
+        "created_at": "2020-08-10T23:00:20Z",
+        "hours_to_resolution": "767.23",
+        "modified_files": [
+            "pygmt/tests/test_grdimage.py"
+        ],
+        "number_of_comments": 4
+    },
+    "639": {
+        "closed_at": "2020-10-08T04:59:13Z",
+        "commit": "96a32b9563c8abd3581377918e0b96998f4144f2",
+        "created_at": "2020-10-04T06:03:01Z",
+        "hours_to_resolution": "94.94",
+        "modified_files": [
+            "pygmt/helpers/utils.py"
+        ],
+        "number_of_comments": 1
+    },
+    "701": {
+        "closed_at": "2020-11-22T20:44:36Z",
+        "commit": "5ca84df1e5b43e064ae74c22a0c37f9ac550456c",
+        "created_at": "2020-11-22T05:50:11Z",
+        "hours_to_resolution": "14.91",
+        "modified_files": [
+            "pygmt/figure.py"
+        ],
+        "number_of_comments": 0
+    },
+    "706": {
+        "closed_at": "2020-12-11T01:03:36Z",
+        "commit": "2128dd4133817a6c85a05b595907d3f086986d26",
+        "created_at": "2020-11-27T08:03:46Z",
+        "hours_to_resolution": "329.00",
+        "modified_files": [
+            "pygmt/base_plotting.py",
+            "pygmt/tests/test_text.py"
+        ],
+        "number_of_comments": 1
+    },
+    "724": {
+        "closed_at": "2020-12-11T01:03:36Z",
+        "commit": "2128dd4133817a6c85a05b595907d3f086986d26",
+        "created_at": "2020-12-10T22:40:20Z",
+        "hours_to_resolution": "2.39",
+        "modified_files": [
+            "pygmt/base_plotting.py",
+            "pygmt/tests/test_text.py"
+        ],
+        "number_of_comments": 0
+    },
+    "732": {
+        "closed_at": "2021-06-02T23:25:41Z",
+        "commit": "bd52c10f841ba74be4d67f5381e5cb83f825cdaf",
+        "created_at": "2020-12-14T17:19:10Z",
+        "hours_to_resolution": "4086.11",
+        "modified_files": [
+            "pygmt/tests/baseline/test_grdimage_global_subset.png.dvc",
+            "pygmt/tests/test_grdimage.py"
+        ],
+        "number_of_comments": 20
+    },
+    "768": {
+        "closed_at": "2020-12-27T22:36:00Z",
+        "commit": "5ad636b39181faba67f336fec1cd351a8a9f8e2e",
+        "created_at": "2020-12-27T00:48:37Z",
+        "hours_to_resolution": "21.79",
+        "modified_files": [
+            ".github/workflows/slash-command-dispatch.yml"
+        ],
+        "number_of_comments": 0
+    },
+    "850": {
+        "closed_at": "2021-02-07T19:40:41Z",
+        "commit": "00b99fe4a68a8e34a4b6af48cf9223d67442657c",
+        "created_at": "2021-02-07T19:21:57Z",
+        "hours_to_resolution": "0.31",
+        "modified_files": [
+            "pygmt/tests/test_plot3d.py"
+        ],
+        "number_of_comments": 0
+    },
+    "910": {
+        "closed_at": "2021-02-16T10:40:38Z",
+        "commit": "27c09271bf322da294fd25cb67b563c25cc1f33c",
+        "created_at": "2021-02-16T07:54:36Z",
+        "hours_to_resolution": "2.77",
+        "modified_files": [
+            "pygmt/src/coast.py"
+        ],
+        "number_of_comments": 0
+    },
+    "952": {
+        "closed_at": "2021-02-23T20:23:01Z",
+        "commit": "30befaf3537f9e91deffdfc97205e9dccc199091",
+        "created_at": "2021-02-22T06:25:35Z",
+        "hours_to_resolution": "37.96",
+        "modified_files": [
+            "pygmt/helpers/utils.py"
+        ],
+        "number_of_comments": 1
+    },
+    "960": {
+        "closed_at": "2021-03-03T22:17:22Z",
+        "commit": "52dbd7afb9f00d9eeab3b897ba4c6e11ede83819",
+        "created_at": "2021-02-24T02:36:22Z",
+        "hours_to_resolution": "187.68",
+        "modified_files": [
+            "pygmt/src/info.py",
+            "pygmt/tests/test_info.py"
+        ],
+        "number_of_comments": 3
+    },
+    "965": {
+        "closed_at": "2021-02-26T12:55:39Z",
+        "commit": "4db28ef6a06c07e9f2988da42b35166de06560e0",
+        "created_at": "2021-02-25T22:18:51Z",
+        "hours_to_resolution": "14.61",
+        "modified_files": [
+            "pygmt/datasets/earth_relief.py",
+            "pygmt/tests/test_datasets.py"
+        ],
+        "number_of_comments": 2
+    },
+    "974": {
+        "closed_at": "2021-02-27T00:36:01Z",
+        "commit": "6a6171e3efc112f2a8a86088e24caf932149e928",
+        "created_at": "2021-02-26T21:32:57Z",
+        "hours_to_resolution": "3.05",
+        "modified_files": [
+            "pygmt/clib/loading.py"
+        ],
+        "number_of_comments": 0
+    },
+    "977": {
+        "closed_at": "2021-03-06T04:54:11Z",
+        "commit": "dc757857ee77a98e3a2797f737a7b653c372dbed",
+        "created_at": "2021-02-28T03:22:27Z",
+        "hours_to_resolution": "145.53",
+        "modified_files": [
+            "pygmt/clib/loading.py",
+            "pygmt/tests/test_clib_loading.py"
+        ],
+        "number_of_comments": 1
+    },
+    "1062": {
+        "closed_at": "2021-04-06T16:40:13Z",
+        "commit": "d566ba676dd9280acdece2582e98d461fee39d35",
+        "created_at": "2021-03-15T04:00:40Z",
+        "hours_to_resolution": "540.66",
+        "modified_files": [
+            "pygmt/helpers/utils.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1116": {
+        "closed_at": "2021-06-14T05:29:11Z",
+        "commit": "64a34d231db1e8f6b077493f16aff9d39ec90e3b",
+        "created_at": "2021-03-24T04:45:06Z",
+        "hours_to_resolution": "1968.73",
+        "modified_files": [
+            "pygmt/figure.py",
+            "pygmt/tests/test_figure.py"
+        ],
+        "number_of_comments": 6
+    },
+    "1214": {
+        "closed_at": "2021-04-19T01:16:38Z",
+        "commit": "8274dc5279e8de7d76c826a776128a6e27ad571b",
+        "created_at": "2021-04-18T23:35:33Z",
+        "hours_to_resolution": "1.68",
+        "modified_files": [
+            "pygmt/src/subplot.py"
+        ],
+        "number_of_comments": 2
+    },
+    "1247": {
+        "closed_at": "2021-05-07T02:48:37Z",
+        "commit": "c795eeb6a728bcd893243745771a02b52ae401c2",
+        "created_at": "2021-04-27T21:26:10Z",
+        "hours_to_resolution": "221.37",
+        "modified_files": [
+            "pygmt/figure.py"
+        ],
+        "number_of_comments": 5
+    },
+    "1264": {
+        "closed_at": "2021-05-07T03:40:28Z",
+        "commit": "53b4e7416989e76be4ae2b19d352b076c4dd4fa1",
+        "created_at": "2021-05-07T03:06:49Z",
+        "hours_to_resolution": "0.56",
+        "modified_files": [
+            "pygmt/datasets/earth_relief.py",
+            "pygmt/tests/test_accessor.py",
+            "pygmt/tests/test_clib_put_matrix.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1329": {
+        "closed_at": "2021-06-20T02:05:04Z",
+        "commit": "d9df659f29e60596ac26643a8d7578b94d8b464f",
+        "created_at": "2021-06-11T03:30:06Z",
+        "hours_to_resolution": "214.58",
+        "modified_files": [
+            "pygmt/clib/session.py",
+            "pygmt/tests/test_histogram.py",
+            "pygmt/tests/test_info.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1369": {
+        "closed_at": "2021-07-09T21:32:59Z",
+        "commit": "60a92b3ee2cc37cf9277a2fd623cffd2b52abcba",
+        "created_at": "2021-07-05T00:18:07Z",
+        "hours_to_resolution": "117.25",
+        "modified_files": [
+            "pygmt/src/x2sys_cross.py",
+            "pygmt/tests/test_x2sys_cross.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1376": {
+        "closed_at": "2021-07-08T22:03:57Z",
+        "commit": "10dcad9462476cc31fbc77876b74a923f4bb4210",
+        "created_at": "2021-07-06T15:57:41Z",
+        "hours_to_resolution": "54.10",
+        "modified_files": [
+            "pygmt/src/grdtrack.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1484": {
+        "closed_at": "2021-09-12T08:42:49Z",
+        "commit": "b69fd0c36d872a57a3a9ca14232e366193e96fb7",
+        "created_at": "2021-09-04T04:48:01Z",
+        "hours_to_resolution": "195.91",
+        "modified_files": [
+            "pygmt/clib/conversion.py",
+            "pygmt/tests/test_clib.py"
+        ],
+        "number_of_comments": 3
+    },
+    "1487": {
+        "closed_at": "2022-03-13T15:46:29Z",
+        "commit": "b173c69ff065da485ac690a2fe1bcbfe01f599df",
+        "created_at": "2021-09-07T01:10:45Z",
+        "hours_to_resolution": "4502.60",
+        "modified_files": [
+            "examples/gallery/embellishments/legend.py",
+            "pygmt/figure.py",
+            "pygmt/helpers/utils.py",
+            "pygmt/src/config.py",
+            "pygmt/src/subplot.py",
+            "pygmt/src/text.py",
+            "pygmt/tests/baseline/test_basemap_utm_projection.png.dvc",
+            "pygmt/tests/baseline/test_config_format_date_map.png.dvc",
+            "pygmt/tests/baseline/test_rose_no_sectors.png.dvc",
+            "pygmt/tests/test_basemap.py",
+            "pygmt/tests/test_config.py",
+            "pygmt/tests/test_figure.py",
+            "pygmt/tests/test_grdproject.py",
+            "pygmt/tests/test_legend.py",
+            "pygmt/tests/test_psconvert.py",
+            "pygmt/tests/test_rose.py"
+        ],
+        "number_of_comments": 13
+    },
+    "1519": {
+        "closed_at": "2021-09-19T20:30:17Z",
+        "commit": "5fc9680d3af96fcd105ce0dacb4efe92b4605812",
+        "created_at": "2021-09-17T22:59:14Z",
+        "hours_to_resolution": "45.52",
+        "modified_files": [
+            "pygmt/src/blockm.py",
+            "pygmt/src/grdtrack.py",
+            "pygmt/src/histogram.py",
+            "pygmt/src/rose.py",
+            "pygmt/src/surface.py"
+        ],
+        "number_of_comments": 1
+    },
+    "1523": {
+        "closed_at": "2021-09-20T22:34:34Z",
+        "commit": "bafb8ab906aa87eb1dab3ce286b9baa91e145099",
+        "created_at": "2021-09-19T00:13:13Z",
+        "hours_to_resolution": "46.36",
+        "modified_files": [
+            "pygmt/clib/session.py",
+            "pygmt/helpers/utils.py",
+            "pygmt/tests/test_blockm.py",
+            "pygmt/tests/test_clib.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1526": {
+        "closed_at": "2021-10-07T23:28:04Z",
+        "commit": "0d07cccef60da5d4874bb2c55c9824ffd7faf646",
+        "created_at": "2021-09-19T06:31:29Z",
+        "hours_to_resolution": "448.94",
+        "modified_files": [
+            "pygmt/src/plot.py",
+            "pygmt/src/plot3d.py",
+            "pygmt/tests/test_plot.py",
+            "pygmt/tests/test_plot3d.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1530": {
+        "closed_at": "2021-10-04T07:11:26Z",
+        "commit": "7bd5a8f1329f6a7be7e9b987edac1793a3823b04",
+        "created_at": "2021-09-21T07:28:21Z",
+        "hours_to_resolution": "311.72",
+        "modified_files": [
+            "pygmt/clib/conversion.py",
+            "pygmt/tests/test_clib.py"
+        ],
+        "number_of_comments": 1
+    },
+    "1563": {
+        "closed_at": "2021-10-03T11:11:59Z",
+        "commit": "6aba9aea0484b1c9038a3ee63c3360d596401acb",
+        "created_at": "2021-10-03T09:33:37Z",
+        "hours_to_resolution": "1.64",
+        "modified_files": [
+            "pygmt/src/blockm.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1581": {
+        "closed_at": "2021-10-28T21:54:50Z",
+        "commit": "70f6f09a236a4921d146990bfad64e5536a1da17",
+        "created_at": "2021-10-13T02:45:00Z",
+        "hours_to_resolution": "379.16",
+        "modified_files": [
+            "pygmt/accessors.py",
+            "pygmt/tests/test_accessor.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1611": {
+        "closed_at": "2021-11-09T22:06:21Z",
+        "commit": "86137ce80615da5592a2699d7f13598dc4e06582",
+        "created_at": "2021-11-07T01:26:33Z",
+        "hours_to_resolution": "68.66",
+        "modified_files": [
+            "pygmt/src/meca.py",
+            "pygmt/tests/baseline/test_meca_gcmt_convention.png.dvc",
+            "pygmt/tests/test_meca.py"
+        ],
+        "number_of_comments": 2
+    },
+    "1667": {
+        "closed_at": "2021-12-15T02:19:14Z",
+        "commit": "387887b358b3639111b08fe752911031b1f35a8d",
+        "created_at": "2021-12-14T18:08:36Z",
+        "hours_to_resolution": "8.18",
+        "modified_files": [
+            "pygmt/src/grdsample.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1695": {
+        "closed_at": "2022-03-01T01:31:05Z",
+        "commit": "13065b308489adb1d90f8f22fa2bd9882f3c0491",
+        "created_at": "2022-01-06T08:01:23Z",
+        "hours_to_resolution": "1289.49",
+        "modified_files": [
+            "pygmt/helpers/testing.py",
+            "pygmt/src/plot.py",
+            "pygmt/src/plot3d.py",
+            "pygmt/tests/baseline/test_plot_shapefile.png.dvc",
+            "pygmt/tests/test_plot.py"
+        ],
+        "number_of_comments": 12
+    },
+    "1753": {
+        "closed_at": "2022-02-13T10:40:27Z",
+        "commit": "17105a3cc42fc755a1f75251a536ddc48e0aebe6",
+        "created_at": "2022-02-13T10:09:51Z",
+        "hours_to_resolution": "0.51",
+        "modified_files": [
+            "pygmt/src/blockm.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1804": {
+        "closed_at": "2022-03-12T14:23:06Z",
+        "commit": "5734902d1fbcd378a472d6cce8d570121f207391",
+        "created_at": "2022-03-11T14:27:28Z",
+        "hours_to_resolution": "23.93",
+        "modified_files": [
+            "pygmt/src/xyz2grd.py",
+            "pygmt/tests/test_xyz2grd.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1805": {
+        "closed_at": "2022-03-13T05:11:14Z",
+        "commit": "101a57d9adace4d3303e14c7e8907b95bbb756e8",
+        "created_at": "2022-03-12T14:28:30Z",
+        "hours_to_resolution": "14.71",
+        "modified_files": [
+            "pygmt/src/blockm.py",
+            "pygmt/src/grdfilter.py",
+            "pygmt/src/grdlandmask.py",
+            "pygmt/src/grdproject.py",
+            "pygmt/src/nearneighbor.py",
+            "pygmt/src/surface.py"
+        ],
+        "number_of_comments": 1
+    },
+    "1812": {
+        "closed_at": "2022-03-14T02:21:45Z",
+        "commit": "94681bd8d11ece29dcc92a588bf22bc041b2dd81",
+        "created_at": "2022-03-13T20:05:30Z",
+        "hours_to_resolution": "6.27",
+        "modified_files": [
+            "pygmt/src/grdhisteq.py",
+            "pygmt/tests/test_grdhisteq.py"
+        ],
+        "number_of_comments": 1
+    },
+    "1815": {
+        "closed_at": "2022-04-03T14:11:58Z",
+        "commit": "4cfe8137c263f0ba0fd485597dc72635b18c66d7",
+        "created_at": "2022-03-14T01:32:31Z",
+        "hours_to_resolution": "492.66",
+        "modified_files": [
+            "pygmt/helpers/utils.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1831": {
+        "closed_at": "2022-04-05T10:28:00Z",
+        "commit": "32063b4c1171b03065123372a3793cf8e5873903",
+        "created_at": "2022-03-18T13:47:49Z",
+        "hours_to_resolution": "428.67",
+        "modified_files": [
+            "pygmt/src/plot.py",
+            "pygmt/src/plot3d.py",
+            "pygmt/tests/test_plot.py",
+            "pygmt/tests/test_plot3d.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1857": {
+        "closed_at": "2022-04-04T20:04:57Z",
+        "commit": "722dae95974596be32082bbc7af041254da6f369",
+        "created_at": "2022-03-30T14:33:36Z",
+        "hours_to_resolution": "125.52",
+        "modified_files": [
+            "pygmt/src/grd2cpt.py",
+            "pygmt/src/grd2xyz.py",
+            "pygmt/src/grdgradient.py",
+            "pygmt/src/grdimage.py",
+            "pygmt/src/grdview.py",
+            "pygmt/src/makecpt.py",
+            "pygmt/src/plot.py",
+            "pygmt/src/plot3d.py",
+            "pygmt/src/project.py",
+            "pygmt/src/solar.py",
+            "pygmt/src/text.py",
+            "pygmt/src/velo.py",
+            "pygmt/tests/test_grd2xyz.py",
+            "pygmt/tests/test_grdgradient.py",
+            "pygmt/tests/test_grdimage.py",
+            "pygmt/tests/test_text.py"
+        ],
+        "number_of_comments": 12
+    },
+    "1862": {
+        "closed_at": "2022-04-05T10:27:47Z",
+        "commit": "6ee851b80b3efd360db3b18ecdf39197cc4aefaf",
+        "created_at": "2022-04-01T15:42:30Z",
+        "hours_to_resolution": "90.75",
+        "modified_files": [
+            "pygmt/src/nearneighbor.py",
+            "pygmt/src/sphdistance.py",
+            "pygmt/src/sphinterpolate.py",
+            "pygmt/src/surface.py",
+            "pygmt/src/text.py",
+            "pygmt/src/xyz2grd.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1867": {
+        "closed_at": "2022-06-06T05:48:24Z",
+        "commit": "ce737176f51aa9a898c6f385303cad1e1a2c6d5f",
+        "created_at": "2022-04-05T10:13:42Z",
+        "hours_to_resolution": "1483.58",
+        "modified_files": [
+            "pygmt/src/grdtrack.py",
+            "pygmt/tests/test_grdtrack.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1872": {
+        "closed_at": "2022-04-07T00:18:22Z",
+        "commit": "3841bb6ff98b584a7dbcdbd94db296c419388fc8",
+        "created_at": "2022-04-06T14:53:33Z",
+        "hours_to_resolution": "9.41",
+        "modified_files": [
+            "pygmt/figure.py",
+            "pygmt/src/grdclip.py",
+            "pygmt/src/grdcut.py",
+            "pygmt/src/grdfill.py",
+            "pygmt/src/grdfilter.py",
+            "pygmt/src/grdlandmask.py",
+            "pygmt/src/grdproject.py",
+            "pygmt/src/grdsample.py",
+            "pygmt/src/info.py",
+            "pygmt/src/legend.py",
+            "pygmt/src/sph2grd.py",
+            "pygmt/src/sphdistance.py",
+            "pygmt/src/xyz2grd.py"
+        ],
+        "number_of_comments": 0
+    },
+    "1913": {
+        "closed_at": "2022-05-04T04:42:38Z",
+        "commit": "d8a7f9e38cbf2dc94b948d2a93516c3e8bcbf9e2",
+        "created_at": "2022-05-03T10:21:09Z",
+        "hours_to_resolution": "18.36",
+        "modified_files": [
+            "pygmt/accessors.py"
+        ],
+        "number_of_comments": 0
+    }
+}

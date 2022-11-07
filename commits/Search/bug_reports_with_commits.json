@@ -1,0 +1,190 @@
+{
+    "115": {
+        "closed_at": "2020-08-20T15:49:58Z",
+        "commit": "0f36eb41c368e1ac2789a7ebab2ba9ff6fc98bca",
+        "created_at": "2020-08-18T13:56:49Z",
+        "hours_to_resolution": "49.89",
+        "modified_files": [
+            "src/bbsearch/database/cord_19.py",
+            "tests/conftest.py",
+            "tests/test_database/test_cord_19.py",
+            "tests/test_fixtures.py"
+        ],
+        "number_of_comments": 0
+    },
+    "126": {
+        "closed_at": "2020-08-26T15:46:17Z",
+        "commit": "2b4da58b6a9ee947db320ce87d1c68a65e42ebef",
+        "created_at": "2020-08-26T13:39:53Z",
+        "hours_to_resolution": "2.11",
+        "modified_files": [
+            "tests/test_database/test_mining_cache.py",
+            "tox.ini"
+        ],
+        "number_of_comments": 0
+    },
+    "136": {
+        "closed_at": "2020-09-29T14:48:37Z",
+        "commit": "96e4051048b1c0c0a252ccd6a264666cb920a51f",
+        "created_at": "2020-09-22T12:52:11Z",
+        "hours_to_resolution": "169.94",
+        "modified_files": [
+            "src/bbsearch/database/cord_19.py",
+            "tests/test_database/test_cord_19.py"
+        ],
+        "number_of_comments": 6
+    },
+    "173": {
+        "closed_at": "2020-11-27T14:56:43Z",
+        "commit": "2d41e5c46ef4e5c1ce21e6d2161e33d984abca96",
+        "created_at": "2020-11-27T10:12:41Z",
+        "hours_to_resolution": "4.73",
+        "modified_files": [
+            "docker/mining.Dockerfile",
+            "docker/search.Dockerfile",
+            "notebooks/BBS_BBG_poc.ipynb",
+            "src/bbsearch/database/mining_cache.py",
+            "src/bbsearch/server/mining_server.py",
+            "src/bbsearch/widgets/mining_widget.py",
+            "tests/test_database/test_mining_cache.py"
+        ],
+        "number_of_comments": 1
+    },
+    "255": {
+        "closed_at": "2021-02-25T17:49:05Z",
+        "commit": "4272c699d160897c506c851c5a62ab5ea06a36df",
+        "created_at": "2021-02-23T13:53:00Z",
+        "hours_to_resolution": "51.93",
+        "modified_files": [
+            "README.md",
+            "docker/base.Dockerfile",
+            "setup.py"
+        ],
+        "number_of_comments": 3
+    },
+    "302": {
+        "closed_at": "2021-03-16T15:35:38Z",
+        "commit": "fa1331c98c8823ec85c5b3d92d58e99ab6010574",
+        "created_at": "2021-03-16T13:38:25Z",
+        "hours_to_resolution": "1.95",
+        "modified_files": [
+            "src/bluesearch/database/mining_cache.py"
+        ],
+        "number_of_comments": 0
+    },
+    "362": {
+        "closed_at": "2021-05-07T13:20:03Z",
+        "commit": "1115a3f340a2646f8af77d477a7b0ec617718e4b",
+        "created_at": "2021-05-07T11:22:44Z",
+        "hours_to_resolution": "1.96",
+        "modified_files": [
+            "src/bluesearch/mining/eval.py"
+        ],
+        "number_of_comments": 0
+    },
+    "390": {
+        "closed_at": "2021-07-05T07:33:06Z",
+        "commit": "58a50185be5d05b661c1a7fa5f3a78f3e5adda95",
+        "created_at": "2021-06-25T12:13:54Z",
+        "hours_to_resolution": "235.32",
+        "modified_files": [
+            "src/bluesearch/mining/eval.py"
+        ],
+        "number_of_comments": 5
+    },
+    "404": {
+        "closed_at": "2021-07-19T08:30:31Z",
+        "commit": "9b57a0ab253ee98eda1269ba5bced1c495c4b6b6",
+        "created_at": "2021-07-15T15:56:39Z",
+        "hours_to_resolution": "88.56",
+        "modified_files": [
+            "data_and_models/pipelines/sentence_embedding/dvc.lock",
+            "data_and_models/pipelines/sentence_embedding/dvc.yaml",
+            "docs/source/whatsnew.rst"
+        ],
+        "number_of_comments": 2
+    },
+    "417": {
+        "closed_at": "2021-08-16T12:24:44Z",
+        "commit": "eb74fdc418e6d1d4984b4dee2e16362d05d28026",
+        "created_at": "2021-08-04T09:11:20Z",
+        "hours_to_resolution": "291.22",
+        "modified_files": [
+            "docker/embedding.Dockerfile",
+            "docker/mining.sh",
+            "docker/search.Dockerfile",
+            "setup.py",
+            "src/bluesearch/entrypoint/__init__.py",
+            "src/bluesearch/entrypoint/compute_embeddings.py",
+            "src/bluesearch/entrypoint/create_database.py",
+            "src/bluesearch/entrypoint/create_mining_cache.py",
+            "tests/test_entrypoint/test_compute_embeddings.py",
+            "tests/test_entrypoint/test_create_database.py",
+            "tests/test_entrypoint/test_create_mining_cache.py",
+            "tests/test_entrypoint/test_embedding_server.py",
+            "tests/test_entrypoint/test_mining_server.py",
+            "tests/test_entrypoint/test_search_sever.py"
+        ],
+        "number_of_comments": 0
+    },
+    "437": {
+        "closed_at": "2021-09-17T15:49:13Z",
+        "commit": "35158d31387fbab5a9c6439e50325aca50d8ac51",
+        "created_at": "2021-09-08T16:23:47Z",
+        "hours_to_resolution": "215.42",
+        "modified_files": [
+            "src/bluesearch/database/article.py",
+            "tests/unit/database/test_article.py"
+        ],
+        "number_of_comments": 2
+    },
+    "462": {
+        "closed_at": "2021-09-30T08:15:32Z",
+        "commit": "a494a99d89943a38944ba4314a255368f00dece1",
+        "created_at": "2021-09-29T15:09:37Z",
+        "hours_to_resolution": "17.10",
+        "modified_files": [
+            "docs/source/whatsnew.rst",
+            "src/bluesearch/entrypoint/database/add.py",
+            "tests/unit/entrypoint/database/test_add.py"
+        ],
+        "number_of_comments": 0
+    },
+    "470": {
+        "closed_at": "2021-10-15T08:13:48Z",
+        "commit": "25ffaa41323946aa6596b91fba66003dbd840a1c",
+        "created_at": "2021-10-13T16:14:23Z",
+        "hours_to_resolution": "39.99",
+        "modified_files": [
+            "docs/source/whatsnew.rst",
+            "src/bluesearch/database/article.py",
+            "tests/data/pubmed_article.xml"
+        ],
+        "number_of_comments": 0
+    },
+    "472": {
+        "closed_at": "2021-10-19T15:09:03Z",
+        "commit": "12bd07a26aa0c8ceb32f55b7c7d9449bf57870e7",
+        "created_at": "2021-10-18T13:56:28Z",
+        "hours_to_resolution": "25.21",
+        "modified_files": [
+            "tests/integration/test_bbs_database.py"
+        ],
+        "number_of_comments": 0
+    },
+    "556": {
+        "closed_at": "2022-01-25T08:15:47Z",
+        "commit": "8fe7c123e178ec91beacdf3e5f7371d8febcdf69",
+        "created_at": "2022-01-24T10:57:57Z",
+        "hours_to_resolution": "21.30",
+        "modified_files": [
+            "src/bluesearch/mining/entity.py",
+            "src/bluesearch/server/mining_server.py",
+            "src/bluesearch/sql.py",
+            "src/bluesearch/widgets/article_saver.py",
+            "src/bluesearch/widgets/mining_schema.py",
+            "tests/unit/mining/test_eval.py"
+        ],
+        "number_of_comments": 0
+    }
+}

@@ -1,0 +1,1855 @@
+{
+    "1512910bf4595b57f86d5f9dad2f36c4c14cc0d6": {
+        "committer_date": "2019-10-09 16:49:04+13:00",
+        "author_date": "2019-10-09 16:49:04+13:00",
+        "commit_message": ":robot: Add stickler style checker configured for black code style\n\nAdhering to the [black](https://github.com/psf/black) code style. Set fixer to false to disable it from automatically linting for us (i.e. it will complain, but not commit changes).",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": ".stickler.yml",
+                "old_path": null,
+                "new_path": ".stickler.yml",
+                "nloc": null
+            }
+        ]
+    },
+    "90e6d124b310069334d1ad61200dbd648b9dc8fc": {
+        "committer_date": "2019-10-23 12:09:24+13:00",
+        "author_date": "2019-10-23 12:09:24+13:00",
+        "commit_message": ":heavy_plus_sign: Add geoviews with cartopy et al.\n\nGeographic visualizations for HoloViews! Repository at https://github.com/pyviz/geoviews. Note that we're installing some sub-dependencies from conda instead of pipenv here, and thereby compromising some hash-based reproducibility offered by the Pipfile.lock file because of the reason below.\n\nCartopy which geoviews depends on is a real pain to install via pipenv (trust me, I tried, see also https://github.com/SciTools/cartopy/issues/738), so we'll maybe wait for 0.18.0 to come out and see if it gets fixed then, sigh. The problem I think, lies with Cartopy, Shapely and PyProj all having to link themselves to the PROJ and GEOS library somehow. At a minimum, it seems that installing just Shapely and PROJ using conda works, while we use pipenv to get the latest Cartopy from github alongside it's dependencies cython, pyepsg and pyproj (see https://github.com/SciTools/cartopy/issues/738).",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "Pipfile",
+                "old_path": "Pipfile",
+                "new_path": "Pipfile",
+                "nloc": null
+            },
+            {
+                "file_name": "Pipfile.lock",
+                "old_path": "Pipfile.lock",
+                "new_path": "Pipfile.lock",
+                "nloc": null
+            },
+            {
+                "file_name": "environment.yml",
+                "old_path": "environment.yml",
+                "new_path": "environment.yml",
+                "nloc": null
+            }
+        ]
+    },
+    "58fdcdffba5be03a12f29a6a7e1fd3f16a893586": {
+        "committer_date": "2019-12-26 10:42:49+13:00",
+        "author_date": "2019-12-26 10:42:49+13:00",
+        "commit_message": ":heavy_plus_sign: Add cuspatial\n\nCUDA-accelerated GIS and spatiotemporal algorithms! Also need to update proj from 6.2.0 to 6.2.1 to resolve dependency problems faced in https://github.com/weiji14/deepicedrain/runs/363415413.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "environment.yml",
+                "old_path": "environment.yml",
+                "new_path": "environment.yml",
+                "nloc": null
+            }
+        ]
+    },
+    "c26903f5d39ca5cbdd0e4e16033c990b4fa95cd5": {
+        "committer_date": "2019-12-26 18:24:37+13:00",
+        "author_date": "2019-12-26 18:24:37+13:00",
+        "commit_message": ":card_file_box: Initial intake catalog for ICESat-2 ATL06 data\n\nMaking sense of the ICESat-2 ATL06 directory structure through a intake YAML catalog. Uses a path_as_pattern regex string to break down the long filepath into its constituent meanings, and the file will also be cached on first download. The HDF (.h5) files are read using xarray's NetCDF driver, and we've got some hardcoded (but changeable) variables for the date (up to 2019.06.26, right before the safe-hold period from 2019.06.26 to 2019.07.09), orbital segment (10,11,12 are specific to Antarctica) and laser (gt2l is the center 'left' beam out of the 6). There's also a hvplot quickview that can be used to plot a sample of the points (using default settings) on a bokeh map.\n\nThe Python code to actually use this catalog will follow later. Note that ERS authentication is needed to download data mentioned in this catalog from NSIDC! Just wanted to commit this >2 month old work into git. Been messing around too much with OPeNDAP, Directory caching, and other things.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "catalog.yaml",
+                "old_path": null,
+                "new_path": "catalog.yaml",
+                "nloc": null
+            }
+        ]
+    },
+    "c565ae6fe426fb962665911c7cd4283b71460e61": {
+        "committer_date": "2020-03-07 14:42:49+13:00",
+        "author_date": "2020-03-07 14:42:49+13:00",
+        "commit_message": ":arrow_up: Bump proj from 6.2.1 to 6.3.0, remove shapely from conda\n\nBumps [proj](https://github.com/OSGeo/PROJ) from 6.2.1 to 6.3.0. Also remove shapely from conda environment.yml file since we have the newer, less buggy 0.17.0 version in our Pipfile already. Fixes issue that was in 90e6d124b310069334d1ad61200dbd648b9dc8fc.\n- [Release notes](https://github.com/OSGeo/PROJ/releases)\n- [Changelog](https://github.com/OSGeo/PROJ/blob/master/NEWS)\n- [Commits](https://github.com/OSGeo/PROJ/compare/6.2.1...6.3.0)",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "environment.yml",
+                "old_path": "environment.yml",
+                "new_path": "environment.yml",
+                "nloc": null
+            }
+        ]
+    },
+    "728405f07cff793d772416e2909f303c188009f1": {
+        "committer_date": "2020-03-09 20:34:13+13:00",
+        "author_date": "2020-03-09 20:34:13+13:00",
+        "commit_message": ":boom: Change Python package management from Pipenv to Poetry\n\nAttempt to streamline our Python package management process a bit. Pipenv still rocks some nice features like environmental variable management, but Poetry can recognize (and somewhat use) conda environments as of v1.0.0 so time to move on! The Pipfile is replaced with pyproject.toml, and Pipfile.lock is replaced with poetry.lock. Installation instructions added to README.md for good measure.\n\nYou'll notice that the Dockerfile points to using `conda activate deepicedrain` instead of `conda activate base` now, because poetry doesn't use do the auto virtualenv detect in the `base` environment. There's probably more room to refactor the Dockerfile later (e.g. using `conda run` now that `pipenv shell` is not needed). Dependency-wise, note that we've bump cartopy from 0.17.0-174-g0e5eef8 to 0.18.0b1, and pinned numcodecs to <=0.6.3 (and dask 2.3.2 as a result) because of compilation issues.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "Dockerfile",
+                "old_path": "Dockerfile",
+                "new_path": "Dockerfile",
+                "nloc": null
+            },
+            {
+                "file_name": "Pipfile",
+                "old_path": "Pipfile",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "Pipfile.lock",
+                "old_path": "Pipfile.lock",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "README.md",
+                "old_path": "README.md",
+                "new_path": "README.md",
+                "nloc": null
+            },
+            {
+                "file_name": "environment.yml",
+                "old_path": "environment.yml",
+                "new_path": "environment.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "poetry.lock",
+                "old_path": null,
+                "new_path": "poetry.lock",
+                "nloc": null
+            },
+            {
+                "file_name": "pyproject.toml",
+                "old_path": null,
+                "new_path": "pyproject.toml",
+                "nloc": null
+            }
+        ]
+    },
+    "32afc69b2c9efbf4333265bb33f1ba4e7c4a89a2": {
+        "committer_date": "2020-03-26 08:46:44+13:00",
+        "author_date": "2020-03-26 08:46:44+13:00",
+        "commit_message": ":arrow_up::lock: Bump bleach from 3.1.1 to 3.1.2 (#10)\n\nBumps [bleach](https://github.com/mozilla/bleach) from 3.1.1 to 3.1.2. **This update includes a security fix.**\n- [Release notes](https://github.com/mozilla/bleach/releases)\n- [Changelog](https://github.com/mozilla/bleach/blob/master/CHANGES)\n- [Commits](https://github.com/mozilla/bleach/compare/v3.1.1...v3.1.2)\n\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            }
+        ]
+    },
+    "ab06830e6b697717507dba33dd1953911903a0bc": {
+        "committer_date": "2020-03-30 12:27:03+13:00",
+        "author_date": "2020-03-30 12:27:03+13:00",
+        "commit_message": ":arrow_up: Bump buildpack-deps from bionic to focal\n\nBumps buildpack-deps from Bionic Beaver 18.04 to Focal Fossa 20.04! Defaults to Python 3.8! Release notes at https://wiki.ubuntu.com/FocalFossa/ReleaseNotes.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "Dockerfile",
+                "old_path": "Dockerfile",
+                "new_path": "Dockerfile",
+                "nloc": null
+            }
+        ]
+    },
+    "3f8c4654b7ef85069b4c7a888f2e4e349b4a596c": {
+        "committer_date": "2020-05-07 22:03:44+12:00",
+        "author_date": "2020-05-07 22:03:44+12:00",
+        "commit_message": ":sparkles: Generic ICESat2 ATLAS Downloader for Antarctica\n\nAbout a quarter of the way through downloading ~2TB? of ICESat2 ATL06 version 3 data all over Antarctica, but let's introduce icesat2atlasdownloader first shall we? This baby allows us to download any ICESat-2/ATLAS product, for any given date, hardcoded to Orbital Segments 10, 11, 12 (i.e. Antarctica), and oh yeah, it does so by 'caching' the remote data locally using intake/fsspec. Tie that up with a highly parallelized dask task scheduler, complete with tqdm progress bars, and I'll just need to sit back and wait until everything is downloaded next morning.\n\nAgain, this code was worked on pre-covid19, but there were issues with the intake cache mechanism back then. You won't know it, but changing from using intake-specific cache (that is deprecated, messy, and puts a unconfigurable 'hash' in the filepath, though with nice dask parallelization abilities) to fsspec-specific 'simplecache' (more configurable, no hash in filepath, though it requires writing own parallelization code) is a delight! It enables us to download a list of orbital segments (10, 11, 12) instead of just 11 before. Download is parallelized using dask futures, with progress tracked using tqdm (or in the dask dashboard). The main difference between icesat2atlasdownloader and icesat2atl06 is that the former doesn't read into the laser group but the latter does (and is prone to pandas IndexErrors from duplicated index dates).\n\nWith version 3 of ATL06, the max date has gone from 2019.11.15 to 2020.03.06, or about 1 cycle more. Changes documented at https://nsidc.org/data/atl06/versions/3. They seem to have removed some noisy points it seems, will need to do some Exploratory Data Analysis after downloads are done.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atl06_play.ipynb",
+                "old_path": "atl06_play.ipynb",
+                "new_path": "atl06_play.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "catalog.yaml",
+                "old_path": "catalog.yaml",
+                "new_path": "catalog.yaml",
+                "nloc": null
+            }
+        ]
+    },
+    "dc0f70e3ec533aef4c73a87e4fe351f20333795a": {
+        "committer_date": "2020-05-08 14:01:29+12:00",
+        "author_date": "2020-05-08 14:01:29+12:00",
+        "commit_message": ":bug: Handle missing ATL06.003 data on 2019.12.09\n\nNot sure why that 2019.12.09 date is missing in ATL06 version 3, it was in version 2! Doing some error management, and ensure that we check all downloads are completed.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atl06_play.ipynb",
+                "old_path": "atl06_play.ipynb",
+                "new_path": "atl06_play.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "catalog.yaml",
+                "old_path": "catalog.yaml",
+                "new_path": "catalog.yaml",
+                "nloc": null
+            }
+        ]
+    },
+    "e0208cfb145345c9d665860f327e53cc9191e06a": {
+        "committer_date": "2020-05-17 15:28:05+12:00",
+        "author_date": "2020-05-17 15:28:05+12:00",
+        "commit_message": ":truck: Embed xarray metadata in Zarr files, split atl11_play notebooks\n\nBundle our ATL11 Zarr files properly so that xarray can read it! The direct Zarr based conversion takes too long (11 hours) and doesn't include xarray mandated attributes (see http://xarray.pydata.org/en/v0.15.1/io.html#zarr), so we're doing the conversion using xarray instead. The ATL11 group structure is a mess to read in parallel, so we're lumping all the laser (pt1/pt2/pt3) attributes (corrected_h/ref_surf) into a 'pt123' group. Also splitting atl11_play.ipynb to atl06_to_atl11.ipynb (for the conversion code) and atl11_play_old.ipynb (where the actual ATL11 fun is)!\n\nLengthier HDF5 to Zarr conversion code is a lot more parallelized (~30 min instead of 11 hours) using dask, though we're losing some of the metadata fields. The data are now all consolidated into a single .zarr file for each reference ground track. So for each orbital segment (10, 11, 12), and each laser pair (pt1, pt2, pt3), all attributes (e.g. longitude, latitude, h_corr, delta_time, etc) are concatenated together along the 'ref_pt' variable. In other words, a much flatter database structure!",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atl06_to_atl11.ipynb",
+                "old_path": null,
+                "new_path": "atl06_to_atl11.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl06_to_atl11.py",
+                "old_path": null,
+                "new_path": "atl06_to_atl11.py",
+                "nloc": 132
+            },
+            {
+                "file_name": "atl11_play_old.ipynb",
+                "old_path": "atl11_play.ipynb",
+                "new_path": "atl11_play_old.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl11_play_old.py",
+                "old_path": "atl11_play.py",
+                "new_path": "atl11_play_old.py",
+                "nloc": 184
+            }
+        ]
+    },
+    "02b7db3b716d7f6bf5b899c59fafa6aaf61333d1": {
+        "committer_date": "2020-05-19 12:50:49+12:00",
+        "author_date": "2020-05-19 12:50:49+12:00",
+        "commit_message": ":dizzy: Interactive plot of ICESat-2 ATL11 heights at Cycle 6\n\nInteractive plotting of ICESat-2 ATL11 corrected heights over Antarctica using HvPlot/Holoviews! Data loaded in from multiple ATL11 Zarr files (real nice), and subsetted to Cycle 6 (March 2020) for plotting. Also reprojected longitude/latitude coordinates to EPSG:3031 x/y, and figured out how to convert the GPS delta_time to UTC datetime. TODO calculate and plot height changes between cycles.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atl11_play.ipynb",
+                "old_path": "atl11_play_old.ipynb",
+                "new_path": "atl11_play.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl11_play.py",
+                "old_path": "atl11_play_old.py",
+                "new_path": "atl11_play.py",
+                "nloc": 234
+            }
+        ]
+    },
+    "c18f47b6f46dafdf598038b21d95c3ee5d717f7d": {
+        "committer_date": "2020-05-23 14:05:37+12:00",
+        "author_date": "2020-05-23 14:05:37+12:00",
+        "commit_message": ":pushpin: Just install snappy C library from conda\n\nRemoves duplication of python-snappy in conda and poetry, by just installing the snappy C library from conda-forge, and then pip installing python-snappy. Fixes issue in c8c54e88a5d19cd3250a53694cae5a8b371049dc where python-snappy library won't compile. See https://stackoverflow.com/questions/42979544/how-to-install-snappy-c-libraries-on-windows-10-for-use-with-python-snappy-in-an/50948411#50948411.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "environment.yml",
+                "old_path": "environment.yml",
+                "new_path": "environment.yml",
+                "nloc": null
+            }
+        ]
+    },
+    "df57c2d0b4914f9be77795e6ed5081347e2c9320": {
+        "committer_date": "2020-05-28 10:41:58+12:00",
+        "author_date": "2020-05-28 10:41:58+12:00",
+        "commit_message": ":white_check_mark: Generalize delta change calculation to any variable\n\nImplement a generic delta change calculator function for ATL11 datasets, based on the calculate_delta_height function in atl11_play.py. The 'h_corr' and 'delta_time' variables are tested here using a sample ATL11_*.h5 file from https://github.com/suzanne64/ATL11, which is nicely catalogued in test_catalog.yaml! This allows us to use intake in a pytest fixture to load the dataset and run some proper tests.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atl11_play.ipynb",
+                "old_path": "atl11_play.ipynb",
+                "new_path": "atl11_play.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl11_play.py",
+                "old_path": "atl11_play.py",
+                "new_path": "atl11_play.py",
+                "nloc": 390
+            },
+            {
+                "file_name": "__init__.py",
+                "old_path": "deepicedrain\\__init__.py",
+                "new_path": "deepicedrain\\__init__.py",
+                "nloc": 3
+            },
+            {
+                "file_name": "deltamath.py",
+                "old_path": null,
+                "new_path": "deepicedrain\\deltamath.py",
+                "nloc": 24
+            },
+            {
+                "file_name": "test_calculate_delta.py",
+                "old_path": null,
+                "new_path": "tests\\test_calculate_delta.py",
+                "nloc": 40
+            },
+            {
+                "file_name": "test_catalog.yaml",
+                "old_path": null,
+                "new_path": "tests\\test_catalog.yaml",
+                "nloc": null
+            }
+        ]
+    },
+    "7ea9c8d656bded03867c2d1409ef3b522ceb790b": {
+        "committer_date": "2020-05-28 22:52:52+12:00",
+        "author_date": "2020-05-28 22:52:52+12:00",
+        "commit_message": ":truck: Import ATLAS intake catalog, with ATL11 test data included\n\nEnable importing of the ATLAS intake catalog straight from deepicedrain! This functions almost like a test fixture, enabling us to easily load ICESat-2 data easily in our scripts. I.e. keeping things DRY. Managed to get rid of the pytest fixture in test_calculate_delta.py which did the sample data loading from the catalog before. Renamed the very generic catalog.yaml to a slightly less generic atlas_catalog.yaml. Added some description metadata to that catalog file, and include nested in at11_test_case. Also ignoring .h5 data files now.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": ".gitignore",
+                "old_path": ".gitignore",
+                "new_path": ".gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "atl06_play.ipynb",
+                "old_path": "atl06_play.ipynb",
+                "new_path": "atl06_play.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl06_play.py",
+                "old_path": "atl06_play.py",
+                "new_path": "atl06_play.py",
+                "nloc": 236
+            },
+            {
+                "file_name": "atlas_catalog.yaml",
+                "old_path": "catalog.yaml",
+                "new_path": "atlas_catalog.yaml",
+                "nloc": null
+            },
+            {
+                "file_name": "__init__.py",
+                "old_path": "deepicedrain\\__init__.py",
+                "new_path": "deepicedrain\\__init__.py",
+                "nloc": 7
+            },
+            {
+                "file_name": "test_calculate_delta.py",
+                "old_path": "tests\\test_calculate_delta.py",
+                "new_path": "tests\\test_calculate_delta.py",
+                "nloc": 35
+            }
+        ]
+    },
+    "10e5d724ad01fa7b7106a819b05ab458d8ed57e8": {
+        "committer_date": "2020-05-31 12:02:35+12:00",
+        "author_date": "2020-05-31 12:02:35+12:00",
+        "commit_message": ":package: Flatten the ATL11z123 Zarr store directory structure\n\nNot really a point in having a 'pt123' group in the ATL11*.zarr files, if it's the only one inside! Better to just open the Zarr folder and see all the variables directly. This is really just a cosmetic change, shaving out a line of code in some places. Bumped up pytx from 2019.3 to 2020.1 in order for tests to pass, will submit a proper fix after this.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atl06_to_atl11.ipynb",
+                "old_path": "atl06_to_atl11.ipynb",
+                "new_path": "atl06_to_atl11.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl06_to_atl11.py",
+                "old_path": "atl06_to_atl11.py",
+                "new_path": "atl06_to_atl11.py",
+                "nloc": 129
+            },
+            {
+                "file_name": "atl11_play.ipynb",
+                "old_path": "atl11_play.ipynb",
+                "new_path": "atl11_play.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl11_play.py",
+                "old_path": "atl11_play.py",
+                "new_path": "atl11_play.py",
+                "nloc": 201
+            },
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            }
+        ]
+    },
+    "4aabf6e3cb0417f31356468cfa362459ebd039c1": {
+        "committer_date": "2020-05-31 12:09:41+12:00",
+        "author_date": "2020-05-31 12:09:41+12:00",
+        "commit_message": ":bug: Exclude deepicedrain package from being cached by CI\n\nFixes the annoying having to 'bump random dependencies' with every commit to make tests pass. This bugfix should ensure we re-install deepicedrain everytime, while keeping the cache on external python packages. Extends be98dde1595c1fe2a6d0e241ab9b7ddf367d8532.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "python-app.yml",
+                "old_path": ".github\\workflows\\python-app.yml",
+                "new_path": ".github\\workflows\\python-app.yml",
+                "nloc": null
+            }
+        ]
+    },
+    "dedd0f4b8ee8765e6ad594d5aba52dceacdf9b8a": {
+        "committer_date": "2020-05-31 21:12:16+12:00",
+        "author_date": "2020-05-31 21:12:16+12:00",
+        "commit_message": ":chart_with_upwards_trend: Calculate dhdt using nan_linregress\n\nPerforming linear regression in parallel, on 10 million points, in about 3 minutes, plus a few extra minutes of preprocessing time. Again, the rate of height change over time is just based on an ordinary least squares linear regression algorithm, nothing too fancy. The `nan_linregress` function (which wraps around scipy.stats.linregress) accounts for NaN values by masking them out, and the linregress results are placed into a single numpy.ndarray so that we can parallelize it using xr.apply_ufunc. This is based on a lot of research, looking at stackoverflow answers and people's Github code snippets (all linked in the Pull Request).\n\nWill need to refactor a lot of elements in the coming week to keep things DRY, e.g. collapsing the datashade functionality into a one-liner. Probably need more tests too, and I've added test_nanptp_with_nan for good measure. Also patched Github Actions CI again 4aabf6e3cb0417f31356468cfa362459ebd039c1 that was missing the actual `--no-root` statement.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "python-app.yml",
+                "old_path": ".github\\workflows\\python-app.yml",
+                "new_path": ".github\\workflows\\python-app.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_dhdt.ipynb",
+                "old_path": "atlxi_dhdt.ipynb",
+                "new_path": "atlxi_dhdt.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_dhdt.py",
+                "old_path": "atlxi_dhdt.py",
+                "new_path": "atlxi_dhdt.py",
+                "nloc": 156
+            },
+            {
+                "file_name": "__init__.py",
+                "old_path": "deepicedrain\\__init__.py",
+                "new_path": "deepicedrain\\__init__.py",
+                "nloc": 13
+            },
+            {
+                "file_name": "deltamath.py",
+                "old_path": "deepicedrain\\deltamath.py",
+                "new_path": "deepicedrain\\deltamath.py",
+                "nloc": 54
+            },
+            {
+                "file_name": "test_nanlinregress.py",
+                "old_path": null,
+                "new_path": "deepicedrain\\tests\\test_nanlinregress.py",
+                "nloc": 26
+            },
+            {
+                "file_name": "test_nanptp.py",
+                "old_path": "deepicedrain\\tests\\test_nanptp.py",
+                "new_path": "deepicedrain\\tests\\test_nanptp.py",
+                "nloc": 20
+            }
+        ]
+    },
+    "b7447c122faf5268f3485cc35002ec3f476966b8": {
+        "committer_date": "2020-06-02 15:36:27+12:00",
+        "author_date": "2020-06-02 15:36:27+12:00",
+        "commit_message": ":art: Datashade points to grids with the correct aspect ratio\n\nPutting the datashader functionality into the Region class, so that we can make use of the bounding box information! Takes in a pandas.DataFrame table of x, y, z points, and outputs an xarray.DataArray grid for visualization purposes at the pre-set scale. Do some simple algebra math to set the correct aspect ratio with only plot_width as input. Standardized on the variable names to be ds_* for xarray.Datasets and df_* for pandas.Dataframes. Storing all of the intermediate Zarr and Parquet data files into an ATLXI folder. Will update plots in another commit once I sort out some issues, and maybe start a new file called visualization.py to handle the plotting code.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atl11_play.ipynb",
+                "old_path": "atl11_play.ipynb",
+                "new_path": "atl11_play.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl11_play.py",
+                "old_path": "atl11_play.py",
+                "new_path": "atl11_play.py",
+                "nloc": 194
+            },
+            {
+                "file_name": "atlxi_dhdt.ipynb",
+                "old_path": "atlxi_dhdt.ipynb",
+                "new_path": "atlxi_dhdt.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_dhdt.py",
+                "old_path": "atlxi_dhdt.py",
+                "new_path": "atlxi_dhdt.py",
+                "nloc": 146
+            },
+            {
+                "file_name": "spatiotemporal.py",
+                "old_path": "deepicedrain\\spatiotemporal.py",
+                "new_path": "deepicedrain\\spatiotemporal.py",
+                "nloc": 108
+            },
+            {
+                "file_name": "test_region.py",
+                "old_path": "deepicedrain\\tests\\test_region.py",
+                "new_path": "deepicedrain\\tests\\test_region.py",
+                "nloc": 47
+            }
+        ]
+    },
+    "9cc397a5d5825ec59bbac290a3c707a2b94cf525": {
+        "committer_date": "2020-06-02 20:37:05+12:00",
+        "author_date": "2020-06-02 20:37:05+12:00",
+        "commit_message": ":recycle: Refactor dhdt linear regression code and update plots\n\nTidy up our rate of height change over time (dhdt) code, putting them into an xarray.Dataset with proper names, and keeping things snappy by using chunks when reading intermediate Zarr stores. The hrange and dhdt plots have been updated to use the correct datashaded image aspect ratio as promised, both in the notebooks and the README.md! Also fixed coordinates of Kamb Ice Stream, as they were actually at Whillans Ice Stream, rookie x/y mistake.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "README.md",
+                "old_path": "README.md",
+                "new_path": "README.md",
+                "nloc": null
+            },
+            {
+                "file_name": "atl11_play.ipynb",
+                "old_path": "atl11_play.ipynb",
+                "new_path": "atl11_play.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl11_play.py",
+                "old_path": "atl11_play.py",
+                "new_path": "atl11_play.py",
+                "nloc": 196
+            },
+            {
+                "file_name": "atlxi_dhdt.ipynb",
+                "old_path": "atlxi_dhdt.ipynb",
+                "new_path": "atlxi_dhdt.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_dhdt.py",
+                "old_path": "atlxi_dhdt.py",
+                "new_path": "atlxi_dhdt.py",
+                "nloc": 148
+            },
+            {
+                "file_name": "test_region.py",
+                "old_path": "deepicedrain\\tests\\test_region.py",
+                "new_path": "deepicedrain\\tests\\test_region.py",
+                "nloc": 47
+            }
+        ]
+    },
+    "c23646f6ef42fad9c07ebd6b1d4d19b6905fa2c6": {
+        "committer_date": "2020-06-04 16:16:16+12:00",
+        "author_date": "2020-06-04 16:16:16+12:00",
+        "commit_message": ":ambulance: Fix missing code cell preventing intake catalog load\n\nQuickfix to ensure we can load the intake catalog in our jupyter notebook! Patches change made in be98dde1595c1fe2a6d0e241ab9b7ddf367d8532.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atl06_play.ipynb",
+                "old_path": "atl06_play.ipynb",
+                "new_path": "atl06_play.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl06_play.py",
+                "old_path": "atl06_play.py",
+                "new_path": "atl06_play.py",
+                "nloc": 232
+            }
+        ]
+    },
+    "1531f9dcea1e888b6dc7a64f8803ce4657fe859b": {
+        "committer_date": "2020-06-08 10:03:58+12:00",
+        "author_date": "2020-06-08 10:03:58+12:00",
+        "commit_message": ":construction_worker: Run CI builds and test on Ubuntu 20.04,\n\nRunning our Continuous Integration builds and tests on Ubuntu 20.04 Focal Fossa! Keep things consistent by on running CI when Pull Request is submitted (instead of on every push) or commit is made on master. Also corrected typo 'python_version' to 'python-version', and shortened 'Test DeepIceDrain Package' to 'Test DeepIceDrain'.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "push.yml",
+                "old_path": ".github\\workflows\\push.yml",
+                "new_path": ".github\\workflows\\push.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "python-app.yml",
+                "old_path": ".github\\workflows\\python-app.yml",
+                "new_path": ".github\\workflows\\python-app.yml",
+                "nloc": null
+            }
+        ]
+    },
+    "5198b2bd21a422ba0fbb93fa299f23f150e2d3d4": {
+        "committer_date": "2020-06-09 13:14:42+12:00",
+        "author_date": "2020-06-09 13:14:42+12:00",
+        "commit_message": ":package: Refresh ATL11 Zarr data to 20200404\n\nPhew, lots of behind the scenes issues to get all these conversions going! The disk volume I was chucking my files into ran out of space, so I had to restart the ATL06_to_ATL11_Antarctica.sh script using `parallel --resume-failed` at about 25% (even though it actually went to 50%, but no files were stored!). Thankgoodness for the resumable 'log' file. The HDF5 to Zarr conversion also had some hiccups, seemingly runing to 99% and then pausing there, so I had to manually run a few conversions. That, and juggling files across different disk volumes on the servers. Anyways, we've got two more reference ground tracks and are at 1387 instead of 1385! Also reduced the number of 'exception' cases since there's more data to concatenate now, and they should disappear altogether give or take a few more ICESat-2 cycles!",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atl06_to_atl11.ipynb",
+                "old_path": "atl06_to_atl11.ipynb",
+                "new_path": "atl06_to_atl11.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl06_to_atl11.py",
+                "old_path": "atl06_to_atl11.py",
+                "new_path": "atl06_to_atl11.py",
+                "nloc": 128
+            }
+        ]
+    },
+    "419db4aedc888a89fa2653786023bb4bf3edac19": {
+        "committer_date": "2020-06-10 15:29:31+12:00",
+        "author_date": "2020-06-10 15:29:31+12:00",
+        "commit_message": ":bug: Ensure dataset attributes are preserved\n\nMetadata are suddenly lost when converting dtypes! Known issue at https://github.com/pydata/xarray/issues/3348. Workaround is to change the dtype on the `.data` level instead, and handle it specially for coordinate variables.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atl06_to_atl11.ipynb",
+                "old_path": "atl06_to_atl11.ipynb",
+                "new_path": "atl06_to_atl11.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl06_to_atl11.py",
+                "old_path": "atl06_to_atl11.py",
+                "new_path": "atl06_to_atl11.py",
+                "nloc": 139
+            }
+        ]
+    },
+    "4ace567693c1f720a079ad53653338aae7d99538": {
+        "committer_date": "2020-06-10 22:41:50+12:00",
+        "author_date": "2020-06-10 22:41:50+12:00",
+        "commit_message": ":recycle: Refactor data type downcasting to do so via encoding argument\n\nThe downcasted data types still weren't being written to Zarr properly (some data variables are still written as int64/float64). Worse still, I can't reproduce it on a MWE to file a bug report either! So we'll stick to doing it via the to_zarr method's 'encoding' argument. Basically throw away all the stuff before and brute force encode it in the .zmetadata file I guess. Funnily enough, this cuts the conversion time in half, from ~1 hour to ~30 min, so I'm happy with that!",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atl06_to_atl11.ipynb",
+                "old_path": "atl06_to_atl11.ipynb",
+                "new_path": "atl06_to_atl11.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl06_to_atl11.py",
+                "old_path": "atl06_to_atl11.py",
+                "new_path": "atl06_to_atl11.py",
+                "nloc": 140
+            }
+        ]
+    },
+    "59e1270a17594f3dfe33b2966d3e3c8001053cff": {
+        "committer_date": "2020-07-17 14:46:38+12:00",
+        "author_date": "2020-07-17 14:46:38+12:00",
+        "commit_message": ":construction_worker: Streamline Github Actions workflow\n\nJust some basic maintenance on our Github Actions YAML files. Set the default shell on 'Test DeepIceDrain' as `bash -l {0}`, and have Release Drafter skip adding PRs with the skip-changelog label to the release notes.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "release-drafter.yml",
+                "old_path": ".github\\release-drafter.yml",
+                "new_path": ".github\\release-drafter.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "python-app.yml",
+                "old_path": ".github\\workflows\\python-app.yml",
+                "new_path": ".github\\workflows\\python-app.yml",
+                "nloc": null
+            }
+        ]
+    },
+    "d3ace2dba27a516fb9d61c7317e455a2565ae3ec": {
+        "committer_date": "2020-07-23 13:40:23+12:00",
+        "author_date": "2020-07-23 13:40:23+12:00",
+        "commit_message": ":twisted_rightwards_arrows: Merge branch 'master' into atl06_20200513_update\n\nGet some compression and light datatype goodness, but some bugs still remain!",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": []
+    },
+    "bff7345e824066c2d630b896a1f85ec164ee6838": {
+        "committer_date": "2020-07-28 19:19:11+12:00",
+        "author_date": "2020-07-28 19:19:11+12:00",
+        "commit_message": ":package: Refresh ATL11 Zarr data to 20200513\n\nWent out of my way to reprocess every ATL11 file once more, so this took a while, even with 72 CPU cores instead of 64! No hard numbers because my browser crashed at 73% and I didn't want to stop the `parallel` process, but it still takes about a week. This is a new refresh over 5198b2bd21a422ba0fbb93fa299f23f150e2d3d4. Had to change some glob statements as the output ATL11_*.h5 filename dropped the `v` for version.\n\nThe 'corrected_h' group is now simply the 'root' group, and I've made sure the correct datatype is stored to Zarr by reading the \"ATL11/ATL11_output_attrs.csv\" file. The quality_summary name clash is gone, but we now need to convert the 'ATL06_xover_field_list' from binary to str to store to Zarr properly. Reduced more exceptional cases, and only reference ground track 1036 is missing an ATL11 file right now! Also fixed a few style errors DeepCode suggested.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "ATL06_to_ATL11_Antarctica.sh",
+                "old_path": "ATL06_to_ATL11_Antarctica.sh",
+                "new_path": "ATL06_to_ATL11_Antarctica.sh",
+                "nloc": null
+            },
+            {
+                "file_name": "atl06_to_atl11.ipynb",
+                "old_path": "atl06_to_atl11.ipynb",
+                "new_path": "atl06_to_atl11.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl06_to_atl11.py",
+                "old_path": "atl06_to_atl11.py",
+                "new_path": "atl06_to_atl11.py",
+                "nloc": 138
+            }
+        ]
+    },
+    "da39a21b08c2be0679baf724cc854098639a60e3": {
+        "committer_date": "2020-09-15 15:09:30+12:00",
+        "author_date": "2020-08-18 11:01:51+12:00",
+        "commit_message": ":pushpin: Pin pyarrow from 1.0.0 to 0.17.1\n\nThe cudf 0.15.0 nightly conda package still uses pyarrow 0.17.*, wait until https://github.com/rapidsai/cudf/issues/5835 is resolved before bumping to 1.0.0.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            }
+        ]
+    },
+    "c7a4cf412df0aab2c21596005643cfa87dcf2c25": {
+        "committer_date": "2020-09-15 15:12:16+12:00",
+        "author_date": "2020-08-14 13:49:35+12:00",
+        "commit_message": ":art: Quickfix import order using isort",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atlxi_dhdt.ipynb",
+                "old_path": "atlxi_dhdt.ipynb",
+                "new_path": "atlxi_dhdt.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_dhdt.py",
+                "old_path": "atlxi_dhdt.py",
+                "new_path": "atlxi_dhdt.py",
+                "nloc": 379
+            }
+        ]
+    },
+    "a1217d56e9b9a2d3949ac49e6c4992b6932045ba": {
+        "committer_date": "2020-09-15 15:12:17+12:00",
+        "author_date": "2020-08-18 16:46:57+12:00",
+        "commit_message": ":sparkles: ETL convenience function for converting array to dataframe\n\nAdding a new module to deepicedrain for Extract, Transform and Load (ETL) workflows! Putting slices of a 2D array into several columns inside a dataframe is now easier with the array_to_dataframe function. Inspired by https://github.com/dask/dask/issues/5021. The function is generalized so that dask arrays convert to a dask DataFrame, and numpy arrays convert to a pandas DataFrame.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "README.md",
+                "old_path": "deepicedrain\\README.md",
+                "new_path": "deepicedrain\\README.md",
+                "nloc": null
+            },
+            {
+                "file_name": "__init__.py",
+                "old_path": "deepicedrain\\__init__.py",
+                "new_path": "deepicedrain\\__init__.py",
+                "nloc": 14
+            },
+            {
+                "file_name": "extraload.py",
+                "old_path": null,
+                "new_path": "deepicedrain\\extraload.py",
+                "nloc": 20
+            },
+            {
+                "file_name": "test_array_to_dataframe.py",
+                "old_path": null,
+                "new_path": "deepicedrain\\tests\\test_array_to_dataframe.py",
+                "nloc": 22
+            }
+        ]
+    },
+    "d3c5eb3fbc77cc1d520dcdeeefac3ec819cce54a": {
+        "committer_date": "2020-09-15 15:12:18+12:00",
+        "author_date": "2020-08-19 17:31:43+12:00",
+        "commit_message": ":heavy_plus_sign: Add cuspatial again\n\nCUDA-accelerated GIS and spatiotemporal algorithms! A repeat of 58fdcdffba5be03a12f29a6a7e1fd3f16a893586, but with a newer version at v0.15.0! Also patch 852a6434a55f5619ee26007199f422f80966296f by bumping up cuml version and switching the scikit-learn order.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "environment.yml",
+                "old_path": "environment.yml",
+                "new_path": "environment.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "pyproject.toml",
+                "old_path": "pyproject.toml",
+                "new_path": "pyproject.toml",
+                "nloc": null
+            }
+        ]
+    },
+    "cf993d4ab28d128d3e1b4716f54481d82f7e4124": {
+        "committer_date": "2020-09-15 15:12:19+12:00",
+        "author_date": "2020-08-20 12:58:23+12:00",
+        "commit_message": ":sparkles: GPU accelerated point in polygon using cuspatial\n\nA very fast way to find points inside polygons! This is really just a convenience function that wraps around `cuspatial.point_in_polygon`, hiding all sorts of boilerplate. Specifically, this handles:\n\n1. Converting a geopandas geodataframe into a cuspatial friendly format, see https://github.com/rapidsai/cuspatial/issues/165\n2. Hacky workaround the 31 polygon limit using a for-loop, based on https://github.com/rapidsai/cuspatial/blob/branch-0.15/notebooks/nyc_taxi_years_correlation.ipynb\n3. Outputting actual string labels from the geodataframe, instead of non human readable index numbers\n\nAlso added tests for this in test_spatiotemporal_gpu.py, though it won't work on the CI, only locally where a GPU is available.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "__init__.py",
+                "old_path": "deepicedrain\\__init__.py",
+                "new_path": "deepicedrain\\__init__.py",
+                "nloc": 19
+            },
+            {
+                "file_name": "spatiotemporal.py",
+                "old_path": "deepicedrain\\spatiotemporal.py",
+                "new_path": "deepicedrain\\spatiotemporal.py",
+                "nloc": 156
+            },
+            {
+                "file_name": "test_spatiotemporal_conversions.py",
+                "old_path": "deepicedrain\\tests\\test_spatiotemporal_conversions.py",
+                "new_path": "deepicedrain\\tests\\test_spatiotemporal_conversions.py",
+                "nloc": 75
+            },
+            {
+                "file_name": "test_spatiotemporal_gpu.py",
+                "old_path": null,
+                "new_path": "deepicedrain\\tests\\test_spatiotemporal_gpu.py",
+                "nloc": 27
+            }
+        ]
+    },
+    "b04c8f876ee51cd1bbbae8f2959126ba8c02d8ef": {
+        "committer_date": "2020-09-17 14:04:23+12:00",
+        "author_date": "2020-09-17 14:04:23+12:00",
+        "commit_message": ":pushpin: Pin fsspec to 0.7.4\n\nThe newer fsspec 0.8.0 uses aiohttp for http requests, and that breaks the netrc authentication to the Earthdata site. Using fsspec 0.8.2 helps a bit, but still throws an error like \"ClientResponseError: 401, message='Unauthorized', url=URL('https://urs.earthdata.nasa.gov/oauth/authorize?app_type=401...\". Need to figure out how to inject the credentials into the intake_xarray/intake/fsspec/aiohttp stack somehow, but need to temporarily downgrading for now. See also relevant discussion on https://github.com/intake/intake-stac/issues/60.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            }
+        ]
+    },
+    "85b6ffa870804030bcb42bebd55c0f2780d95e22": {
+        "committer_date": "2020-09-25 01:51:15+12:00",
+        "author_date": "2020-09-25 01:51:15+12:00",
+        "commit_message": ":globe_with_meridians: Add Amundsen Sea Embayment region\n\nThe trendy place where glaciologists are most interested in studying, because it's flowing fast! Also fixed some lint issues found by deepcode.ai.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atl11_play.ipynb",
+                "old_path": "atl11_play.ipynb",
+                "new_path": "atl11_play.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl11_play.py",
+                "old_path": "atl11_play.py",
+                "new_path": "atl11_play.py",
+                "nloc": 175
+            },
+            {
+                "file_name": "atlxi_dhdt.ipynb",
+                "old_path": "atlxi_dhdt.ipynb",
+                "new_path": "atlxi_dhdt.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_dhdt.py",
+                "old_path": "atlxi_dhdt.py",
+                "new_path": "atlxi_dhdt.py",
+                "nloc": 201
+            },
+            {
+                "file_name": "atlas_catalog.yaml",
+                "old_path": "deepicedrain\\atlas_catalog.yaml",
+                "new_path": "deepicedrain\\atlas_catalog.yaml",
+                "nloc": null
+            },
+            {
+                "file_name": "deepicedrain_regions.geojson",
+                "old_path": "deepicedrain\\deepicedrain_regions.geojson",
+                "new_path": "deepicedrain\\deepicedrain_regions.geojson",
+                "nloc": null
+            },
+            {
+                "file_name": "test_region.py",
+                "old_path": "deepicedrain\\tests\\test_region.py",
+                "new_path": "deepicedrain\\tests\\test_region.py",
+                "nloc": 71
+            }
+        ]
+    },
+    "c4fc44fdbf707e9d3f77b40defef1828c82b5b32": {
+        "committer_date": "2020-10-05 10:15:30+13:00",
+        "author_date": "2020-10-05 10:15:30+13:00",
+        "commit_message": ":hammer: Setting a statistically based threshold for lake classification\n\nUsing a statistically-based threshold for subglacial lake detection (which works by clustering points above a 'value'), to be more robust to different conditions across different Antarctic drainage basins. Working on finding active subglacial lakes in Antarctica with moderate elevation change over time values (dhdt from ~0.6m/yr to 1.0m/yr) that were missed before, and setting up some filters to remove most false positive lakes (e.g. over Pine Island Glacier). Also tweaked the DBSCAN eps (distance) value from 2500m to 3000m in an attempt to capture funny dual-lobe shaped lakes (e.g. Nimrod_2).",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "antarctic_subglacial_lakes.geojson",
+                "old_path": "antarctic_subglacial_lakes.geojson",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "antarctic_subglacial_lakes_3031.geojson",
+                "old_path": null,
+                "new_path": "antarctic_subglacial_lakes_3031.geojson",
+                "nloc": null
+            },
+            {
+                "file_name": "antarctic_subglacial_lakes_4326.geojson",
+                "old_path": null,
+                "new_path": "antarctic_subglacial_lakes_4326.geojson",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_lake.ipynb",
+                "old_path": "atlxi_lake.ipynb",
+                "new_path": "atlxi_lake.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_lake.py",
+                "old_path": "atlxi_lake.py",
+                "new_path": "atlxi_lake.py",
+                "nloc": 332
+            }
+        ]
+    },
+    "274ddbf262b2f4607f092ffc8bd76f4f4f7047d8": {
+        "committer_date": "2020-11-01 14:33:58+13:00",
+        "author_date": "2020-11-01 14:33:58+13:00",
+        "commit_message": ":package: Add ICESat-2 detected subglacial lakes to ATLAS intake catalog\n\nGlad that ATLAS also means 'collection of maps'! Putting the antarctic_subglacial_lakes_3031/4326.geojson file into our intake catalog so that people can read it directly into a geopandas.GeoDataFrame via `deepicedrain.catalog.subglacial_lakes.read()`, or `intake.cat.atlas_cat.subglacial_lakes.read()`. Also provides the option of selecting between EPSG:3031 (default) and EPSG:4326! Still need to work out what to populate into the metadata field, as there's aren't many good geopandas intake catalog examples out there yet to follow.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atlxi_lake.ipynb",
+                "old_path": "atlxi_lake.ipynb",
+                "new_path": "atlxi_lake.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_lake.py",
+                "old_path": "atlxi_lake.py",
+                "new_path": "atlxi_lake.py",
+                "nloc": 435
+            },
+            {
+                "file_name": "README.md",
+                "old_path": "deepicedrain\\README.md",
+                "new_path": "deepicedrain\\README.md",
+                "nloc": null
+            },
+            {
+                "file_name": "atlas_catalog.yaml",
+                "old_path": "deepicedrain\\atlas_catalog.yaml",
+                "new_path": "deepicedrain\\atlas_catalog.yaml",
+                "nloc": null
+            },
+            {
+                "file_name": "test_deepicedrain.py",
+                "old_path": "deepicedrain\\tests\\test_deepicedrain.py",
+                "new_path": "deepicedrain\\tests\\test_deepicedrain.py",
+                "nloc": 14
+            }
+        ]
+    },
+    "baa7ffa1227abb7e65158512f38a04840d60a32a": {
+        "committer_date": "2020-11-01 15:24:27+13:00",
+        "author_date": "2020-11-01 15:24:27+13:00",
+        "commit_message": ":arrow_up: Bump intake-geopandas from 0.2.3 to 0.2.3+40.ge08c8\n\nBumps [intake-geopandas](https://github.com/intake/intake_geopandas) from 0.2.3 to 0.2.3+40.ge08c8.\n- [Release notes](https://github.com/intake/intake_geopandas/releases)\n- [Commits](https://github.com/intake/intake_geopandas/compare/0.2.3...e08c89bdd95216e9ff3f5bb6f8547799e7e7a463)\n\nAlso bumped aiohttp from 3.6.2 to 3.7.2 to silence a DeprecationWarning (see https://github.com/aio-libs/aiohttp/issues/4842).",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            },
+            {
+                "file_name": "pyproject.toml",
+                "old_path": "pyproject.toml",
+                "new_path": "pyproject.toml",
+                "nloc": null
+            }
+        ]
+    },
+    "975637cfe9feb8de876b507c0ee590f1fc8536c9": {
+        "committer_date": "2020-11-11 15:43:12+13:00",
+        "author_date": "2020-11-11 15:43:12+13:00",
+        "commit_message": ":arrow_up: Bump pygmt from 0.2.0 to 0.2.0+53.gc7c5e\n\nBumps [pygmt](https://github.com/GenericMappingTools/pygmt) from 0.2.0 to 0.2.0+53.gc7c5e.\n- [Release notes](https://github.com/GenericMappingTools/pygmt/releases)\n  - [Changelog](https://github.com/GenericMappingTools/pygmt/blob/master/doc/changes.rst)\n  - [Commits](https://github.com/GenericMappingTools/pygmt/compare/v0.2.0...v0.2.0-53-gc7c5e)\n\nHad to fix a broken test by using a pandas.DataFrame input to `pygmt.info` instead of a pandas.Series, because of https://github.com/GenericMappingTools/pygmt/pull/619. Also pinned intake-geopandas to the v0.2.4 tag, same version, just using the wheel now.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "vizplots.py",
+                "old_path": "deepicedrain\\vizplots.py",
+                "new_path": "deepicedrain\\vizplots.py",
+                "nloc": 334
+            },
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            },
+            {
+                "file_name": "pyproject.toml",
+                "old_path": "pyproject.toml",
+                "new_path": "pyproject.toml",
+                "nloc": null
+            }
+        ]
+    },
+    "889c0e64b6dc21a89d8afe30aa69b69fb970721e": {
+        "committer_date": "2020-11-12 23:59:20+13:00",
+        "author_date": "2020-11-12 23:59:20+13:00",
+        "commit_message": ":boom: Parallelizable active subglacial lake animation generator\n\nProduce GIF animations for many active subglacial lakes as fast as possible! These ice surface elevation animations are produced with the help of pytest-bdd and pytest-xdist, aka run something like `poetry run pytest --verbose -k animation -n 14 deepicedrain/` which would use up 14 cores to simultaneously produce 14 GIFs! Heavy lifting is done inside test_subglacial_lake_animation.py, which is pretty much copy-pasted from code in atlxi_lake.ipynb. There's probably a better (read: more efficient) way of doing this via dask or dvc that doesn't use require loading up big parquet files across all cores, but this is good for now. Commented out all lakes except Kamb 34 and Recovery IX to see how things fare on Github Actions CI. Also fixed a typo and renamed placename to location in the test_*.py files to be consistent.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atlxi_lake.ipynb",
+                "old_path": "atlxi_lake.ipynb",
+                "new_path": "atlxi_lake.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_lake.py",
+                "old_path": "atlxi_lake.py",
+                "new_path": "atlxi_lake.py",
+                "nloc": 411
+            },
+            {
+                "file_name": "subglacial_lakes.feature",
+                "old_path": "deepicedrain\\features\\subglacial_lakes.feature",
+                "new_path": "deepicedrain\\features\\subglacial_lakes.feature",
+                "nloc": null
+            },
+            {
+                "file_name": "test_subglacial_lake_animation.py",
+                "old_path": null,
+                "new_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
+                "nloc": 135
+            },
+            {
+                "file_name": "test_subglacial_lake_finder.py",
+                "old_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
+                "new_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
+                "nloc": 49
+            }
+        ]
+    },
+    "00d693a7bd25e536d1a7a7563b03c06220ffc542": {
+        "committer_date": "2020-11-13 11:53:40+13:00",
+        "author_date": "2020-11-13 11:53:40+13:00",
+        "commit_message": ":ambulance: Recover from missing Recovery using new Slessor region\n\nFix some broken tests due to a missing df_dhdt_recovery.parquet file by adding a new Slessor Glacier downstream bounding box region. The Recovery Glacier parquet is to big (> 2 GB) to upload to Github release, so this new Slessor Glacier region was made, and it happens to cover the downstream part of Recovery Glacier too (containing the Recovery 1 and 2 subglacial lakes from Fricker et al. 2014). Also fixed the accidentally hardcoded azimuth and elevation in test_subglacial_lake_animation.py.\n\nNote the rename of Recovery 3 (from Smith et al. 2009) to Recovery 2 (Fricker et al. 2014). Recovery IV is just a new draining lake found between Recovery 3 and 4. Also decided that loading the whole Siple Coast parquet data wasn't smart, so I've split it to loading the smaller 400x400km Whillans upstream/downstream files. Should probably have a Kamb upstream region for Kamb 12 and a MacAyeal region for MacAyeal 1 too.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atlxi_lake.ipynb",
+                "old_path": "atlxi_lake.ipynb",
+                "new_path": "atlxi_lake.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_lake.py",
+                "old_path": "atlxi_lake.py",
+                "new_path": "atlxi_lake.py",
+                "nloc": 411
+            },
+            {
+                "file_name": "atlas_catalog.yaml",
+                "old_path": "deepicedrain\\atlas_catalog.yaml",
+                "new_path": "deepicedrain\\atlas_catalog.yaml",
+                "nloc": null
+            },
+            {
+                "file_name": "deepicedrain_regions.geojson",
+                "old_path": "deepicedrain\\deepicedrain_regions.geojson",
+                "new_path": "deepicedrain\\deepicedrain_regions.geojson",
+                "nloc": null
+            },
+            {
+                "file_name": "subglacial_lakes.feature",
+                "old_path": "deepicedrain\\features\\subglacial_lakes.feature",
+                "new_path": "deepicedrain\\features\\subglacial_lakes.feature",
+                "nloc": null
+            },
+            {
+                "file_name": "test_subglacial_lake_animation.py",
+                "old_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
+                "new_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
+                "nloc": 135
+            }
+        ]
+    },
+    "bffc761543aeb0be8ad15ca4cc2e3e8ab4ae0842": {
+        "committer_date": "2020-11-16 16:44:19+13:00",
+        "author_date": "2020-11-16 16:44:19+13:00",
+        "commit_message": ":green_heart: Download earth_relief_30m artifact from pygmt repo cache\n\nThe fixture for test_plot_icesurface added in 4869b4eb56f8ca4a23d8377b10f1f716fbb1185a is unable to download the @earth_relief_30m file from https://oceania.generic-mapping-tools.org sometimes. So let's use the cached version at https://github.com/GenericMappingTools/pygmt.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "python-app.yml",
+                "old_path": ".github\\workflows\\python-app.yml",
+                "new_path": ".github\\workflows\\python-app.yml",
+                "nloc": null
+            }
+        ]
+    },
+    "ad342d3b186bf5792b20a9c4c39fbbba149155e3": {
+        "committer_date": "2020-11-19 10:57:52+13:00",
+        "author_date": "2020-11-19 10:57:52+13:00",
+        "commit_message": ":arrow_up::lock: Bump notebook from 6.1.4 to 6.1.5 (#196)\n\nBumps [notebook](https://github.com/jupyter/jupyterhub) from 6.1.4 to 6.1.5. **This update includes a security fix.**\r\n- [Release notes](https://github.com/jupyter/jupyterhub/releases)\r\n- [Changelog](https://github.com/jupyterhub/jupyterhub/blob/master/CHECKLIST-Release.md)\r\n- [Commits](https://github.com/jupyter/jupyterhub/commits)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            }
+        ]
+    },
+    "2296a7ae8b66d5c578bb9d3cbbbd35ad809d12b5": {
+        "committer_date": "2020-11-25 20:05:44+13:00",
+        "author_date": "2020-11-25 20:05:44+13:00",
+        "commit_message": ":package: Download ATL06 files up to 20200930\n\nUpdate our ATLAS catalog to include ATL06 data up to and including 20200930, and download about two months plus two weeks worth of extra data. Had to temporarily downgrade (locally) to fsspec=0.7.4 and intake-xarray=0.3.2 for the atl06_play.ipynb to work (will need to resolve the annoying authentication issue next year). The download needed a lot of retries this time for some reason, hence the `if error: foo.retry()` code. Didn't bother rerunning the whole atl06_play.ipynb notebook for the sake of time.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atl06_play.ipynb",
+                "old_path": "atl06_play.ipynb",
+                "new_path": "atl06_play.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl06_play.py",
+                "old_path": "atl06_play.py",
+                "new_path": "atl06_play.py",
+                "nloc": 232
+            },
+            {
+                "file_name": "atlas_catalog.yaml",
+                "old_path": "deepicedrain\\atlas_catalog.yaml",
+                "new_path": "deepicedrain\\atlas_catalog.yaml",
+                "nloc": null
+            }
+        ]
+    },
+    "c93eded7b18f722c51e40ddb9c82a6f43fe68623": {
+        "committer_date": "2020-12-05 17:31:02+13:00",
+        "author_date": "2020-12-05 17:31:02+13:00",
+        "commit_message": ":sparkles: Active subglacial lake mega-cluster analysis\n\nLook at not one but multiple active subglacial lakes! Examples include: Lake 78, Subglacial Lake Conway, Subglacial Lake Mercer and Subglacial Lake Whillans on the Siple Coast; and Recovery 2 on Recovery Glacier. Also renumbered all the lake ids for the single lakes. The subglacial_lakes.feature file splits the single and mega-cluster lake tests. Note that the mega-cluster test won't run on CI until deepicedrain v0.4.0 is released.\n\nReally required a lot of refactoring to handle multiple lake polygons. Bounding box region is now determined using a convex hull so that it works for single or multiple polygons. Lakes are dissolved into a MultiPolygon (geopandas v0.8.0 requiring a dissolve field, problematic for Lake 78 that spans Whillans and Mercer basins). The lake outlines are saved to an OGR GMT format which is actually quite nice as it can be shared around.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": ".gitignore",
+                "old_path": ".gitignore",
+                "new_path": ".gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_lake.ipynb",
+                "old_path": "atlxi_lake.ipynb",
+                "new_path": "atlxi_lake.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_lake.py",
+                "old_path": "atlxi_lake.py",
+                "new_path": "atlxi_lake.py",
+                "nloc": 411
+            },
+            {
+                "file_name": "subglacial_lakes.feature",
+                "old_path": "deepicedrain\\features\\subglacial_lakes.feature",
+                "new_path": "deepicedrain\\features\\subglacial_lakes.feature",
+                "nloc": null
+            },
+            {
+                "file_name": "spatiotemporal.py",
+                "old_path": "deepicedrain\\spatiotemporal.py",
+                "new_path": "deepicedrain\\spatiotemporal.py",
+                "nloc": 327
+            },
+            {
+                "file_name": "test_subglacial_lake_animation.py",
+                "old_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
+                "new_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
+                "nloc": 154
+            },
+            {
+                "file_name": "vizplots.py",
+                "old_path": "deepicedrain\\vizplots.py",
+                "new_path": "deepicedrain\\vizplots.py",
+                "nloc": 472
+            }
+        ]
+    },
+    "9ef7c3cbb87651057cb3792c0e8280e19504e1a6": {
+        "committer_date": "2020-12-05 20:40:11+13:00",
+        "author_date": "2020-12-05 20:40:11+13:00",
+        "commit_message": ":green_heart: Generate own random grid for test_plot_icesurface\n\nMake our own random grid because the fix in bffc761543aeb0be8ad15ca4cc2e3e8ab4ae0842 doesn't actually work and keeps breaking the CI.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "python-app.yml",
+                "old_path": ".github\\workflows\\python-app.yml",
+                "new_path": ".github\\workflows\\python-app.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "test_vizplots.py",
+                "old_path": "deepicedrain\\tests\\test_vizplots.py",
+                "new_path": "deepicedrain\\tests\\test_vizplots.py",
+                "nloc": 90
+            }
+        ]
+    },
+    "959db759fd85d63c4bdef810b958e5beccd2d24f": {
+        "committer_date": "2020-12-09 16:02:12+13:00",
+        "author_date": "2020-12-09 16:02:12+13:00",
+        "commit_message": ":art: Trim plot elements from crossover elevation figure\n\nSimplifying the crossover plot to look more professional. Remove the legend on the right that can get too long and change the colormap from categorical to batlowS. Remove the 'Date' x-axis label since the year and months give it away. Change y-axis label to be \"Elevation anomaly at crossover (m)\" if a non-default h_var is used. Shorten the title by removing the \"ICESat-2 Crossover Elevations over Time\" part.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "vizplots.py",
+                "old_path": "deepicedrain\\vizplots.py",
+                "new_path": "deepicedrain\\vizplots.py",
+                "nloc": 470
+            }
+        ]
+    },
+    "a59ccd96ef642be5241d8321d8dff77095a9c61a": {
+        "committer_date": "2020-12-10 00:00:19+13:00",
+        "author_date": "2020-12-10 00:00:19+13:00",
+        "commit_message": ":boom: Inset map of subglacial lake alongside crossover plots\n\nOne crossover plot to rule them all! The elevation over time crossover points figure now comes with a map inset! The inset shows the subglacial lake outline, and also the location of the crossover points. Those crossover points are now colour coded based on dhdt values (same colour on both the main figure and inset), with darker colours signifying higher rates of change.\n\nThere's lots of magic (read: softcoding) going on to automate stuff. The inset is placed on the top left or bottom left, depending on whether lines are trending up or down. Note that we've got an internal _plot_crossover_area function that is somewhat copied from a cell in atlxi_lake.ipynb, but generalized for different sizes (will refactor this in separate commit). The elev_filter setting is tweaked from 1.0 m to 0.2 m so more points will show up now. Definitely needs a good refactor and test suite still.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atlxi_lake.ipynb",
+                "old_path": "atlxi_lake.ipynb",
+                "new_path": "atlxi_lake.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_lake.py",
+                "old_path": "atlxi_lake.py",
+                "new_path": "atlxi_lake.py",
+                "nloc": 408
+            },
+            {
+                "file_name": "vizplots.py",
+                "old_path": "deepicedrain\\vizplots.py",
+                "new_path": "deepicedrain\\vizplots.py",
+                "nloc": 541
+            }
+        ]
+    },
+    "4c5daf052042803db2e8d970e4f7eb1db410ddae": {
+        "committer_date": "2020-12-19 00:42:13+13:00",
+        "author_date": "2020-12-19 00:42:13+13:00",
+        "commit_message": ":bug: Sort dataframe by time before calculating height anomaly\n\nFixing some inconsistencies in the use of \"normalized\" height, should be height \"anomalies\" instead. The df_th (time and height dataframe) is now sorted by time prior to running any processing operations, so the crossover height anomaly over time plots should all start right at 0 now. Still need to work on adding the one sigma uncertainty error bars, and find a way to parallelize the whole script on many lakes.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "README.md",
+                "old_path": "README.md",
+                "new_path": "README.md",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_xover.ipynb",
+                "old_path": "atlxi_xover.ipynb",
+                "new_path": "atlxi_xover.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_xover.py",
+                "old_path": "atlxi_xover.py",
+                "new_path": "atlxi_xover.py",
+                "nloc": 184
+            },
+            {
+                "file_name": "lake_algorithms.py",
+                "old_path": "deepicedrain\\lake_algorithms.py",
+                "new_path": "deepicedrain\\lake_algorithms.py",
+                "nloc": 172
+            }
+        ]
+    },
+    "85f74a7d3824f057fe377843737b698f85f69d32": {
+        "committer_date": "2020-12-19 14:17:45+13:00",
+        "author_date": "2020-12-19 14:17:45+13:00",
+        "commit_message": ":clown_face: Mock up subglacial lake crossover parallel bdd runner\n\nChucking lots of code from atlxi_xover.py into our Behavioural Driven Development integration test suite. Not very DRY, but will refactor later. Should work by running `poetry run pytest --verbose --doctest-modules -k anomalies -n 2 deepicedrain/`. Dropped all the lake_ids from all the examples in subglacial_lakes.feature as they're listed in atlas_catalog.yaml now, one source of truth! Also made the `df_lake` function into a reusable fixture in conftest.py, setting it up for shaing across the test_subglacial_lakes_*.py tests.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "subglacial_lakes.feature",
+                "old_path": "deepicedrain\\features\\subglacial_lakes.feature",
+                "new_path": "deepicedrain\\features\\subglacial_lakes.feature",
+                "nloc": null
+            },
+            {
+                "file_name": "conftest.py",
+                "old_path": "deepicedrain\\tests\\conftest.py",
+                "new_path": "deepicedrain\\tests\\conftest.py",
+                "nloc": 65
+            },
+            {
+                "file_name": "test_subglacial_lake_animation.py",
+                "old_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
+                "new_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
+                "nloc": 112
+            },
+            {
+                "file_name": "test_subglacial_lake_crossover.py",
+                "old_path": null,
+                "new_path": "deepicedrain\\tests\\test_subglacial_lake_crossover.py",
+                "nloc": 96
+            }
+        ]
+    },
+    "24acc1c74d0c801683af44f7f8828cb7eb187116": {
+        "committer_date": "2020-12-19 20:03:15+13:00",
+        "author_date": "2020-12-19 20:03:15+13:00",
+        "commit_message": ":ok_hand: Make dask client fixture scoped to session\n\nOne local dask cluster client to run them all! Also a minor tweak to the boolean 'draining' variable.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "conftest.py",
+                "old_path": "deepicedrain\\tests\\conftest.py",
+                "new_path": "deepicedrain\\tests\\conftest.py",
+                "nloc": 65
+            }
+        ]
+    },
+    "22eb2d1ed080c0eb7bca72a201421f74a74732f7": {
+        "committer_date": "2020-12-21 00:08:36+13:00",
+        "author_date": "2020-12-21 00:08:36+13:00",
+        "commit_message": ":white_check_mark: Let unit tests use deepicedrain v0.4.0 data\n\nUpdate unit tests that were hardcoded to v0.3.1 data to use the newer deepicedrain v0.4.0 data (ATL11 data processed up to 20200930). Probably shouldn't be hardcoded in the first place, but there's a chicken and egg problem, so kick the can down the road then.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "atlas_catalog.yaml",
+                "old_path": "deepicedrain\\atlas_catalog.yaml",
+                "new_path": "deepicedrain\\atlas_catalog.yaml",
+                "nloc": null
+            },
+            {
+                "file_name": "subglacial_lakes.feature",
+                "old_path": "deepicedrain\\features\\subglacial_lakes.feature",
+                "new_path": "deepicedrain\\features\\subglacial_lakes.feature",
+                "nloc": null
+            },
+            {
+                "file_name": "conftest.py",
+                "old_path": "deepicedrain\\tests\\conftest.py",
+                "new_path": "deepicedrain\\tests\\conftest.py",
+                "nloc": 72
+            },
+            {
+                "file_name": "test_subglacial_lake_animation.py",
+                "old_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
+                "new_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
+                "nloc": 107
+            },
+            {
+                "file_name": "test_subglacial_lake_finder.py",
+                "old_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
+                "new_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
+                "nloc": 49
+            }
+        ]
+    },
+    "8771642d8286806a5ae30d45129eccbb33f2bcfe": {
+        "committer_date": "2021-02-03 11:56:07+13:00",
+        "author_date": "2021-02-03 11:56:07+13:00",
+        "commit_message": ":arrow_up::lock: Bump bleach from 3.2.2 to 3.3.0 (#244)\n\nBumps [bleach](https://github.com/mozilla/bleach) from 3.2.2 to 3.3.0. **This update includes a security fix.**\r\n- [Release notes](https://github.com/mozilla/bleach/releases)\r\n- [Changelog](https://github.com/mozilla/bleach/blob/master/CHANGES)\r\n- [Commits](https://github.com/mozilla/bleach/compare/v3.2.2...v3.3.0)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            }
+        ]
+    },
+    "6bbd5831b2fa9bfaf69732aaad6fa6822e02a8d0": {
+        "committer_date": "2021-02-03 15:07:04+13:00",
+        "author_date": "2021-02-03 15:07:04+13:00",
+        "commit_message": ":package: Detect active subglacial lakes up to 20201111\n\nRe-running the clustering algorithm to detect Antarctic subglacial lakes with ICESat-2 ATL11 data up to 20201111. There are now 195 potential active lakes compared to 149 before, though the hyperparameters have been tweaked (see below). On the Siple Coast, Kamb 5 and Kamb 7 have showed up on Kamb Ice Stream, quite a few more over Whillans Ice Stream, and finally some on Bindschadler Ice Stream. There are many new little lakes (which may or may not be false positives), and some that disappeared from the last version (false negatives?), though hard to say without examining each case one by one. This is the version used in my PhD thesis under examination, so it's here for historical purposes. Also made small tweaks to extraload.py and vizplots.py in the deepicedrain package and the atlxi_dhdt and atl11_play jupyter notebooks.\n\nHyperparameters have been changed compared to last run at 1dac092e95e0d80cd9101471786a09af64b38b6e. We are now using a global (Antarctic-wide) cut-off of +/- 0.105 m/yr instead of +/- 0.2 m/yr, which means ~59 million points instead of ~25 million points to cluster on. This necessitates the use of dask_cudf because the data doesn't fit on 1 Tesla V100 GPU with 16 GB of memory anymore (2 is needed), and the point_in_polygon_gpu has to run on a batch of 16 instead of 32 polygons (thank you fe281f14a1a8ba4111928cf5415945718453683b). The subglacial lake finder algorithm now uses a 3x instead of a 2x threshold above the median dhdt of the drainage basin, and a min_samples setting of 300 instead of 250. The eps setting is kept at 3000 (metres) as before.",
+        "in_main_branch": true,
+        "committer": "weiji.leong@vuw.ac.nz",
+        "modified_files": [
+            {
+                "file_name": "antarctic_subglacial_lakes_3031.geojson",
+                "old_path": "antarctic_subglacial_lakes_3031.geojson",
+                "new_path": "antarctic_subglacial_lakes_3031.geojson",
+                "nloc": null
+            },
+            {
+                "file_name": "antarctic_subglacial_lakes_4326.geojson",
+                "old_path": "antarctic_subglacial_lakes_4326.geojson",
+                "new_path": "antarctic_subglacial_lakes_4326.geojson",
+                "nloc": null
+            },
+            {
+                "file_name": "atl11_play.ipynb",
+                "old_path": "atl11_play.ipynb",
+                "new_path": "atl11_play.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl11_play.py",
+                "old_path": "atl11_play.py",
+                "new_path": "atl11_play.py",
+                "nloc": 175
+            },
+            {
+                "file_name": "atlxi_dhdt.ipynb",
+                "old_path": "atlxi_dhdt.ipynb",
+                "new_path": "atlxi_dhdt.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_dhdt.py",
+                "old_path": "atlxi_dhdt.py",
+                "new_path": "atlxi_dhdt.py",
+                "nloc": 221
+            },
+            {
+                "file_name": "atlxi_lake.ipynb",
+                "old_path": "atlxi_lake.ipynb",
+                "new_path": "atlxi_lake.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_lake.py",
+                "old_path": "atlxi_lake.py",
+                "new_path": "atlxi_lake.py",
+                "nloc": 308
+            },
+            {
+                "file_name": "atlas_catalog.yaml",
+                "old_path": "deepicedrain\\atlas_catalog.yaml",
+                "new_path": "deepicedrain\\atlas_catalog.yaml",
+                "nloc": null
+            },
+            {
+                "file_name": "extraload.py",
+                "old_path": "deepicedrain\\extraload.py",
+                "new_path": "deepicedrain\\extraload.py",
+                "nloc": 157
+            },
+            {
+                "file_name": "vizplots.py",
+                "old_path": "deepicedrain\\vizplots.py",
+                "new_path": "deepicedrain\\vizplots.py",
+                "nloc": 575
+            }
+        ]
+    },
+    "8e21f16a4ee30e0025c9341d040705411a23276b": {
+        "committer_date": "2021-03-08 16:36:47+13:00",
+        "author_date": "2021-03-08 16:36:47+13:00",
+        "commit_message": "\u2b06\ufe0f\ud83d\udd12 Bump aiohttp from 3.7.3 to 3.7.4 (#246)\n\n* :arrow_up::lock: Bump aiohttp from 3.7.3 to 3.7.4\r\n\r\nBumps [aiohttp](https://github.com/aio-libs/aiohttp) from 3.7.3 to 3.7.4. **This update includes a security fix.**\r\n- [Release notes](https://github.com/aio-libs/aiohttp/releases)\r\n- [Changelog](https://github.com/aio-libs/aiohttp/blob/master/CHANGES.rst)\r\n- [Commits](https://github.com/aio-libs/aiohttp/compare/v3.7.3...v3.7.4)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\n* :bug: Restore cache from main instead of master branch\r\n\r\nQuickfix missing change in #248.\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>\r\nCo-authored-by: Wei Ji <23487320+weiji14@users.noreply.github.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "python-app.yml",
+                "old_path": ".github\\workflows\\python-app.yml",
+                "new_path": ".github\\workflows\\python-app.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            }
+        ]
+    },
+    "6f8cb78aaf8cbf899019c9dc709bf4e048e9946e": {
+        "committer_date": "2021-03-10 13:43:34+13:00",
+        "author_date": "2021-03-10 13:43:34+13:00",
+        "commit_message": ":alien: Rerun subglacial lake finder with DBSCAN from stable cuml v0.18\n\nUpdated the ICESat-2 subglacial lake GeoJSON database, decreasing total count from 195 to 194. This is due to a bug fix in the DBSCAN algorithm (see https://github.com/rapidsai/cuml/pull/3382) which was incorporated into cuml v0.18. Specifically, the reduction in one subglacial lake is due to a merge of two smaller polygons into one at Thwaites Glacier (western lobe of Thw_124). Annoyingly, I had to update most of the ids in the atlas_catalog.yaml file (just wait until I get a proper geoindex setup!). Also silenced a warning due to issue at https://github.com/rapidsai/cuml/issues/2823: \"Batch size limited by the chosen integer type (4 bytes). Using the larger integer type might result in better performance\".",
+        "in_main_branch": true,
+        "committer": "23487320+weiji14@users.noreply.github.com",
+        "modified_files": [
+            {
+                "file_name": "antarctic_subglacial_lakes_3031.geojson",
+                "old_path": "antarctic_subglacial_lakes_3031.geojson",
+                "new_path": "antarctic_subglacial_lakes_3031.geojson",
+                "nloc": null
+            },
+            {
+                "file_name": "antarctic_subglacial_lakes_4326.geojson",
+                "old_path": "antarctic_subglacial_lakes_4326.geojson",
+                "new_path": "antarctic_subglacial_lakes_4326.geojson",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_lake.ipynb",
+                "old_path": "atlxi_lake.ipynb",
+                "new_path": "atlxi_lake.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_lake.py",
+                "old_path": "atlxi_lake.py",
+                "new_path": "atlxi_lake.py",
+                "nloc": 314
+            },
+            {
+                "file_name": "atlas_catalog.yaml",
+                "old_path": "deepicedrain\\atlas_catalog.yaml",
+                "new_path": "deepicedrain\\atlas_catalog.yaml",
+                "nloc": null
+            },
+            {
+                "file_name": "lake_algorithms.py",
+                "old_path": "deepicedrain\\lake_algorithms.py",
+                "new_path": "deepicedrain\\lake_algorithms.py",
+                "nloc": 201
+            }
+        ]
+    },
+    "6dc7ddb5aad0dbb4777d7b6d965851872b441f2b": {
+        "committer_date": "2021-03-13 00:22:39+13:00",
+        "author_date": "2021-03-13 00:22:39+13:00",
+        "commit_message": ":mute: Disable docker build workflow\n\nGithub Actions CI keeps complaining about running about of space, so I'm disabling the docker build on push and pull request reviews for now, while throwing in a workflow dispatch trigger option.",
+        "in_main_branch": true,
+        "committer": "23487320+weiji14@users.noreply.github.com",
+        "modified_files": [
+            {
+                "file_name": "docker-build.yml",
+                "old_path": ".github\\workflows\\push.yml",
+                "new_path": ".github\\workflows\\docker-build.yml",
+                "nloc": null
+            }
+        ]
+    },
+    "b8480354790bfbba6101b836b5bd8850a31c9666": {
+        "committer_date": "2021-03-20 11:46:02+13:00",
+        "author_date": "2021-03-20 11:46:02+13:00",
+        "commit_message": ":arrow_up::lock: Bump jinja2 from 2.11.2 to 2.11.3 (#270)\n\nBumps [jinja2](https://github.com/pallets/jinja) from 2.11.2 to 2.11.3. **This update includes a security fix.**\n- [Release notes](https://github.com/pallets/jinja/releases)\n- [Changelog](https://github.com/pallets/jinja/blob/master/CHANGES.rst)\n- [Commits](https://github.com/pallets/jinja/compare/2.11.2...2.11.3)\n\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\n\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            }
+        ]
+    },
+    "fb216521bbce24b736f0df9e265eee91d1e2dd16": {
+        "committer_date": "2021-03-23 08:54:04+13:00",
+        "author_date": "2021-03-23 08:54:04+13:00",
+        "commit_message": ":arrow_up::lock: Bump lxml from 4.6.2 to 4.6.3 (#273)\n\nBumps [lxml](https://github.com/lxml/lxml) from 4.6.2 to 4.6.3. **This update includes a security fix.**\r\n- [Release notes](https://github.com/lxml/lxml/releases)\r\n- [Changelog](https://github.com/lxml/lxml/blob/master/CHANGES.txt)\r\n- [Commits](https://github.com/lxml/lxml/compare/lxml-4.6.2...lxml-4.6.3)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            },
+            {
+                "file_name": "pyproject.toml",
+                "old_path": "pyproject.toml",
+                "new_path": "pyproject.toml",
+                "nloc": null
+            }
+        ]
+    },
+    "a43b4ba1ed31d63f3a260611b4e4ce3fc8a38bf3": {
+        "committer_date": "2021-04-07 06:28:26+12:00",
+        "author_date": "2021-04-07 06:28:26+12:00",
+        "commit_message": ":arrow_up::lock: Bump urllib3 from 1.26.3 to 1.26.4 (#275)\n\nBumps [urllib3](https://github.com/urllib3/urllib3) from 1.26.3 to 1.26.4. **This update includes a security fix.**\n- [Release notes](https://github.com/urllib3/urllib3/releases)\n- [Changelog](https://github.com/urllib3/urllib3/blob/main/CHANGES.rst)\n- [Commits](https://github.com/urllib3/urllib3/compare/1.26.3...1.26.4)\n\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\n\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            }
+        ]
+    },
+    "a42829e7144e146417c6d6f5c18caf6608f5dc39": {
+        "committer_date": "2021-04-14 11:23:45+12:00",
+        "author_date": "2021-04-14 11:23:45+12:00",
+        "commit_message": ":heavy_minus_sign: Remove xrviz but keep hvplot\n\nXrViz hasn't been maintained since Apr 2020, and it's always been buggy when handling non standard xarray grids, so removing it from the list. Keeping HvPlot though since it's much more active and actually works well.",
+        "in_main_branch": true,
+        "committer": "23487320+weiji14@users.noreply.github.com",
+        "modified_files": [
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            },
+            {
+                "file_name": "pyproject.toml",
+                "old_path": "pyproject.toml",
+                "new_path": "pyproject.toml",
+                "nloc": null
+            }
+        ]
+    },
+    "1db62e93e229da5ee17d35d416c160a6fb29b30b": {
+        "committer_date": "2021-06-30 16:31:21+12:00",
+        "author_date": "2021-06-30 16:31:21+12:00",
+        "commit_message": ":chart_with_upwards_trend: Ice surface hrange and dhdt up to 20201224\n\nCalculate Antarctic ice surface height range (hrange) and rate of ice surface elevation change over time (dhdt) up to 20201224 (note, not 20210421)! Supersedes f87b400c6f3b19b3839d83b828b930d04eb9db06. Involves n=300 million data points!! Server memory is still an issue (read, require >200GB), more so than the compute time needed. Preprocessing (lon/lat to x/y and masking) has moved to atl06_to_atl11 though, so things flow a bit smoother. There is a problem with track 0741 somehow that shows up in the hrange and dhdt plots cutting through Berkner Island and Ninnis Glacier (and I've downloaded and reprocessed the ATL11 data twice to ensure it's not some data corruption issue). Also updated teaser dhdt image accordingly on the main README.md file.",
+        "in_main_branch": true,
+        "committer": "23487320+weiji14@users.noreply.github.com",
+        "modified_files": [
+            {
+                "file_name": "README.md",
+                "old_path": "README.md",
+                "new_path": "README.md",
+                "nloc": null
+            },
+            {
+                "file_name": "atl06_to_atl11.ipynb",
+                "old_path": "atl06_to_atl11.ipynb",
+                "new_path": "atl06_to_atl11.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atl06_to_atl11.py",
+                "old_path": "atl06_to_atl11.py",
+                "new_path": "atl06_to_atl11.py",
+                "nloc": 181
+            },
+            {
+                "file_name": "atlxi_dhdt.ipynb",
+                "old_path": "atlxi_dhdt.ipynb",
+                "new_path": "atlxi_dhdt.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "atlxi_dhdt.py",
+                "old_path": "atlxi_dhdt.py",
+                "new_path": "atlxi_dhdt.py",
+                "nloc": 213
+            }
+        ]
+    },
+    "38949ad6a1192dc5d96d2269c1ae4ee1b8644f71": {
+        "committer_date": "2021-07-02 12:46:07+12:00",
+        "author_date": "2021-07-02 12:46:07+12:00",
+        "commit_message": ":boom: Let subglacial lake integration tests use dvc tracked parq files\n\nTracking the df_dhdt_*.parquet files via DVC and storing them on DAGsHub! No more of that one step behind GitHub release nonsense like in 22eb2d1ed080c0eb7bca72a201421f74a74732f7. Only tracking four files (<1GB each) because DAGsHub has a 10GB limit (I think). Default dvc remote has been set to https://dagshub.com/weiji14/deepicedrain. Also updated integration tests in deepicedrain/features/subglacial_lakes.feature to run on 1 extra cycle (cycle 9), which was the whole point of this exercise.",
+        "in_main_branch": true,
+        "committer": "23487320+weiji14@users.noreply.github.com",
+        "modified_files": [
+            {
+                "file_name": "config",
+                "old_path": ".dvc\\config",
+                "new_path": ".dvc\\config",
+                "nloc": null
+            },
+            {
+                "file_name": "python-app.yml",
+                "old_path": ".github\\workflows\\python-app.yml",
+                "new_path": ".github\\workflows\\python-app.yml",
+                "nloc": null
+            },
+            {
+                "file_name": ".gitignore",
+                "old_path": ".gitignore",
+                "new_path": ".gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "df_dhdt_amundsen_sea_embayment.parquet.dvc",
+                "old_path": null,
+                "new_path": "ATLXI\\df_dhdt_amundsen_sea_embayment.parquet.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "df_dhdt_slessor_downstream.parquet.dvc",
+                "old_path": null,
+                "new_path": "ATLXI\\df_dhdt_slessor_downstream.parquet.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "df_dhdt_whillans_downstream.parquet.dvc",
+                "old_path": null,
+                "new_path": "ATLXI\\df_dhdt_whillans_downstream.parquet.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "df_dhdt_whillans_upstream.parquet.dvc",
+                "old_path": null,
+                "new_path": "ATLXI\\df_dhdt_whillans_upstream.parquet.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "subglacial_lakes.feature",
+                "old_path": "deepicedrain\\features\\subglacial_lakes.feature",
+                "new_path": "deepicedrain\\features\\subglacial_lakes.feature",
+                "nloc": null
+            },
+            {
+                "file_name": "conftest.py",
+                "old_path": "deepicedrain\\tests\\conftest.py",
+                "new_path": "deepicedrain\\tests\\conftest.py",
+                "nloc": 80
+            },
+            {
+                "file_name": "test_subglacial_lake_finder.py",
+                "old_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
+                "new_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
+                "nloc": 46
+            }
+        ]
+    },
+    "d5ccdf4c29562fad84ebee46805e5114082cfcd5": {
+        "committer_date": "2021-10-08 21:11:39+13:00",
+        "author_date": "2021-10-08 21:11:39+13:00",
+        "commit_message": ":arrow_up: Bump gmt to 6.2.0, cuml and cuspatial from 21.06 to 21.10\n\nBumps [gmt](https://github.com/GenericMappingTools/gmt) from 6.2.0.dev12+922af84 to 6.2.0.\n  - [Release notes](https://github.com/GenericMappingTools/gmt/releases)\n  - [Commits](https://github.com/GenericMappingTools/gmt/compare/922af84734e067dadbf850cdf8033970aad0d271...7a1cd2c1fb3c5597797c24135b407c160666091b)\n\nBumps [cuml](https://github.com/rapidsai/cuml) from 21.06.02 to 21.10.00.\n- [Release notes](https://github.com/rapidsai/cuml/releases)\n- [Changelog](https://github.com/rapidsai/cuml/blob/branch-21.10/CHANGELOG.md)\n- [Commits](https://github.com/rapidsai/cuml/compare/v21.06.02...v21.10.00)\n\nBumps [cuspatial](https://github.com/rapidsai/cuspatial) from 21.06.02 to 21.10.00.\n- [Release notes](https://github.com/rapidsai/cuspatial/releases)\n- [Changelog](https://github.com/rapidsai/cuspatial/blob/branch-21.10/CHANGELOG.md)\n- [Commits](https://github.com/rapidsai/cuspatial/compare/v21.06.02...v21.10.00)\n\nSo GDAL3.3 can now be used with cuspatial 21.10, which is what gmt 6.2.0 uses, thereby patching 946f60ddb3e24b2e150be1e8700ba9f68541d4f8. Had to bump up pointCollection revision which doesn't set an explicit pin to GDAL 3.2. Also bumped parallel from 20210422 to 20210822, gxx_linux-64 from 9.3.0 to 11.2.0, and proj from 8.0.0 to 8.0.1.",
+        "in_main_branch": true,
+        "committer": "23487320+weiji14@users.noreply.github.com",
+        "modified_files": [
+            {
+                "file_name": "environment-linux-64.lock",
+                "old_path": "environment-linux-64.lock",
+                "new_path": "environment-linux-64.lock",
+                "nloc": null
+            },
+            {
+                "file_name": "environment.yml",
+                "old_path": "environment.yml",
+                "new_path": "environment.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            },
+            {
+                "file_name": "pyproject.toml",
+                "old_path": "pyproject.toml",
+                "new_path": "pyproject.toml",
+                "nloc": null
+            }
+        ]
+    },
+    "a617aa15855c25adaa8b3138b2a70c0437138ff3": {
+        "committer_date": "2021-10-09 20:51:02+13:00",
+        "author_date": "2021-10-09 20:51:02+13:00",
+        "commit_message": ":pushpin: Pin cupy to 9.5.0, pyarrow to 5.0.0\n\nDowngrade cupy from 10.0.0a2 to 9.5.0, and upgrade pyarrow from 1.0.1 to 5.0.0 to fix some import errors.",
+        "in_main_branch": true,
+        "committer": "23487320+weiji14@users.noreply.github.com",
+        "modified_files": [
+            {
+                "file_name": "poetry.lock",
+                "old_path": "poetry.lock",
+                "new_path": "poetry.lock",
+                "nloc": null
+            },
+            {
+                "file_name": "pyproject.toml",
+                "old_path": "pyproject.toml",
+                "new_path": "pyproject.toml",
+                "nloc": null
+            }
+        ]
+    },
+    "0f405ba3dc4c20607b1abf0da3e7077f6d910a84": {
+        "committer_date": "2022-10-03 17:13:01-04:00",
+        "author_date": "2022-10-03 17:13:01-04:00",
+        "commit_message": ":whale: Migrate Dockerfile from conda to mamba and link to Pangeo BinderHub (#341)\n\n* :whale: Migrate Dockerfile from conda to mamba, bump to Jammy Jellyfish\r\n\r\nIt's 2022, so let's mamba! Speeds up initial installation step which will save time and reduce possibility of timeouts on cloud environments like Binder. Using Mambaforge also means conda-forge channel is highest priority by default, and we can do away with some custom config settings. Note that the conda virtual environment is now instantiated from the environment-linux-64.lock file instead of enviroment.yml, which should hopefully fix those llvmlite issues. Also bumped buildpack-deps from Ubuntu Focal Fossa (20.04) to Jammy Jellyfish (22.04) because why not?\r\n\r\n* :zap: Use mamba instead of conda for GitHub Actions workflows\r\n\r\nMore 2022 modernization on the GitHub Actions Continuous Integration scripts. Installing from the environment-linux-64.lock file directly in the setup Mambaforge step and remove mentions of caching. Also bumped runners from Ubuntu 20.04 to 22.04.\r\n\r\n* :technologist: Update buttons to mybinder.org and Pangeo BinderHub\r\n\r\nRemoving the broken Pangeo Binder link that is offline since Dec 2021, and replace it with the generic mybinder.org federation button. Also sneaking in the Pangeo BinderHub button created from nbgitpuller, which links to the AWS uswest-2 hosted instance. Fingers crossed that this allows for cloud access to to ICESat-2!",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "docker-build.yml",
+                "old_path": ".github\\workflows\\docker-build.yml",
+                "new_path": ".github\\workflows\\docker-build.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "python-app.yml",
+                "old_path": ".github\\workflows\\python-app.yml",
+                "new_path": ".github\\workflows\\python-app.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "Dockerfile",
+                "old_path": "Dockerfile",
+                "new_path": "Dockerfile",
+                "nloc": null
+            },
+            {
+                "file_name": "README.md",
+                "old_path": "README.md",
+                "new_path": "README.md",
+                "nloc": null
+            }
+        ]
+    }
+}

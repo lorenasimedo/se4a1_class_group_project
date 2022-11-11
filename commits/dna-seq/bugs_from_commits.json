@@ -1,0 +1,654 @@
+{
+    "5d21260d2e0184a85ae49c53caadfcbb31bcbe40": {
+        "committer_date": "2020-04-12 16:56:42+03:00",
+        "author_date": "2020-04-12 16:56:42+03:00",
+        "commit_message": "fixed bam_to_fastq",
+        "in_main_branch": true,
+        "committer": "antonkulaga@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "bam_to_fastq.wdl",
+                "old_path": null,
+                "new_path": "bam_to_fastq\\bam_to_fastq.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "anton.json",
+                "old_path": null,
+                "new_path": "bam_to_fastq\\inputs\\anton.json",
+                "nloc": null
+            },
+            {
+                "file_name": "dna_seq_pipeline_bam.wdl",
+                "old_path": "dna-seq-pipeline\\dna_seq_pipeline_bam.wdl",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "dna_seq_pipeline_fastq.wdl",
+                "old_path": "dna-seq-pipeline\\dna_seq_pipeline_fastq.wdl",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "bam2fastq.wdl",
+                "old_path": "tools\\bam2fastq\\bam2fastq.wdl",
+                "new_path": null,
+                "nloc": null
+            }
+        ]
+    },
+    "2bcef619d811528f729ce175e9d865b73b6e7515": {
+        "committer_date": "2020-04-13 03:17:55+03:00",
+        "author_date": "2020-04-13 03:17:55+03:00",
+        "commit_message": "fixed bam_to_fastq",
+        "in_main_branch": true,
+        "committer": "antonkulaga@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "bam_to_fastq.wdl",
+                "old_path": "bam_to_fastq\\bam_to_fastq.wdl",
+                "new_path": "bam_to_fastq\\bam_to_fastq.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "anton.json",
+                "old_path": "bam_to_fastq\\inputs\\anton.json",
+                "new_path": "bam_to_fastq\\inputs\\anton.json",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations.wdl",
+                "old_path": "dna-seq-pipeline\\annotations.wdl",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "deduplication.wdl",
+                "old_path": "dna-seq-pipeline\\deduplication.wdl",
+                "new_path": "dna-seq-pipeline\\deduplication.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "dna_seq_pipeline.wdl",
+                "old_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
+                "new_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "index_reference.wdl",
+                "old_path": null,
+                "new_path": "dna-seq-pipeline\\index_reference.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "preprocess.wdl",
+                "old_path": null,
+                "new_path": "dna-seq-pipeline\\preprocess.wdl",
+                "nloc": null
+            }
+        ]
+    },
+    "5d00f1b44ce3dd02462be5f60383bdb6ff5366a1": {
+        "committer_date": "2020-04-13 22:49:06+03:00",
+        "author_date": "2020-04-13 22:49:06+03:00",
+        "commit_message": "fix reference",
+        "in_main_branch": true,
+        "committer": "antonkulaga@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "alignment.wdl",
+                "old_path": "dna-seq-pipeline\\alignment.wdl",
+                "new_path": "dna-seq-pipeline\\alignment.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "index_reference.wdl",
+                "old_path": "dna-seq-pipeline\\index_reference.wdl",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "bam_to_fastq.wdl",
+                "old_path": "bam_to_fastq\\bam_to_fastq.wdl",
+                "new_path": "preparation\\bam_to_fastq.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "index_reference.wdl",
+                "old_path": null,
+                "new_path": "preparation\\index_reference.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "anton_bam_to_fastq.json",
+                "old_path": "bam_to_fastq\\inputs\\anton.json",
+                "new_path": "preparation\\inputs\\anton_bam_to_fastq.json",
+                "nloc": null
+            }
+        ]
+    },
+    "4149d09839900bbb3c28332ddc161a7708ea72f3": {
+        "committer_date": "2020-04-14 02:13:51+03:00",
+        "author_date": "2020-04-14 02:13:51+03:00",
+        "commit_message": "fixed bug with ref",
+        "in_main_branch": true,
+        "committer": "antonkulaga@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "bam_to_fastq.wdl",
+                "old_path": "preparation\\bam_to_fastq.wdl",
+                "new_path": "preparation\\bam_to_fastq.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "index_reference.wdl",
+                "old_path": "preparation\\index_reference.wdl",
+                "new_path": "preparation\\index_reference.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "human_index_reference.json",
+                "old_path": null,
+                "new_path": "preparation\\inputs\\human_index_reference.json",
+                "nloc": null
+            }
+        ]
+    },
+    "06f81a83d37cde06c19cc51643abc3a03a8bafbe": {
+        "committer_date": "2020-04-16 15:38:25+03:00",
+        "author_date": "2020-04-16 15:38:25+03:00",
+        "commit_message": "fix bug with samtools container",
+        "in_main_branch": true,
+        "committer": "antonkulaga@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "alignment.wdl",
+                "old_path": "dna-seq-pipeline\\alignment.wdl",
+                "new_path": "dna-seq-pipeline\\alignment.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "dna_seq_pipeline.wdl",
+                "old_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
+                "new_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "anton.json",
+                "old_path": "dna-seq-pipeline\\inputs\\anton.json",
+                "new_path": "dna-seq-pipeline\\inputs\\anton.json",
+                "nloc": null
+            },
+            {
+                "file_name": "variant_calling.wdl",
+                "old_path": "dna-seq-pipeline\\variant_calling.wdl",
+                "new_path": "dna-seq-pipeline\\variant_calling.wdl",
+                "nloc": null
+            }
+        ]
+    },
+    "28e2d33fca7e7c15adf5b181d555191fa782d8d5": {
+        "committer_date": "2020-04-17 03:15:06+03:00",
+        "author_date": "2020-04-17 03:15:06+03:00",
+        "commit_message": "sambafix",
+        "in_main_branch": true,
+        "committer": "antonkulaga@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "alignment.wdl",
+                "old_path": "dna-seq-pipeline\\alignment.wdl",
+                "new_path": "dna-seq-pipeline\\alignment.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "dna_seq_pipeline.wdl",
+                "old_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
+                "new_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "anton.json",
+                "old_path": "dna-seq-pipeline\\inputs\\anton.json",
+                "new_path": "dna-seq-pipeline\\inputs\\anton.json",
+                "nloc": null
+            }
+        ]
+    },
+    "3f087b3ce90644c2c1f847d6e92a5cbc13d8897b": {
+        "committer_date": "2021-01-14 08:55:06-08:00",
+        "author_date": "2021-01-14 08:55:06-08:00",
+        "commit_message": "fix for services start",
+        "in_main_branch": true,
+        "committer": "isoutthere@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "my.cnf",
+                "old_path": null,
+                "new_path": "services\\config\\my.cnf",
+                "nloc": null
+            },
+            {
+                "file_name": "docker-compose.yml",
+                "old_path": "services\\docker-compose.yml",
+                "new_path": "services\\docker-compose.yml",
+                "nloc": null
+            }
+        ]
+    },
+    "7c4cd2afe03f859af8339005007b9416997b20d3": {
+        "committer_date": "2021-01-14 20:05:02+02:00",
+        "author_date": "2021-01-14 20:05:02+02:00",
+        "commit_message": "Merge pull request #1 from winternewt/master\n\n@winternewt fixed several setup bugs in the setup",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": []
+    },
+    "191130ae2188e78e13aff12b5b011a189e165552": {
+        "committer_date": "2021-01-14 11:29:58-08:00",
+        "author_date": "2021-01-14 11:29:58-08:00",
+        "commit_message": "Removed default from wdl and set it in workflow options",
+        "in_main_branch": true,
+        "committer": "isoutthere@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "bam_to_fastq.wdl",
+                "old_path": "preparation\\bam_to_fastq.wdl",
+                "new_path": "preparation\\bam_to_fastq.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "anton_bam_to_fastq.json",
+                "old_path": "preparation\\inputs\\anton_bam_to_fastq.json",
+                "new_path": "preparation\\inputs\\anton_bam_to_fastq.json",
+                "nloc": null
+            }
+        ]
+    },
+    "beb4486458f5f9cc2f9c85d928697e0c0897325e": {
+        "committer_date": "2021-01-28 08:51:31-08:00",
+        "author_date": "2021-01-28 08:51:31-08:00",
+        "commit_message": "Merge remote-tracking branch 'upstream/master'\nmerging fix for dvc",
+        "in_main_branch": true,
+        "committer": "isoutthere@gmail.com",
+        "modified_files": []
+    },
+    "ef6034c04ec001e09734acca544f12dd1e27f9e5": {
+        "committer_date": "2021-01-28 19:34:10+02:00",
+        "author_date": "2021-01-28 19:34:10+02:00",
+        "commit_message": "fixed gitignore",
+        "in_main_branch": true,
+        "committer": "antonkulaga@gmail.com",
+        "modified_files": [
+            {
+                "file_name": ".gitignore",
+                "old_path": "data\\ensembl\\102\\cache\\.gitignore",
+                "new_path": "data\\ensembl\\102\\cache\\.gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "homo_sapiens_vep_102_GRCh38.tar.gz.dvc",
+                "old_path": null,
+                "new_path": "data\\ensembl\\102\\cache\\homo_sapiens_vep_102_GRCh38.tar.gz.dvc",
+                "nloc": null
+            }
+        ]
+    },
+    "ce01a45758c2ca5b4aac1a0838369c9ac54fccac": {
+        "committer_date": "2021-02-03 15:12:40-08:00",
+        "author_date": "2021-02-03 15:12:40-08:00",
+        "commit_message": "fixed repro for prepare_genome and prepare_vep_cache",
+        "in_main_branch": true,
+        "committer": "isoutthere@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "homo_sapiens_vep_102_GRCh38.tar.gz.dvc",
+                "old_path": "data\\ensembl\\102\\cache\\homo_sapiens_vep_102_GRCh38.tar.gz.dvc",
+                "new_path": "data\\ensembl\\102\\cache\\homo_sapiens_vep_102_GRCh38.tar.gz.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz.dvc",
+                "old_path": "data\\ensembl\\102\\species\\homo_sapiens\\Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz.dvc",
+                "new_path": "data\\ensembl\\102\\species\\homo_sapiens\\Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "clinvar.vcf.gz.dvc",
+                "old_path": "data\\gwas\\annotations\\clinvar.vcf.gz.dvc",
+                "new_path": "data\\gwas\\annotations\\clinvar.vcf.gz.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "clinvar.vcf.gz.tbi.dvc",
+                "old_path": "data\\gwas\\annotations\\clinvar.vcf.gz.tbi.dvc",
+                "new_path": "data\\gwas\\annotations\\clinvar.vcf.gz.tbi.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "dvc.lock",
+                "old_path": "dvc.lock",
+                "new_path": "dvc.lock",
+                "nloc": null
+            },
+            {
+                "file_name": "dvc.yaml",
+                "old_path": "dvc.yaml",
+                "new_path": "dvc.yaml",
+                "nloc": null
+            }
+        ]
+    },
+    "622fe4b00bf8a89b8b92261deeb7ed071f7e81a3": {
+        "committer_date": "2021-02-13 09:15:20-08:00",
+        "author_date": "2021-02-13 08:56:48-08:00",
+        "commit_message": "Merged vep-changes fixed conflict.",
+        "in_main_branch": true,
+        "committer": "isoutthere@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "anton_annotations_deepvariant.json",
+                "old_path": "annotations\\inputs\\vep\\anton_annotations_deepvariant.json",
+                "new_path": "annotations\\inputs\\vep\\anton_annotations_deepvariant.json",
+                "nloc": null
+            },
+            {
+                "file_name": "vep_annotations.wdl",
+                "old_path": "annotations\\vep_annotations.wdl",
+                "new_path": "annotations\\vep_annotations.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "application.conf",
+                "old_path": "config\\cromwell\\application.conf",
+                "new_path": "config\\cromwell\\application.conf",
+                "nloc": null
+            },
+            {
+                "file_name": "docker-compose.yml",
+                "old_path": "docker-compose.yml",
+                "new_path": "docker-compose.yml",
+                "nloc": null
+            }
+        ]
+    },
+    "9cb93cccca60546817e98d30c2c673b7fa4c718f": {
+        "committer_date": "2021-02-13 09:25:45-08:00",
+        "author_date": "2021-02-13 09:25:45-08:00",
+        "commit_message": "Merge branch 'perf-control'\nthreading, vep and dvc fixes",
+        "in_main_branch": true,
+        "committer": "isoutthere@gmail.com",
+        "modified_files": []
+    },
+    "d56c861341bc1072234a043775f8de44f320c72f": {
+        "committer_date": "2021-02-18 13:36:46+02:00",
+        "author_date": "2021-02-18 13:36:46+02:00",
+        "commit_message": "Merge pull request #5 from winternewt/master\n\nto all wdls:\r\n\r\n    threading and mem moved to jsons.\r\n    to vep:\r\n    db-host support (main mirror is down atm),\r\n    tbi processing,\r\n    vcf and vcf.gz input support;\r\n    docker host-network for cromwell (ugly hack) to fix perl DBI connection to mysql\r\n    to comose:\r\n    fixed mbind permissions spam\r\n    to dvc:\r\n    disease_pmid_associations are now downloaded from site and tbi is produced in vep pipeline",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": []
+    },
+    "0fe010c6ec6481ba652ef4f743f08f325deb0805": {
+        "committer_date": "2021-04-08 07:03:02+03:00",
+        "author_date": "2021-04-08 07:03:02+03:00",
+        "commit_message": "fix in input jsons",
+        "in_main_branch": true,
+        "committer": "antonkulaga@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "README.md",
+                "old_path": "README.md",
+                "new_path": "README.md",
+                "nloc": null
+            },
+            {
+                "file_name": "vep_annotations.wdl",
+                "old_path": "annotations\\vep\\vep_annotations.wdl",
+                "new_path": "annotations\\vep\\vep_annotations.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "homo_sapiens_vep_103_GRCh38.tar.gz.dvc",
+                "old_path": "data\\ensembl\\103\\homo_sapiens_vep_103_GRCh38.tar.gz.dvc",
+                "new_path": "data\\ensembl\\103\\homo_sapiens_vep_103_GRCh38.tar.gz.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "deep_variant.wdl",
+                "old_path": "dna-seq-pipeline\\deep_variant.wdl",
+                "new_path": "dna-seq-pipeline\\deep_variant.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "dna_seq_pipeline.wdl",
+                "old_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
+                "new_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "anton_all_together.json",
+                "old_path": "dna-seq-pipeline\\inputs\\anton_all_together.json",
+                "new_path": "dna-seq-pipeline\\inputs\\anton_all_together.json",
+                "nloc": null
+            },
+            {
+                "file_name": "test.json",
+                "old_path": "dna-seq-pipeline\\inputs\\test.json",
+                "new_path": "dna-seq-pipeline\\inputs\\test.json",
+                "nloc": null
+            }
+        ]
+    },
+    "70caf398abbc7108f285b63666afea1861a726db": {
+        "committer_date": "2021-05-09 05:49:00+03:00",
+        "author_date": "2021-05-09 05:49:00+03:00",
+        "commit_message": "updated vep to 103 and fixed issue in opencravat wdl",
+        "in_main_branch": true,
+        "committer": "antonkulaga@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "opencravat_anton.json",
+                "old_path": "annotations\\opencravat\\input\\opencravat_anton.json",
+                "new_path": "annotations\\opencravat\\input\\opencravat_anton.json",
+                "nloc": null
+            },
+            {
+                "file_name": "opencravat.wdl",
+                "old_path": "annotations\\opencravat\\opencravat.wdl",
+                "new_path": "annotations\\opencravat\\opencravat.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "example.json",
+                "old_path": "annotations\\vep\\inputs\\haplo\\example.json",
+                "new_path": "annotations\\vep\\inputs\\haplo\\example.json",
+                "nloc": null
+            },
+            {
+                "file_name": "anton_annotations_deepvariant.json",
+                "old_path": "annotations\\vep\\inputs\\vep\\anton_annotations_deepvariant.json",
+                "new_path": "annotations\\vep\\inputs\\vep\\anton_annotations_deepvariant.json",
+                "nloc": null
+            },
+            {
+                "file_name": "anton_annotations_smoove.json",
+                "old_path": "annotations\\vep\\inputs\\vep\\anton_annotations_smoove.json",
+                "new_path": "annotations\\vep\\inputs\\vep\\anton_annotations_smoove.json",
+                "nloc": null
+            },
+            {
+                "file_name": "example.json",
+                "old_path": "annotations\\vep\\inputs\\vep\\example.json",
+                "new_path": "annotations\\vep\\inputs\\vep\\example.json",
+                "nloc": null
+            },
+            {
+                "file_name": "vep_annotations.wdl",
+                "old_path": "annotations\\vep\\vep_annotations.wdl",
+                "new_path": "annotations\\vep\\vep_annotations.wdl",
+                "nloc": null
+            },
+            {
+                "file_name": "Dockerfile",
+                "old_path": "containers\\vep\\Dockerfile",
+                "new_path": "containers\\vep\\Dockerfile",
+                "nloc": null
+            },
+            {
+                "file_name": "align_anton_rg.json",
+                "old_path": "dna-seq-pipeline\\inputs\\alignment\\align_anton_rg.json",
+                "new_path": "dna-seq-pipeline\\inputs\\alignment\\align_anton_rg.json",
+                "nloc": null
+            },
+            {
+                "file_name": "environment.yaml",
+                "old_path": "environment.yaml",
+                "new_path": "environment.yaml",
+                "nloc": null
+            }
+        ]
+    },
+    "a402787d5898de135c13cd2ef3f71bb78edc7e02": {
+        "committer_date": "2021-05-27 15:41:02-07:00",
+        "author_date": "2021-05-27 15:41:02-07:00",
+        "commit_message": "updated and fixed dvc + longevity wget",
+        "in_main_branch": true,
+        "committer": "isoutthere@gmail.com",
+        "modified_files": [
+            {
+                "file_name": ".gitignore",
+                "old_path": ".gitignore",
+                "new_path": ".gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": ".gitignore",
+                "old_path": null,
+                "new_path": "bin\\.gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "micromamba.sh",
+                "old_path": null,
+                "new_path": "bin\\micromamba.sh",
+                "nloc": null
+            },
+            {
+                "file_name": "purge.sh",
+                "old_path": null,
+                "new_path": "bin\\purge.sh",
+                "nloc": null
+            },
+            {
+                "file_name": "ubuntu_prerequisites.sh",
+                "old_path": "bin\\ubuntu_prerequisites.sh",
+                "new_path": "bin\\ubuntu_prerequisites.sh",
+                "nloc": null
+            },
+            {
+                "file_name": ".gitignore",
+                "old_path": "data\\.gitignore",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": ".gitignore",
+                "old_path": null,
+                "new_path": "data\\ensembl\\.gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": ".gitignore",
+                "old_path": "data\\ensembl\\103\\.gitignore",
+                "new_path": "data\\ensembl\\103\\.gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "103.zip.dvc",
+                "old_path": "data\\ensembl\\103\\103.zip.dvc",
+                "new_path": "data\\ensembl\\103\\103.zip.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "homo_sapiens_vep_103_GRCh38.tar.gz.dvc",
+                "old_path": "data\\ensembl\\103\\homo_sapiens_vep_103_GRCh38.tar.gz.dvc",
+                "new_path": "data\\ensembl\\103\\homo_sapiens_vep_103_GRCh38.tar.gz.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": ".gitignore",
+                "old_path": "data\\gwas\\annotations\\.gitignore",
+                "new_path": "data\\gwas\\annotations\\.gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "all_gene_disease_pmid_associations.tsv.gz.dvc",
+                "old_path": null,
+                "new_path": "data\\gwas\\annotations\\all_gene_disease_pmid_associations.tsv.gz.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "clinvar.vcf.gz.dvc",
+                "old_path": "data\\gwas\\annotations\\clinvar.vcf.gz.dvc",
+                "new_path": "data\\gwas\\annotations\\clinvar.vcf.gz.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "clinvar.vcf.gz.tbi.dvc",
+                "old_path": "data\\gwas\\annotations\\clinvar.vcf.gz.tbi.dvc",
+                "new_path": "data\\gwas\\annotations\\clinvar.vcf.gz.tbi.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": ".gitignore",
+                "old_path": "data\\gwas\\annotations\\gene2phenotype\\.gitignore",
+                "new_path": "data\\gwas\\annotations\\gene2phenotype\\.gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "dvc.lock",
+                "old_path": "dvc.lock",
+                "new_path": "dvc.lock",
+                "nloc": null
+            },
+            {
+                "file_name": "dvc.yaml",
+                "old_path": "dvc.yaml",
+                "new_path": "dvc.yaml",
+                "nloc": null
+            }
+        ]
+    },
+    "f7c8afed3d22c0d363878ee4fd5ad3fee1707c85": {
+        "committer_date": "2021-11-30 22:03:53+02:00",
+        "author_date": "2021-11-30 22:03:53+02:00",
+        "commit_message": "Merge pull request #8 from Lady3mlnm/patch-1\n\nSmall addition to ReadMe",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": []
+    },
+    "071a8b17f50307aa63bc88e80546cdbfbec5191b": {
+        "committer_date": "2021-12-01 09:19:00+02:00",
+        "author_date": "2021-12-01 09:19:00+02:00",
+        "commit_message": "Merge pull request #9 from OlgaBorysova/patch-2\n\nProof-reading accepted",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": []
+    },
+    "4945ef3ecf795e3bf45022bc07cfe63b27cfda49": {
+        "committer_date": "2021-12-01 09:54:23+02:00",
+        "author_date": "2021-12-01 09:54:23+02:00",
+        "commit_message": "Merge pull request #10 from LenaKvitka/patch-3\n\nUpdate README.md",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": []
+    },
+    "dcff1f15fbd03ea7b67e90071ae3376b20fa9ec9": {
+        "committer_date": "2022-10-07 22:08:36+03:00",
+        "author_date": "2022-10-07 22:08:36+03:00",
+        "commit_message": "Merge pull request #14 from Marfantyk/patch-1\n\nUpdate README.md",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": []
+    }
+}

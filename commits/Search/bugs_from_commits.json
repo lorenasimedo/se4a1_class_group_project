@@ -1,0 +1,2212 @@
+{
+    "f78fdcbb52becc21af4c9ab60307650e671fd57c": {
+        "committer_date": "2020-04-08 17:38:10+02:00",
+        "author_date": "2020-04-08 17:38:10+02:00",
+        "commit_message": "Progress on the widget\n\n- Fix \"entry not found\" bug\n- Implement some graceful failing\n- Refactor highlighting function\n- Restructure data directories\n- Create toggle buttons for exclusions\n- Add exclusions based on substrings",
+        "in_main_branch": true,
+        "committer": "stanislav.schmidt@epfl.ch",
+        "modified_files": [
+            {
+                "file_name": "Generate Sentence Embeddings - PAFE.ipynb",
+                "old_path": null,
+                "new_path": "cord19q_extra\\Generate Sentence Embeddings - PAFE.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "Information Retrieval - PAFE.ipynb",
+                "old_path": "cord19q_extra\\Information Retrieval - PAFE.ipynb",
+                "new_path": "cord19q_extra\\Information Retrieval - PAFE.ipynb",
+                "nloc": null
+            }
+        ]
+    },
+    "ecb19168e26fe662486ac3b7dfb5caeb56dfaba5": {
+        "committer_date": "2020-04-15 11:17:04+02:00",
+        "author_date": "2020-04-15 11:17:04+02:00",
+        "commit_message": "Fix bug when using generate report button",
+        "in_main_branch": true,
+        "committer": "francesco.casalegno@epfl.ch",
+        "modified_files": [
+            {
+                "file_name": "Information Retrieval - PAFE.ipynb",
+                "old_path": "notebooks\\cord19q_extra\\Information Retrieval - PAFE.ipynb",
+                "new_path": "notebooks\\cord19q_extra\\Information Retrieval - PAFE.ipynb",
+                "nloc": null
+            }
+        ]
+    },
+    "c9ae13f6667707e3826c575648b32d5c0e792e79": {
+        "committer_date": "2020-04-21 10:53:16+02:00",
+        "author_date": "2020-04-21 10:53:16+02:00",
+        "commit_message": "Fix bug in displaying widget",
+        "in_main_branch": true,
+        "committer": "stanislav.schmidt@epfl.ch",
+        "modified_files": [
+            {
+                "file_name": "widget.py",
+                "old_path": "src\\bbsearch\\widget.py",
+                "new_path": "src\\bbsearch\\widget.py",
+                "nloc": 238
+            }
+        ]
+    },
+    "2f3517a8927cbd2c7dee4fbd7bd4a34f2986bf08": {
+        "committer_date": "2020-04-21 12:14:20+02:00",
+        "author_date": "2020-04-21 12:02:53+02:00",
+        "commit_message": "Fix paragraph retrieval\n\nThe problem was that the signature of the function\n`highlight_in_paragraph` in `AllData` had changed\nbut the code in widget was not updated.\n\nThis caused an exception in the widget, but the exception\nis caught in the widget code. Unfortunately, in the error\nhandling the message indicating the error was printed between\nangled brackets '<' and '>', and upon formatting as HTML\nwas ignored since it was not a valid HTML tag. Therefore\nthe error remained invisible. Now the angled brackets were\nremoved from the error message, and one should be able\nto see errors that occur during the paragraph retrieval\nin the future.\n\nSome other changes that were done:\n- Adjust a logging message text\n- Add logging configuration to the widget notebook",
+        "in_main_branch": true,
+        "committer": "stanislav.schmidt@epfl.ch",
+        "modified_files": [
+            {
+                "file_name": "search_widget.ipynb",
+                "old_path": "notebooks\\search_widget.ipynb",
+                "new_path": "notebooks\\search_widget.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "models.py",
+                "old_path": "src\\bbsearch\\models.py",
+                "new_path": "src\\bbsearch\\models.py",
+                "nloc": 79
+            },
+            {
+                "file_name": "widget.py",
+                "old_path": "src\\bbsearch\\widget.py",
+                "new_path": "src\\bbsearch\\widget.py",
+                "nloc": 242
+            }
+        ]
+    },
+    "6e23ecf2a65d38b8839f30ef8278a87953baa46b": {
+        "committer_date": "2020-04-21 12:21:27+02:00",
+        "author_date": "2020-04-21 12:21:27+02:00",
+        "commit_message": "Merge branch 'fix/paragraph_retrieval'",
+        "in_main_branch": true,
+        "committer": "stanislav.schmidt@epfl.ch",
+        "modified_files": []
+    },
+    "da5fb359d54b30d1382ee37c4b81699ab2802c33": {
+        "committer_date": "2020-04-21 16:05:54+02:00",
+        "author_date": "2020-04-21 16:05:54+02:00",
+        "commit_message": "Create initial testing setup\n\nCreation of fixtures that try to imitate the actual data we have:\r\n- database (cursor)\r\n- embeddings\r\n- multiple paths\r\n\r\nPartly addresses [BBS-2]",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "setup.cfg",
+                "old_path": "setup.cfg",
+                "new_path": "setup.cfg",
+                "nloc": null
+            },
+            {
+                "file_name": "conftest.py",
+                "old_path": null,
+                "new_path": "tests\\conftest.py",
+                "nloc": 120
+            },
+            {
+                "file_name": "test_fixtures.py",
+                "old_path": null,
+                "new_path": "tests\\test_fixtures.py",
+                "nloc": 32
+            }
+        ]
+    },
+    "350346e0eaedf82465333c27eb483ef9cb71b3de": {
+        "committer_date": "2020-05-11 10:12:18+02:00",
+        "author_date": "2020-05-11 10:12:18+02:00",
+        "commit_message": "Fix [BBS-30]: Integrate notebooks in python package (#23)\n\n* Fix [BBS-30]: Integrate CreateDatabase notebook in python package\r\n\r\n- Integrate CreateDatabase notebook into sql module.\r\n- Create corresponding tests.\r\n\r\n* Fix [BBS-30]: Integrate GenerateSentEmb notebook in python package\r\n\r\n- Creates two methods in the EmbeddingsModels class\r\n- Creates corresponding tests\r\n- Added synonyms_list.txt needed for EmbeddingsModels class\r\n\r\n* Fix [BBS-30]: Remove the two notebooks\r\n\r\n* Fix [BBS-30]: Try to make CI work\r\n\r\nAdd spacy and nltk modules in the install_requires in setup.py\r\n\r\n* Integrate Stan's comments about naming methods\r\n\r\n* Integrate Francesco's commit\r\n\r\n- Put rename_columns private\r\n- Create a method construct for the DatabaseCreation instead of everything\r\ninside the constructor\r\n\r\n* Add the possibility to choose saving directory\r\n\r\nUser can specify saving directory\r\n- For database creation\r\n- For embeddings saving\r\n\r\n* Create Entry Points\r\n\r\nCreate entry points for:\r\n- Database creation\r\n- Embeddings saving\r\n\r\n* Try to make CI works\r\n\r\n* Correction for CI errors\r\n\r\n* Correction issue Jenkins\r\n\r\n* Put at least tf>2.0.0 in setup.py\r\n\r\n* Change the version tf for 2.0.0a0\r\n\r\n* Retrieger Jenkins\r\n\r\n* Remove tests\r\n\r\n* Remove entrypoints\r\n\r\n* Remove synonyms_list.txt",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "Create_Database.ipynb",
+                "old_path": "notebooks\\cord19q_extra\\Create_Database.ipynb",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "Generate Sentence Embeddings - PAFE.ipynb",
+                "old_path": "notebooks\\cord19q_extra\\Generate Sentence Embeddings - PAFE.ipynb",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "embedding_models.py",
+                "old_path": "src\\bbsearch\\embedding_models.py",
+                "new_path": "src\\bbsearch\\embedding_models.py",
+                "nloc": 145
+            },
+            {
+                "file_name": "sql.py",
+                "old_path": "src\\bbsearch\\sql.py",
+                "new_path": "src\\bbsearch\\sql.py",
+                "nloc": 159
+            }
+        ]
+    },
+    "e46d430daaedc8df07327812c28645ba3b065b6d": {
+        "committer_date": "2020-05-11 12:21:31+02:00",
+        "author_date": "2020-05-11 12:21:31+02:00",
+        "commit_message": "Merge search_widget with BBS_BBG_poc notebook (#28)\n\nChanges:\r\n\r\n* Move code from search_widgets to BBS_BBG_poc. Delete `search_widget.ipynb`.\r\n* Fix bug in widget callback:\r\nThe parameter `change_dict` in the callback\r\n`investigate_on_click` is not used in that callback.\r\nHowever, deleting it causes the callback to stop working.\r\nTherefore this parameter needs to be kept where it is.\r\n* Change \"True\" to \"1\" in SQLite query.\r\n* Address the SettingWithCopyWarning in `AllData`.\r\n\r\nCo-authored-by: Francesco Casalegno <francesco.casalegno@gmail.com>\r\nCo-authored-by: Mohameth Fran\u00e7ois SY <mohamethfrancois.sy@gmail.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "BBS_BBG_poc.ipynb",
+                "old_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "new_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "search_widget.ipynb",
+                "old_path": "notebooks\\search_widget.ipynb",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "data.py",
+                "old_path": "src\\bbsearch\\data.py",
+                "new_path": "src\\bbsearch\\data.py",
+                "nloc": 80
+            },
+            {
+                "file_name": "sql.py",
+                "old_path": "src\\bbsearch\\sql.py",
+                "new_path": "src\\bbsearch\\sql.py",
+                "nloc": 159
+            },
+            {
+                "file_name": "widget.py",
+                "old_path": "src\\bbsearch\\widget.py",
+                "new_path": "src\\bbsearch\\widget.py",
+                "nloc": 260
+            }
+        ]
+    },
+    "3191652e6a9f1ab7add40514ce1cf423e6395375": {
+        "committer_date": "2020-05-19 11:53:23+02:00",
+        "author_date": "2020-05-19 11:53:23+02:00",
+        "commit_message": "Enforce BBG tables specs + Implement requested changes\n\nBBG table specs\n - rename columns when needed\n - remove columns that are outside of specs (they can be still accessed\n   by setting `debug=True`\n\nRequested changes\n - table always contain a `confidence_score` column, set to `None` if\n   `return_prob=False`\n - improve docstring",
+        "in_main_branch": true,
+        "committer": "francesco.casalegno@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "entity.py",
+                "old_path": "src\\bbsearch\\mining\\entity.py",
+                "new_path": "src\\bbsearch\\mining\\entity.py",
+                "nloc": 42
+            },
+            {
+                "file_name": "pipeline.py",
+                "old_path": "src\\bbsearch\\mining\\pipeline.py",
+                "new_path": "src\\bbsearch\\mining\\pipeline.py",
+                "nloc": 60
+            }
+        ]
+    },
+    "73947c0c17bdcadc5478bb9af81302f8a58c1827": {
+        "committer_date": "2020-05-19 15:35:27+02:00",
+        "author_date": "2020-05-19 15:35:27+02:00",
+        "commit_message": "Fix issues in notebook (mainly due to merge with master)",
+        "in_main_branch": true,
+        "committer": "francesco.casalegno@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "BBS_BBG_poc.ipynb",
+                "old_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "new_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "entity.py",
+                "old_path": "src\\bbsearch\\mining\\entity.py",
+                "new_path": "src\\bbsearch\\mining\\entity.py",
+                "nloc": 42
+            }
+        ]
+    },
+    "ef7a534c25a1dd26ff3dc4e9dd573300d288326c": {
+        "committer_date": "2020-05-20 13:18:12+02:00",
+        "author_date": "2020-05-20 13:18:12+02:00",
+        "commit_message": "Correct small issue in EmbeddingModel entrypoints (#39)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "embeddings_entrypoint.py",
+                "old_path": "src\\bbsearch\\embeddings_entrypoint.py",
+                "new_path": "src\\bbsearch\\embeddings_entrypoint.py",
+                "nloc": 48
+            }
+        ]
+    },
+    "929803b0bec53acd023f6206468dce571c43da47": {
+        "committer_date": "2020-05-29 10:44:08+02:00",
+        "author_date": "2020-05-29 10:44:08+02:00",
+        "commit_message": "[BBS-66]: Link between Search Engine and Text Mining Tool (#40)\n\n* [BBS-66]: Link between Search Engine and Text Mining Tool\r\n\r\n* Add the cleaning part of the article saver\r\n\r\nAdd a cleaning function to the article saver +\r\nCreate test for the ArticleSaver class\r\n\r\n* Remove debugger prints\r\n\r\n* Modify BBS_BBG_POC notebook to work on DGX1\r\n\r\n* Change assets path to work on DGX1\r\n\r\n* Small changes for DGX1\r\n\r\n* Change line in entity linking\r\n\r\n* Remove useless print\r\n\r\n* Change the status of article_saver\r\n\r\n* Add the possibility to specify article_id in pipeline\r\n\r\nIt is now possible to add an article_id in the pipeline\r\nto fill the paper_id column\r\n\r\n* Complete the docstring of the TextMiningPipeline\r\n\r\n* Complete docstring of widget.py\r\n\r\n* Integrate Stan's comments\r\n\r\n* Change value of table in summary_table\r\n\r\n* Add pdfkit in setup.py\r\n\r\n* Change summary_table\r\n\r\n* Add cell in BBS_BBG_POC to display status of ArticleSaver\r\n\r\n* Add the output with the path to the report\r\n\r\n* Change the 'wkhtmltopdf' in Dockerfile\r\n\r\nThere was an issue about generating PDFs.\r\nThis should be solved with this new way of\r\ninstalling wkhtmltopdf\r\n\r\n* Change the saving_options list in widget.py\r\n\r\n* Put saving_options as OrderedDict\r\n\r\n* Add comments + nltk downloads in POC notebook\r\n\r\n* Correct change of the saved_articles status\r\n\r\n* Start integrate Francesco's comment\r\n\r\n* Integrate Francesco's comments.\r\n\r\n* Change button of search widget size",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "Dockerfile",
+                "old_path": "docker\\Dockerfile",
+                "new_path": "docker\\Dockerfile",
+                "nloc": null
+            },
+            {
+                "file_name": "BBS_BBG_poc.ipynb",
+                "old_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "new_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "setup.py",
+                "old_path": "setup.py",
+                "new_path": "setup.py",
+                "nloc": 47
+            },
+            {
+                "file_name": "article_saver.py",
+                "old_path": null,
+                "new_path": "src\\bbsearch\\article_saver.py",
+                "nloc": 100
+            },
+            {
+                "file_name": "pipeline.py",
+                "old_path": "src\\bbsearch\\mining\\pipeline.py",
+                "new_path": "src\\bbsearch\\mining\\pipeline.py",
+                "nloc": 63
+            },
+            {
+                "file_name": "widget.py",
+                "old_path": "src\\bbsearch\\widget.py",
+                "new_path": "src\\bbsearch\\widget.py",
+                "nloc": 275
+            },
+            {
+                "file_name": "test_article_saver.py",
+                "old_path": null,
+                "new_path": "tests\\test_article_saver.py",
+                "nloc": 49
+            }
+        ]
+    },
+    "8729404467f507265310d449b8602cda2d334f00": {
+        "committer_date": "2020-05-29 16:28:42+02:00",
+        "author_date": "2020-05-29 16:28:42+02:00",
+        "commit_message": "[BBS-79] Update filesystem paths in notebook (#45)\n\n* Update filesystem paths in notebook\r\n\r\n* Change default paths in entrypoints and embeddings path in tests\r\n\r\n* Remove trained_model_path fixture not used\r\n\r\n* Fix path to str for python 3.6\r\n\r\n* Remove SciBERT instructions in notebook\r\n\r\nCo-authored-by: Emilie Delattre <emilie.delattre@epfl.ch>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "BBS_BBG_poc.ipynb",
+                "old_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "new_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "database_entrypoint.py",
+                "old_path": "src\\bbsearch\\database_entrypoint.py",
+                "new_path": "src\\bbsearch\\database_entrypoint.py",
+                "nloc": 26
+            },
+            {
+                "file_name": "embeddings_entrypoint.py",
+                "old_path": "src\\bbsearch\\embeddings_entrypoint.py",
+                "new_path": "src\\bbsearch\\embeddings_entrypoint.py",
+                "nloc": 50
+            },
+            {
+                "file_name": "conftest.py",
+                "old_path": "tests\\conftest.py",
+                "new_path": "tests\\conftest.py",
+                "nloc": 144
+            },
+            {
+                "file_name": "test_fixtures.py",
+                "old_path": "tests\\test_fixtures.py",
+                "new_path": "tests\\test_fixtures.py",
+                "nloc": 31
+            },
+            {
+                "file_name": "test_search.py",
+                "old_path": "tests\\test_search.py",
+                "new_path": "tests\\test_search.py",
+                "nloc": 54
+            }
+        ]
+    },
+    "fb0cb7f16255b850bbd2da76b499346058d1420c": {
+        "committer_date": "2020-06-10 14:58:39+02:00",
+        "author_date": "2020-06-10 14:58:39+02:00",
+        "commit_message": "[BBS-83] Do BBS search as a service instead of notebook (#49)\n\n* Add search server stub\r\n\r\n* Implement Searcher and LocalSearcher\r\n\r\n* Add logging to LocalSearcher\r\n\r\n* Change widget class to use the Searcher\r\n\r\n* Restructure entrypoints to import in main()\r\n\r\n* Add search server entrypoint\r\n\r\n* Add RemoteSearcher\r\n\r\n* Finish SearchServer\r\n\r\n* Add search server Dockerfile\r\n\r\n* Install Cython and numpy explicitely in Dockerfile\r\n\r\n* Add sent2vec-prebuilt to requirements.txt\r\n\r\n* Replace python setup.py install by pip install .\r\n\r\n* Fix bugs\r\n\r\n* Fix typo in dockerfile\r\n\r\n* Fix more server bugs\r\n\r\n* Connect to DB at every query\r\n\r\n* Convert numpy arrays to lists in server response\r\n\r\n* Improve search server query response\r\n\r\n* Fix search server response\r\n\r\n* Try to fix weird Flask bug\r\n\r\n* Put all entrypoints into a module\r\n\r\n* Change absolute imports in entrypoints to relative\r\n\r\n* Remove abstract Searcher class and add docstrings.\r\n\r\n* Add minimal testing for entrypoints\r\n\r\n* Load models and embedding outside of LocalSearcher\r\n\r\n* Make search server load models and embeddings\r\n\r\n* Add __init__.py to entrypoints module\r\n\r\n* Use pathlib in search server\r\n\r\n* Move LocalSearcher to search.py\r\n\r\nThere was no benefit in keeping it in a separate module.\r\nThe old module `local_searcher.py` imported from\r\n`search.py` anyway.\r\n\r\n* Test LocalSearcher\r\n\r\n* Test RemoteSearcher\r\n\r\n* Use precise database path instead of a folder\r\n\r\n* Add hello route to server\r\n\r\n* Adjust the POC notebook\r\n\r\n* Fix docstrings\r\n\r\n* Remove local search option\r\n\r\nCo-authored-by: Jan Krepl <jankrepl@yahoo.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "Dockerfile-search_server",
+                "old_path": null,
+                "new_path": "docker\\Dockerfile-search_server",
+                "nloc": null
+            },
+            {
+                "file_name": "BBS_BBG_poc.ipynb",
+                "old_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "new_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "requirements.txt",
+                "old_path": "requirements.txt",
+                "new_path": "requirements.txt",
+                "nloc": null
+            },
+            {
+                "file_name": "setup.py",
+                "old_path": "setup.py",
+                "new_path": "setup.py",
+                "nloc": 54
+            },
+            {
+                "file_name": "__init__.py",
+                "old_path": null,
+                "new_path": "src\\bbsearch\\entrypoints\\__init__.py",
+                "nloc": 1
+            },
+            {
+                "file_name": "database_entrypoint.py",
+                "old_path": "src\\bbsearch\\database_entrypoint.py",
+                "new_path": "src\\bbsearch\\entrypoints\\database_entrypoint.py",
+                "nloc": 27
+            },
+            {
+                "file_name": "embedding_server_entrypoint.py",
+                "old_path": "src\\bbsearch\\server\\embedding_server_entrypoint.py",
+                "new_path": "src\\bbsearch\\entrypoints\\embedding_server_entrypoint.py",
+                "nloc": 36
+            },
+            {
+                "file_name": "embeddings_entrypoint.py",
+                "old_path": "src\\bbsearch\\embeddings_entrypoint.py",
+                "new_path": "src\\bbsearch\\entrypoints\\embeddings_entrypoint.py",
+                "nloc": 51
+            },
+            {
+                "file_name": "search_server_entrypoint.py",
+                "old_path": null,
+                "new_path": "src\\bbsearch\\entrypoints\\search_server_entrypoint.py",
+                "nloc": 39
+            },
+            {
+                "file_name": "remote_searcher.py",
+                "old_path": null,
+                "new_path": "src\\bbsearch\\remote_searcher.py",
+                "nloc": 44
+            },
+            {
+                "file_name": "search.py",
+                "old_path": "src\\bbsearch\\search.py",
+                "new_path": "src\\bbsearch\\search.py",
+                "nloc": 119
+            },
+            {
+                "file_name": "search_server.py",
+                "old_path": null,
+                "new_path": "src\\bbsearch\\server\\search_server.py",
+                "nloc": 73
+            },
+            {
+                "file_name": "widget.py",
+                "old_path": "src\\bbsearch\\widget.py",
+                "new_path": "src\\bbsearch\\widget.py",
+                "nloc": 261
+            },
+            {
+                "file_name": "conftest.py",
+                "old_path": "tests\\conftest.py",
+                "new_path": "tests\\conftest.py",
+                "nloc": 144
+            },
+            {
+                "file_name": "test_entrypoints.py",
+                "old_path": null,
+                "new_path": "tests\\test_entrypoints.py",
+                "nloc": 8
+            },
+            {
+                "file_name": "test_remote_searcher.py",
+                "old_path": null,
+                "new_path": "tests\\test_remote_searcher.py",
+                "nloc": 26
+            },
+            {
+                "file_name": "test_search.py",
+                "old_path": "tests\\test_search.py",
+                "new_path": "tests\\test_search.py",
+                "nloc": 78
+            }
+        ]
+    },
+    "07d981be6f51f07c190cbb0eb0f156e84719b9fd": {
+        "committer_date": "2020-06-16 09:40:13+02:00",
+        "author_date": "2020-06-16 09:40:13+02:00",
+        "commit_message": "[BBS-89]: Fix issue with empty string and return_prob=True (#54)\n\n* Fix empty string and return_prob=True issue\r\n\r\n* Remove pytest-runner from setup.py\r\n\r\n* Upgrade pytest manually in Travis.\r\n\r\nCo-authored-by: Stanislav Schmidt <stanislav.schmidt@epfl.ch>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": ".travis.yml",
+                "old_path": ".travis.yml",
+                "new_path": ".travis.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "setup.py",
+                "old_path": "setup.py",
+                "new_path": "setup.py",
+                "nloc": 52
+            },
+            {
+                "file_name": "entity.py",
+                "old_path": "src\\bbsearch\\mining\\entity.py",
+                "new_path": "src\\bbsearch\\mining\\entity.py",
+                "nloc": 45
+            }
+        ]
+    },
+    "4a0edada01d1590b8e2fa4e2dd3d46d5daf21ec6": {
+        "committer_date": "2020-06-24 16:29:41+02:00",
+        "author_date": "2020-06-24 16:29:41+02:00",
+        "commit_message": "[BBS-87]: Selected article PDF report shows inconsistent metadata (#57)\n\n* Remove feedback of the ArticleSaver because not really useful\r\n\r\n* Change the name of the section in the article report\r\n\r\n* Fix the issue related to the default_saving [BBS-86]",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "article_saver.py",
+                "old_path": "src\\bbsearch\\article_saver.py",
+                "new_path": "src\\bbsearch\\article_saver.py",
+                "nloc": 89
+            },
+            {
+                "file_name": "widget.py",
+                "old_path": "src\\bbsearch\\widget.py",
+                "new_path": "src\\bbsearch\\widget.py",
+                "nloc": 259
+            },
+            {
+                "file_name": "test_article_saver.py",
+                "old_path": "tests\\test_article_saver.py",
+                "new_path": "tests\\test_article_saver.py",
+                "nloc": 44
+            }
+        ]
+    },
+    "bc2772c40729188661c28f334736a7d69e000c05": {
+        "committer_date": "2020-07-10 13:59:06+02:00",
+        "author_date": "2020-07-10 13:59:06+02:00",
+        "commit_message": "[BBS-82] NER Evaluation (#63)\n\n* Enable NER evaluation on prodigy databases with multiple datasets in it\r\n\r\n* Forgot quotes in string for sql query in NER eval\r\n\r\n* Remove hack to fix Ent Type naming\r\n\r\n* Add NER eval funcs inspired to numpy and sklearn.\r\n\r\nAdded functionalities\r\n - unique_types : inspired by np.unique\r\n - iob2idx : transform IOB annotaiton into (ent_start, ent_end)\r\n - idx2text : transorm (ent_start, ent_end) into ent_text\r\n - ner_report : inspired by sklearn.metrics.classification_report\r\n - ner_confusion : similar to ner_report, focuses on false pos and neg\r\n\r\n* Fix flake8\r\n\r\n* Fix pydocstyle\r\n\r\n* Rename ner_errors\r\n\r\n* Minor bug\r\n\r\n* Test unique_etypes\r\n\r\n* Test iob2idx\r\n\r\n* Test idx2text\r\n\r\n* Test ner_report\r\n\r\n* Rename eval modes as \"entity\" and \"token\"\r\n\r\n* Add NER confusion matrix\r\n\r\n* Rename conf matrix function\r\n\r\n* round() returns float, not int\r\n\r\n* Fix confusion matrix bugs\r\n\r\n* More bugs\r\n\r\n* Still more bugs\r\n\r\n* Test ner_confusion_matrix\r\n\r\n* Add notebook to showcase NER evaluation functions\r\n\r\n* Fix typos in docstrings\r\n\r\n* Fix bug in ner_errors + incorporate Stan feedback\r\n\r\n* Add remove_punctuation()\r\n\r\n* Add remove_punctuation() to NER eval notebook",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "NER_Evaluation.ipynb",
+                "old_path": null,
+                "new_path": "notebooks\\NER_Evaluation.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "requirements.txt",
+                "old_path": "requirements.txt",
+                "new_path": "requirements.txt",
+                "nloc": null
+            },
+            {
+                "file_name": "setup.py",
+                "old_path": "setup.py",
+                "new_path": "setup.py",
+                "nloc": 59
+            },
+            {
+                "file_name": "eval.py",
+                "old_path": "src\\bbsearch\\mining\\eval.py",
+                "new_path": "src\\bbsearch\\mining\\eval.py",
+                "nloc": 251
+            },
+            {
+                "file_name": "conftest.py",
+                "old_path": "tests\\conftest.py",
+                "new_path": "tests\\conftest.py",
+                "nloc": 163
+            },
+            {
+                "file_name": "iob_punctuation_after.csv",
+                "old_path": null,
+                "new_path": "tests\\data\\mining\\eval\\iob_punctuation_after.csv",
+                "nloc": null
+            },
+            {
+                "file_name": "iob_punctuation_before.csv",
+                "old_path": null,
+                "new_path": "tests\\data\\mining\\eval\\iob_punctuation_before.csv",
+                "nloc": null
+            },
+            {
+                "file_name": "ner_iob_sample.csv",
+                "old_path": null,
+                "new_path": "tests\\data\\mining\\eval\\ner_iob_sample.csv",
+                "nloc": null
+            },
+            {
+                "file_name": "test_eval.py",
+                "old_path": "tests\\test_mining\\test_eval.py",
+                "new_path": "tests\\test_mining\\test_eval.py",
+                "nloc": 214
+            }
+        ]
+    },
+    "74805843600f0870b7891e1283e3570eb8e3ad13": {
+        "committer_date": "2020-07-22 13:36:29+02:00",
+        "author_date": "2020-07-22 13:36:29+02:00",
+        "commit_message": "Widget Improvements (#73)\n\n- Create the `bbsearch.widgets` module .\r\n- Move `bbsearch.widget.Widget` to `bbsearch.widgets.SearchWidget`.\r\n- Introduce page display to the `SearchWidget`.\r\n- Create `MiningWidget` in `bbsearch.widgets` and move code from POC notebook there.\r\n- Move `ArticleSaver` to `bbsearch.widgets`.\r\n- `ArticelSaver` now tracks saved items in a set (`ArticleSaver.state`) of tuples `(article_id, paragraph_id)`, with `paragraph_id = -1` meaning that the whole article was saved.\r\n- In the `SearchWidget`, when the \"Investigate\" button is clicked, the following things take place:\r\n  - The search parameters are collected\r\n  - The search is delegated to the `searcher` object and returns a list of `sentence_id`s\r\n  - The sentence IDs are resolved into article IDs and paragraph IDs by querying the database\r\n  - If save article / paragraph by default is selected, then all article/paragraph IDs are added to the article saver\r\n  - The number of pages to display is computed\r\n  - The first result page is constructed and displayed",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": ".gitignore",
+                "old_path": ".gitignore",
+                "new_path": ".gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "Dockerfile",
+                "old_path": "docker\\Dockerfile",
+                "new_path": "docker\\Dockerfile",
+                "nloc": null
+            },
+            {
+                "file_name": "BBS_BBG_poc.ipynb",
+                "old_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "new_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "article_saver.py",
+                "old_path": "src\\bbsearch\\article_saver.py",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "widget.py",
+                "old_path": "src\\bbsearch\\widget.py",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "__init__.py",
+                "old_path": null,
+                "new_path": "src\\bbsearch\\widgets\\__init__.py",
+                "nloc": 9
+            },
+            {
+                "file_name": "article_saver.py",
+                "old_path": null,
+                "new_path": "src\\bbsearch\\widgets\\article_saver.py",
+                "nloc": 181
+            },
+            {
+                "file_name": "mining_widget.py",
+                "old_path": null,
+                "new_path": "src\\bbsearch\\widgets\\mining_widget.py",
+                "nloc": 100
+            },
+            {
+                "file_name": "search_widget.py",
+                "old_path": null,
+                "new_path": "src\\bbsearch\\widgets\\search_widget.py",
+                "nloc": 467
+            },
+            {
+                "file_name": "test_article_saver.py",
+                "old_path": "tests\\test_article_saver.py",
+                "new_path": "tests\\test_article_saver.py",
+                "nloc": 53
+            }
+        ]
+    },
+    "d92059d546bc3031f9605364f4b6b4f08de4429e": {
+        "committer_date": "2020-08-06 10:41:17+02:00",
+        "author_date": "2020-08-06 10:41:17+02:00",
+        "commit_message": "Added operator import and fixed default reset values for entityfreqslider and dropdown-freq-filter dash components (#100)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "BBS_BBG_poc.ipynb",
+                "old_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "new_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "nloc": null
+            }
+        ]
+    },
+    "7c2ec32026aecc4970f995ddfd20c2dbea48911b": {
+        "committer_date": "2020-09-22 14:45:08+02:00",
+        "author_date": "2020-09-22 14:45:08+02:00",
+        "commit_message": "Prevent primary key auto-increment on unsuccessfull database operations  (#134)\n\n* Use transactions for pandas.DataFrame.to_sql(...)\r\n\r\n* Fix refactoring issue\r\n\r\n* Add benchmarks\r\n\r\n* Address reviews (table name, print)\r\n\r\n* Add bigger dataset (100,000))",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "cord_19.py",
+                "old_path": "src\\bbsearch\\database\\cord_19.py",
+                "new_path": "src\\bbsearch\\database\\cord_19.py",
+                "nloc": 196
+            },
+            {
+                "file_name": "mining_cache.py",
+                "old_path": "src\\bbsearch\\database\\mining_cache.py",
+                "new_path": "src\\bbsearch\\database\\mining_cache.py",
+                "nloc": 347
+            },
+            {
+                "file_name": "test_benchmark_insert.py",
+                "old_path": null,
+                "new_path": "tests\\benchmarks\\test_benchmark_insert.py",
+                "nloc": 23
+            },
+            {
+                "file_name": "conftest.py",
+                "old_path": "tests\\conftest.py",
+                "new_path": "tests\\conftest.py",
+                "nloc": 256
+            },
+            {
+                "file_name": "test_mining_cache.py",
+                "old_path": "tests\\test_database\\test_mining_cache.py",
+                "new_path": "tests\\test_database\\test_mining_cache.py",
+                "nloc": 207
+            }
+        ]
+    },
+    "b06c80cd3192a067438521af2f511d4014a71cd9": {
+        "committer_date": "2020-09-30 15:51:28+02:00",
+        "author_date": "2020-09-30 15:51:28+02:00",
+        "commit_message": "[BBS-125] Setup ML data and model versioning with DVC (#129)\n\n* Initialize dvc\r\n* Add dvc data to raw_sentences + README\r\n* Add README for annotations (still empty) dir\r\n* Configure remote storage and set GPFS as default + config external/shared DVC cache\r\n* Added annotations set for NER 1 to 13\r\n* Add patterns.jsonl\r\n* Add README for annotations\r\n* Fix dirs naming\r\n* Fix dirs naming / 2\r\n* Remove shared cache setting from DVC shared config\r\n* Update dvc configs for remote storage\r\n* Add requirement for dvc[ssh]\r\n* Fix error in args of ner.correct in ner/README.md\r\n* Replace prodigy2df with annotations2df [wip]\r\n* Fix tests\r\n* Replace prodigy2df with annotations2df [done]\r\n* Add Dockerfile for pipelines [wip]\r\n* Add ner/eval.py [wip]\r\n* Create a first dirty version of eval\r\n* Add preliminary dvc.yaml\r\n* Add new eval (4 separate files)\r\n* Handle prodigy accepted samples w/o annotations\r\n* fix misspell\r\n* Add annotations for NER n. 14 and 15\r\n* Add raw_sentences n 7 8 9 and pathway_patterns\r\n* Update README files for patterns\r\n* Attempt train.py\r\n* Update train.py\r\n* Add dvc pipelines for training model 1, 2, 3, 4, 5\r\n* Add requirements\r\n* add dockerfile\r\n* fix spacy version in requirements\r\n* Add Dockerfile + requirements as dependencies + re-run with correct output modelsgit add -u . \ud83c\udf89\r\n* Add etypes dicts for model 1, 2, 3, 4, 5\r\n* restore dockerfile\r\n* fix dockerfile\r\n* Fix ORGANS label in annotations10\r\n* fix bug in dockerfile (= instad of ==)\r\n* Fix bug annotations2df + DVC eval stages complete!\r\n* Update BBS version in Dockerfile\r\n* Fix sha of Dockerfile\r\n* Fix tests\r\n* Modify docstring of annotations2df\r\n* Fix flake8 and isort\r\n* Check for pathlib\r\n* Include Stan's feedback\r\n* update m5s shas in dvc.lock after previous commit\r\n* Move + rename DVC Dockerfile into pipeline/ner/\r\n* Remove unnecessary requirements\r\n* Run dvc repro to update shas\r\n\r\nCo-authored-by: Stanislav Schmidt <stanislav.schmidt@epfl.ch>\r\nCo-authored-by: Jan Krepl <jankrepl@yahoo.com>\r\nCo-authored-by: Emilie Delattre <emilie.delattre@epfl.ch>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": ".gitignore",
+                "old_path": null,
+                "new_path": ".dvc\\.gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "config",
+                "old_path": null,
+                "new_path": ".dvc\\config",
+                "nloc": null
+            },
+            {
+                "file_name": "confusion.json",
+                "old_path": null,
+                "new_path": ".dvc\\plots\\confusion.json",
+                "nloc": null
+            },
+            {
+                "file_name": "default.json",
+                "old_path": null,
+                "new_path": ".dvc\\plots\\default.json",
+                "nloc": null
+            },
+            {
+                "file_name": "scatter.json",
+                "old_path": null,
+                "new_path": ".dvc\\plots\\scatter.json",
+                "nloc": null
+            },
+            {
+                "file_name": "smooth.json",
+                "old_path": null,
+                "new_path": ".dvc\\plots\\smooth.json",
+                "nloc": null
+            },
+            {
+                "file_name": ".dvcignore",
+                "old_path": null,
+                "new_path": ".dvcignore",
+                "nloc": null
+            },
+            {
+                "file_name": "README.md",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\README.md",
+                "nloc": null
+            },
+            {
+                "file_name": ".gitignore",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\.gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "README.md",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\README.md",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations10_EmmanuelleLogette_2020-08-28_raw1_raw5_10EntityTypes.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations10_EmmanuelleLogette_2020-08-28_raw1_raw5_10EntityTypes.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations11_CharlotteLorin_2020-08-28_raw1_10EntityTypes.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations11_CharlotteLorin_2020-08-28_raw1_10EntityTypes.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations12_EmmanuelleLogette_2020-08-28_raw7_10EntityTypes.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations12_EmmanuelleLogette_2020-08-28_raw7_10EntityTypes.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations13_CharlotteLorin_2020-09-02_raw7_10EntityTypes.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations13_CharlotteLorin_2020-09-02_raw7_10EntityTypes.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations14_EmmanuelleLogette_2020-09-02_raw8_CellCompartmentDrugOrgan.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations14_EmmanuelleLogette_2020-09-02_raw8_CellCompartmentDrugOrgan.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations15_EmmanuelleLogette_2020-09-22_raw9_Pathway.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations15_EmmanuelleLogette_2020-09-22_raw9_Pathway.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations1_EmmanuelleLogette_2020-06-19_raw1_8FirstLabels.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations1_EmmanuelleLogette_2020-06-19_raw1_8FirstLabels.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations2_CharlotteLorin_2020-06-19_8FirstLabels.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations2_CharlotteLorin_2020-06-19_8FirstLabels.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations3_EmmanuelleLogette_2020-07-06_raw1_8FirstLabels.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations3_EmmanuelleLogette_2020-07-06_raw1_8FirstLabels.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations4_CharlotteLorin_2020-07-02_raw1_8FirstLabels.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations4_CharlotteLorin_2020-07-02_raw1_8FirstLabels.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations5_EmmanuelleLogette_2020-06-30_raw2_Disease.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations5_EmmanuelleLogette_2020-06-30_raw2_Disease.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations6_EmmanuelleLogette_2020-07-07_raw4_TaxonChebi.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations6_EmmanuelleLogette_2020-07-07_raw4_TaxonChebi.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations7_EmmanuelleLogette_2020-07-06_raw1_9EntityTypes.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations7_EmmanuelleLogette_2020-07-06_raw1_9EntityTypes.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations8_EmmanuelleLogette_2020-07-08_raw5_9EntityTypes.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations8_EmmanuelleLogette_2020-07-08_raw5_9EntityTypes.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "annotations9_EmmanuelleLogette_2020-07-08_raw6_CelltypeProtein.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\annotations9_EmmanuelleLogette_2020-07-08_raw6_CelltypeProtein.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": ".gitignore",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\patterns\\.gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "README.md",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\patterns\\README.md",
+                "nloc": null
+            },
+            {
+                "file_name": "pathway_patterns.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\patterns\\pathway_patterns.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "patterns.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\annotations\\ner\\patterns\\patterns.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": ".gitignore",
+                "old_path": null,
+                "new_path": "data_and_models\\metrics\\ner\\.gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": ".gitignore",
+                "old_path": null,
+                "new_path": "data_and_models\\models\\ner\\.gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "README.md",
+                "old_path": "data_and_models\\pipelines\\README.md",
+                "new_path": "data_and_models\\pipelines\\README.md",
+                "nloc": null
+            },
+            {
+                "file_name": "Dockerfile",
+                "old_path": null,
+                "new_path": "data_and_models\\pipelines\\ner\\Dockerfile",
+                "nloc": null
+            },
+            {
+                "file_name": "dvc.lock",
+                "old_path": null,
+                "new_path": "data_and_models\\pipelines\\ner\\dvc.lock",
+                "nloc": null
+            },
+            {
+                "file_name": "dvc.yaml",
+                "old_path": null,
+                "new_path": "data_and_models\\pipelines\\ner\\dvc.yaml",
+                "nloc": null
+            },
+            {
+                "file_name": "eval.py",
+                "old_path": null,
+                "new_path": "data_and_models\\pipelines\\ner\\eval.py",
+                "nloc": 79
+            },
+            {
+                "file_name": "params.yaml",
+                "old_path": null,
+                "new_path": "data_and_models\\pipelines\\ner\\params.yaml",
+                "nloc": null
+            },
+            {
+                "file_name": "train.py",
+                "old_path": null,
+                "new_path": "data_and_models\\pipelines\\ner\\train.py",
+                "nloc": 54
+            },
+            {
+                "file_name": ".gitignore",
+                "old_path": null,
+                "new_path": "data_and_models\\raw_sentences\\.gitignore",
+                "nloc": null
+            },
+            {
+                "file_name": "README.md",
+                "old_path": null,
+                "new_path": "data_and_models\\raw_sentences\\README.md",
+                "nloc": null
+            },
+            {
+                "file_name": "raw1_2020-06-10_cord19_TestSet.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\raw_sentences\\raw1_2020-06-10_cord19_TestSet.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "raw2_2020-06-29_cord19_Disease.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\raw_sentences\\raw2_2020-06-29_cord19_Disease.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "raw3_2020-06-30_cord19_Disease.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\raw_sentences\\raw3_2020-06-30_cord19_Disease.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "raw4_2020-07-02_cord19_ChemicalOrganism.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\raw_sentences\\raw4_2020-07-02_cord19_ChemicalOrganism.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "raw5_2020-07-08_cord19_Drug_TestSet.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\raw_sentences\\raw5_2020-07-08_cord19_Drug_TestSet.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "raw6_2020-07-08_cord19_CelltypeProtein.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\raw_sentences\\raw6_2020-07-08_cord19_CelltypeProtein.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "raw7_2020-09-01_cord19v35_CellCompartment.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\raw_sentences\\raw7_2020-09-01_cord19v35_CellCompartment.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "raw8_2020-09-02_cord19v35_CellCompartmentDrugOrgan.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\raw_sentences\\raw8_2020-09-02_cord19v35_CellCompartmentDrugOrgan.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "raw9_2020-09-02_cord19v35_Pathway.jsonl.dvc",
+                "old_path": null,
+                "new_path": "data_and_models\\raw_sentences\\raw9_2020-09-02_cord19v35_Pathway.jsonl.dvc",
+                "nloc": null
+            },
+            {
+                "file_name": "NER_Evaluation.ipynb",
+                "old_path": "notebooks\\NER_Evaluation.ipynb",
+                "new_path": "notebooks\\NER_Evaluation.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "requirements.txt",
+                "old_path": "requirements.txt",
+                "new_path": "requirements.txt",
+                "nloc": null
+            },
+            {
+                "file_name": "setup.py",
+                "old_path": "setup.py",
+                "new_path": "setup.py",
+                "nloc": 83
+            },
+            {
+                "file_name": "__init__.py",
+                "old_path": "src\\bbsearch\\mining\\__init__.py",
+                "new_path": "src\\bbsearch\\mining\\__init__.py",
+                "nloc": 18
+            },
+            {
+                "file_name": "eval.py",
+                "old_path": "src\\bbsearch\\mining\\eval.py",
+                "new_path": "src\\bbsearch\\mining\\eval.py",
+                "nloc": 245
+            },
+            {
+                "file_name": "test_eval.py",
+                "old_path": "tests\\test_mining\\test_eval.py",
+                "new_path": "tests\\test_mining\\test_eval.py",
+                "nloc": 227
+            }
+        ]
+    },
+    "325681bea19ee2798818b941d44c9f1be2599352": {
+        "committer_date": "2020-10-02 14:11:50+02:00",
+        "author_date": "2020-10-02 14:11:50+02:00",
+        "commit_message": "Strategies to build STS benchmark datasets (#132)\n\n* Strategies to build STS benchmark datasets\r\n\r\n* Add usage example notebook\r\n\r\n* Fix import in usage example notebook\r\n\r\n* Fix import linting issue\r\n\r\n* Add a real sample strategy\r\n\r\n* Add human-readable export format\r\n\r\n* Add backup export\r\n\r\n* Add cherry picking strategies (notebook)\r\n\r\n* Add the keyword sampling strategy\r\n\r\n* Build dataset of 20 pairs of BIOSSES score 4\r\n\r\n* Fix sampled sentence retrieval issue\r\n\r\n* Add pair number in human-readable export format\r\n\r\n* Add progress bar when pairing sentences\r\n\r\n* Add timing upper bounds on DGX-1 (notebook)\r\n\r\n* Add n info for timing on pairing (notebook)\r\n\r\n* Faster & Simpler method (notebook part)\r\n\r\n* Faster & Simpler method (final)\r\n\r\n* Improve & Address reviews\r\n\r\n* Better running time and output indications\r\n\r\n* Experiment 1\r\n\r\n* Change from type annotations to docstrings",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "STS_evaluation.ipynb",
+                "old_path": null,
+                "new_path": "notebooks\\STS_evaluation.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "requirements.txt",
+                "old_path": "requirements.txt",
+                "new_path": "requirements.txt",
+                "nloc": null
+            },
+            {
+                "file_name": "setup.py",
+                "old_path": "setup.py",
+                "new_path": "setup.py",
+                "nloc": 84
+            }
+        ]
+    },
+    "9278259ac2cf5db581af2abd03a3f41c00034773": {
+        "committer_date": "2020-11-12 14:30:13+01:00",
+        "author_date": "2020-11-12 14:30:13+01:00",
+        "commit_message": "Fixed permission issue with 'r+' and clean-up a lost print (#160)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "BBS_BBG_poc.ipynb",
+                "old_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "new_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "nloc": null
+            }
+        ]
+    },
+    "20eebf2ddedf9141266d8682dd75bc9a7de17e8a": {
+        "committer_date": "2020-11-24 11:38:29+01:00",
+        "author_date": "2020-11-24 11:38:29+01:00",
+        "commit_message": "[BBS-196] Merge the granularity + top-N settings in search widget (#163)\n\n* Remove N from the text\r\n* Make 2 tabs for mining widget + summary\r\n* Improve CSS button colors + Set default granularity to 'article'\r\n* Fix test by putting granularity of sentences\r\n* Add v0.0.8 to What's New\r\n\r\nCo-authored-by: Francesco Casalegno <francesco.casalegno@gmail.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "whatsnew.rst",
+                "old_path": "docs\\source\\whatsnew.rst",
+                "new_path": "docs\\source\\whatsnew.rst",
+                "nloc": null
+            },
+            {
+                "file_name": "BBS_BBG_poc.ipynb",
+                "old_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "new_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "stylesheet.css",
+                "old_path": "src\\bbsearch\\_css\\stylesheet.css",
+                "new_path": "src\\bbsearch\\_css\\stylesheet.css",
+                "nloc": null
+            },
+            {
+                "file_name": "mining_widget.py",
+                "old_path": "src\\bbsearch\\widgets\\mining_widget.py",
+                "new_path": "src\\bbsearch\\widgets\\mining_widget.py",
+                "nloc": 166
+            },
+            {
+                "file_name": "search_widget.py",
+                "old_path": "src\\bbsearch\\widgets\\search_widget.py",
+                "new_path": "src\\bbsearch\\widgets\\search_widget.py",
+                "nloc": 592
+            },
+            {
+                "file_name": "test_search_widget.py",
+                "old_path": "tests\\test_widgets\\test_search_widget.py",
+                "new_path": "tests\\test_widgets\\test_search_widget.py",
+                "nloc": 423
+            }
+        ]
+    },
+    "69d950f1f5d1c031dc4861b9e822266c8db4fbc0": {
+        "committer_date": "2020-11-26 09:03:25+01:00",
+        "author_date": "2020-11-26 09:03:25+01:00",
+        "commit_message": "Fix bug and add test (#171)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "embedding_models.py",
+                "old_path": "src\\bbsearch\\embedding_models.py",
+                "new_path": "src\\bbsearch\\embedding_models.py",
+                "nloc": 479
+            },
+            {
+                "file_name": "test_embedding_models.py",
+                "old_path": "tests\\test_embedding_models.py",
+                "new_path": "tests\\test_embedding_models.py",
+                "nloc": 390
+            }
+        ]
+    },
+    "2d41e5c46ef4e5c1ce21e6d2161e33d984abca96": {
+        "committer_date": "2020-11-27 15:56:42+01:00",
+        "author_date": "2020-11-27 15:56:42+01:00",
+        "commit_message": "[BBS-203] Mining for more than 1k articles (#173)\n\n* Extend timeout for Mining and Search servers to 2 hours\r\n* Move default_text for MiningWidget from notebook to bbs package\r\n* Add index to speed up ORDER BY clause",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "mining.Dockerfile",
+                "old_path": "docker\\mining.Dockerfile",
+                "new_path": "docker\\mining.Dockerfile",
+                "nloc": null
+            },
+            {
+                "file_name": "search.Dockerfile",
+                "old_path": "docker\\search.Dockerfile",
+                "new_path": "docker\\search.Dockerfile",
+                "nloc": null
+            },
+            {
+                "file_name": "BBS_BBG_poc.ipynb",
+                "old_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "new_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "mining_cache.py",
+                "old_path": "src\\bbsearch\\database\\mining_cache.py",
+                "new_path": "src\\bbsearch\\database\\mining_cache.py",
+                "nloc": 358
+            },
+            {
+                "file_name": "mining_server.py",
+                "old_path": "src\\bbsearch\\server\\mining_server.py",
+                "new_path": "src\\bbsearch\\server\\mining_server.py",
+                "nloc": 256
+            },
+            {
+                "file_name": "mining_widget.py",
+                "old_path": "src\\bbsearch\\widgets\\mining_widget.py",
+                "new_path": "src\\bbsearch\\widgets\\mining_widget.py",
+                "nloc": 181
+            },
+            {
+                "file_name": "test_mining_cache.py",
+                "old_path": "tests\\test_database\\test_mining_cache.py",
+                "new_path": "tests\\test_database\\test_mining_cache.py",
+                "nloc": 232
+            }
+        ]
+    },
+    "b19ec63f1c00bb8a1dfd36b5d780f1e916ec4365": {
+        "committer_date": "2020-12-01 14:54:33+01:00",
+        "author_date": "2020-12-01 14:54:33+01:00",
+        "commit_message": "Temporary pip fix (#178)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": ".travis.yml",
+                "old_path": ".travis.yml",
+                "new_path": ".travis.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "tox.ini",
+                "old_path": "tox.ini",
+                "new_path": "tox.ini",
+                "nloc": null
+            }
+        ]
+    },
+    "679389e552a5c5b58b08c8a50bcfa6d3e9c36dd4": {
+        "committer_date": "2020-12-04 11:50:38+01:00",
+        "author_date": "2020-12-04 11:50:38+01:00",
+        "commit_message": "Bugfix: lost variable when creating a new dataset (#182)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "BBS_BBG_poc.ipynb",
+                "old_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "new_path": "notebooks\\BBS_BBG_poc.ipynb",
+                "nloc": null
+            }
+        ]
+    },
+    "02a51926fb878f8d9fc49f3b23674c57889492fc": {
+        "committer_date": "2020-12-18 15:40:54+01:00",
+        "author_date": "2020-12-18 15:40:54+01:00",
+        "commit_message": "[BBS-223] Jenkins script fixed (#194)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": ".jenkins.sh",
+                "old_path": ".jenkins.sh",
+                "new_path": ".jenkins.sh",
+                "nloc": null
+            }
+        ]
+    },
+    "e9ffb111a265ef698174e4c24787e00bfaef0062": {
+        "committer_date": "2021-01-06 11:11:32+01:00",
+        "author_date": "2021-01-06 11:11:32+01:00",
+        "commit_message": "[BBS-239] Add contributing info (#205)\n\n* Update issue templates\r\n* Add PR template",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "bug-report.md",
+                "old_path": null,
+                "new_path": ".github\\ISSUE_TEMPLATE\\bug-report.md",
+                "nloc": null
+            },
+            {
+                "file_name": "documentation.md",
+                "old_path": null,
+                "new_path": ".github\\ISSUE_TEMPLATE\\documentation.md",
+                "nloc": null
+            },
+            {
+                "file_name": "feature-request.md",
+                "old_path": null,
+                "new_path": ".github\\ISSUE_TEMPLATE\\feature-request.md",
+                "nloc": null
+            },
+            {
+                "file_name": "other-questions-help.md",
+                "old_path": null,
+                "new_path": ".github\\ISSUE_TEMPLATE\\other-questions-help.md",
+                "nloc": null
+            },
+            {
+                "file_name": "PULL_REQUEST_TEMPLATE.md",
+                "old_path": null,
+                "new_path": ".github\\PULL_REQUEST_TEMPLATE.md",
+                "nloc": null
+            },
+            {
+                "file_name": "CONTRIBUTING.md",
+                "old_path": null,
+                "new_path": "CONTRIBUTING.md",
+                "nloc": null
+            }
+        ]
+    },
+    "d0eae749c542d417ff31eff12d5e843531f68a07": {
+        "committer_date": "2021-01-18 17:01:10+01:00",
+        "author_date": "2021-01-18 17:01:10+01:00",
+        "commit_message": "Document `dvc pull` issue regarding local cache. (#209)\n\n\r\nCo-authored-by: Jan <jankrepl@yahoo.com>\r\nCo-authored-by: Pierre-Alexandre Fonta <pierre-alexandre.fonta@epfl.ch>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "faq.rst",
+                "old_path": "docs\\source\\faq.rst",
+                "new_path": "docs\\source\\faq.rst",
+                "nloc": null
+            }
+        ]
+    },
+    "7884f0ef19982b10082b1cb1ec3dbafcec933318": {
+        "committer_date": "2021-01-29 16:19:28+01:00",
+        "author_date": "2021-01-29 16:19:28+01:00",
+        "commit_message": "fix acknowledgements (#226)\n\n* fix acknowledgements\r\n\r\n* [run travis]",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "ACKNOWLEDGMENTS.md",
+                "old_path": "ACKNOWLEDGMENTS.md",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "README.md",
+                "old_path": "README.md",
+                "new_path": "README.md",
+                "nloc": null
+            }
+        ]
+    },
+    "a557915908d7f653d0c9a67b2de72229be97ec70": {
+        "committer_date": "2021-02-23 18:08:58+01:00",
+        "author_date": "2021-02-23 18:08:58+01:00",
+        "commit_message": "fix license link (#256)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "README.md",
+                "old_path": "README.md",
+                "new_path": "README.md",
+                "nloc": null
+            }
+        ]
+    },
+    "48370fa69d6a9104adf72a62556eb9e274a80236": {
+        "committer_date": "2021-03-12 12:17:17+01:00",
+        "author_date": "2021-03-12 12:17:17+01:00",
+        "commit_message": "[BBS 199] Upgrade torch + transformers and GPU + MP fix (#170)\n\nCo-authored-by: Stanislav Schmidt <stanislav.schmidt@epfl.ch>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "requirements.txt",
+                "old_path": "requirements.txt",
+                "new_path": "requirements.txt",
+                "nloc": null
+            },
+            {
+                "file_name": "embedding_models.py",
+                "old_path": "src\\bluesearch\\embedding_models.py",
+                "new_path": "src\\bluesearch\\embedding_models.py",
+                "nloc": 373
+            },
+            {
+                "file_name": "compute_embeddings.py",
+                "old_path": "src\\bluesearch\\entrypoint\\compute_embeddings.py",
+                "new_path": "src\\bluesearch\\entrypoint\\compute_embeddings.py",
+                "nloc": 177
+            },
+            {
+                "file_name": "test_embedding_models.py",
+                "old_path": "tests\\test_embedding_models.py",
+                "new_path": "tests\\test_embedding_models.py",
+                "nloc": 359
+            },
+            {
+                "file_name": "test_compute_embeddings.py",
+                "old_path": "tests\\test_entrypoint\\test_compute_embeddings.py",
+                "new_path": "tests\\test_entrypoint\\test_compute_embeddings.py",
+                "nloc": 123
+            },
+            {
+                "file_name": "tox.ini",
+                "old_path": "tox.ini",
+                "new_path": "tox.ini",
+                "nloc": null
+            }
+        ]
+    },
+    "197099cfa2636b52afd0a77557d6f45ef5c53b36": {
+        "committer_date": "2021-04-15 14:06:05+02:00",
+        "author_date": "2021-04-15 14:06:05+02:00",
+        "commit_message": "Reduce dependencies (#334)\n\n* remove tqdm\r\n* remove joblib\r\n* mv matplotlib to extras_require\r\n* report PDF -> HTML\r\n* new release of \"catalogue\" fixes issues with importlib_metadata",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "Dockerfile",
+                "old_path": "data_and_models\\pipelines\\ner\\Dockerfile",
+                "new_path": "data_and_models\\pipelines\\ner\\Dockerfile",
+                "nloc": null
+            },
+            {
+                "file_name": "Dockerfile",
+                "old_path": "data_and_models\\pipelines\\sentence_embedding\\Dockerfile",
+                "new_path": "data_and_models\\pipelines\\sentence_embedding\\Dockerfile",
+                "nloc": null
+            },
+            {
+                "file_name": "train.py",
+                "old_path": "data_and_models\\pipelines\\sentence_embedding\\train.py",
+                "new_path": "data_and_models\\pipelines\\sentence_embedding\\train.py",
+                "nloc": 70
+            },
+            {
+                "file_name": "base.Dockerfile",
+                "old_path": "docker\\base.Dockerfile",
+                "new_path": "docker\\base.Dockerfile",
+                "nloc": null
+            },
+            {
+                "file_name": "bbs.Dockerfile",
+                "old_path": "docker\\bbs.Dockerfile",
+                "new_path": "docker\\bbs.Dockerfile",
+                "nloc": null
+            },
+            {
+                "file_name": "whatsnew.rst",
+                "old_path": "docs\\source\\whatsnew.rst",
+                "new_path": "docs\\source\\whatsnew.rst",
+                "nloc": null
+            },
+            {
+                "file_name": "NER_Evaluation.ipynb",
+                "old_path": "notebooks\\NER_Evaluation.ipynb",
+                "new_path": "notebooks\\NER_Evaluation.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "requirements.txt",
+                "old_path": "requirements.txt",
+                "new_path": "requirements.txt",
+                "nloc": null
+            },
+            {
+                "file_name": "setup.py",
+                "old_path": "setup.py",
+                "new_path": "setup.py",
+                "nloc": 106
+            },
+            {
+                "file_name": "embedding_models.py",
+                "old_path": "src\\bluesearch\\embedding_models.py",
+                "new_path": "src\\bluesearch\\embedding_models.py",
+                "nloc": 352
+            },
+            {
+                "file_name": "eval.py",
+                "old_path": "src\\bluesearch\\mining\\eval.py",
+                "new_path": "src\\bluesearch\\mining\\eval.py",
+                "nloc": 320
+            },
+            {
+                "file_name": "utils.py",
+                "old_path": "src\\bluesearch\\utils.py",
+                "new_path": "src\\bluesearch\\utils.py",
+                "nloc": 319
+            },
+            {
+                "file_name": "article_saver.py",
+                "old_path": "src\\bluesearch\\widgets\\article_saver.py",
+                "new_path": "src\\bluesearch\\widgets\\article_saver.py",
+                "nloc": 179
+            },
+            {
+                "file_name": "search_widget.py",
+                "old_path": "src\\bluesearch\\widgets\\search_widget.py",
+                "new_path": "src\\bluesearch\\widgets\\search_widget.py",
+                "nloc": 698
+            },
+            {
+                "file_name": "test_eval.py",
+                "old_path": "tests\\test_mining\\test_eval.py",
+                "new_path": "tests\\test_mining\\test_eval.py",
+                "nloc": 517
+            },
+            {
+                "file_name": "test_article_saver.py",
+                "old_path": "tests\\test_widgets\\test_article_saver.py",
+                "new_path": "tests\\test_widgets\\test_article_saver.py",
+                "nloc": 75
+            },
+            {
+                "file_name": "test_search_widget.py",
+                "old_path": "tests\\test_widgets\\test_search_widget.py",
+                "new_path": "tests\\test_widgets\\test_search_widget.py",
+                "nloc": 478
+            }
+        ]
+    },
+    "0bb500551b1b7c6f5bb9228335aa4df30a654e9c": {
+        "committer_date": "2021-04-28 10:56:47+02:00",
+        "author_date": "2021-04-28 10:56:47+02:00",
+        "commit_message": "Fix bugs in NER evaluation (#348)\n\n* Add test for nested NER evaluation\r\n* Fix NER evaluation bug",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "whatsnew.rst",
+                "old_path": "docs\\source\\whatsnew.rst",
+                "new_path": "docs\\source\\whatsnew.rst",
+                "nloc": null
+            },
+            {
+                "file_name": "embedding_models.py",
+                "old_path": "src\\bluesearch\\embedding_models.py",
+                "new_path": "src\\bluesearch\\embedding_models.py",
+                "nloc": 352
+            },
+            {
+                "file_name": "eval.py",
+                "old_path": "src\\bluesearch\\mining\\eval.py",
+                "new_path": "src\\bluesearch\\mining\\eval.py",
+                "nloc": 492
+            },
+            {
+                "file_name": "conftest.py",
+                "old_path": "tests\\conftest.py",
+                "new_path": "tests\\conftest.py",
+                "nloc": 340
+            },
+            {
+                "file_name": "test_eval.py",
+                "old_path": "tests\\test_mining\\test_eval.py",
+                "new_path": "tests\\test_mining\\test_eval.py",
+                "nloc": 573
+            }
+        ]
+    },
+    "1115a3f340a2646f8af77d477a7b0ec617718e4b": {
+        "committer_date": "2021-05-07 15:20:02+02:00",
+        "author_date": "2021-05-07 15:20:02+02:00",
+        "commit_message": "Fix NER eval bug \u2014 dtype conversion from NumPy's to Python's (#362)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "eval.py",
+                "old_path": "src\\bluesearch\\mining\\eval.py",
+                "new_path": "src\\bluesearch\\mining\\eval.py",
+                "nloc": 493
+            }
+        ]
+    },
+    "adb6e49d01db5e34f8816ebdc6b43d161f40e348": {
+        "committer_date": "2021-05-26 17:28:21+02:00",
+        "author_date": "2021-05-26 17:28:21+02:00",
+        "commit_message": "Add new linting components (#364)\n\n* flake8-bugbear\r\n* flake8-comprehensions\r\n* flake8-docstrings (replaces pydocstyle)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "whatsnew.rst",
+                "old_path": "docs\\source\\whatsnew.rst",
+                "new_path": "docs\\source\\whatsnew.rst",
+                "nloc": null
+            },
+            {
+                "file_name": "setup.py",
+                "old_path": "setup.py",
+                "new_path": "setup.py",
+                "nloc": 107
+            },
+            {
+                "file_name": "mining_cache.py",
+                "old_path": "src\\bluesearch\\database\\mining_cache.py",
+                "new_path": "src\\bluesearch\\database\\mining_cache.py",
+                "nloc": 371
+            },
+            {
+                "file_name": "embedding_models.py",
+                "old_path": "src\\bluesearch\\embedding_models.py",
+                "new_path": "src\\bluesearch\\embedding_models.py",
+                "nloc": 352
+            },
+            {
+                "file_name": "entity.py",
+                "old_path": "src\\bluesearch\\mining\\entity.py",
+                "new_path": "src\\bluesearch\\mining\\entity.py",
+                "nloc": 193
+            },
+            {
+                "file_name": "eval.py",
+                "old_path": "src\\bluesearch\\mining\\eval.py",
+                "new_path": "src\\bluesearch\\mining\\eval.py",
+                "nloc": 493
+            },
+            {
+                "file_name": "embedding_server.py",
+                "old_path": "src\\bluesearch\\server\\embedding_server.py",
+                "new_path": "src\\bluesearch\\server\\embedding_server.py",
+                "nloc": 157
+            },
+            {
+                "file_name": "search_server.py",
+                "old_path": "src\\bluesearch\\server\\search_server.py",
+                "new_path": "src\\bluesearch\\server\\search_server.py",
+                "nloc": 176
+            },
+            {
+                "file_name": "article_saver.py",
+                "old_path": "src\\bluesearch\\widgets\\article_saver.py",
+                "new_path": "src\\bluesearch\\widgets\\article_saver.py",
+                "nloc": 179
+            },
+            {
+                "file_name": "mining_schema.py",
+                "old_path": "src\\bluesearch\\widgets\\mining_schema.py",
+                "new_path": "src\\bluesearch\\widgets\\mining_schema.py",
+                "nloc": 54
+            },
+            {
+                "file_name": "search_widget.py",
+                "old_path": "src\\bluesearch\\widgets\\search_widget.py",
+                "new_path": "src\\bluesearch\\widgets\\search_widget.py",
+                "nloc": 698
+            },
+            {
+                "file_name": "test_cord_19.py",
+                "old_path": "tests\\test_database\\test_cord_19.py",
+                "new_path": "tests\\test_database\\test_cord_19.py",
+                "nloc": 184
+            },
+            {
+                "file_name": "test_mining_cache.py",
+                "old_path": "tests\\test_database\\test_mining_cache.py",
+                "new_path": "tests\\test_database\\test_mining_cache.py",
+                "nloc": 238
+            },
+            {
+                "file_name": "test_attribute.py",
+                "old_path": "tests\\test_mining\\test_attribute.py",
+                "new_path": "tests\\test_mining\\test_attribute.py",
+                "nloc": 1030
+            },
+            {
+                "file_name": "test_mining_server.py",
+                "old_path": "tests\\test_server\\test_mining_server.py",
+                "new_path": "tests\\test_server\\test_mining_server.py",
+                "nloc": 125
+            },
+            {
+                "file_name": "test_sql.py",
+                "old_path": "tests\\test_sql.py",
+                "new_path": "tests\\test_sql.py",
+                "nloc": 292
+            },
+            {
+                "file_name": "test_article_saver.py",
+                "old_path": "tests\\test_widgets\\test_article_saver.py",
+                "new_path": "tests\\test_widgets\\test_article_saver.py",
+                "nloc": 74
+            },
+            {
+                "file_name": "test_mining_schema.py",
+                "old_path": "tests\\test_widgets\\test_mining_schema.py",
+                "new_path": "tests\\test_widgets\\test_mining_schema.py",
+                "nloc": 32
+            },
+            {
+                "file_name": "test_search_widget.py",
+                "old_path": "tests\\test_widgets\\test_search_widget.py",
+                "new_path": "tests\\test_widgets\\test_search_widget.py",
+                "nloc": 478
+            },
+            {
+                "file_name": "tox.ini",
+                "old_path": "tox.ini",
+                "new_path": "tox.ini",
+                "nloc": null
+            }
+        ]
+    },
+    "138f689f06ba1a8216f62579327a12afd4652ded": {
+        "committer_date": "2021-07-13 16:08:34+02:00",
+        "author_date": "2021-07-13 16:08:34+02:00",
+        "commit_message": "Define JSON schema of machine-readable parses (#383)\n\n* Add basic impelmentation of article abstraction\r\n\r\n* Turn Article into a dataclass\r\n\r\n* Add tests for database.article.Article\r\n\r\n* Include ref_entries in CORD-19 paragraph parses\r\n\r\n* Make \"abstract\" non-mandatory in CORD-19 JSONs.\r\n\r\nFor some reason the JSON files from PMC parses don't have an\r\n\"abstract\" key, even though the CORD-19 spec file (json_schema.txt)\r\nspecifies that it should be there. This is not our fault, so we\r\njust skip this check.\r\n\r\n* Save paragraphs as (section_title, text) tuples\r\n\r\n* Use Article in CORD19DatabaseCreation\r\n\r\n* Use real JSON files for testing ArticleParser",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "article.py",
+                "old_path": null,
+                "new_path": "src\\bluesearch\\database\\article.py",
+                "nloc": 202
+            },
+            {
+                "file_name": "cord_19.py",
+                "old_path": "src\\bluesearch\\database\\cord_19.py",
+                "new_path": "src\\bluesearch\\database\\cord_19.py",
+                "nloc": 339
+            },
+            {
+                "file_name": "conftest.py",
+                "old_path": "tests\\conftest.py",
+                "new_path": "tests\\conftest.py",
+                "nloc": 367
+            },
+            {
+                "file_name": "test_article.py",
+                "old_path": null,
+                "new_path": "tests\\test_database\\test_article.py",
+                "nloc": 92
+            }
+        ]
+    },
+    "ce2682415c58d5143f0ec32ef402dd09eb91d781": {
+        "committer_date": "2021-08-04 16:47:33+02:00",
+        "author_date": "2021-08-04 16:47:33+02:00",
+        "commit_message": "Convert warnings to errors in unit tests (#403)\n\nSeveral warnings lead to fixes in our code:\r\n* Replace Engine.table_names() by Inspector.get_table_names()\r\n* Replace Engine.has_table() by Inspector.has_table()\r\n* Remove button_width style in RadioButtons\r\n  Apparently this style is not available for this widget.\r\n  Maybe it worked in the past but got phased out. I tested in\r\n  jupyter lab and this style does not seem to have any effect\r\n  indeed.\r\n  I checked by running the widget that the look is exactly\r\n  the same with and without that style. So it's totally safe to\r\n  delete them.\r\n* Add entity ruler only if there are rules\r\n* Make arguments keyword-only in DataFrame.drop\r\n* Replace Britney Spears by Elvis Presley in tests :( otherwise\r\n  spacy's NER fails. Starting from en_core_web_sm==3.1.0\r\n  Britney Spears is for some reason recognized as ORG.\r\n\r\nFurther it was necessary to update the `requirements*.txt` files\r\nto match the CI unit tests. (In CI we install the latest versions)\r\n\r\nAfter all fixes the only warnings that remain come from the\r\n`docker` package. These were filtered in several places\r\ndirectly in the test source files.",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "requirements-data_and_models.txt",
+                "old_path": "requirements-data_and_models.txt",
+                "new_path": "requirements-data_and_models.txt",
+                "nloc": null
+            },
+            {
+                "file_name": "requirements-dev.txt",
+                "old_path": "requirements-dev.txt",
+                "new_path": "requirements-dev.txt",
+                "nloc": null
+            },
+            {
+                "file_name": "requirements.txt",
+                "old_path": "requirements.txt",
+                "new_path": "requirements.txt",
+                "nloc": null
+            },
+            {
+                "file_name": "mining_cache.py",
+                "old_path": "src\\bluesearch\\database\\mining_cache.py",
+                "new_path": "src\\bluesearch\\database\\mining_cache.py",
+                "nloc": 346
+            },
+            {
+                "file_name": "attribute.py",
+                "old_path": "src\\bluesearch\\mining\\attribute.py",
+                "new_path": "src\\bluesearch\\mining\\attribute.py",
+                "nloc": 359
+            },
+            {
+                "file_name": "entity.py",
+                "old_path": "src\\bluesearch\\mining\\entity.py",
+                "new_path": "src\\bluesearch\\mining\\entity.py",
+                "nloc": 184
+            },
+            {
+                "file_name": "eval.py",
+                "old_path": "src\\bluesearch\\mining\\eval.py",
+                "new_path": "src\\bluesearch\\mining\\eval.py",
+                "nloc": 506
+            },
+            {
+                "file_name": "search_widget.py",
+                "old_path": "src\\bluesearch\\widgets\\search_widget.py",
+                "new_path": "src\\bluesearch\\widgets\\search_widget.py",
+                "nloc": 698
+            },
+            {
+                "file_name": "conftest.py",
+                "old_path": "tests\\conftest.py",
+                "new_path": "tests\\conftest.py",
+                "nloc": 382
+            },
+            {
+                "file_name": "test_cord_19.py",
+                "old_path": "tests\\test_database\\test_cord_19.py",
+                "new_path": "tests\\test_database\\test_cord_19.py",
+                "nloc": 184
+            },
+            {
+                "file_name": "test_embedding_models.py",
+                "old_path": "tests\\test_embedding_models.py",
+                "new_path": "tests\\test_embedding_models.py",
+                "nloc": 295
+            },
+            {
+                "file_name": "test_eval.py",
+                "old_path": "tests\\test_mining\\test_eval.py",
+                "new_path": "tests\\test_mining\\test_eval.py",
+                "nloc": 573
+            },
+            {
+                "file_name": "test_pipeline.py",
+                "old_path": "tests\\test_mining\\test_pipeline.py",
+                "new_path": "tests\\test_mining\\test_pipeline.py",
+                "nloc": 112
+            },
+            {
+                "file_name": "tox.ini",
+                "old_path": "tox.ini",
+                "new_path": "tox.ini",
+                "nloc": null
+            }
+        ]
+    },
+    "cdfbce90ee6afa2ae3a0da9991780a6801999386": {
+        "committer_date": "2021-10-18 11:14:07+02:00",
+        "author_date": "2021-10-18 11:14:07+02:00",
+        "commit_message": "Default to None for optional fields of 'Article' (#471)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "whatsnew.rst",
+                "old_path": "docs\\source\\whatsnew.rst",
+                "new_path": "docs\\source\\whatsnew.rst",
+                "nloc": null
+            },
+            {
+                "file_name": "article.py",
+                "old_path": "src\\bluesearch\\database\\article.py",
+                "new_path": "src\\bluesearch\\database\\article.py",
+                "nloc": 602
+            },
+            {
+                "file_name": "test_article.py",
+                "old_path": "tests\\unit\\database\\test_article.py",
+                "new_path": "tests\\unit\\database\\test_article.py",
+                "nloc": 319
+            }
+        ]
+    },
+    "93a909a2f5f5c965f4f280c50acfb1483ead7c28": {
+        "committer_date": "2021-10-22 16:44:25+02:00",
+        "author_date": "2021-10-22 16:44:25+02:00",
+        "commit_message": "Run tmate after installation of tox + fix error (#479)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "run-tests.yml",
+                "old_path": ".github\\workflows\\run-tests.yml",
+                "new_path": ".github\\workflows\\run-tests.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "test_bbs_database.py",
+                "old_path": "tests\\integration\\test_bbs_database.py",
+                "new_path": "tests\\integration\\test_bbs_database.py",
+                "nloc": 87
+            }
+        ]
+    },
+    "8e0202d08993d961e73b39229e83c5aa1f1ee001": {
+        "committer_date": "2021-11-16 16:11:55+01:00",
+        "author_date": "2021-11-16 16:11:55+01:00",
+        "commit_message": "Speed up tests + avoid OOM issues (#500)\n\n* Use an existing spacy model fixture\r\n\r\n* Again reuse an existing spacy model\r\n\r\n* Don't test things are not defaults\r\n\r\n* Empty commit",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "test_add.py",
+                "old_path": "tests\\unit\\entrypoint\\database\\test_add.py",
+                "new_path": "tests\\unit\\entrypoint\\database\\test_add.py",
+                "nloc": 105
+            },
+            {
+                "file_name": "test_embeddings.py",
+                "old_path": "tests\\unit\\entrypoint\\test_embeddings.py",
+                "new_path": "tests\\unit\\entrypoint\\test_embeddings.py",
+                "nloc": 122
+            }
+        ]
+    },
+    "7dae95ebd57973adba75efbce55342e295b223bd": {
+        "committer_date": "2021-12-17 09:06:59+01:00",
+        "author_date": "2021-12-17 09:06:59+01:00",
+        "commit_message": "Enable bulk PDF to XML conversion in CLI (#506)\n\n* Implement grobid_is_alive\r\n\r\n* Write tests for grobid_is_alive\r\n\r\n* Add a docstrting to grobid_is_alive\r\n\r\n* Add GROBID server check to convert-pdf\r\n\r\n* Add tests for grobid alive check\r\n\r\n* Chagne the covert-pdf subcommand to process many files\r\n\r\n* Adjust tests for convert-pdf\r\n\r\n* Add aiohttp to requirements\r\n\r\n* Implement the asynchronous conversion\r\n\r\n* Revert \"Implement the asynchronous conversion\"\r\n\r\nThis reverts commit 3ba2fec4c25c81b9839efc7d6e07213c49163932.\r\n\r\n* Revert \"Add aiohttp to requirements\"\r\n\r\nThis reverts commit 9271119d56bd44db5e708e630b117b36ae6fd264.\r\n\r\n* Implement a multi-threaded PDF conversion\r\n\r\n* Handle exceptions in threads\r\n\r\n* Save failed paths\r\n\r\n* Factor out output path preparation\r\n\r\n* Recursive glob instead of iterdir\r\n\r\n* Fix lint\r\n\r\n* Add missing docstring\r\n\r\n* Write tests for prepare output paths\r\n\r\n* Fix formatting\r\n\r\n* Add fstrings\r\n\r\n* Test when input is a directory\r\n\r\n* Test exception\r\n\r\n* Reorder source code\r\n\r\n* Test empty input directory\r\n\r\n* Add comment about thread-safety\r\n\r\n* Test output dir creation\r\n\r\n* Run black\r\n\r\n* Mention recursive globbing in PDF input path\r\n\r\n* Add a 60 second timeout for the GROBID threads\r\n\r\n* add docstring for\r\n\r\n* Functional executor.map() for thread-safety\r\n\r\n* Pass the elements of the path_map directly instead of a list.\r\n* No need to do dict look-up or append to list inside of do_work()\r\n* Modify do_work() so that it returns list of failed paths\r\n* Set default value for output_dir is None in run(), so no need to\r\n  check that case inside the utility function _prepare_output_paths()\r\n\r\n* unpack pdf, xml = item\r\n\r\nCo-authored-by: Jan Krepl <jankrepl@yahoo.com>\r\nCo-authored-by: Francesco Casalegno <francesco.casalegno@gmail.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "pdf.py",
+                "old_path": "src\\bluesearch\\database\\pdf.py",
+                "new_path": "src\\bluesearch\\database\\pdf.py",
+                "nloc": 61
+            },
+            {
+                "file_name": "convert_pdf.py",
+                "old_path": "src\\bluesearch\\entrypoint\\database\\convert_pdf.py",
+                "new_path": "src\\bluesearch\\entrypoint\\database\\convert_pdf.py",
+                "nloc": 242
+            },
+            {
+                "file_name": "test_pdf.py",
+                "old_path": "tests\\unit\\database\\test_pdf.py",
+                "new_path": "tests\\unit\\database\\test_pdf.py",
+                "nloc": 34
+            },
+            {
+                "file_name": "test_convert_pdf.py",
+                "old_path": "tests\\unit\\entrypoint\\database\\test_convert_pdf.py",
+                "new_path": "tests\\unit\\entrypoint\\database\\test_convert_pdf.py",
+                "nloc": 197
+            }
+        ]
+    },
+    "d41611ad516e05b2fe28007659b4f33f3d6ce1a1": {
+        "committer_date": "2022-01-12 14:44:06+01:00",
+        "author_date": "2022-01-12 14:44:06+01:00",
+        "commit_message": "Fix responses=0.17.0 deprecation issue (#546)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "test_mining_widget.py",
+                "old_path": "tests\\unit\\widgets\\test_mining_widget.py",
+                "new_path": "tests\\unit\\widgets\\test_mining_widget.py",
+                "nloc": 219
+            },
+            {
+                "file_name": "test_search_widget.py",
+                "old_path": "tests\\unit\\widgets\\test_search_widget.py",
+                "new_path": "tests\\unit\\widgets\\test_search_widget.py",
+                "nloc": 489
+            }
+        ]
+    },
+    "bc05f7fe8fae1cd5555b126b84e3aa3b91d28ba0": {
+        "committer_date": "2022-01-17 13:04:50+01:00",
+        "author_date": "2022-01-17 13:04:50+01:00",
+        "commit_message": "Fix Postgres issue: add ProgrammingError to the list of exceptions (#548)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "test_bbs_database.py",
+                "old_path": "tests\\integration\\test_bbs_database.py",
+                "new_path": "tests\\integration\\test_bbs_database.py",
+                "nloc": 142
+            }
+        ]
+    },
+    "2bfd88e14122e627f015153e753b8f3edcb7405b": {
+        "committer_date": "2022-04-27 15:08:28+02:00",
+        "author_date": "2022-04-27 15:08:28+02:00",
+        "commit_message": "Fix black issues (#599)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "test_pdf.py",
+                "old_path": "tests\\unit\\database\\test_pdf.py",
+                "new_path": "tests\\unit\\database\\test_pdf.py",
+                "nloc": 34
+            },
+            {
+                "file_name": "test_eval.py",
+                "old_path": "tests\\unit\\mining\\test_eval.py",
+                "new_path": "tests\\unit\\mining\\test_eval.py",
+                "nloc": 576
+            },
+            {
+                "file_name": "test_embedding_models.py",
+                "old_path": "tests\\unit\\test_embedding_models.py",
+                "new_path": "tests\\unit\\test_embedding_models.py",
+                "nloc": 294
+            },
+            {
+                "file_name": "test_search_widget.py",
+                "old_path": "tests\\unit\\widgets\\test_search_widget.py",
+                "new_path": "tests\\unit\\widgets\\test_search_widget.py",
+                "nloc": 485
+            },
+            {
+                "file_name": "tox.ini",
+                "old_path": "tox.ini",
+                "new_path": "tox.ini",
+                "nloc": null
+            }
+        ]
+    },
+    "9663262cb3305b6ab07a72baf159b32d0a360e30": {
+        "committer_date": "2022-09-20 15:56:44+02:00",
+        "author_date": "2022-09-20 15:56:44+02:00",
+        "commit_message": "Feature/start es k8s (#626)\n\n* add k8s folder and notebook to create indices\r\n\r\n* update create indices notebook\r\n\r\n* add create indices notebook\r\n\r\n* update requirements\r\n\r\n* PR comments Emilie\r\n\r\n* PR Emilie\r\n\r\n* PR Emilie order INSTALL_REQUIRES\r\n\r\n* fail under makes test discover on VSCode fail\r\n\r\n* add initial embedding for k8s\r\n\r\n* Revert \"add initial embedding for k8s\"\r\n\r\nThis reverts commit c09fbb37ac3243efd3559f1c4c5434cab59d0c24.\r\n\r\n* add script to create indices\r\n\r\n* add test (not working)\r\n\r\n* fix testes\r\n\r\n* Don't use strict pins\r\n\r\n* revert gitignore\r\n\r\n* moved from decouple to dotenv\r\n\r\n* removed decouple\r\n\r\n* remove create indices ipynb and update script\r\n\r\n* remove create indices ipynb and update script\r\n\r\n* clear notebook output\r\n\r\n* linter\r\n\r\n* revert commect fail_under=80\r\n\r\nCo-authored-by: Diogo Santos <diogo.reissantos@epfl.ch>\r\nCo-authored-by: Jan Krepl <jankrepl@yahoo.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "create_indices.ipynb",
+                "old_path": null,
+                "new_path": "notebooks\\create_indices.ipynb",
+                "nloc": null
+            },
+            {
+                "file_name": "requirements.txt",
+                "old_path": "requirements.txt",
+                "new_path": "requirements.txt",
+                "nloc": null
+            },
+            {
+                "file_name": "setup.py",
+                "old_path": "setup.py",
+                "new_path": "setup.py",
+                "nloc": 113
+            },
+            {
+                "file_name": "connect.py",
+                "old_path": null,
+                "new_path": "src\\bluesearch\\k8s\\connect.py",
+                "nloc": 21
+            },
+            {
+                "file_name": "create_indices.py",
+                "old_path": null,
+                "new_path": "src\\bluesearch\\k8s\\create_indices.py",
+                "nloc": 62
+            },
+            {
+                "file_name": "test_create_indices.py",
+                "old_path": null,
+                "new_path": "tests\\unit\\k8s\\test_create_indices.py",
+                "nloc": 4
+            },
+            {
+                "file_name": "test_decouple.py",
+                "old_path": null,
+                "new_path": "tests\\unit\\test_decouple.py",
+                "nloc": 3
+            },
+            {
+                "file_name": "tox.ini",
+                "old_path": "tox.ini",
+                "new_path": "tox.ini",
+                "nloc": null
+            }
+        ]
+    },
+    "0eee18b91de69551ff01f17816ca8ae604c1d359": {
+        "committer_date": "2022-09-23 11:01:38+02:00",
+        "author_date": "2022-09-23 11:01:38+02:00",
+        "commit_message": "fix-unittest-\"Feature/start-es-k8s-(#626)\" (#634)\n\n* remove outdated test\r\n\r\n* remove .env file from tox\r\n\r\n* flake8 fixes\r\n\r\n* add __init__.py\r\n\r\n* add docstring to init\r\n\r\n* add docstring to init\r\n\r\n* update docs\r\n\r\n* add elasticsearch to ci\r\n\r\n* update ci\r\n\r\n* update ci\r\n\r\n* update ci\r\n\r\n* update ci\r\n\r\n* Modify test and the design\r\n\r\n* linters\r\n\r\n* linters\r\n\r\n* Fix random pandas issue\r\n\r\n* Temp removal of tox dependencies\r\n\r\n* Completely get rid of en-core-sci-lg\r\n\r\n* Download spacy model just before unit tests\r\n\r\n* Use underscores instead\r\n\r\n* update docstrings\r\n\r\nCo-authored-by: Diogo Santos <diogo.reissantos@epfl.ch>\r\nCo-authored-by: Jan Krepl <jankrepl@yahoo.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "ci.yaml",
+                "old_path": ".github\\workflows\\ci.yaml",
+                "new_path": ".github\\workflows\\ci.yaml",
+                "nloc": null
+            },
+            {
+                "file_name": "bluesearch.k8s.connect.rst",
+                "old_path": null,
+                "new_path": "docs\\source\\api\\bluesearch.k8s.connect.rst",
+                "nloc": null
+            },
+            {
+                "file_name": "bluesearch.k8s.create_indices.rst",
+                "old_path": null,
+                "new_path": "docs\\source\\api\\bluesearch.k8s.create_indices.rst",
+                "nloc": null
+            },
+            {
+                "file_name": "bluesearch.k8s.rst",
+                "old_path": null,
+                "new_path": "docs\\source\\api\\bluesearch.k8s.rst",
+                "nloc": null
+            },
+            {
+                "file_name": "bluesearch.rst",
+                "old_path": "docs\\source\\api\\bluesearch.rst",
+                "new_path": "docs\\source\\api\\bluesearch.rst",
+                "nloc": null
+            },
+            {
+                "file_name": "requirements.txt",
+                "old_path": "requirements.txt",
+                "new_path": "requirements.txt",
+                "nloc": null
+            },
+            {
+                "file_name": "cord_19.py",
+                "old_path": "src\\bluesearch\\database\\cord_19.py",
+                "new_path": "src\\bluesearch\\database\\cord_19.py",
+                "nloc": 339
+            },
+            {
+                "file_name": "add.py",
+                "old_path": "src\\bluesearch\\entrypoint\\database\\add.py",
+                "new_path": "src\\bluesearch\\entrypoint\\database\\add.py",
+                "nloc": 152
+            },
+            {
+                "file_name": "__init__.py",
+                "old_path": null,
+                "new_path": "src\\bluesearch\\k8s\\__init__.py",
+                "nloc": 1
+            },
+            {
+                "file_name": "connect.py",
+                "old_path": "src\\bluesearch\\k8s\\connect.py",
+                "new_path": "src\\bluesearch\\k8s\\connect.py",
+                "nloc": 22
+            },
+            {
+                "file_name": "create_indices.py",
+                "old_path": "src\\bluesearch\\k8s\\create_indices.py",
+                "new_path": "src\\bluesearch\\k8s\\create_indices.py",
+                "nloc": 92
+            },
+            {
+                "file_name": "sql.py",
+                "old_path": "src\\bluesearch\\sql.py",
+                "new_path": "src\\bluesearch\\sql.py",
+                "nloc": 358
+            },
+            {
+                "file_name": "test_create_indices.py",
+                "old_path": "tests\\unit\\k8s\\test_create_indices.py",
+                "new_path": "tests\\unit\\k8s\\test_create_indices.py",
+                "nloc": 21
+            },
+            {
+                "file_name": "test_decouple.py",
+                "old_path": "tests\\unit\\test_decouple.py",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "tox.ini",
+                "old_path": "tox.ini",
+                "new_path": "tox.ini",
+                "nloc": null
+            }
+        ]
+    },
+    "f1585fd5b3ee7e2707178dd620644993812ec2e9": {
+        "committer_date": "2022-09-27 14:20:59+02:00",
+        "author_date": "2022-09-27 14:20:59+02:00",
+        "commit_message": "Feature/add es uploader (#633)\n\n* add k8s folder and notebook to create indices\r\n\r\n* update create indices notebook\r\n\r\n* add create indices notebook\r\n\r\n* update requirements\r\n\r\n* add upload es; change to paragraphs; add mypy options\r\n\r\n* run test on VSCode\r\n\r\n* changes after PR review\r\n\r\n* changes after PR review\r\n\r\n* remove outdated test\r\n\r\n* remove .env file from tox\r\n\r\n* flake8 fixes\r\n\r\n* add __init__.py\r\n\r\n* add docstring to init\r\n\r\n* add docstring to init\r\n\r\n* update docs\r\n\r\n* add elasticsearch to ci\r\n\r\n* update ci\r\n\r\n* update ci\r\n\r\n* update ci\r\n\r\n* update ci\r\n\r\n* Modify test and the design\r\n\r\n* linters\r\n\r\n* linters\r\n\r\n* Fix random pandas issue\r\n\r\n* Temp removal of tox dependencies\r\n\r\n* Completely get rid of en-core-sci-lg\r\n\r\n* Download spacy model just before unit tests\r\n\r\n* Use underscores instead\r\n\r\n* update docstrings\r\n\r\n* update docstrings\r\n\r\n* revert mypy changes\r\n\r\n* isort\r\n\r\n* from __future__ import annotations\r\n\r\n* separate add es and sql\r\n\r\n* reverted article\r\n\r\n* Write tests\r\n\r\n* Undo changes in the add module\r\n\r\n* Fix paragraphs\r\n\r\n* Make sure articles index works correctly\r\n\r\n* Make sure paragraphs correct\r\n\r\n* refractor add to es\r\n\r\n* add notebook to test list in es\r\n\r\n* add docs\r\n\r\n* Delete test_lists_es.ipynb\r\n\r\nmove to gitlab\r\n\r\n* mypy ci\r\n\r\n* from Emilie PR\r\n\r\nCo-authored-by: Diogo Santos <diogo.reissantos@epfl.ch>\r\nCo-authored-by: Jan Krepl <jankrepl@yahoo.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "bluesearch.entrypoint.database.add_es.rst",
+                "old_path": null,
+                "new_path": "docs\\source\\api\\bluesearch.entrypoint.database.add_es.rst",
+                "nloc": null
+            },
+            {
+                "file_name": "bluesearch.entrypoint.database.rst",
+                "old_path": "docs\\source\\api\\bluesearch.entrypoint.database.rst",
+                "new_path": "docs\\source\\api\\bluesearch.entrypoint.database.rst",
+                "nloc": null
+            },
+            {
+                "file_name": "add_es.py",
+                "old_path": null,
+                "new_path": "src\\bluesearch\\entrypoint\\database\\add_es.py",
+                "nloc": 139
+            },
+            {
+                "file_name": "parent.py",
+                "old_path": "src\\bluesearch\\entrypoint\\database\\parent.py",
+                "new_path": "src\\bluesearch\\entrypoint\\database\\parent.py",
+                "nloc": 120
+            },
+            {
+                "file_name": "conftest.py",
+                "old_path": "tests\\conftest.py",
+                "new_path": "tests\\conftest.py",
+                "nloc": 412
+            },
+            {
+                "file_name": "test_bbs_database.py",
+                "old_path": "tests\\integration\\test_bbs_database.py",
+                "new_path": "tests\\integration\\test_bbs_database.py",
+                "nloc": 142
+            },
+            {
+                "file_name": "test_add_es.py",
+                "old_path": null,
+                "new_path": "tests\\unit\\entrypoint\\database\\test_add_es.py",
+                "nloc": 75
+            },
+            {
+                "file_name": "test_create_indices.py",
+                "old_path": "tests\\unit\\k8s\\test_create_indices.py",
+                "new_path": "tests\\unit\\k8s\\test_create_indices.py",
+                "nloc": 9
+            }
+        ]
+    },
+    "503fdf320a62ab2eb1f9a2a371600e4f1a38df62": {
+        "committer_date": "2022-10-04 13:54:28+02:00",
+        "author_date": "2022-10-04 13:54:28+02:00",
+        "commit_message": "Fix problems with `add_es` entrypoint (#642)\n\n* Add fixes\r\n\r\n* Make isort happy\r\n\r\n* Test init_parser\r\n\r\n* Add some new tests",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "add_es.py",
+                "old_path": "src\\bluesearch\\entrypoint\\database\\add_es.py",
+                "new_path": "src\\bluesearch\\entrypoint\\database\\add_es.py",
+                "nloc": 157
+            },
+            {
+                "file_name": "test_add_es.py",
+                "old_path": "tests\\unit\\entrypoint\\database\\test_add_es.py",
+                "new_path": "tests\\unit\\entrypoint\\database\\test_add_es.py",
+                "nloc": 107
+            }
+        ]
+    }
+}

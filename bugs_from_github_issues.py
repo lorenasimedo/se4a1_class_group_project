@@ -16,7 +16,7 @@ for key, value in data.items():
             inter_list=value
             for item in inter_list:
                     try:
-                        if "dvc" or "dvcignore" or "dvc.yaml" or "dvc.lock" in item:
+                        if "dvc" in item:
                             flag=True
                     except:
                         print("error reading new_path")

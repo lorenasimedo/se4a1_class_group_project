@@ -18,7 +18,7 @@ for key, value in data.items():
                 for key, value in dic.items():
                     try:
                         if key=="new_path":
-                            if "dvc" or "dvcignore" or "dvc.yaml" or "dvc.lock" in value:
+                            if "dvc" in value:
                                 print("value++++++++++",value)
                                 flag=True
                     except:

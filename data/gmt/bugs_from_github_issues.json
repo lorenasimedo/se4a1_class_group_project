@@ -5868,6 +5868,8 @@
         "created_at": "2022-04-26T10:34:49Z",
         "hours_to_resolution": "2.01",
         "modified_files": [
+            "src/gmt_plot.c",
+            "src/gmt_symbol.h",
             "test/baseline/psbasemap.dvc"
         ],
         "number_of_comments": 1

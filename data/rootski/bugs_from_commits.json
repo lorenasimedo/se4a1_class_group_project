@@ -12,7 +12,8 @@
                 "new_path": ".github\\workflows\\rootski-ci.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "63754eb5630384d5ff7e7949b8194cf694950003": {
         "committer_date": "2022-02-16 20:42:12-07:00",
@@ -27,7 +28,8 @@
                 "new_path": ".github\\workflows\\rootski-ci.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "d5dd874e629c1fbc1d0616c0ffafad5cdabce9ab": {
         "committer_date": "2022-02-17 21:02:13-07:00",
@@ -42,7 +44,8 @@
                 "new_path": ".github\\workflows\\rootski-ci.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "4fc10f1dd4a24012c52902905a697f01177969c8": {
         "committer_date": "2022-02-17 21:03:49-07:00",
@@ -57,7 +60,8 @@
                 "new_path": ".github\\workflows\\rootski-ci.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "cb7a7c8cdb0727a9e88465a34a5d52f0f73905ef": {
         "committer_date": "2022-02-17 23:20:29-07:00",
@@ -65,7 +69,8 @@
         "commit_message": "Merge pull request #3 from rootski-io/phitoduck-patch-1\n\nAdded badges to the README",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "2774eb0c464d08dbc2ed3fb5f1ccd487005525c1": {
         "committer_date": "2022-02-18 02:13:46-07:00",
@@ -73,7 +78,8 @@
         "commit_message": "Merge pull request #5 from rootski-io/fixing-onboarding-tools\n\nFixing onboarding tools",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "b2da54780116a6d11221d5d562a6402c8d5ee905": {
         "committer_date": "2022-02-18 02:16:55-07:00",
@@ -81,7 +87,8 @@
         "commit_message": "Merge pull request #6 from rootski-io/fixing-onboarding-tools\n\nsmall change to README and make.xsh",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "e5af0f60404c3952e436d270ad0ca5bb5dad7ba5": {
         "committer_date": "2022-02-18 02:42:56-07:00",
@@ -102,7 +109,8 @@
                 "new_path": "makefile",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "df876992c9f92b4c215b53b1465238c05c05a353": {
         "committer_date": "2022-02-18 02:46:17-07:00",
@@ -110,7 +118,8 @@
         "commit_message": "Merge pull request #7 from rootski-io/fixing-onboarding-tools\n\nfixed version conflict in make dependencies",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "40a85c2c6ef6acdb887b8feeb77a3d40ce5ee725": {
         "committer_date": "2022-02-18 10:29:25-07:00",
@@ -125,7 +134,8 @@
                 "new_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
                 "nloc": 181
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "496d3b10d6afe7cf380fbe4fac40f386af09a536": {
         "committer_date": "2022-02-23 00:47:38-07:00",
@@ -140,7 +150,8 @@
                 "new_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
                 "nloc": 265
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "08764e07f04d9a07ed08792e81b502199c47d13f": {
         "committer_date": "2022-02-24 23:48:12-07:00",
@@ -148,7 +159,8 @@
         "commit_message": "Merge pull request #18 from rootski-io/readme-instructions-fix\n\nAdded `make build-images` step to instructions",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "2eb008e88706b9ba8749846aca7aa27d67bb1a20": {
         "committer_date": "2022-02-25 20:44:44-07:00",
@@ -163,7 +175,8 @@
                 "new_path": "make.xsh",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "e1939d03cec5a4d64f6677525a6e58ac2f63d059": {
         "committer_date": "2022-02-26 00:02:02-07:00",
@@ -178,7 +191,8 @@
                 "new_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
                 "nloc": 273
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "186a4117c9001b1c29189daa4c43ab8548f05022": {
         "committer_date": "2022-02-26 00:09:05-07:00",
@@ -186,7 +200,8 @@
         "commit_message": "removed all of the incorrectly labeled 'defaults to none' from docstrings",
         "in_main_branch": true,
         "committer": "ir3456@gmail.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "7ba608356b3c4ffa2163efef928f186cffb4ed28": {
         "committer_date": "2022-02-26 00:21:21-07:00",
@@ -201,7 +216,8 @@
                 "new_path": ".pre-commit-config.yaml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "6fb91f6eae43cc8c25a13e4610dce5ab277949d3": {
         "committer_date": "2022-02-27 00:32:08-07:00",
@@ -209,7 +225,8 @@
         "commit_message": "Merge pull request #23 from rootski-io/phitoduck-patch-1\n\nsmall punctuation fix in README",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "d07282d0b672ed8fc343ab9192ceb567d6d82c7c": {
         "committer_date": "2022-02-27 00:47:24-07:00",
@@ -217,7 +234,8 @@
         "commit_message": "Merge pull request #25 from rootski-io/phitoduck-patch-1\n\nUpdate .all-contributorsrc",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "eed165e53ed600698787644cd66704c567ea5b64": {
         "committer_date": "2022-02-27 01:34:13-07:00",
@@ -232,7 +250,8 @@
                 "new_path": "README.md",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "daec577835ff280a551ebbcc79447c87260e3e36": {
         "committer_date": "2022-02-27 01:35:32-07:00",
@@ -240,7 +259,8 @@
         "commit_message": "Merge pull request #27 from rootski-io/phitoduck-patch-1\n\nsentence fix in readme",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "3f72fbbec6b5db35e3d7c6588b2fedb69edf4e9b": {
         "committer_date": "2022-03-01 15:19:22-07:00",
@@ -303,7 +323,8 @@
                 "new_path": "rootski_api\\tests\\functional_tests\\services\\test__auth.py",
                 "nloc": 91
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "875c20f56261cf075cbff8d689ef45085f036f45": {
         "committer_date": "2022-03-04 02:46:21-06:00",
@@ -558,7 +579,8 @@
                 "new_path": "linting\\.pylintrc",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "be4cb22388bda336836414621dda4bfe2aceed04": {
         "committer_date": "2022-03-04 03:02:44-06:00",
@@ -573,7 +595,8 @@
                 "new_path": ".github\\workflows\\docs.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "28117a613701e44a705c0951f20b1dfb56d727a4": {
         "committer_date": "2022-03-04 03:16:46-06:00",
@@ -588,7 +611,8 @@
                 "new_path": ".github\\workflows\\docs.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "8999a6fd684b498997e040bbf0d39137766dc102": {
         "committer_date": "2022-03-04 03:19:30-06:00",
@@ -603,7 +627,8 @@
                 "new_path": ".github\\workflows\\docs.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "ccec3e6c5e363ae3dbfc6cb2118b7a28e191c045": {
         "committer_date": "2022-03-04 04:14:57-06:00",
@@ -618,7 +643,8 @@
                 "new_path": "rootski_api\\src\\rootski\\config\\config.py",
                 "nloc": 193
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "eb3dc41a154679b8d12985516c8d612990253086": {
         "committer_date": "2022-03-04 15:01:20-07:00",
@@ -633,7 +659,8 @@
                 "new_path": "make.xsh",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "a8a0f1b28d1f09f13897612bc0396a9606b8acee": {
         "committer_date": "2022-03-04 20:44:17-07:00",
@@ -648,7 +675,8 @@
                 "new_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
                 "nloc": 294
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "cf6f6c289f4d098e34a1f9a7b0242f53c8966c79": {
         "committer_date": "2022-03-06 17:54:25-07:00",
@@ -656,7 +684,8 @@
         "commit_message": "Merge pull request #34 from rootski-io/phitoduck-patch-1\n\nAdding empty CONTRIBUTORS.md for all-contributors",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "c69ad8f74d41ed64835012cfe514349d52dc588c": {
         "committer_date": "2022-03-06 17:56:00-07:00",
@@ -664,7 +693,8 @@
         "commit_message": "Merge pull request #35 from rootski-io/phitoduck-patch-1\n\nRegistered CONTRIBUTORS.md with all-contributors",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "03bc0da96dc6c799a3ff5f994cb8aa2ce0eeafdd": {
         "committer_date": "2022-03-06 18:11:27-07:00",
@@ -672,7 +702,8 @@
         "commit_message": "Merge pull request #37 from rootski-io/phitoduck-patch-1\n\nUpdate .all-contributorsrc",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "c0eff09f5126008769a56f9fbd5f1d8bc1a68cb3": {
         "committer_date": "2022-03-07 23:34:17-07:00",
@@ -687,7 +718,8 @@
                 "new_path": "docker-compose.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "fb23291a91f674e0bf37bf8a5a5b3cd7dd608788": {
         "committer_date": "2022-03-07 23:43:04-07:00",
@@ -702,7 +734,8 @@
                 "new_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
                 "nloc": 281
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "d9098b31a2e8b00d0ef291b1f8470537572816dd": {
         "committer_date": "2022-03-08 00:11:24-07:00",
@@ -717,7 +750,8 @@
                 "new_path": "docker-compose.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "584a3bc029a4838152ed6bf0ce732f0572b1fb06": {
         "committer_date": "2022-03-08 23:01:32-07:00",
@@ -732,7 +766,8 @@
                 "new_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
                 "nloc": 273
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "1f1de20cd78e99664c1bcfc0b0285a3a7c5ccb1b": {
         "committer_date": "2022-03-10 20:41:39-07:00",
@@ -753,7 +788,8 @@
                 "new_path": "docs\\Makefile",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "f00926d98b4bf219f6ec48fd3ae2dbb267da3c05": {
         "committer_date": "2022-03-12 00:14:24-07:00",
@@ -768,7 +804,8 @@
                 "new_path": "infrastructure\\clickup\\onboarding-tasks\\aws.md",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "e4f180de2302f6a88b4930696685cbfa28f592b6": {
         "committer_date": "2022-03-12 14:44:32-06:00",
@@ -783,7 +820,8 @@
                 "new_path": ".github\\workflows\\rootski-ci.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "cf48064753e17663bc0403decc4ac7894d9275e3": {
         "committer_date": "2022-03-12 14:47:02-06:00",
@@ -798,7 +836,8 @@
                 "new_path": ".github\\workflows\\rootski-ci.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "30263fb7d37c12dfa8ff16f6e1dd92879e25be75": {
         "committer_date": "2022-03-12 15:50:32-06:00",
@@ -813,7 +852,8 @@
                 "new_path": "docs\\source\\rst\\onboarding\\index.rst",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "974ff3316f9a0cb8f4ac5913bbd0a15a266688f6": {
         "committer_date": "2022-03-13 00:44:59-07:00",
@@ -828,7 +868,8 @@
                 "new_path": "docs\\source\\rst\\architecture\\frontend\\index.rst",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "355faafea5f49e9e0ac24ac58b62f853b2f08403": {
         "committer_date": "2022-03-17 02:25:02-06:00",
@@ -1143,7 +1184,8 @@
                 "new_path": "rootski_db_migrations\\src\\migrations\\utils\\get_new_revision_id.py",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": true
     },
     "86602567d3241990b13f0609d429f2866d5bc782": {
         "committer_date": "2022-03-17 21:30:07-06:00",
@@ -1260,7 +1302,8 @@
                 "new_path": "rootski_db_migrations\\src\\migrations\\utils\\get_new_revision_id.py",
                 "nloc": 54
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "1cef0a794b81e3c37f9b1e6109c7d22f1fc9ce28": {
         "committer_date": "2022-03-23 23:51:27-06:00",
@@ -1281,7 +1324,8 @@
                 "new_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\env.py",
                 "nloc": 53
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "583c0a42559f4bbf225e7e2da690b787a4470718": {
         "committer_date": "2022-07-25 02:35:57-06:00",
@@ -1296,7 +1340,8 @@
                 "new_path": "docs\\Dockerfile",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "afb2dbe4162e04f9706ca691cd1d2d5891f98c82": {
         "committer_date": "2022-07-25 03:01:03-06:00",
@@ -1304,7 +1349,8 @@
         "commit_message": "Merge pull request #57 from rootski-io/feature/disabled-vpc-endpoint-to-save-cost\n\nupdated node version in docs Dockerfile to fix hanging build",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "114616d2b06af204ffa1736f4d63f468ffc148d8": {
         "committer_date": "2022-07-26 16:04:46-06:00",
@@ -1331,7 +1377,8 @@
                 "new_path": "rootski_api\\setup.cfg",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "f1059bbe537e8d1b6075816691fa08f20bc8c3a1": {
         "committer_date": "2022-08-09 12:21:52-06:00",
@@ -1364,7 +1411,8 @@
                 "new_path": "dynamo-db\\tests\\fixtures\\rootski_dynamo_table.py",
                 "nloc": 58
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "e1169aad933793862fd5d1d7a5923c372f2f3eb0": {
         "committer_date": "2022-08-09 12:35:10-06:00",
@@ -1403,7 +1451,8 @@
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\models2schemas\\test__breakdown.py",
                 "nloc": 78
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "1dd14d85f17a862f7190387f2723151bfc6207f9": {
         "committer_date": "2022-08-26 19:00:03-06:00",
@@ -1430,7 +1479,8 @@
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\db_service.py",
                 "nloc": 15
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "ee29d39b42a6a881c3de1a2d6716a59cf3a7ff2f": {
         "committer_date": "2022-08-26 19:15:25-06:00",
@@ -1451,7 +1501,8 @@
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\dynamo.py",
                 "nloc": 17
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "23f905468e7f3422f01a55efee18a68a179dc5fa": {
         "committer_date": "2022-08-26 19:16:00-06:00",
@@ -1472,7 +1523,8 @@
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\__init__.py",
                 "nloc": 14
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "db81f2a985261d760328f00c395d2b2f1fff9ed8": {
         "committer_date": "2022-08-31 13:27:05-06:00",
@@ -1499,7 +1551,8 @@
                 "new_path": "rootski_api\\tests\\fixtures\\seed_data.py",
                 "nloc": 297
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "d0f9edab3d750cd173253014803a65559560fff7": {
         "committer_date": "2022-09-02 11:32:44-06:00",
@@ -1652,7 +1705,8 @@
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\models2schemas\\test__breakdown__.py",
                 "nloc": 74
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "4afedec6492a79cca2169a1527659a3bffb7fd57": {
         "committer_date": "2022-09-09 05:31:32-06:00",
@@ -1697,7 +1751,8 @@
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\models2schemas\\test__breakdown__.py",
                 "nloc": 74
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "2f33bcfffa8700c6f77262d9ed0b6214ff38a172": {
         "committer_date": "2022-09-13 16:01:27-06:00",
@@ -1742,7 +1797,8 @@
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\word_for_search.py",
                 "nloc": 38
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "6df8caa77e1620815096b57d875c090a42beb6d5": {
         "committer_date": "2022-09-13 16:21:13-06:00",
@@ -1769,7 +1825,8 @@
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\actions\\test__breakdown_actions.py",
                 "nloc": 97
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "9f3e52e53a091a37c5d7456a150af2944fc5320e": {
         "committer_date": "2022-09-13 16:34:56-06:00",
@@ -1784,7 +1841,8 @@
                 "new_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
                 "nloc": 253
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "1913fdd5d68367ef2512cdc6104bfe4fe12fde2d": {
         "committer_date": "2022-09-13 16:35:13-06:00",
@@ -1799,7 +1857,8 @@
                 "new_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
                 "nloc": 253
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "578b5fc71e203be8882a2bfaa32a9a04416afcb2": {
         "committer_date": "2022-09-13 17:08:56-06:00",
@@ -1814,7 +1873,8 @@
                 "new_path": "rootski_api\\make.xsh",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "ef464c64e96def895e6df1fdd9ef8561e88404a1": {
         "committer_date": "2022-09-13 21:48:50-06:00",
@@ -1871,7 +1931,8 @@
                 "new_path": "rootski_api\\tests\\functional_tests\\main\\endpoints\\test__submit_breakdown.py",
                 "nloc": 225
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "b29292634a743ec1a370c0c7a55ad317cd543b4c": {
         "committer_date": "2022-09-13 21:58:01-06:00",
@@ -1910,7 +1971,8 @@
                 "new_path": "rootski_api\\make.xsh",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "5737b675eeaba447e4e0735f5f93d599eb4dc767": {
         "committer_date": "2022-09-13 22:09:55-06:00",
@@ -1937,7 +1999,8 @@
                 "new_path": "rootski_api\\make.xsh",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "42a22b8a20e31cb89072259195a514a4a19525b4": {
         "committer_date": "2022-09-14 01:16:33-06:00",
@@ -1952,7 +2015,8 @@
                 "new_path": ".github\\workflows\\rootski-ci.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "0e651ac30589ae16c8e3f82fcfdd36d666aed1f3": {
         "committer_date": "2022-09-14 11:42:47-06:00",
@@ -2003,7 +2067,8 @@
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\actions\\test__breakdown_actions.py",
                 "nloc": 102
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "c9de55989cb022d379e55f28efee986e41841948": {
         "committer_date": "2022-09-14 11:56:54-06:00",
@@ -2011,7 +2076,8 @@
         "commit_message": "Merge pull request #71 from rootski-io/feature/verified_breakdown_action\n\nfix: fixed submit_breakdown_with_morpheme_ids_not_found by adding a f\u2026",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "aadd5693707043fe6f4f15bffe484679c449fa15": {
         "committer_date": "2022-09-15 15:25:18-06:00",
@@ -2038,7 +2104,8 @@
                 "new_path": "rootski_api\\src\\rootski\\main\\deps.py",
                 "nloc": 84
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "2b673ed15263880e32403bae9b26a64ed63e9398": {
         "committer_date": "2022-09-15 15:33:58-06:00",
@@ -2107,7 +2174,8 @@
                 "new_path": "rootski_api\\tests\\fixtures\\general_fixtures.py",
                 "nloc": 61
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "15d57fd6e6a149577b811f253857a758a0714c2b": {
         "committer_date": "2022-09-15 15:39:41-06:00",
@@ -2115,7 +2183,8 @@
         "commit_message": "fix: resolved merge conflict",
         "in_main_branch": true,
         "committer": "eric.riddoch@bengroup.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "70f410c7b6be3977d7865bf306d9677a3b2cdd9d": {
         "committer_date": "2022-09-15 15:40:30-06:00",
@@ -2130,7 +2199,8 @@
                 "new_path": "rootski_api\\src\\rootski\\config\\config.py",
                 "nloc": 184
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "4d4f4571aef40199abbf63a33952cbd99eabc498": {
         "committer_date": "2022-09-15 16:01:35-06:00",
@@ -2151,7 +2221,8 @@
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\user.py",
                 "nloc": 46
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "78dd919aa9f617f96ba40a8358ff6185b2619243": {
         "committer_date": "2022-09-16 15:43:56-06:00",
@@ -2184,7 +2255,8 @@
                 "new_path": null,
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "22bd8a3f7880ce86223f0d25e23692b71b8c1af6": {
         "committer_date": "2022-09-16 17:22:12-06:00",
@@ -2199,7 +2271,8 @@
                 "new_path": "docs\\source\\rst\\architecture\\rootski-architecture.drawio",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "73b28c22dbd93d8ee77a121015081f01347a5f08": {
         "committer_date": "2022-09-16 17:58:56-06:00",
@@ -2214,7 +2287,8 @@
                 "new_path": "docs\\Makefile",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "2bf69551277012ac9475a65b3929b49abccb6377": {
         "committer_date": "2022-09-16 18:00:26-06:00",
@@ -2247,7 +2321,8 @@
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\models2schemas\\__init__.py",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "fc58968b0e8a3b5243db59e25133eadfdb4b7a4f": {
         "committer_date": "2022-09-16 18:16:07-06:00",
@@ -2262,7 +2337,8 @@
                 "new_path": ".github\\workflows\\docs.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "d2acfc5b9e45c39fd64a7264db7a36f4e76f6f6c": {
         "committer_date": "2022-09-16 18:16:36-06:00",
@@ -2270,6 +2346,7 @@
         "commit_message": "Merge pull request #74 from rootski-io/feature/verified_breakdown_action\n\nfix: now publishes docs to production location",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     }
 }

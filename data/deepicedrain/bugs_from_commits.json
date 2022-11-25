@@ -12,7 +12,8 @@
                 "new_path": ".stickler.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "90e6d124b310069334d1ad61200dbd648b9dc8fc": {
         "committer_date": "2019-10-23 12:09:24+13:00",
@@ -39,7 +40,8 @@
                 "new_path": "environment.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "58fdcdffba5be03a12f29a6a7e1fd3f16a893586": {
         "committer_date": "2019-12-26 10:42:49+13:00",
@@ -54,7 +56,8 @@
                 "new_path": "environment.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "c26903f5d39ca5cbdd0e4e16033c990b4fa95cd5": {
         "committer_date": "2019-12-26 18:24:37+13:00",
@@ -69,7 +72,8 @@
                 "new_path": "catalog.yaml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "c565ae6fe426fb962665911c7cd4283b71460e61": {
         "committer_date": "2020-03-07 14:42:49+13:00",
@@ -84,7 +88,8 @@
                 "new_path": "environment.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "728405f07cff793d772416e2909f303c188009f1": {
         "committer_date": "2020-03-09 20:34:13+13:00",
@@ -135,7 +140,8 @@
                 "new_path": "pyproject.toml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "32afc69b2c9efbf4333265bb33f1ba4e7c4a89a2": {
         "committer_date": "2020-03-26 08:46:44+13:00",
@@ -150,7 +156,8 @@
                 "new_path": "poetry.lock",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "ab06830e6b697717507dba33dd1953911903a0bc": {
         "committer_date": "2020-03-30 12:27:03+13:00",
@@ -165,7 +172,8 @@
                 "new_path": "Dockerfile",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "3f8c4654b7ef85069b4c7a888f2e4e349b4a596c": {
         "committer_date": "2020-05-07 22:03:44+12:00",
@@ -186,7 +194,8 @@
                 "new_path": "catalog.yaml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "dc0f70e3ec533aef4c73a87e4fe351f20333795a": {
         "committer_date": "2020-05-08 14:01:29+12:00",
@@ -207,7 +216,8 @@
                 "new_path": "catalog.yaml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "e0208cfb145345c9d665860f327e53cc9191e06a": {
         "committer_date": "2020-05-17 15:28:05+12:00",
@@ -240,7 +250,8 @@
                 "new_path": "atl11_play_old.py",
                 "nloc": 184
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "02b7db3b716d7f6bf5b899c59fafa6aaf61333d1": {
         "committer_date": "2020-05-19 12:50:49+12:00",
@@ -261,7 +272,8 @@
                 "new_path": "atl11_play.py",
                 "nloc": 234
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "c18f47b6f46dafdf598038b21d95c3ee5d717f7d": {
         "committer_date": "2020-05-23 14:05:37+12:00",
@@ -276,7 +288,8 @@
                 "new_path": "environment.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "df57c2d0b4914f9be77795e6ed5081347e2c9320": {
         "committer_date": "2020-05-28 10:41:58+12:00",
@@ -321,7 +334,8 @@
                 "new_path": "tests\\test_catalog.yaml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "7ea9c8d656bded03867c2d1409ef3b522ceb790b": {
         "committer_date": "2020-05-28 22:52:52+12:00",
@@ -366,7 +380,8 @@
                 "new_path": "tests\\test_calculate_delta.py",
                 "nloc": 35
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "10e5d724ad01fa7b7106a819b05ab458d8ed57e8": {
         "committer_date": "2020-05-31 12:02:35+12:00",
@@ -405,7 +420,8 @@
                 "new_path": "poetry.lock",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "4aabf6e3cb0417f31356468cfa362459ebd039c1": {
         "committer_date": "2020-05-31 12:09:41+12:00",
@@ -420,7 +436,8 @@
                 "new_path": ".github\\workflows\\python-app.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "dedd0f4b8ee8765e6ad594d5aba52dceacdf9b8a": {
         "committer_date": "2020-05-31 21:12:16+12:00",
@@ -471,7 +488,8 @@
                 "new_path": "deepicedrain\\tests\\test_nanptp.py",
                 "nloc": 20
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "b7447c122faf5268f3485cc35002ec3f476966b8": {
         "committer_date": "2020-06-02 15:36:27+12:00",
@@ -516,7 +534,8 @@
                 "new_path": "deepicedrain\\tests\\test_region.py",
                 "nloc": 47
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "9cc397a5d5825ec59bbac290a3c707a2b94cf525": {
         "committer_date": "2020-06-02 20:37:05+12:00",
@@ -561,7 +580,8 @@
                 "new_path": "deepicedrain\\tests\\test_region.py",
                 "nloc": 47
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "c23646f6ef42fad9c07ebd6b1d4d19b6905fa2c6": {
         "committer_date": "2020-06-04 16:16:16+12:00",
@@ -582,7 +602,8 @@
                 "new_path": "atl06_play.py",
                 "nloc": 232
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "1531f9dcea1e888b6dc7a64f8803ce4657fe859b": {
         "committer_date": "2020-06-08 10:03:58+12:00",
@@ -603,7 +624,8 @@
                 "new_path": ".github\\workflows\\python-app.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "5198b2bd21a422ba0fbb93fa299f23f150e2d3d4": {
         "committer_date": "2020-06-09 13:14:42+12:00",
@@ -624,7 +646,8 @@
                 "new_path": "atl06_to_atl11.py",
                 "nloc": 128
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "419db4aedc888a89fa2653786023bb4bf3edac19": {
         "committer_date": "2020-06-10 15:29:31+12:00",
@@ -645,7 +668,8 @@
                 "new_path": "atl06_to_atl11.py",
                 "nloc": 139
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "4ace567693c1f720a079ad53653338aae7d99538": {
         "committer_date": "2020-06-10 22:41:50+12:00",
@@ -666,7 +690,8 @@
                 "new_path": "atl06_to_atl11.py",
                 "nloc": 140
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "59e1270a17594f3dfe33b2966d3e3c8001053cff": {
         "committer_date": "2020-07-17 14:46:38+12:00",
@@ -687,7 +712,8 @@
                 "new_path": ".github\\workflows\\python-app.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "d3ace2dba27a516fb9d61c7317e455a2565ae3ec": {
         "committer_date": "2020-07-23 13:40:23+12:00",
@@ -695,7 +721,8 @@
         "commit_message": ":twisted_rightwards_arrows: Merge branch 'master' into atl06_20200513_update\n\nGet some compression and light datatype goodness, but some bugs still remain!",
         "in_main_branch": true,
         "committer": "weiji.leong@vuw.ac.nz",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "bff7345e824066c2d630b896a1f85ec164ee6838": {
         "committer_date": "2020-07-28 19:19:11+12:00",
@@ -722,7 +749,8 @@
                 "new_path": "atl06_to_atl11.py",
                 "nloc": 138
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "da39a21b08c2be0679baf724cc854098639a60e3": {
         "committer_date": "2020-09-15 15:09:30+12:00",
@@ -737,7 +765,8 @@
                 "new_path": "poetry.lock",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "c7a4cf412df0aab2c21596005643cfa87dcf2c25": {
         "committer_date": "2020-09-15 15:12:16+12:00",
@@ -758,7 +787,8 @@
                 "new_path": "atlxi_dhdt.py",
                 "nloc": 379
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "a1217d56e9b9a2d3949ac49e6c4992b6932045ba": {
         "committer_date": "2020-09-15 15:12:17+12:00",
@@ -791,7 +821,8 @@
                 "new_path": "deepicedrain\\tests\\test_array_to_dataframe.py",
                 "nloc": 22
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "d3c5eb3fbc77cc1d520dcdeeefac3ec819cce54a": {
         "committer_date": "2020-09-15 15:12:18+12:00",
@@ -812,7 +843,8 @@
                 "new_path": "pyproject.toml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "cf993d4ab28d128d3e1b4716f54481d82f7e4124": {
         "committer_date": "2020-09-15 15:12:19+12:00",
@@ -845,7 +877,8 @@
                 "new_path": "deepicedrain\\tests\\test_spatiotemporal_gpu.py",
                 "nloc": 27
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "b04c8f876ee51cd1bbbae8f2959126ba8c02d8ef": {
         "committer_date": "2020-09-17 14:04:23+12:00",
@@ -860,7 +893,8 @@
                 "new_path": "poetry.lock",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "85b6ffa870804030bcb42bebd55c0f2780d95e22": {
         "committer_date": "2020-09-25 01:51:15+12:00",
@@ -911,7 +945,8 @@
                 "new_path": "deepicedrain\\tests\\test_region.py",
                 "nloc": 71
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "c4fc44fdbf707e9d3f77b40defef1828c82b5b32": {
         "committer_date": "2020-10-05 10:15:30+13:00",
@@ -950,7 +985,8 @@
                 "new_path": "atlxi_lake.py",
                 "nloc": 332
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "274ddbf262b2f4607f092ffc8bd76f4f4f7047d8": {
         "committer_date": "2020-11-01 14:33:58+13:00",
@@ -989,7 +1025,8 @@
                 "new_path": "deepicedrain\\tests\\test_deepicedrain.py",
                 "nloc": 14
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "baa7ffa1227abb7e65158512f38a04840d60a32a": {
         "committer_date": "2020-11-01 15:24:27+13:00",
@@ -1010,7 +1047,8 @@
                 "new_path": "pyproject.toml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "975637cfe9feb8de876b507c0ee590f1fc8536c9": {
         "committer_date": "2020-11-11 15:43:12+13:00",
@@ -1037,7 +1075,8 @@
                 "new_path": "pyproject.toml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "889c0e64b6dc21a89d8afe30aa69b69fb970721e": {
         "committer_date": "2020-11-12 23:59:20+13:00",
@@ -1076,7 +1115,8 @@
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
                 "nloc": 49
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "00d693a7bd25e536d1a7a7563b03c06220ffc542": {
         "committer_date": "2020-11-13 11:53:40+13:00",
@@ -1121,7 +1161,8 @@
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
                 "nloc": 135
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "bffc761543aeb0be8ad15ca4cc2e3e8ab4ae0842": {
         "committer_date": "2020-11-16 16:44:19+13:00",
@@ -1136,7 +1177,8 @@
                 "new_path": ".github\\workflows\\python-app.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "ad342d3b186bf5792b20a9c4c39fbbba149155e3": {
         "committer_date": "2020-11-19 10:57:52+13:00",
@@ -1151,7 +1193,8 @@
                 "new_path": "poetry.lock",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "2296a7ae8b66d5c578bb9d3cbbbd35ad809d12b5": {
         "committer_date": "2020-11-25 20:05:44+13:00",
@@ -1178,7 +1221,8 @@
                 "new_path": "deepicedrain\\atlas_catalog.yaml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "c93eded7b18f722c51e40ddb9c82a6f43fe68623": {
         "committer_date": "2020-12-05 17:31:02+13:00",
@@ -1229,7 +1273,8 @@
                 "new_path": "deepicedrain\\vizplots.py",
                 "nloc": 472
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "9ef7c3cbb87651057cb3792c0e8280e19504e1a6": {
         "committer_date": "2020-12-05 20:40:11+13:00",
@@ -1250,7 +1295,8 @@
                 "new_path": "deepicedrain\\tests\\test_vizplots.py",
                 "nloc": 90
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "959db759fd85d63c4bdef810b958e5beccd2d24f": {
         "committer_date": "2020-12-09 16:02:12+13:00",
@@ -1265,7 +1311,8 @@
                 "new_path": "deepicedrain\\vizplots.py",
                 "nloc": 470
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "a59ccd96ef642be5241d8321d8dff77095a9c61a": {
         "committer_date": "2020-12-10 00:00:19+13:00",
@@ -1292,7 +1339,8 @@
                 "new_path": "deepicedrain\\vizplots.py",
                 "nloc": 541
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "4c5daf052042803db2e8d970e4f7eb1db410ddae": {
         "committer_date": "2020-12-19 00:42:13+13:00",
@@ -1325,7 +1373,8 @@
                 "new_path": "deepicedrain\\lake_algorithms.py",
                 "nloc": 172
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "85f74a7d3824f057fe377843737b698f85f69d32": {
         "committer_date": "2020-12-19 14:17:45+13:00",
@@ -1358,7 +1407,8 @@
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_crossover.py",
                 "nloc": 96
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "24acc1c74d0c801683af44f7f8828cb7eb187116": {
         "committer_date": "2020-12-19 20:03:15+13:00",
@@ -1373,7 +1423,8 @@
                 "new_path": "deepicedrain\\tests\\conftest.py",
                 "nloc": 65
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "22eb2d1ed080c0eb7bca72a201421f74a74732f7": {
         "committer_date": "2020-12-21 00:08:36+13:00",
@@ -1412,7 +1463,8 @@
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
                 "nloc": 49
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "8771642d8286806a5ae30d45129eccbb33f2bcfe": {
         "committer_date": "2021-02-03 11:56:07+13:00",
@@ -1427,7 +1479,8 @@
                 "new_path": "poetry.lock",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "6bbd5831b2fa9bfaf69732aaad6fa6822e02a8d0": {
         "committer_date": "2021-02-03 15:07:04+13:00",
@@ -1502,7 +1555,8 @@
                 "new_path": "deepicedrain\\vizplots.py",
                 "nloc": 575
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "8e21f16a4ee30e0025c9341d040705411a23276b": {
         "committer_date": "2021-03-08 16:36:47+13:00",
@@ -1523,7 +1577,8 @@
                 "new_path": "poetry.lock",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "6f8cb78aaf8cbf899019c9dc709bf4e048e9946e": {
         "committer_date": "2021-03-10 13:43:34+13:00",
@@ -1568,7 +1623,8 @@
                 "new_path": "deepicedrain\\lake_algorithms.py",
                 "nloc": 201
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "6dc7ddb5aad0dbb4777d7b6d965851872b441f2b": {
         "committer_date": "2021-03-13 00:22:39+13:00",
@@ -1583,7 +1639,8 @@
                 "new_path": ".github\\workflows\\docker-build.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "b8480354790bfbba6101b836b5bd8850a31c9666": {
         "committer_date": "2021-03-20 11:46:02+13:00",
@@ -1598,7 +1655,8 @@
                 "new_path": "poetry.lock",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "fb216521bbce24b736f0df9e265eee91d1e2dd16": {
         "committer_date": "2021-03-23 08:54:04+13:00",
@@ -1619,7 +1677,8 @@
                 "new_path": "pyproject.toml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "a43b4ba1ed31d63f3a260611b4e4ce3fc8a38bf3": {
         "committer_date": "2021-04-07 06:28:26+12:00",
@@ -1634,7 +1693,8 @@
                 "new_path": "poetry.lock",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "a42829e7144e146417c6d6f5c18caf6608f5dc39": {
         "committer_date": "2021-04-14 11:23:45+12:00",
@@ -1655,7 +1715,8 @@
                 "new_path": "pyproject.toml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "1db62e93e229da5ee17d35d416c160a6fb29b30b": {
         "committer_date": "2021-06-30 16:31:21+12:00",
@@ -1694,7 +1755,8 @@
                 "new_path": "atlxi_dhdt.py",
                 "nloc": 213
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "38949ad6a1192dc5d96d2269c1ae4ee1b8644f71": {
         "committer_date": "2021-07-02 12:46:07+12:00",
@@ -1763,7 +1825,8 @@
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
                 "nloc": 46
             }
-        ]
+        ],
+        "is_dvc_related": true
     },
     "d5ccdf4c29562fad84ebee46805e5114082cfcd5": {
         "committer_date": "2021-10-08 21:11:39+13:00",
@@ -1796,7 +1859,8 @@
                 "new_path": "pyproject.toml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "a617aa15855c25adaa8b3138b2a70c0437138ff3": {
         "committer_date": "2021-10-09 20:51:02+13:00",
@@ -1817,7 +1881,8 @@
                 "new_path": "pyproject.toml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "0f405ba3dc4c20607b1abf0da3e7077f6d910a84": {
         "committer_date": "2022-10-03 17:13:01-04:00",
@@ -1850,6 +1915,7 @@
                 "new_path": "README.md",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     }
 }

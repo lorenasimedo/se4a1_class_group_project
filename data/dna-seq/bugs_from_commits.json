@@ -36,7 +36,8 @@
                 "new_path": null,
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "2bcef619d811528f729ce175e9d865b73b6e7515": {
         "committer_date": "2020-04-13 03:17:55+03:00",
@@ -87,7 +88,8 @@
                 "new_path": "dna-seq-pipeline\\preprocess.wdl",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "5d00f1b44ce3dd02462be5f60383bdb6ff5366a1": {
         "committer_date": "2020-04-13 22:49:06+03:00",
@@ -126,7 +128,8 @@
                 "new_path": "preparation\\inputs\\anton_bam_to_fastq.json",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "4149d09839900bbb3c28332ddc161a7708ea72f3": {
         "committer_date": "2020-04-14 02:13:51+03:00",
@@ -153,7 +156,8 @@
                 "new_path": "preparation\\inputs\\human_index_reference.json",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "06f81a83d37cde06c19cc51643abc3a03a8bafbe": {
         "committer_date": "2020-04-16 15:38:25+03:00",
@@ -186,7 +190,8 @@
                 "new_path": "dna-seq-pipeline\\variant_calling.wdl",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "28e2d33fca7e7c15adf5b181d555191fa782d8d5": {
         "committer_date": "2020-04-17 03:15:06+03:00",
@@ -213,7 +218,8 @@
                 "new_path": "dna-seq-pipeline\\inputs\\anton.json",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "3f087b3ce90644c2c1f847d6e92a5cbc13d8897b": {
         "committer_date": "2021-01-14 08:55:06-08:00",
@@ -234,7 +240,8 @@
                 "new_path": "services\\docker-compose.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "7c4cd2afe03f859af8339005007b9416997b20d3": {
         "committer_date": "2021-01-14 20:05:02+02:00",
@@ -242,7 +249,8 @@
         "commit_message": "Merge pull request #1 from winternewt/master\n\n@winternewt fixed several setup bugs in the setup",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "191130ae2188e78e13aff12b5b011a189e165552": {
         "committer_date": "2021-01-14 11:29:58-08:00",
@@ -263,7 +271,8 @@
                 "new_path": "preparation\\inputs\\anton_bam_to_fastq.json",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "beb4486458f5f9cc2f9c85d928697e0c0897325e": {
         "committer_date": "2021-01-28 08:51:31-08:00",
@@ -271,7 +280,8 @@
         "commit_message": "Merge remote-tracking branch 'upstream/master'\nmerging fix for dvc",
         "in_main_branch": true,
         "committer": "isoutthere@gmail.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "ef6034c04ec001e09734acca544f12dd1e27f9e5": {
         "committer_date": "2021-01-28 19:34:10+02:00",
@@ -292,7 +302,8 @@
                 "new_path": "data\\ensembl\\102\\cache\\homo_sapiens_vep_102_GRCh38.tar.gz.dvc",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "ce01a45758c2ca5b4aac1a0838369c9ac54fccac": {
         "committer_date": "2021-02-03 15:12:40-08:00",
@@ -337,7 +348,8 @@
                 "new_path": "dvc.yaml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": true
     },
     "622fe4b00bf8a89b8b92261deeb7ed071f7e81a3": {
         "committer_date": "2021-02-13 09:15:20-08:00",
@@ -370,7 +382,8 @@
                 "new_path": "docker-compose.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "9cb93cccca60546817e98d30c2c673b7fa4c718f": {
         "committer_date": "2021-02-13 09:25:45-08:00",
@@ -378,7 +391,8 @@
         "commit_message": "Merge branch 'perf-control'\nthreading, vep and dvc fixes",
         "in_main_branch": true,
         "committer": "isoutthere@gmail.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "d56c861341bc1072234a043775f8de44f320c72f": {
         "committer_date": "2021-02-18 13:36:46+02:00",
@@ -386,7 +400,8 @@
         "commit_message": "Merge pull request #5 from winternewt/master\n\nto all wdls:\r\n\r\n    threading and mem moved to jsons.\r\n    to vep:\r\n    db-host support (main mirror is down atm),\r\n    tbi processing,\r\n    vcf and vcf.gz input support;\r\n    docker host-network for cromwell (ugly hack) to fix perl DBI connection to mysql\r\n    to comose:\r\n    fixed mbind permissions spam\r\n    to dvc:\r\n    disease_pmid_associations are now downloaded from site and tbi is produced in vep pipeline",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "0fe010c6ec6481ba652ef4f743f08f325deb0805": {
         "committer_date": "2021-04-08 07:03:02+03:00",
@@ -437,7 +452,8 @@
                 "new_path": "dna-seq-pipeline\\inputs\\test.json",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": true
     },
     "70caf398abbc7108f285b63666afea1861a726db": {
         "committer_date": "2021-05-09 05:49:00+03:00",
@@ -506,7 +522,8 @@
                 "new_path": "environment.yaml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "a402787d5898de135c13cd2ef3f71bb78edc7e02": {
         "committer_date": "2021-05-27 15:41:02-07:00",
@@ -617,7 +634,8 @@
                 "new_path": "dvc.yaml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": true
     },
     "f7c8afed3d22c0d363878ee4fd5ad3fee1707c85": {
         "committer_date": "2021-11-30 22:03:53+02:00",
@@ -625,7 +643,8 @@
         "commit_message": "Merge pull request #8 from Lady3mlnm/patch-1\n\nSmall addition to ReadMe",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "071a8b17f50307aa63bc88e80546cdbfbec5191b": {
         "committer_date": "2021-12-01 09:19:00+02:00",
@@ -633,7 +652,8 @@
         "commit_message": "Merge pull request #9 from OlgaBorysova/patch-2\n\nProof-reading accepted",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "4945ef3ecf795e3bf45022bc07cfe63b27cfda49": {
         "committer_date": "2021-12-01 09:54:23+02:00",
@@ -641,7 +661,8 @@
         "commit_message": "Merge pull request #10 from LenaKvitka/patch-3\n\nUpdate README.md",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "dcff1f15fbd03ea7b67e90071ae3376b20fa9ec9": {
         "committer_date": "2022-10-07 22:08:36+03:00",
@@ -649,6 +670,7 @@
         "commit_message": "Merge pull request #14 from Marfantyk/patch-1\n\nUpdate README.md",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     }
 }

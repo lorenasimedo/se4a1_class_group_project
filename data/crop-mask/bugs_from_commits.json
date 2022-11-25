@@ -24,7 +24,8 @@
                 "new_path": "test\\test_scripts\\test_predict.py",
                 "nloc": 181
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "20e12b8a76d7464d3056f395e6a0e86be49c2f1f": {
         "committer_date": "2021-03-03 09:59:00-08:00",
@@ -39,7 +40,8 @@
                 "new_path": ".github\\workflows\\main.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "e93aabe9a20891ef1478e706d40a664cbf9983f6": {
         "committer_date": "2021-03-03 10:45:29-08:00",
@@ -54,7 +56,8 @@
                 "new_path": ".github\\workflows\\main.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "442544ffb50471b2a9ebf72237ea6070a2bc4e0a": {
         "committer_date": "2021-03-03 11:14:27-08:00",
@@ -69,7 +72,8 @@
                 "new_path": ".github\\workflows\\main.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "ad055e016096c1d1069633421c6943f30b2175ee": {
         "committer_date": "2021-04-14 06:56:11-07:00",
@@ -84,7 +88,8 @@
                 "new_path": "src\\ETL\\dataset.py",
                 "nloc": 121
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "134d4aa1e703d2b7aa67acaca310ae128431ea0f": {
         "committer_date": "2021-04-14 07:29:17-07:00",
@@ -99,7 +104,8 @@
                 "new_path": "test\\integration_test_processed_labels.py",
                 "nloc": 37
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "af8c2f1a6d3b67519a939530ee9e72332441f68c": {
         "committer_date": "2021-04-26 17:54:01-07:00",
@@ -120,7 +126,8 @@
                 "new_path": "test\\test_src_ETL\\test_ee_exporter.py",
                 "nloc": 148
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "e28181fa34458a9ad48dfc59a515d849ea4e111a": {
         "committer_date": "2021-04-26 21:34:01-07:00",
@@ -165,7 +172,8 @@
                 "new_path": "test\\visualize_processed_labels.ipynb",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "b446386fae6c74fca05170264c36ab14b9214123": {
         "committer_date": "2021-04-27 11:33:55-07:00",
@@ -180,7 +188,8 @@
                 "new_path": "scripts\\export_for_unlabeled.py",
                 "nloc": 17
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "3c012ce7ef163836bc8b99b56a1f5bc2b48d9c58": {
         "committer_date": "2021-04-27 11:34:35-07:00",
@@ -207,7 +216,8 @@
                 "new_path": "test\\visualize_processed_labels.ipynb",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "fd88f3fabec66728678b5d781d2e66739a82dfdf": {
         "committer_date": "2021-04-27 17:19:14-07:00",
@@ -234,7 +244,8 @@
                 "new_path": "scripts\\export_for_unlabeled.py",
                 "nloc": 17
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "94ef3afcddfd7b6d816067e1c06612ac210bd09a": {
         "committer_date": "2021-04-30 14:21:34-07:00",
@@ -249,7 +260,8 @@
                 "new_path": "scripts\\test.py",
                 "nloc": 19
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "1f60e51f73248af81e0d7495074a85ff9f6c5122": {
         "committer_date": "2021-04-30 14:42:44-07:00",
@@ -270,7 +282,8 @@
                 "new_path": "src\\ETL\\processor.py",
                 "nloc": 114
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "56c2f93c9bafbcc59b5a1692692506518fb1d868": {
         "committer_date": "2021-04-30 14:59:36-07:00",
@@ -278,7 +291,8 @@
         "commit_message": "Merge pull request #38 from nasaharvest/default-test-set-size\n\nUpdate default test set size to 0",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "b01e5977c9c0baf5c2b7fd2308497a07013c6bc0": {
         "committer_date": "2021-05-04 21:06:56-07:00",
@@ -293,7 +307,8 @@
                 "new_path": "test\\test_src_ETL\\test_split_tiff.py",
                 "nloc": 32
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "3d6b5c5893646aa27d4f2057fe3eff32c68d2917": {
         "committer_date": "2021-05-04 21:07:41-07:00",
@@ -301,7 +316,8 @@
         "commit_message": "Merge pull request #47 from nasaharvest/hotfix-split-tiff-unit-test\n\nhotfix/robust test",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "f946a60ed470a017ccf0654cdac29554aafe64bc": {
         "committer_date": "2021-05-10 12:39:40-07:00",
@@ -334,7 +350,8 @@
                 "new_path": "test\\visualize_processed_labels.ipynb",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "317ab84850ce22e4e94916bba950d3ff932535f5": {
         "committer_date": "2021-05-10 12:49:48-07:00",
@@ -342,7 +359,8 @@
         "commit_message": "Merge pull request #49 from nasaharvest/fix-s3-filename\n\nFix s3 filename and make no forecaster the default",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "894a98c91ce439866228c39272c12da0a859720e": {
         "committer_date": "2021-05-10 14:57:08-07:00",
@@ -350,7 +368,8 @@
         "commit_message": "Merge pull request #50 from nasaharvest/hotfix/xarray-freeze\n\nFreeze xarray version",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "9193ce92609305c358a160ddee917844c2bf4130": {
         "committer_date": "2021-05-24 18:57:45-07:00",
@@ -383,7 +402,8 @@
                 "new_path": "gcp\\inference\\start.sh",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "71e6ea8e5026d624f204f00bec451f9a1a1ed5ff": {
         "committer_date": "2021-06-03 08:06:18-07:00",
@@ -404,7 +424,8 @@
                 "new_path": "src\\ETL\\ee_exporter.py",
                 "nloc": 221
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "39440582fd54653196db24e5d74a966e0f945e87": {
         "committer_date": "2021-06-04 15:44:31-04:00",
@@ -437,7 +458,8 @@
                 "new_path": "deploy_inference.sh",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "2fab3956b96171547f244f7204ce117e74e93d4b": {
         "committer_date": "2021-06-11 14:45:03-07:00",
@@ -482,7 +504,8 @@
                 "new_path": "src\\ETL\\ee_exporter.py",
                 "nloc": 238
             }
-        ]
+        ],
+        "is_dvc_related": true
     },
     "46ecc412c046aab65e7a15a3c454296dd07bbb34": {
         "committer_date": "2021-06-16 08:56:36-07:00",
@@ -497,7 +520,8 @@
                 "new_path": "scripts\\test.py",
                 "nloc": 30
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "5de1adcec2f355ca029a116f62b8e2f917c2f6d5": {
         "committer_date": "2021-08-14 12:24:20-07:00",
@@ -512,7 +536,8 @@
                 "new_path": "src\\models\\data.py",
                 "nloc": 270
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "19ac56d75672f4f2753c95166a7ca0ddfae2e6bb": {
         "committer_date": "2021-08-19 12:05:12-07:00",
@@ -527,7 +552,8 @@
                 "new_path": "src\\datasets_labeled.py",
                 "nloc": 375
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "509ffa9d7daab504e12687dcd8ba2210218f32b5": {
         "committer_date": "2021-08-19 15:27:24-07:00",
@@ -542,7 +568,8 @@
                 "new_path": "src\\models\\lstm.py",
                 "nloc": 128
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "6eb83494762af308f85b0cc25f76940079f089db": {
         "committer_date": "2021-10-01 10:30:19-04:00",
@@ -563,7 +590,8 @@
                 "new_path": "scripts\\save_model_as_pt.py",
                 "nloc": 18
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "3f67fc0fedf78921f9f5d1c67ebe196d30015d3b": {
         "committer_date": "2021-10-01 11:39:20-04:00",
@@ -571,7 +599,8 @@
         "commit_message": "Merge pull request #77 from nasaharvest/env-fixes\n\nEnv fixes",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "35057755deb55690cd7423b228742110b1d4327d": {
         "committer_date": "2021-10-06 23:27:05-04:00",
@@ -586,7 +615,8 @@
                 "new_path": "src\\datasets_labeled.py",
                 "nloc": 474
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "40a0772015b90fd1f5b92b5b925b124588176b1d": {
         "committer_date": "2021-10-07 23:14:20-04:00",
@@ -601,7 +631,8 @@
                 "new_path": "src\\models\\model.py",
                 "nloc": 490
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "1e58c2c694247ad3b7be76bac3edeb9de784be35": {
         "committer_date": "2021-10-08 09:26:43-04:00",
@@ -609,7 +640,8 @@
         "commit_message": "Merge branch 'master' into running-scripts-issue",
         "in_main_branch": true,
         "committer": "ivan.zvonkov@gmail.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "0c57d827a36683ab7f5c868a7444f704261fba57": {
         "committer_date": "2021-10-09 15:24:16-04:00",
@@ -624,7 +656,8 @@
                 "new_path": "scripts\\models_train_and_evaluate.py",
                 "nloc": 50
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "b06eec488209ee81e9dec9201b8887bb14028c1e": {
         "committer_date": "2021-10-10 11:23:42-04:00",
@@ -639,7 +672,8 @@
                 "new_path": "src\\pipeline_funcs.py",
                 "nloc": 143
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "0c1d2012567e7f4d1dc669c3ab4316881806c58f": {
         "committer_date": "2021-10-13 10:21:46-04:00",
@@ -647,7 +681,8 @@
         "commit_message": "Merge pull request #84 from nasaharvest/running-scripts-issue\n\nMake all scripts runnable from root directory or scripts",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "8546eca8a6384189f999fb4a472c3ee591168489": {
         "committer_date": "2021-10-19 13:43:38-04:00",
@@ -662,7 +697,8 @@
                 "new_path": "scripts\\models_train_and_evaluate.py",
                 "nloc": 52
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "676d0ea81129698fce86df2ec8d95ac928694dc8": {
         "committer_date": "2021-10-30 11:35:27-04:00",
@@ -677,7 +713,8 @@
                 "new_path": "data\\model_metrics_validation.json",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "890f9e67220b0f03d6e94fc2576e1ca8dbd42483": {
         "committer_date": "2021-10-31 20:31:07-04:00",
@@ -728,7 +765,8 @@
                 "new_path": "test\\test_src_ETL\\test_engineer.py",
                 "nloc": 114
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "80ab21c564ca82e88b2a7247ec722d2941baa857": {
         "committer_date": "2021-11-10 12:30:57-05:00",
@@ -743,7 +781,8 @@
                 "new_path": "scripts\\models_train_and_evaluate.py",
                 "nloc": 57
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "b7bbdd1ce81c70f3387caa04f02c3f3d103c092f": {
         "committer_date": "2021-11-10 19:09:02-05:00",
@@ -758,7 +797,8 @@
                 "new_path": "scripts\\models_train_and_evaluate.py",
                 "nloc": 57
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "ec2a87544e71b936f41794583b84d52682779370": {
         "committer_date": "2021-11-10 23:38:06-05:00",
@@ -773,7 +813,8 @@
                 "new_path": ".github\\workflows\\main.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "d15e159803d35bdfc3eb156d99eefb8a47e49da7": {
         "committer_date": "2021-11-11 00:14:44-05:00",
@@ -788,7 +829,8 @@
                 "new_path": ".github\\workflows\\main.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "3d2f7bedf21d8d679937264d002c27b4039d78f7": {
         "committer_date": "2021-11-11 01:08:04-05:00",
@@ -803,7 +845,8 @@
                 "new_path": "scripts\\predict.py",
                 "nloc": 148
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "e468d5281161a3f1b3a0a4a30b19a328ef967fa5": {
         "committer_date": "2021-11-17 03:23:07+02:00",
@@ -818,7 +861,8 @@
                 "new_path": "src\\models\\model.py",
                 "nloc": 536
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "1ffcfa8e2d0c9e85be0470937ff5ca18d0e3fc6a": {
         "committer_date": "2021-11-20 03:00:26-05:00",
@@ -833,7 +877,8 @@
                 "new_path": "src\\ETL\\processor.py",
                 "nloc": 147
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "21809cda8557fd7733d786a3e7b607bb0da19f98": {
         "committer_date": "2021-11-24 17:51:25-05:00",
@@ -854,7 +899,8 @@
                 "new_path": "test\\test_src_ETL\\test_engineer.py",
                 "nloc": 111
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "8e5c22e551338767f5a38c4befedd67ec71fb9df": {
         "committer_date": "2021-11-29 14:25:21-05:00",
@@ -875,7 +921,8 @@
                 "new_path": "src\\datasets_labeled.py",
                 "nloc": 544
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "c90afa3b695e387ec50f8050e004cdb697ef0b23": {
         "committer_date": "2021-11-29 18:37:35-05:00",
@@ -896,7 +943,8 @@
                 "new_path": "test\\test_src_ETL\\test_ee_exporter.py",
                 "nloc": 190
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "45fb0eedf46854c56751d4bb38266c6862b215e1": {
         "committer_date": "2021-12-12 12:28:28-05:00",
@@ -911,7 +959,8 @@
                 "new_path": "src\\models\\model.py",
                 "nloc": 533
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "9ce2ad8941d409cf6577bf4ff14c054ce98b1219": {
         "committer_date": "2021-12-13 15:44:26-05:00",
@@ -926,7 +975,8 @@
                 "new_path": "src\\models\\model.py",
                 "nloc": 533
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "f4f5bf963550b8b0b5dfec72a4b8806e465b5700": {
         "committer_date": "2022-02-21 14:17:35-05:00",
@@ -941,7 +991,8 @@
                 "new_path": "src\\models\\model.py",
                 "nloc": 381
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "2724b2289ad4886833a2c86dbd7621cfb8aaa43a": {
         "committer_date": "2022-02-21 14:57:05-05:00",
@@ -956,7 +1007,8 @@
                 "new_path": "gcp\\export_region_function\\main.py",
                 "nloc": 121
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "721c6a414a06fa8c8efc3209ad392bec818f8ffc": {
         "committer_date": "2022-02-23 15:44:02-05:00",
@@ -971,7 +1023,8 @@
                 "new_path": "notebooks\\crop_mask_inference.ipynb",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "272148642d1e5a8ba96e6ec4c8fbf96770c09f94": {
         "committer_date": "2022-02-23 19:19:31-05:00",
@@ -992,7 +1045,8 @@
                 "new_path": "src\\models\\lstm.py",
                 "nloc": 128
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "e8d265143c26a3ff132cbd47acdd1b1c01dc62f1": {
         "committer_date": "2022-02-26 14:17:45-05:00",
@@ -1007,7 +1061,8 @@
                 "new_path": "src\\ETL\\processor.py",
                 "nloc": 148
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "06e9b671b55b6c72d6e9356e0bdc5b04121162fd": {
         "committer_date": "2022-03-02 12:31:21-05:00",
@@ -1022,7 +1077,8 @@
                 "new_path": "test\\integration_test_labeled.py",
                 "nloc": 215
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "c1162f23b2bc8d9ff9e51c37f8ce569734d8fa45": {
         "committer_date": "2022-03-02 15:31:27-05:00",
@@ -1043,7 +1099,8 @@
                 "new_path": "scripts\\model_train.py",
                 "nloc": 34
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "6dc93c16a70fdae83992532d6076aa3502920c63": {
         "committer_date": "2022-03-02 18:00:58-05:00",
@@ -1058,7 +1115,8 @@
                 "new_path": "src\\pipeline_funcs.py",
                 "nloc": 100
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "6675f1d32de20e22b270a13636557b5f8fa98753": {
         "committer_date": "2022-03-02 19:43:32-05:00",
@@ -1073,7 +1131,8 @@
                 "new_path": "src\\pipeline_funcs.py",
                 "nloc": 100
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "3bf7eb1893de50385fb82b685a2cac144d2f305c": {
         "committer_date": "2022-04-20 19:56:13-04:00",
@@ -1094,7 +1153,8 @@
                 "new_path": "test\\test_src_models\\test_data.py",
                 "nloc": 45
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "05a0018b5748a09c08eb8dd4e6405a6cfb78d945": {
         "committer_date": "2022-04-21 15:39:52-04:00",
@@ -1109,7 +1169,8 @@
                 "new_path": "environment-dev.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "9d6e47108ad376c52d697ac8fbb79223b83573b3": {
         "committer_date": "2022-04-28 15:28:27-04:00",
@@ -1130,7 +1191,8 @@
                 "new_path": "src\\models\\data.py",
                 "nloc": 192
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "d6b87375d66ca008e2df2051ee21f915de68932d": {
         "committer_date": "2022-04-28 16:43:08-04:00",
@@ -1151,7 +1213,8 @@
                 "new_path": "src\\models\\data.py",
                 "nloc": 192
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "355fd0557c94668bc60b086591ca30c30e9bcad0": {
         "committer_date": "2022-04-28 16:48:56-04:00",
@@ -1166,7 +1229,8 @@
                 "new_path": "src\\models\\data.py",
                 "nloc": 192
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "f5efc61d8ee95f2ec9a12887934d925ad86d3cf1": {
         "committer_date": "2022-04-28 17:53:45-04:00",
@@ -1193,7 +1257,8 @@
                 "new_path": "src\\datasets_labeled.py",
                 "nloc": 639
             }
-        ]
+        ],
+        "is_dvc_related": true
     },
     "0dd1b03e7fe322dd5584ee7f8f4bac8242ebe757": {
         "committer_date": "2022-05-02 18:07:24-04:00",
@@ -1208,7 +1273,8 @@
                 "new_path": "src\\ETL\\dataset.py",
                 "nloc": 300
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "8319fb178d379cc7fd9f12361bf390bd1babd2e0": {
         "committer_date": "2022-05-04 12:48:13-04:00",
@@ -1223,7 +1289,8 @@
                 "new_path": "notebooks\\inference.ipynb",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "69da6cef8258b3171c6a02771bfc2219d8eadf5b": {
         "committer_date": "2022-05-04 13:41:09-04:00",
@@ -1231,7 +1298,8 @@
         "commit_message": "Merge pull request #185 from nasaharvest/colab-ee-auth\n\nAddress Google Colab Earth Engine auth issue",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "b1e07ef5654f717d4247f0855f2bfddaef272c4d": {
         "committer_date": "2022-05-10 17:20:00-04:00",
@@ -1246,7 +1314,8 @@
                 "new_path": "notebooks\\inference.ipynb",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "4aa7f5cfb8e3fc43bc2795599ac3e664904f5636": {
         "committer_date": "2022-06-01 11:53:30-04:00",
@@ -1261,7 +1330,8 @@
                 "new_path": "test\\test_src_models\\test_data.py",
                 "nloc": 45
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "37cf588668c4221f84dcab4a4d251f2fed76ccf6": {
         "committer_date": "2022-06-01 18:31:09-04:00",
@@ -1276,7 +1346,8 @@
                 "new_path": "scripts\\model_train.py",
                 "nloc": 64
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "f43f76117aca321a45b7990af0d4ce23d2643234": {
         "committer_date": "2022-06-02 17:05:20-04:00",
@@ -1297,7 +1368,8 @@
                 "new_path": "test\\test_inference.py",
                 "nloc": 36
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "22f54de866cf7c236f7401abc8ffa48f3381b418": {
         "committer_date": "2022-06-02 17:06:29-04:00",
@@ -1305,7 +1377,8 @@
         "commit_message": "Merge branch 'master' into hotfix-inference-start-date",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "684ebe98b0686551824dd6990449bf736fd426fb": {
         "committer_date": "2022-06-02 17:18:50-04:00",
@@ -1313,7 +1386,8 @@
         "commit_message": "Merge pull request #190 from nasaharvest/hotfix-inference-start-date\n\nHotfix inference start date",
         "in_main_branch": true,
         "committer": "noreply@github.com",
-        "modified_files": []
+        "modified_files": [],
+        "is_dvc_related": false
     },
     "97a99da3b161385c993c115cdca896a2b709c7b7": {
         "committer_date": "2022-07-13 15:15:14-04:00",
@@ -1328,7 +1402,8 @@
                 "new_path": "README.md",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "29e595421b72450ef26578b9b0a0133afef55d57": {
         "committer_date": "2022-07-20 01:30:30-04:00",
@@ -1355,7 +1430,8 @@
                 "new_path": "train.py",
                 "nloc": 59
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "3e877b849747b54643f4cb18acd7e23b16716b89": {
         "committer_date": "2022-08-13 00:17:57+00:00",
@@ -1370,7 +1446,8 @@
                 "new_path": "datasets.py",
                 "nloc": 672
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "857f636e8cf15f390fe9d7e60471ae4e13ee410a": {
         "committer_date": "2022-08-13 00:38:36+00:00",
@@ -1385,7 +1462,8 @@
                 "new_path": "datasets.py",
                 "nloc": 672
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "9b9f0d471e5ee327a81d19a886b05efb8da13ace": {
         "committer_date": "2022-08-13 00:56:45+00:00",
@@ -1400,7 +1478,8 @@
                 "new_path": "datasets.py",
                 "nloc": 672
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "42b05959935706580e0c22aef8485ac677e40fb9": {
         "committer_date": "2022-08-13 01:16:32+00:00",
@@ -1415,7 +1494,8 @@
                 "new_path": "datasets.py",
                 "nloc": 672
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "70e0f2628c4e8a3e7347edc39ddc898b2e7e6719": {
         "committer_date": "2022-08-13 07:38:46+00:00",
@@ -1430,7 +1510,8 @@
                 "new_path": "datasets.py",
                 "nloc": 672
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "0b9c305ae71994b8d938ee34a77a295565ff7435": {
         "committer_date": "2022-09-26 11:41:31-04:00",
@@ -1445,7 +1526,8 @@
                 "new_path": ".github\\ISSUE_TEMPLATE\\cropland-mask---country-.md",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
     },
     "3fe9e8f334bb1e6a652f471bf8e6384fe3504fcd": {
         "committer_date": "2022-10-26 09:54:13-04:00",
@@ -1460,6 +1542,143 @@
                 "new_path": ".github\\workflows\\deploy.yml",
                 "nloc": null
             }
-        ]
+        ],
+        "is_dvc_related": false
+    },
+    "cb48aafa11914302a0ffceec8dd190f4ee8d2963": {
+        "committer_date": "2022-11-05 18:20:33-04:00",
+        "author_date": "2022-11-05 18:20:33-04:00",
+        "commit_message": "Small default train dataset",
+        "in_main_branch": true,
+        "committer": "ivan.zvonkov@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "openmapflow.yaml",
+                "old_path": "openmapflow.yaml",
+                "new_path": "openmapflow.yaml",
+                "nloc": null
+            },
+            {
+                "file_name": "train.py",
+                "old_path": "train.py",
+                "new_path": "train.py",
+                "nloc": 37
+            }
+        ],
+        "is_dvc_related": false
+    },
+    "e5fdfc204f55b0d3c2401e72cda5fbce487ad189": {
+        "committer_date": "2022-11-05 20:59:03-04:00",
+        "author_date": "2022-11-05 20:59:03-04:00",
+        "commit_message": "Debugging",
+        "in_main_branch": true,
+        "committer": "ivan.zvonkov@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "test.yml",
+                "old_path": ".github\\workflows\\test.yml",
+                "new_path": ".github\\workflows\\test.yml",
+                "nloc": null
+            }
+        ],
+        "is_dvc_related": false
+    },
+    "bc3877ec19997ad4a606eb8d24fca41322f3c868": {
+        "committer_date": "2022-11-05 21:02:42-04:00",
+        "author_date": "2022-11-05 21:02:42-04:00",
+        "commit_message": "debug after dvc pull",
+        "in_main_branch": true,
+        "committer": "ivan.zvonkov@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "test.yml",
+                "old_path": ".github\\workflows\\test.yml",
+                "new_path": ".github\\workflows\\test.yml",
+                "nloc": null
+            }
+        ],
+        "is_dvc_related": false
+    },
+    "b542b9644ce9ce7f0a0e4c7cc2672ad6b2003ff1": {
+        "committer_date": "2022-11-05 21:11:59-04:00",
+        "author_date": "2022-11-05 21:11:59-04:00",
+        "commit_message": "More debugging",
+        "in_main_branch": true,
+        "committer": "ivan.zvonkov@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "pipeline_funcs.py",
+                "old_path": "src\\pipeline_funcs.py",
+                "new_path": "src\\pipeline_funcs.py",
+                "nloc": 110
+            }
+        ],
+        "is_dvc_related": false
+    },
+    "bc4faf2b37a9c60a0f3f4d0ca537855fdff9efba": {
+        "committer_date": "2022-11-05 21:21:31-04:00",
+        "author_date": "2022-11-05 21:21:31-04:00",
+        "commit_message": "More debugging 2",
+        "in_main_branch": true,
+        "committer": "ivan.zvonkov@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "pipeline_funcs.py",
+                "old_path": "src\\pipeline_funcs.py",
+                "new_path": "src\\pipeline_funcs.py",
+                "nloc": 107
+            },
+            {
+                "file_name": "train.py",
+                "old_path": "train.py",
+                "new_path": "train.py",
+                "nloc": 39
+            }
+        ],
+        "is_dvc_related": false
+    },
+    "e53eec57036648009a5b6d6ee4f5ba741fdd01ea": {
+        "committer_date": "2022-11-05 21:57:24-04:00",
+        "author_date": "2022-11-05 21:57:24-04:00",
+        "commit_message": "Remove debug step",
+        "in_main_branch": true,
+        "committer": "ivan.zvonkov@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "test.yml",
+                "old_path": ".github\\workflows\\test.yml",
+                "new_path": ".github\\workflows\\test.yml",
+                "nloc": null
+            },
+            {
+                "file_name": "train.py",
+                "old_path": "train.py",
+                "new_path": "train.py",
+                "nloc": 37
+            }
+        ],
+        "is_dvc_related": false
+    },
+    "53221f4baf04ebab6ea82f01fe5e8e88a07bfaab": {
+        "committer_date": "2022-11-11 17:45:37-05:00",
+        "author_date": "2022-11-11 17:45:37-05:00",
+        "commit_message": "flake8 and pyproject fixes",
+        "in_main_branch": true,
+        "committer": "ivan.zvonkov@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "pyproject.toml",
+                "old_path": "pyproject.toml",
+                "new_path": "pyproject.toml",
+                "nloc": null
+            },
+            {
+                "file_name": "raw_labels.py",
+                "old_path": "src\\raw_labels.py",
+                "new_path": "src\\raw_labels.py",
+                "nloc": 239
+            }
+        ],
+        "is_dvc_related": false
     }
 }

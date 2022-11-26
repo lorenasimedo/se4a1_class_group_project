@@ -303,7 +303,7 @@
                 "nloc": null
             }
         ],
-        "is_dvc_related": false
+        "is_dvc_related": true
     },
     "ce01a45758c2ca5b4aac1a0838369c9ac54fccac": {
         "committer_date": "2021-02-03 15:12:40-08:00",
@@ -672,5 +672,9 @@
         "committer": "noreply@github.com",
         "modified_files": [],
         "is_dvc_related": false
-    }
+    },
+    "non_dvc_not_bug_count": 69,
+    "dvc_not_bug_count": 18,
+    "non_dvc_bug_count": 18,
+    "dvc_bug_count": 4
 }

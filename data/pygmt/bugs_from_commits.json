@@ -5295,7 +5295,7 @@
                 "nloc": 66
             }
         ],
-        "is_dvc_related": false
+        "is_dvc_related": true
     },
     "d2cb8b953f08478666e3d3e3dda302a680679c17": {
         "committer_date": "2021-05-03 10:12:00+12:00",
@@ -5371,7 +5371,7 @@
                 "nloc": 115
             }
         ],
-        "is_dvc_related": false
+        "is_dvc_related": true
     },
     "614e16e6f17e62b5e1fe91fc58c0f0773fcf5100": {
         "committer_date": "2021-06-06 16:49:11-04:00",
@@ -5783,7 +5783,7 @@
                 "nloc": 88
             }
         ],
-        "is_dvc_related": false
+        "is_dvc_related": true
     },
     "bccfb682f79fb29a8387a18a5eecb90a2c7dd3e3": {
         "committer_date": "2021-08-24 16:28:55-04:00",
@@ -5857,7 +5857,7 @@
                 "nloc": 438
             }
         ],
-        "is_dvc_related": false
+        "is_dvc_related": true
     },
     "16bc8ab2f981dac5263ae71720f68d57967d247d": {
         "committer_date": "2021-09-02 16:21:31+12:00",
@@ -8070,5 +8070,9 @@
             }
         ],
         "is_dvc_related": false
-    }
+    },
+    "non_dvc_not_bug_count": 1219,
+    "dvc_not_bug_count": 78,
+    "non_dvc_bug_count": 209,
+    "dvc_bug_count": 15
 }

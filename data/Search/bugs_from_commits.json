@@ -1046,7 +1046,7 @@
                 "nloc": 227
             }
         ],
-        "is_dvc_related": false
+        "is_dvc_related": true
     },
     "325681bea19ee2798818b941d44c9f1be2599352": {
         "committer_date": "2020-10-02 14:11:50+02:00",
@@ -2259,5 +2259,9 @@
             }
         ],
         "is_dvc_related": false
-    }
+    },
+    "non_dvc_not_bug_count": 357,
+    "dvc_not_bug_count": 28,
+    "non_dvc_bug_count": 50,
+    "dvc_bug_count": 1
 }

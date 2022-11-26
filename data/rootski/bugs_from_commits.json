@@ -2348,5 +2348,9 @@
         "committer": "noreply@github.com",
         "modified_files": [],
         "is_dvc_related": false
-    }
+    },
+    "non_dvc_not_bug_count": 377,
+    "dvc_not_bug_count": 4,
+    "non_dvc_bug_count": 76,
+    "dvc_bug_count": 1
 }

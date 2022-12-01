@@ -8071,8 +8071,46 @@
         ],
         "is_dvc_related": false
     },
-    "non_dvc_not_bug_count": 1219,
-    "dvc_not_bug_count": 78,
-    "non_dvc_bug_count": 209,
+    "2fa059468f37abfc8dc012de3d8680fe07b4f9fb": {
+        "committer_date": "2022-11-29 09:41:21+08:00",
+        "author_date": "2022-11-29 09:41:21+08:00",
+        "commit_message": "Convert feature request issue template into yaml configured form (#2214)\n\nCo-authored-by: Wei Ji <23487320+weiji14@users.noreply.github.com>",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "feature_request.md",
+                "old_path": ".github\\ISSUE_TEMPLATE\\feature_request.md",
+                "new_path": null,
+                "nloc": null
+            },
+            {
+                "file_name": "feature_request.yaml",
+                "old_path": null,
+                "new_path": ".github\\ISSUE_TEMPLATE\\feature_request.yaml",
+                "nloc": null
+            }
+        ],
+        "is_dvc_related": false
+    },
+    "b465292a7a6961c78d51c81b84697f9526093ec4": {
+        "committer_date": "2022-11-30 22:40:28+08:00",
+        "author_date": "2022-11-30 22:40:28+08:00",
+        "commit_message": "pygmt.config: Support tab auto-completion for all GMT defaults (#2213)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "config.py",
+                "old_path": "pygmt\\src\\config.py",
+                "new_path": "pygmt\\src\\config.py",
+                "nloc": 199
+            }
+        ],
+        "is_dvc_related": false
+    },
+    "non_dvc_not_bug_count": 1221,
+    "dvc_not_bug_count": 79,
+    "non_dvc_bug_count": 211,
     "dvc_bug_count": 15
 }

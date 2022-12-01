@@ -1681,8 +1681,51 @@
         ],
         "is_dvc_related": false
     },
-    "non_dvc_not_bug_count": 1312,
-    "dvc_not_bug_count": 107,
-    "non_dvc_bug_count": 88,
+    "9f1a0dd40f6bf07812dc6ae247fa8aafd3868aa1": {
+        "committer_date": "2022-11-14 13:46:31-05:00",
+        "author_date": "2022-11-14 13:46:31-05:00",
+        "commit_message": "Revert wandb default",
+        "in_main_branch": true,
+        "committer": "ivan.zvonkov@gmail.com",
+        "modified_files": [
+            {
+                "file_name": "train.py",
+                "old_path": "train.py",
+                "new_path": "train.py",
+                "nloc": 37
+            }
+        ],
+        "is_dvc_related": false
+    },
+    "16b5120b50f24c4e38fd2caf49f47927f01c7232": {
+        "committer_date": "2022-11-16 17:01:46-05:00",
+        "author_date": "2022-11-16 17:01:46-05:00",
+        "commit_message": "Merge branch 'master' into fix-sudan-data",
+        "in_main_branch": true,
+        "committer": "ivan.zvonkov@gmail.com",
+        "modified_files": [],
+        "is_dvc_related": false
+    },
+    "d8df8aa344a3cca19b333b552c4b64fa1307c2c3": {
+        "committer_date": "2022-11-28 11:40:11-05:00",
+        "author_date": "2022-11-28 11:40:11-05:00",
+        "commit_message": "Merge branch 'master' into fix-sudan-data",
+        "in_main_branch": true,
+        "committer": "ivan.zvonkov@gmail.com",
+        "modified_files": [],
+        "is_dvc_related": false
+    },
+    "7f5f809149d49aea9458e13d5ee88d3ad3b3484b": {
+        "committer_date": "2022-11-28 11:48:37-05:00",
+        "author_date": "2022-11-28 11:48:37-05:00",
+        "commit_message": "Merge pull request #244 from nasaharvest/fix-sudan-data\n\nFix sudan data",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [],
+        "is_dvc_related": false
+    },
+    "non_dvc_not_bug_count": 1321,
+    "dvc_not_bug_count": 118,
+    "non_dvc_bug_count": 92,
     "dvc_bug_count": 2
 }

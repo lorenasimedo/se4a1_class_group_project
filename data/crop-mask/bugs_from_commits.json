@@ -10,19 +10,25 @@
                 "file_name": "predict.py",
                 "old_path": "scripts\\predict.py",
                 "new_path": "scripts\\predict.py",
-                "nloc": 164
+                "nloc": 164,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "integration_test_predict.py",
                 "old_path": "test\\integration_test_predict.py",
                 "new_path": "test\\integration_test_predict.py",
-                "nloc": 55
+                "nloc": 55,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_predict.py",
                 "old_path": "test\\test_scripts\\test_predict.py",
                 "new_path": "test\\test_scripts\\test_predict.py",
-                "nloc": 181
+                "nloc": 181,
+                "added_lines": 4,
+                "deleted_lines": 4
             }
         ],
         "is_dvc_related": false
@@ -38,7 +44,9 @@
                 "file_name": "main.yml",
                 "old_path": ".github\\workflows\\main.yml",
                 "new_path": ".github\\workflows\\main.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -54,7 +62,9 @@
                 "file_name": "main.yml",
                 "old_path": ".github\\workflows\\main.yml",
                 "new_path": ".github\\workflows\\main.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -70,7 +80,9 @@
                 "file_name": "main.yml",
                 "old_path": ".github\\workflows\\main.yml",
                 "new_path": ".github\\workflows\\main.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -86,7 +98,9 @@
                 "file_name": "dataset.py",
                 "old_path": "src\\ETL\\dataset.py",
                 "new_path": "src\\ETL\\dataset.py",
-                "nloc": 121
+                "nloc": 121,
+                "added_lines": 1,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -102,7 +116,9 @@
                 "file_name": "integration_test_processed_labels.py",
                 "old_path": "test\\integration_test_processed_labels.py",
                 "new_path": "test\\integration_test_processed_labels.py",
-                "nloc": 37
+                "nloc": 37,
+                "added_lines": 2,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -118,13 +134,17 @@
                 "file_name": "ee_exporter.py",
                 "old_path": "src\\ETL\\ee_exporter.py",
                 "new_path": "src\\ETL\\ee_exporter.py",
-                "nloc": 201
+                "nloc": 201,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "test_ee_exporter.py",
                 "old_path": "test\\test_src_ETL\\test_ee_exporter.py",
                 "new_path": "test\\test_src_ETL\\test_ee_exporter.py",
-                "nloc": 148
+                "nloc": 148,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -140,37 +160,49 @@
                 "file_name": "export_for_labeled.py",
                 "old_path": "scripts\\export_for_labeled.py",
                 "new_path": "scripts\\export_for_labeled.py",
-                "nloc": 14
+                "nloc": 14,
+                "added_lines": 0,
+                "deleted_lines": 2
             },
             {
                 "file_name": "dataset.py",
                 "old_path": "src\\ETL\\dataset.py",
                 "new_path": "src\\ETL\\dataset.py",
-                "nloc": 107
+                "nloc": 107,
+                "added_lines": 0,
+                "deleted_lines": 1
             },
             {
                 "file_name": "ee_boundingbox.py",
                 "old_path": "src\\ETL\\ee_boundingbox.py",
                 "new_path": "src\\ETL\\ee_boundingbox.py",
-                "nloc": 95
+                "nloc": 95,
+                "added_lines": 0,
+                "deleted_lines": 1
             },
             {
                 "file_name": "ee_exporter.py",
                 "old_path": "src\\ETL\\ee_exporter.py",
                 "new_path": "src\\ETL\\ee_exporter.py",
-                "nloc": 199
+                "nloc": 199,
+                "added_lines": 12,
+                "deleted_lines": 14
             },
             {
                 "file_name": "test_engineer.py",
                 "old_path": "test\\test_src_ETL\\test_engineer.py",
                 "new_path": "test\\test_src_ETL\\test_engineer.py",
-                "nloc": 120
+                "nloc": 120,
+                "added_lines": 4,
+                "deleted_lines": 4
             },
             {
                 "file_name": "visualize_processed_labels.ipynb",
                 "old_path": "test\\visualize_processed_labels.ipynb",
                 "new_path": "test\\visualize_processed_labels.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 190,
+                "deleted_lines": 435
             }
         ],
         "is_dvc_related": false
@@ -186,7 +218,9 @@
                 "file_name": "export_for_unlabeled.py",
                 "old_path": "scripts\\export_for_unlabeled.py",
                 "new_path": "scripts\\export_for_unlabeled.py",
-                "nloc": 17
+                "nloc": 17,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -202,19 +236,25 @@
                 "file_name": "dataset.py",
                 "old_path": "src\\ETL\\dataset.py",
                 "new_path": "src\\ETL\\dataset.py",
-                "nloc": 109
+                "nloc": 109,
+                "added_lines": 0,
+                "deleted_lines": 1
             },
             {
                 "file_name": "ee_exporter.py",
                 "old_path": "src\\ETL\\ee_exporter.py",
                 "new_path": "src\\ETL\\ee_exporter.py",
-                "nloc": 202
+                "nloc": 202,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "visualize_processed_labels.ipynb",
                 "old_path": "test\\visualize_processed_labels.ipynb",
                 "new_path": "test\\visualize_processed_labels.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 8,
+                "deleted_lines": 394
             }
         ],
         "is_dvc_related": false
@@ -230,19 +270,25 @@
                 "file_name": "main.yml",
                 "old_path": ".github\\workflows\\main.yml",
                 "new_path": ".github\\workflows\\main.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "export_for_labeled.py",
                 "old_path": "scripts\\export_for_labeled.py",
                 "new_path": "scripts\\export_for_labeled.py",
-                "nloc": 15
+                "nloc": 15,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "export_for_unlabeled.py",
                 "old_path": "scripts\\export_for_unlabeled.py",
                 "new_path": "scripts\\export_for_unlabeled.py",
-                "nloc": 17
+                "nloc": 17,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -258,7 +304,9 @@
                 "file_name": "test.py",
                 "old_path": "scripts\\test.py",
                 "new_path": "scripts\\test.py",
-                "nloc": 19
+                "nloc": 19,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -274,13 +322,17 @@
                 "file_name": "datasets_labeled.py",
                 "old_path": "data\\datasets_labeled.py",
                 "new_path": "data\\datasets_labeled.py",
-                "nloc": 167
+                "nloc": 167,
+                "added_lines": 12,
+                "deleted_lines": 7
             },
             {
                 "file_name": "processor.py",
                 "old_path": "src\\ETL\\processor.py",
                 "new_path": "src\\ETL\\processor.py",
-                "nloc": 114
+                "nloc": 114,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -305,7 +357,9 @@
                 "file_name": "test_split_tiff.py",
                 "old_path": "test\\test_src_ETL\\test_split_tiff.py",
                 "new_path": "test\\test_src_ETL\\test_split_tiff.py",
-                "nloc": 32
+                "nloc": 32,
+                "added_lines": 0,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -330,25 +384,33 @@
                 "file_name": "predict.py",
                 "old_path": "scripts\\predict.py",
                 "new_path": "scripts\\predict.py",
-                "nloc": 164
+                "nloc": 164,
+                "added_lines": 17,
+                "deleted_lines": 21
             },
             {
                 "file_name": "sandbox.ipynb",
                 "old_path": "test\\sandbox.ipynb",
                 "new_path": "test\\sandbox.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 257,
+                "deleted_lines": 667
             },
             {
                 "file_name": "test_predict.py",
                 "old_path": "test\\test_scripts\\test_predict.py",
                 "new_path": "test\\test_scripts\\test_predict.py",
-                "nloc": 181
+                "nloc": 181,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "visualize_processed_labels.ipynb",
                 "old_path": "test\\visualize_processed_labels.ipynb",
                 "new_path": "test\\visualize_processed_labels.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 14,
+                "deleted_lines": 56
             }
         ],
         "is_dvc_related": false
@@ -382,25 +444,33 @@
                 "file_name": "Dockerfile.inference",
                 "old_path": "Dockerfile.inference",
                 "new_path": "Dockerfile.inference",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 6,
+                "deleted_lines": 9
             },
             {
                 "file_name": "README.md",
                 "old_path": "gcp\\README.md",
                 "new_path": "gcp\\README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "main.py",
                 "old_path": "gcp\\export_unlabeled_function\\main.py",
                 "new_path": "gcp\\export_unlabeled_function\\main.py",
-                "nloc": 9
+                "nloc": 9,
+                "added_lines": 9,
+                "deleted_lines": 107
             },
             {
                 "file_name": "start.sh",
                 "old_path": null,
                 "new_path": "gcp\\inference\\start.sh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -416,13 +486,17 @@
                 "file_name": "main.py",
                 "old_path": "gcp\\export_unlabeled_function\\main.py",
                 "new_path": "gcp\\export_unlabeled_function\\main.py",
-                "nloc": 98
+                "nloc": 98,
+                "added_lines": 5,
+                "deleted_lines": 2
             },
             {
                 "file_name": "ee_exporter.py",
                 "old_path": "src\\ETL\\ee_exporter.py",
                 "new_path": "src\\ETL\\ee_exporter.py",
-                "nloc": 221
+                "nloc": 221,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -438,25 +512,33 @@
                 "file_name": "README.md",
                 "old_path": "README.md",
                 "new_path": "README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "STATUS.md",
                 "old_path": "STATUS.md",
                 "new_path": "STATUS.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 23,
+                "deleted_lines": 25
             },
             {
                 "file_name": "deploy_ee_functions.sh",
                 "old_path": "deploy_ee_functions.sh",
                 "new_path": "deploy_ee_functions.sh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "deploy_inference.sh",
                 "old_path": "deploy_inference.sh",
                 "new_path": "deploy_inference.sh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -472,37 +554,49 @@
                 "file_name": "features.dvc",
                 "old_path": "data\\features.dvc",
                 "new_path": "data\\features.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "models.dvc",
                 "old_path": "data\\models.dvc",
                 "new_path": "data\\models.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "processed.dvc",
                 "old_path": "data\\processed.dvc",
                 "new_path": "data\\processed.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "raw.dvc",
                 "old_path": "data\\raw.dvc",
                 "new_path": "data\\raw.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "test.dvc",
                 "old_path": "data\\test.dvc",
                 "new_path": "data\\test.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "ee_exporter.py",
                 "old_path": "src\\ETL\\ee_exporter.py",
                 "new_path": "src\\ETL\\ee_exporter.py",
-                "nloc": 238
+                "nloc": 238,
+                "added_lines": 12,
+                "deleted_lines": 9
             }
         ],
         "is_dvc_related": true
@@ -518,7 +612,9 @@
                 "file_name": "test.py",
                 "old_path": "scripts\\test.py",
                 "new_path": "scripts\\test.py",
-                "nloc": 30
+                "nloc": 30,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -534,7 +630,9 @@
                 "file_name": "data.py",
                 "old_path": "src\\models\\data.py",
                 "new_path": "src\\models\\data.py",
-                "nloc": 270
+                "nloc": 270,
+                "added_lines": 2,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -550,7 +648,9 @@
                 "file_name": "datasets_labeled.py",
                 "old_path": "src\\datasets_labeled.py",
                 "new_path": "src\\datasets_labeled.py",
-                "nloc": 375
+                "nloc": 375,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -566,7 +666,9 @@
                 "file_name": "lstm.py",
                 "old_path": "src\\models\\lstm.py",
                 "new_path": "src\\models\\lstm.py",
-                "nloc": 128
+                "nloc": 128,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -582,13 +684,17 @@
                 "file_name": "main.py",
                 "old_path": "gcp\\merger\\main.py",
                 "new_path": "gcp\\merger\\main.py",
-                "nloc": 48
+                "nloc": 48,
+                "added_lines": 22,
+                "deleted_lines": 7
             },
             {
                 "file_name": "save_model_as_pt.py",
                 "old_path": "scripts\\save_model_as_pt.py",
                 "new_path": "scripts\\save_model_as_pt.py",
-                "nloc": 18
+                "nloc": 18,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -613,7 +719,9 @@
                 "file_name": "datasets_labeled.py",
                 "old_path": "src\\datasets_labeled.py",
                 "new_path": "src\\datasets_labeled.py",
-                "nloc": 474
+                "nloc": 474,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -629,7 +737,9 @@
                 "file_name": "model.py",
                 "old_path": "src\\models\\model.py",
                 "new_path": "src\\models\\model.py",
-                "nloc": 490
+                "nloc": 490,
+                "added_lines": 3,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -654,7 +764,9 @@
                 "file_name": "models_train_and_evaluate.py",
                 "old_path": "scripts\\models_train_and_evaluate.py",
                 "new_path": "scripts\\models_train_and_evaluate.py",
-                "nloc": 50
+                "nloc": 50,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -670,7 +782,9 @@
                 "file_name": "pipeline_funcs.py",
                 "old_path": "src\\pipeline_funcs.py",
                 "new_path": "src\\pipeline_funcs.py",
-                "nloc": 143
+                "nloc": 143,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -695,7 +809,9 @@
                 "file_name": "models_train_and_evaluate.py",
                 "old_path": "scripts\\models_train_and_evaluate.py",
                 "new_path": "scripts\\models_train_and_evaluate.py",
-                "nloc": 52
+                "nloc": 52,
+                "added_lines": 3,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -711,7 +827,9 @@
                 "file_name": "model_metrics_validation.json",
                 "old_path": "data\\model_metrics_validation.json",
                 "new_path": "data\\model_metrics_validation.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 52,
+                "deleted_lines": 37
             }
         ],
         "is_dvc_related": false
@@ -727,43 +845,57 @@
                 "file_name": "dataset.py",
                 "old_path": "src\\ETL\\dataset.py",
                 "new_path": "src\\ETL\\dataset.py",
-                "nloc": 175
+                "nloc": 175,
+                "added_lines": 2,
+                "deleted_lines": 1
             },
             {
                 "file_name": "ee_boundingbox.py",
                 "old_path": "src\\ETL\\ee_boundingbox.py",
                 "new_path": "src\\ETL\\ee_boundingbox.py",
-                "nloc": 134
+                "nloc": 134,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "ee_exporter.py",
                 "old_path": "src\\ETL\\ee_exporter.py",
                 "new_path": "src\\ETL\\ee_exporter.py",
-                "nloc": 255
+                "nloc": 255,
+                "added_lines": 9,
+                "deleted_lines": 9
             },
             {
                 "file_name": "engineer.py",
                 "old_path": "src\\ETL\\engineer.py",
                 "new_path": "src\\ETL\\engineer.py",
-                "nloc": 115
+                "nloc": 115,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "utils.py",
                 "old_path": "src\\utils.py",
                 "new_path": "src\\utils.py",
-                "nloc": 105
+                "nloc": 105,
+                "added_lines": 4,
+                "deleted_lines": 4
             },
             {
                 "file_name": "test_ee_exporter.py",
                 "old_path": "test\\test_src_ETL\\test_ee_exporter.py",
                 "new_path": "test\\test_src_ETL\\test_ee_exporter.py",
-                "nloc": 185
+                "nloc": 185,
+                "added_lines": 5,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_engineer.py",
                 "old_path": "test\\test_src_ETL\\test_engineer.py",
                 "new_path": "test\\test_src_ETL\\test_engineer.py",
-                "nloc": 114
+                "nloc": 114,
+                "added_lines": 0,
+                "deleted_lines": 29
             }
         ],
         "is_dvc_related": false
@@ -779,7 +911,9 @@
                 "file_name": "models_train_and_evaluate.py",
                 "old_path": "scripts\\models_train_and_evaluate.py",
                 "new_path": "scripts\\models_train_and_evaluate.py",
-                "nloc": 57
+                "nloc": 57,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -795,7 +929,9 @@
                 "file_name": "models_train_and_evaluate.py",
                 "old_path": "scripts\\models_train_and_evaluate.py",
                 "new_path": "scripts\\models_train_and_evaluate.py",
-                "nloc": 57
+                "nloc": 57,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -811,7 +947,9 @@
                 "file_name": "main.yml",
                 "old_path": ".github\\workflows\\main.yml",
                 "new_path": ".github\\workflows\\main.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 28,
+                "deleted_lines": 22
             }
         ],
         "is_dvc_related": false
@@ -827,7 +965,9 @@
                 "file_name": "main.yml",
                 "old_path": ".github\\workflows\\main.yml",
                 "new_path": ".github\\workflows\\main.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -843,7 +983,9 @@
                 "file_name": "predict.py",
                 "old_path": "scripts\\predict.py",
                 "new_path": "scripts\\predict.py",
-                "nloc": 148
+                "nloc": 148,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -859,7 +1001,9 @@
                 "file_name": "model.py",
                 "old_path": "src\\models\\model.py",
                 "new_path": "src\\models\\model.py",
-                "nloc": 536
+                "nloc": 536,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -875,7 +1019,9 @@
                 "file_name": "processor.py",
                 "old_path": "src\\ETL\\processor.py",
                 "new_path": "src\\ETL\\processor.py",
-                "nloc": 147
+                "nloc": 147,
+                "added_lines": 3,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -891,13 +1037,17 @@
                 "file_name": "test_ee_exporter.py",
                 "old_path": "test\\test_src_ETL\\test_ee_exporter.py",
                 "new_path": "test\\test_src_ETL\\test_ee_exporter.py",
-                "nloc": 172
+                "nloc": 172,
+                "added_lines": 0,
+                "deleted_lines": 16
             },
             {
                 "file_name": "test_engineer.py",
                 "old_path": "test\\test_src_ETL\\test_engineer.py",
                 "new_path": "test\\test_src_ETL\\test_engineer.py",
-                "nloc": 111
+                "nloc": 111,
+                "added_lines": 0,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -913,13 +1063,17 @@
                 "file_name": "processor.py",
                 "old_path": "src\\ETL\\processor.py",
                 "new_path": "src\\ETL\\processor.py",
-                "nloc": 147
+                "nloc": 147,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "datasets_labeled.py",
                 "old_path": "src\\datasets_labeled.py",
                 "new_path": "src\\datasets_labeled.py",
-                "nloc": 544
+                "nloc": 544,
+                "added_lines": 10,
+                "deleted_lines": 72
             }
         ],
         "is_dvc_related": false
@@ -935,13 +1089,17 @@
                 "file_name": "datasets_labeled.py",
                 "old_path": "src\\datasets_labeled.py",
                 "new_path": "src\\datasets_labeled.py",
-                "nloc": 519
+                "nloc": 519,
+                "added_lines": 11,
+                "deleted_lines": 11
             },
             {
                 "file_name": "test_ee_exporter.py",
                 "old_path": "test\\test_src_ETL\\test_ee_exporter.py",
                 "new_path": "test\\test_src_ETL\\test_ee_exporter.py",
-                "nloc": 190
+                "nloc": 190,
+                "added_lines": 6,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -957,7 +1115,9 @@
                 "file_name": "model.py",
                 "old_path": "src\\models\\model.py",
                 "new_path": "src\\models\\model.py",
-                "nloc": 533
+                "nloc": 533,
+                "added_lines": 44,
+                "deleted_lines": 31
             }
         ],
         "is_dvc_related": false
@@ -973,7 +1133,9 @@
                 "file_name": "model.py",
                 "old_path": "src\\models\\model.py",
                 "new_path": "src\\models\\model.py",
-                "nloc": 533
+                "nloc": 533,
+                "added_lines": 1,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -989,7 +1151,9 @@
                 "file_name": "model.py",
                 "old_path": "src\\models\\model.py",
                 "new_path": "src\\models\\model.py",
-                "nloc": 381
+                "nloc": 381,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1005,7 +1169,9 @@
                 "file_name": "main.py",
                 "old_path": "gcp\\export_region_function\\main.py",
                 "new_path": "gcp\\export_region_function\\main.py",
-                "nloc": 121
+                "nloc": 121,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1021,7 +1187,9 @@
                 "file_name": "crop_mask_inference.ipynb",
                 "old_path": "notebooks\\crop_mask_inference.ipynb",
                 "new_path": "notebooks\\crop_mask_inference.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1037,13 +1205,17 @@
                 "file_name": "mypy.ini",
                 "old_path": "mypy.ini",
                 "new_path": "mypy.ini",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "lstm.py",
                 "old_path": "src\\models\\lstm.py",
                 "new_path": "src\\models\\lstm.py",
-                "nloc": 128
+                "nloc": 128,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1059,7 +1231,9 @@
                 "file_name": "processor.py",
                 "old_path": "src\\ETL\\processor.py",
                 "new_path": "src\\ETL\\processor.py",
-                "nloc": 148
+                "nloc": 148,
+                "added_lines": 11,
+                "deleted_lines": 9
             }
         ],
         "is_dvc_related": false
@@ -1075,7 +1249,9 @@
                 "file_name": "integration_test_labeled.py",
                 "old_path": "test\\integration_test_labeled.py",
                 "new_path": "test\\integration_test_labeled.py",
-                "nloc": 215
+                "nloc": 215,
+                "added_lines": 28,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1091,13 +1267,17 @@
                 "file_name": "models.json",
                 "old_path": "data\\models.json",
                 "new_path": "data\\models.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 11,
+                "deleted_lines": 0
             },
             {
                 "file_name": "model_train.py",
                 "old_path": "scripts\\model_train.py",
                 "new_path": "scripts\\model_train.py",
-                "nloc": 34
+                "nloc": 34,
+                "added_lines": 6,
+                "deleted_lines": 6
             }
         ],
         "is_dvc_related": false
@@ -1113,7 +1293,9 @@
                 "file_name": "pipeline_funcs.py",
                 "old_path": "src\\pipeline_funcs.py",
                 "new_path": "src\\pipeline_funcs.py",
-                "nloc": 100
+                "nloc": 100,
+                "added_lines": 8,
+                "deleted_lines": 8
             }
         ],
         "is_dvc_related": false
@@ -1129,7 +1311,9 @@
                 "file_name": "pipeline_funcs.py",
                 "old_path": "src\\pipeline_funcs.py",
                 "new_path": "src\\pipeline_funcs.py",
-                "nloc": 100
+                "nloc": 100,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1145,13 +1329,17 @@
                 "file_name": "new_data.ipynb",
                 "old_path": "notebooks\\new_data.ipynb",
                 "new_path": "notebooks\\new_data.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 58,
+                "deleted_lines": 58
             },
             {
                 "file_name": "test_data.py",
                 "old_path": "test\\test_src_models\\test_data.py",
                 "new_path": "test\\test_src_models\\test_data.py",
-                "nloc": 45
+                "nloc": 45,
+                "added_lines": 7,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -1167,7 +1355,9 @@
                 "file_name": "environment-dev.yml",
                 "old_path": "environment-dev.yml",
                 "new_path": "environment-dev.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1183,13 +1373,17 @@
                 "file_name": "environment-dev.yml",
                 "old_path": "environment-dev.yml",
                 "new_path": "environment-dev.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 0
             },
             {
                 "file_name": "data.py",
                 "old_path": "src\\models\\data.py",
                 "new_path": "src\\models\\data.py",
-                "nloc": 192
+                "nloc": 192,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1205,13 +1399,17 @@
                 "file_name": "environment-dev.yml",
                 "old_path": "environment-dev.yml",
                 "new_path": "environment-dev.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 1
             },
             {
                 "file_name": "data.py",
                 "old_path": "src\\models\\data.py",
                 "new_path": "src\\models\\data.py",
-                "nloc": 192
+                "nloc": 192,
+                "added_lines": 5,
+                "deleted_lines": 5
             }
         ],
         "is_dvc_related": false
@@ -1227,7 +1425,9 @@
                 "file_name": "data.py",
                 "old_path": "src\\models\\data.py",
                 "new_path": "src\\models\\data.py",
-                "nloc": 192
+                "nloc": 192,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1243,19 +1443,25 @@
                 "file_name": "compressed_features.tar.gz.dvc",
                 "old_path": "data\\compressed_features.tar.gz.dvc",
                 "new_path": "data\\compressed_features.tar.gz.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "models.dvc",
                 "old_path": "data\\models.dvc",
                 "new_path": "data\\models.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "datasets_labeled.py",
                 "old_path": "src\\datasets_labeled.py",
                 "new_path": "src\\datasets_labeled.py",
-                "nloc": 639
+                "nloc": 639,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": true
@@ -1271,7 +1477,9 @@
                 "file_name": "dataset.py",
                 "old_path": "src\\ETL\\dataset.py",
                 "new_path": "src\\ETL\\dataset.py",
-                "nloc": 300
+                "nloc": 300,
+                "added_lines": 1,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1287,7 +1495,9 @@
                 "file_name": "inference.ipynb",
                 "old_path": "notebooks\\inference.ipynb",
                 "new_path": "notebooks\\inference.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 18,
+                "deleted_lines": 14
             }
         ],
         "is_dvc_related": false
@@ -1312,7 +1522,9 @@
                 "file_name": "inference.ipynb",
                 "old_path": "notebooks\\inference.ipynb",
                 "new_path": "notebooks\\inference.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 15,
+                "deleted_lines": 11
             }
         ],
         "is_dvc_related": false
@@ -1328,7 +1540,9 @@
                 "file_name": "test_data.py",
                 "old_path": "test\\test_src_models\\test_data.py",
                 "new_path": "test\\test_src_models\\test_data.py",
-                "nloc": 45
+                "nloc": 45,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1344,7 +1558,9 @@
                 "file_name": "model_train.py",
                 "old_path": "scripts\\model_train.py",
                 "new_path": "scripts\\model_train.py",
-                "nloc": 64
+                "nloc": 64,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1360,13 +1576,17 @@
                 "file_name": "inference.py",
                 "old_path": "src\\inference.py",
                 "new_path": "src\\inference.py",
-                "nloc": 85
+                "nloc": 85,
+                "added_lines": 8,
+                "deleted_lines": 8
             },
             {
                 "file_name": "test_inference.py",
                 "old_path": "test\\test_inference.py",
                 "new_path": "test\\test_inference.py",
-                "nloc": 36
+                "nloc": 36,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1400,7 +1620,9 @@
                 "file_name": "README.md",
                 "old_path": "README.md",
                 "new_path": "README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1416,19 +1638,25 @@
                 "file_name": "model.py",
                 "old_path": "src\\models\\model.py",
                 "new_path": "src\\models\\model.py",
-                "nloc": 400
+                "nloc": 400,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "pipeline_funcs.py",
                 "old_path": "src\\pipeline_funcs.py",
                 "new_path": "src\\pipeline_funcs.py",
-                "nloc": 106
+                "nloc": 106,
+                "added_lines": 19,
+                "deleted_lines": 15
             },
             {
                 "file_name": "train.py",
                 "old_path": "train.py",
                 "new_path": "train.py",
-                "nloc": 59
+                "nloc": 59,
+                "added_lines": 2,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1444,7 +1672,9 @@
                 "file_name": "datasets.py",
                 "old_path": "datasets.py",
                 "new_path": "datasets.py",
-                "nloc": 672
+                "nloc": 672,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1460,7 +1690,9 @@
                 "file_name": "datasets.py",
                 "old_path": "datasets.py",
                 "new_path": "datasets.py",
-                "nloc": 672
+                "nloc": 672,
+                "added_lines": 1,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1476,7 +1708,9 @@
                 "file_name": "datasets.py",
                 "old_path": "datasets.py",
                 "new_path": "datasets.py",
-                "nloc": 672
+                "nloc": 672,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1492,7 +1726,9 @@
                 "file_name": "datasets.py",
                 "old_path": "datasets.py",
                 "new_path": "datasets.py",
-                "nloc": 672
+                "nloc": 672,
+                "added_lines": 1,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1508,7 +1744,9 @@
                 "file_name": "datasets.py",
                 "old_path": "datasets.py",
                 "new_path": "datasets.py",
-                "nloc": 672
+                "nloc": 672,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1524,7 +1762,9 @@
                 "file_name": "cropland-mask---country-.md",
                 "old_path": null,
                 "new_path": ".github\\ISSUE_TEMPLATE\\cropland-mask---country-.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 17,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1540,7 +1780,9 @@
                 "file_name": "deploy.yml",
                 "old_path": ".github\\workflows\\deploy.yml",
                 "new_path": ".github\\workflows\\deploy.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1556,13 +1798,17 @@
                 "file_name": "openmapflow.yaml",
                 "old_path": "openmapflow.yaml",
                 "new_path": "openmapflow.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "train.py",
                 "old_path": "train.py",
                 "new_path": "train.py",
-                "nloc": 37
+                "nloc": 37,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1578,7 +1824,9 @@
                 "file_name": "test.yml",
                 "old_path": ".github\\workflows\\test.yml",
                 "new_path": ".github\\workflows\\test.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1594,7 +1842,9 @@
                 "file_name": "test.yml",
                 "old_path": ".github\\workflows\\test.yml",
                 "new_path": ".github\\workflows\\test.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 5
             }
         ],
         "is_dvc_related": false
@@ -1610,7 +1860,9 @@
                 "file_name": "pipeline_funcs.py",
                 "old_path": "src\\pipeline_funcs.py",
                 "new_path": "src\\pipeline_funcs.py",
-                "nloc": 110
+                "nloc": 110,
+                "added_lines": 3,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1626,13 +1878,17 @@
                 "file_name": "pipeline_funcs.py",
                 "old_path": "src\\pipeline_funcs.py",
                 "new_path": "src\\pipeline_funcs.py",
-                "nloc": 107
+                "nloc": 107,
+                "added_lines": 0,
+                "deleted_lines": 3
             },
             {
                 "file_name": "train.py",
                 "old_path": "train.py",
                 "new_path": "train.py",
-                "nloc": 39
+                "nloc": 39,
+                "added_lines": 2,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1648,13 +1904,17 @@
                 "file_name": "test.yml",
                 "old_path": ".github\\workflows\\test.yml",
                 "new_path": ".github\\workflows\\test.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 6
             },
             {
                 "file_name": "train.py",
                 "old_path": "train.py",
                 "new_path": "train.py",
-                "nloc": 37
+                "nloc": 37,
+                "added_lines": 0,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1670,13 +1930,17 @@
                 "file_name": "pyproject.toml",
                 "old_path": "pyproject.toml",
                 "new_path": "pyproject.toml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "raw_labels.py",
                 "old_path": "src\\raw_labels.py",
                 "new_path": "src\\raw_labels.py",
-                "nloc": 239
+                "nloc": 239,
+                "added_lines": 0,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1692,7 +1956,9 @@
                 "file_name": "train.py",
                 "old_path": "train.py",
                 "new_path": "train.py",
-                "nloc": 37
+                "nloc": 37,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false

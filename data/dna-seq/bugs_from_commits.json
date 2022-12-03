@@ -10,31 +10,41 @@
                 "file_name": "bam_to_fastq.wdl",
                 "old_path": null,
                 "new_path": "bam_to_fastq\\bam_to_fastq.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 95,
+                "deleted_lines": 0
             },
             {
                 "file_name": "anton.json",
                 "old_path": null,
                 "new_path": "bam_to_fastq\\inputs\\anton.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 0
             },
             {
                 "file_name": "dna_seq_pipeline_bam.wdl",
                 "old_path": "dna-seq-pipeline\\dna_seq_pipeline_bam.wdl",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 28
             },
             {
                 "file_name": "dna_seq_pipeline_fastq.wdl",
                 "old_path": "dna-seq-pipeline\\dna_seq_pipeline_fastq.wdl",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 48
             },
             {
                 "file_name": "bam2fastq.wdl",
                 "old_path": "tools\\bam2fastq\\bam2fastq.wdl",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 5
             }
         ],
         "is_dvc_related": false
@@ -50,43 +60,57 @@
                 "file_name": "bam_to_fastq.wdl",
                 "old_path": "bam_to_fastq\\bam_to_fastq.wdl",
                 "new_path": "bam_to_fastq\\bam_to_fastq.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 6,
+                "deleted_lines": 10
             },
             {
                 "file_name": "anton.json",
                 "old_path": "bam_to_fastq\\inputs\\anton.json",
                 "new_path": "bam_to_fastq\\inputs\\anton.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 1
             },
             {
                 "file_name": "annotations.wdl",
                 "old_path": "dna-seq-pipeline\\annotations.wdl",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 10
             },
             {
                 "file_name": "deduplication.wdl",
                 "old_path": "dna-seq-pipeline\\deduplication.wdl",
                 "new_path": "dna-seq-pipeline\\deduplication.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "dna_seq_pipeline.wdl",
                 "old_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
                 "new_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 202
             },
             {
                 "file_name": "index_reference.wdl",
                 "old_path": null,
                 "new_path": "dna-seq-pipeline\\index_reference.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 41,
+                "deleted_lines": 0
             },
             {
                 "file_name": "preprocess.wdl",
                 "old_path": null,
                 "new_path": "dna-seq-pipeline\\preprocess.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 94,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -102,31 +126,41 @@
                 "file_name": "alignment.wdl",
                 "old_path": "dna-seq-pipeline\\alignment.wdl",
                 "new_path": "dna-seq-pipeline\\alignment.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "index_reference.wdl",
                 "old_path": "dna-seq-pipeline\\index_reference.wdl",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 41
             },
             {
                 "file_name": "bam_to_fastq.wdl",
                 "old_path": "bam_to_fastq\\bam_to_fastq.wdl",
                 "new_path": "preparation\\bam_to_fastq.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "index_reference.wdl",
                 "old_path": null,
                 "new_path": "preparation\\index_reference.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 89,
+                "deleted_lines": 0
             },
             {
                 "file_name": "anton_bam_to_fastq.json",
                 "old_path": "bam_to_fastq\\inputs\\anton.json",
                 "new_path": "preparation\\inputs\\anton_bam_to_fastq.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -142,19 +176,25 @@
                 "file_name": "bam_to_fastq.wdl",
                 "old_path": "preparation\\bam_to_fastq.wdl",
                 "new_path": "preparation\\bam_to_fastq.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "index_reference.wdl",
                 "old_path": "preparation\\index_reference.wdl",
                 "new_path": "preparation\\index_reference.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 12,
+                "deleted_lines": 4
             },
             {
                 "file_name": "human_index_reference.json",
                 "old_path": null,
                 "new_path": "preparation\\inputs\\human_index_reference.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 6,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -170,25 +210,33 @@
                 "file_name": "alignment.wdl",
                 "old_path": "dna-seq-pipeline\\alignment.wdl",
                 "new_path": "dna-seq-pipeline\\alignment.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 16,
+                "deleted_lines": 8
             },
             {
                 "file_name": "dna_seq_pipeline.wdl",
                 "old_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
                 "new_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 8,
+                "deleted_lines": 4
             },
             {
                 "file_name": "anton.json",
                 "old_path": "dna-seq-pipeline\\inputs\\anton.json",
                 "new_path": "dna-seq-pipeline\\inputs\\anton.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 2
             },
             {
                 "file_name": "variant_calling.wdl",
                 "old_path": "dna-seq-pipeline\\variant_calling.wdl",
                 "new_path": "dna-seq-pipeline\\variant_calling.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 7,
+                "deleted_lines": 7
             }
         ],
         "is_dvc_related": false
@@ -204,19 +252,25 @@
                 "file_name": "alignment.wdl",
                 "old_path": "dna-seq-pipeline\\alignment.wdl",
                 "new_path": "dna-seq-pipeline\\alignment.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 37,
+                "deleted_lines": 6
             },
             {
                 "file_name": "dna_seq_pipeline.wdl",
                 "old_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
                 "new_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "anton.json",
                 "old_path": "dna-seq-pipeline\\inputs\\anton.json",
                 "new_path": "dna-seq-pipeline\\inputs\\anton.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -232,13 +286,17 @@
                 "file_name": "my.cnf",
                 "old_path": null,
                 "new_path": "services\\config\\my.cnf",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 32,
+                "deleted_lines": 0
             },
             {
                 "file_name": "docker-compose.yml",
                 "old_path": "services\\docker-compose.yml",
                 "new_path": "services\\docker-compose.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 4
             }
         ],
         "is_dvc_related": false
@@ -263,13 +321,17 @@
                 "file_name": "bam_to_fastq.wdl",
                 "old_path": "preparation\\bam_to_fastq.wdl",
                 "new_path": "preparation\\bam_to_fastq.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "anton_bam_to_fastq.json",
                 "old_path": "preparation\\inputs\\anton_bam_to_fastq.json",
                 "new_path": "preparation\\inputs\\anton_bam_to_fastq.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -294,13 +356,17 @@
                 "file_name": ".gitignore",
                 "old_path": "data\\ensembl\\102\\cache\\.gitignore",
                 "new_path": "data\\ensembl\\102\\cache\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 4
             },
             {
                 "file_name": "homo_sapiens_vep_102_GRCh38.tar.gz.dvc",
                 "old_path": null,
                 "new_path": "data\\ensembl\\102\\cache\\homo_sapiens_vep_102_GRCh38.tar.gz.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 10,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": true
@@ -316,37 +382,49 @@
                 "file_name": "homo_sapiens_vep_102_GRCh38.tar.gz.dvc",
                 "old_path": "data\\ensembl\\102\\cache\\homo_sapiens_vep_102_GRCh38.tar.gz.dvc",
                 "new_path": "data\\ensembl\\102\\cache\\homo_sapiens_vep_102_GRCh38.tar.gz.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz.dvc",
                 "old_path": "data\\ensembl\\102\\species\\homo_sapiens\\Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz.dvc",
                 "new_path": "data\\ensembl\\102\\species\\homo_sapiens\\Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "clinvar.vcf.gz.dvc",
                 "old_path": "data\\gwas\\annotations\\clinvar.vcf.gz.dvc",
                 "new_path": "data\\gwas\\annotations\\clinvar.vcf.gz.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 4
             },
             {
                 "file_name": "clinvar.vcf.gz.tbi.dvc",
                 "old_path": "data\\gwas\\annotations\\clinvar.vcf.gz.tbi.dvc",
                 "new_path": "data\\gwas\\annotations\\clinvar.vcf.gz.tbi.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 4
             },
             {
                 "file_name": "dvc.lock",
                 "old_path": "dvc.lock",
                 "new_path": "dvc.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 15,
+                "deleted_lines": 4
             },
             {
                 "file_name": "dvc.yaml",
                 "old_path": "dvc.yaml",
                 "new_path": "dvc.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": true
@@ -362,25 +440,33 @@
                 "file_name": "anton_annotations_deepvariant.json",
                 "old_path": "annotations\\inputs\\vep\\anton_annotations_deepvariant.json",
                 "new_path": "annotations\\inputs\\vep\\anton_annotations_deepvariant.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 4
             },
             {
                 "file_name": "vep_annotations.wdl",
                 "old_path": "annotations\\vep_annotations.wdl",
                 "new_path": "annotations\\vep_annotations.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 22,
+                "deleted_lines": 12
             },
             {
                 "file_name": "application.conf",
                 "old_path": "config\\cromwell\\application.conf",
                 "new_path": "config\\cromwell\\application.conf",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "docker-compose.yml",
                 "old_path": "docker-compose.yml",
                 "new_path": "docker-compose.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -414,43 +500,57 @@
                 "file_name": "README.md",
                 "old_path": "README.md",
                 "new_path": "README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 10
             },
             {
                 "file_name": "vep_annotations.wdl",
                 "old_path": "annotations\\vep\\vep_annotations.wdl",
                 "new_path": "annotations\\vep\\vep_annotations.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "homo_sapiens_vep_103_GRCh38.tar.gz.dvc",
                 "old_path": "data\\ensembl\\103\\homo_sapiens_vep_103_GRCh38.tar.gz.dvc",
                 "new_path": "data\\ensembl\\103\\homo_sapiens_vep_103_GRCh38.tar.gz.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "deep_variant.wdl",
                 "old_path": "dna-seq-pipeline\\deep_variant.wdl",
                 "new_path": "dna-seq-pipeline\\deep_variant.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "dna_seq_pipeline.wdl",
                 "old_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
                 "new_path": "dna-seq-pipeline\\dna_seq_pipeline.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 7,
+                "deleted_lines": 7
             },
             {
                 "file_name": "anton_all_together.json",
                 "old_path": "dna-seq-pipeline\\inputs\\anton_all_together.json",
                 "new_path": "dna-seq-pipeline\\inputs\\anton_all_together.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 8,
+                "deleted_lines": 6
             },
             {
                 "file_name": "test.json",
                 "old_path": "dna-seq-pipeline\\inputs\\test.json",
                 "new_path": "dna-seq-pipeline\\inputs\\test.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": true
@@ -466,61 +566,81 @@
                 "file_name": "opencravat_anton.json",
                 "old_path": "annotations\\opencravat\\input\\opencravat_anton.json",
                 "new_path": "annotations\\opencravat\\input\\opencravat_anton.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 2
             },
             {
                 "file_name": "opencravat.wdl",
                 "old_path": "annotations\\opencravat\\opencravat.wdl",
                 "new_path": "annotations\\opencravat\\opencravat.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 34,
+                "deleted_lines": 28
             },
             {
                 "file_name": "example.json",
                 "old_path": "annotations\\vep\\inputs\\haplo\\example.json",
                 "new_path": "annotations\\vep\\inputs\\haplo\\example.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "anton_annotations_deepvariant.json",
                 "old_path": "annotations\\vep\\inputs\\vep\\anton_annotations_deepvariant.json",
                 "new_path": "annotations\\vep\\inputs\\vep\\anton_annotations_deepvariant.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "anton_annotations_smoove.json",
                 "old_path": "annotations\\vep\\inputs\\vep\\anton_annotations_smoove.json",
                 "new_path": "annotations\\vep\\inputs\\vep\\anton_annotations_smoove.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "example.json",
                 "old_path": "annotations\\vep\\inputs\\vep\\example.json",
                 "new_path": "annotations\\vep\\inputs\\vep\\example.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "vep_annotations.wdl",
                 "old_path": "annotations\\vep\\vep_annotations.wdl",
                 "new_path": "annotations\\vep\\vep_annotations.wdl",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 1
             },
             {
                 "file_name": "Dockerfile",
                 "old_path": "containers\\vep\\Dockerfile",
                 "new_path": "containers\\vep\\Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "align_anton_rg.json",
                 "old_path": "dna-seq-pipeline\\inputs\\alignment\\align_anton_rg.json",
                 "new_path": "dna-seq-pipeline\\inputs\\alignment\\align_anton_rg.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "environment.yaml",
                 "old_path": "environment.yaml",
                 "new_path": "environment.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -536,103 +656,137 @@
                 "file_name": ".gitignore",
                 "old_path": ".gitignore",
                 "new_path": ".gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 26,
+                "deleted_lines": 2
             },
             {
                 "file_name": ".gitignore",
                 "old_path": null,
                 "new_path": "bin\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "micromamba.sh",
                 "old_path": null,
                 "new_path": "bin\\micromamba.sh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 16,
+                "deleted_lines": 0
             },
             {
                 "file_name": "purge.sh",
                 "old_path": null,
                 "new_path": "bin\\purge.sh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 22,
+                "deleted_lines": 0
             },
             {
                 "file_name": "ubuntu_prerequisites.sh",
                 "old_path": "bin\\ubuntu_prerequisites.sh",
                 "new_path": "bin\\ubuntu_prerequisites.sh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 10,
+                "deleted_lines": 2
             },
             {
                 "file_name": ".gitignore",
                 "old_path": "data\\.gitignore",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 8
             },
             {
                 "file_name": ".gitignore",
                 "old_path": null,
                 "new_path": "data\\ensembl\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": ".gitignore",
                 "old_path": "data\\ensembl\\103\\.gitignore",
                 "new_path": "data\\ensembl\\103\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "103.zip.dvc",
                 "old_path": "data\\ensembl\\103\\103.zip.dvc",
                 "new_path": "data\\ensembl\\103\\103.zip.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 5
             },
             {
                 "file_name": "homo_sapiens_vep_103_GRCh38.tar.gz.dvc",
                 "old_path": "data\\ensembl\\103\\homo_sapiens_vep_103_GRCh38.tar.gz.dvc",
                 "new_path": "data\\ensembl\\103\\homo_sapiens_vep_103_GRCh38.tar.gz.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 1
             },
             {
                 "file_name": ".gitignore",
                 "old_path": "data\\gwas\\annotations\\.gitignore",
                 "new_path": "data\\gwas\\annotations\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "all_gene_disease_pmid_associations.tsv.gz.dvc",
                 "old_path": null,
                 "new_path": "data\\gwas\\annotations\\all_gene_disease_pmid_associations.tsv.gz.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 9,
+                "deleted_lines": 0
             },
             {
                 "file_name": "clinvar.vcf.gz.dvc",
                 "old_path": "data\\gwas\\annotations\\clinvar.vcf.gz.dvc",
                 "new_path": "data\\gwas\\annotations\\clinvar.vcf.gz.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 4
             },
             {
                 "file_name": "clinvar.vcf.gz.tbi.dvc",
                 "old_path": "data\\gwas\\annotations\\clinvar.vcf.gz.tbi.dvc",
                 "new_path": "data\\gwas\\annotations\\clinvar.vcf.gz.tbi.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 4
             },
             {
                 "file_name": ".gitignore",
                 "old_path": "data\\gwas\\annotations\\gene2phenotype\\.gitignore",
                 "new_path": "data\\gwas\\annotations\\gene2phenotype\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "dvc.lock",
                 "old_path": "dvc.lock",
                 "new_path": "dvc.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 44,
+                "deleted_lines": 2
             },
             {
                 "file_name": "dvc.yaml",
                 "old_path": "dvc.yaml",
                 "new_path": "dvc.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 8,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": true

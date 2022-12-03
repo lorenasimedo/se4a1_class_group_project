@@ -10,7 +10,9 @@
                 "file_name": "rootski-ci.yml",
                 "old_path": ".github\\workflows\\rootski-ci.yml",
                 "new_path": ".github\\workflows\\rootski-ci.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 5
             }
         ],
         "is_dvc_related": false
@@ -26,7 +28,9 @@
                 "file_name": "rootski-ci.yml",
                 "old_path": ".github\\workflows\\rootski-ci.yml",
                 "new_path": ".github\\workflows\\rootski-ci.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -42,7 +46,9 @@
                 "file_name": "rootski-ci.yml",
                 "old_path": ".github\\workflows\\rootski-ci.yml",
                 "new_path": ".github\\workflows\\rootski-ci.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -58,7 +64,9 @@
                 "file_name": "rootski-ci.yml",
                 "old_path": ".github\\workflows\\rootski-ci.yml",
                 "new_path": ".github\\workflows\\rootski-ci.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -101,13 +109,17 @@
                 "file_name": "make.xsh",
                 "old_path": "make.xsh",
                 "new_path": "make.xsh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "makefile",
                 "old_path": "makefile",
                 "new_path": "makefile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -132,7 +144,9 @@
                 "file_name": "backup_or_restore.py",
                 "old_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
                 "new_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
-                "nloc": 181
+                "nloc": 181,
+                "added_lines": 7,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -148,7 +162,9 @@
                 "file_name": "backup_or_restore.py",
                 "old_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
                 "new_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
-                "nloc": 265
+                "nloc": 265,
+                "added_lines": 8,
+                "deleted_lines": 8
             }
         ],
         "is_dvc_related": false
@@ -173,7 +189,9 @@
                 "file_name": "make.xsh",
                 "old_path": "make.xsh",
                 "new_path": "make.xsh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 11,
+                "deleted_lines": 11
             }
         ],
         "is_dvc_related": false
@@ -189,7 +207,9 @@
                 "file_name": "backup_or_restore.py",
                 "old_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
                 "new_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
-                "nloc": 273
+                "nloc": 273,
+                "added_lines": 10,
+                "deleted_lines": 20
             }
         ],
         "is_dvc_related": false
@@ -214,7 +234,9 @@
                 "file_name": ".pre-commit-config.yaml",
                 "old_path": ".pre-commit-config.yaml",
                 "new_path": ".pre-commit-config.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 23,
+                "deleted_lines": 10
             }
         ],
         "is_dvc_related": false
@@ -248,7 +270,9 @@
                 "file_name": "README.md",
                 "old_path": "README.md",
                 "new_path": "README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -273,55 +297,73 @@
                 "file_name": "config.py",
                 "old_path": "rootski_api\\src\\rootski\\config\\config.py",
                 "new_path": "rootski_api\\src\\rootski\\config\\config.py",
-                "nloc": 191
+                "nloc": 191,
+                "added_lines": 26,
+                "deleted_lines": 24
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "rootski_api\\src\\rootski\\gql\\language\\__init__.py",
                 "new_path": "rootski_api\\src\\rootski\\gql\\language\\__init__.py",
-                "nloc": 1
+                "nloc": 1,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "rootski_api\\src\\rootski\\gql\\language\\word\\__init__.py",
                 "new_path": "rootski_api\\src\\rootski\\gql\\language\\word\\__init__.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "loaders.py",
                 "old_path": "rootski_api\\src\\rootski\\gql\\language\\word\\loaders.py",
                 "new_path": "rootski_api\\src\\rootski\\gql\\language\\word\\loaders.py",
-                "nloc": 14
+                "nloc": 14,
+                "added_lines": 1,
+                "deleted_lines": 2
             },
             {
                 "file_name": "routes.py",
                 "old_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
                 "new_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
-                "nloc": 195
+                "nloc": 195,
+                "added_lines": 4,
+                "deleted_lines": 4
             },
             {
                 "file_name": "models.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\models\\models.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\models\\models.py",
-                "nloc": 353
+                "nloc": 353,
+                "added_lines": 3,
+                "deleted_lines": 5
             },
             {
                 "file_name": "db_service.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\non_orm\\db_service.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\non_orm\\db_service.py",
-                "nloc": 171
+                "nloc": 171,
+                "added_lines": 49,
+                "deleted_lines": 41
             },
             {
                 "file_name": "sql_client.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\non_orm\\sql_client.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\non_orm\\sql_client.py",
-                "nloc": 129
+                "nloc": 129,
+                "added_lines": 37,
+                "deleted_lines": 36
             },
             {
                 "file_name": "test__auth.py",
                 "old_path": "rootski_api\\tests\\functional_tests\\services\\test__auth.py",
                 "new_path": "rootski_api\\tests\\functional_tests\\services\\test__auth.py",
-                "nloc": 91
+                "nloc": 91,
+                "added_lines": 9,
+                "deleted_lines": 5
             }
         ],
         "is_dvc_related": false
@@ -337,247 +379,329 @@
                 "file_name": "docs.yml",
                 "old_path": ".github\\workflows\\docs.yml",
                 "new_path": ".github\\workflows\\docs.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "cdk.context.json",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\cdk.context.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 6,
+                "deleted_lines": 0
             },
             {
                 "file_name": "secrets.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\common\\secrets.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\common\\secrets.py",
-                "nloc": 46
+                "nloc": 46,
+                "added_lines": 10,
+                "deleted_lines": 16
             },
             {
                 "file_name": "__init__.py",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\__init__.py",
-                "nloc": 1
+                "nloc": 1,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "cdk.context.json",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\cdk.context.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 6,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail\\__init__.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail\\__init__.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "app.py",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail\\app.py",
-                "nloc": 29
+                "nloc": 29,
+                "added_lines": 34,
+                "deleted_lines": 0
             },
             {
                 "file_name": "cdk.context.json",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail\\cdk.context.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 0
             },
             {
                 "file_name": "cdk.json",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail\\cdk.json",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail\\cdk.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail\\stacks\\__init__.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail\\stacks\\__init__.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "lightsail_instance.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail\\stacks\\lightsail_instance.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail\\stacks\\lightsail_instance.py",
-                "nloc": 136
+                "nloc": 136,
+                "added_lines": 15,
+                "deleted_lines": 8
             },
             {
                 "file_name": "user-data.template.sh",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail\\stacks\\resources\\user-data.template.sh",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail\\stacks\\resources\\user-data.template.sh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail_dependencies\\__init__.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail_dependencies\\__init__.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "app.py",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail_dependencies\\app.py",
-                "nloc": 23
+                "nloc": 23,
+                "added_lines": 34,
+                "deleted_lines": 0
             },
             {
                 "file_name": "cdk.json",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail_dependencies\\cdk.json",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail_dependencies\\cdk.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail_dependencies\\stacks\\__init__.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail_dependencies\\stacks\\__init__.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "db_backups_bucket_stack.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail_dependencies\\stacks\\db_backups_bucket_stack.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail_dependencies\\stacks\\db_backups_bucket_stack.py",
-                "nloc": 40
+                "nloc": 40,
+                "added_lines": 9,
+                "deleted_lines": 3
             },
             {
                 "file_name": "lightsail_iam_user_stack.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail_dependencies\\stacks\\lightsail_iam_user_stack.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail_dependencies\\stacks\\lightsail_iam_user_stack.py",
-                "nloc": 67
+                "nloc": 67,
+                "added_lines": 16,
+                "deleted_lines": 11
             },
             {
                 "file_name": "__init__.py",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail_subdomains\\__init__.py",
-                "nloc": 1
+                "nloc": 1,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "app.py",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail_subdomains\\app.py",
-                "nloc": 17
+                "nloc": 17,
+                "added_lines": 22,
+                "deleted_lines": 0
             },
             {
                 "file_name": "cdk.json",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail_subdomains\\cdk.json",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail_subdomains\\cdk.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail_subdomains\\__init__.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail_subdomains\\stacks\\__init__.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "subdomains.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail_subdomains\\stacks\\subdomains.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\lightsail_subdomains\\stacks\\subdomains.py",
-                "nloc": 49
+                "nloc": 49,
+                "added_lines": 15,
+                "deleted_lines": 25
             },
             {
                 "file_name": "make.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\make.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\database\\make.py",
-                "nloc": 192
+                "nloc": 192,
+                "added_lines": 99,
+                "deleted_lines": 25
             },
             {
                 "file_name": "app.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lambda_rest_api\\app.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lambda_rest_api\\app.py",
-                "nloc": 28
+                "nloc": 28,
+                "added_lines": 24,
+                "deleted_lines": 24
             },
             {
                 "file_name": "lambda_rest_api.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lambda_rest_api\\stacks\\lambda_rest_api.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lambda_rest_api\\stacks\\lambda_rest_api.py",
-                "nloc": 160
+                "nloc": 160,
+                "added_lines": 15,
+                "deleted_lines": 13
             },
             {
                 "file_name": "app.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail\\app.py",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 33
             },
             {
                 "file_name": "app.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail_dependencies\\app.py",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 28
             },
             {
                 "file_name": "app.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail_subdomains\\app.py",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 24
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail_subdomains\\stacks\\__init__.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lightsail_subdomains\\stacks\\__init__.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\s3_static_site\\__init__.py",
-                "nloc": 9
+                "nloc": 9,
+                "added_lines": 9,
+                "deleted_lines": 0
             },
             {
                 "file_name": "app.py",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\s3_static_site\\app.py",
-                "nloc": 31
+                "nloc": 31,
+                "added_lines": 42,
+                "deleted_lines": 0
             },
             {
                 "file_name": "cdk.context.json",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\s3_static_site\\cdk.context.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 10,
+                "deleted_lines": 0
             },
             {
                 "file_name": "cdk.json",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\s3_static_site\\cdk.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 17,
+                "deleted_lines": 0
             },
             {
                 "file_name": "s3_static_site_stack.py",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\s3_static_site\\s3_static_site_stack.py",
-                "nloc": 97
+                "nloc": 97,
+                "added_lines": 128,
+                "deleted_lines": 0
             },
             {
                 "file_name": "static-site-stack.drawio",
                 "old_path": null,
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\s3_static_site\\static-site-stack.drawio",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 49,
+                "deleted_lines": 0
             },
             {
                 "file_name": "setup.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\setup.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\setup.py",
-                "nloc": 40
+                "nloc": 40,
+                "added_lines": 8,
+                "deleted_lines": 7
             },
             {
                 "file_name": "cognito_stack.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\cognito\\cognito\\cognito_stack.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\cognito\\cognito\\cognito_stack.py",
-                "nloc": 160
+                "nloc": 160,
+                "added_lines": 5,
+                "deleted_lines": 4
             },
             {
                 "file_name": "setup.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\cognito\\setup.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\cognito\\setup.py",
-                "nloc": 27
+                "nloc": 27,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": ".flake8",
                 "old_path": "linting\\.flake8",
                 "new_path": "linting\\.flake8",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": ".pylintrc",
                 "old_path": "linting\\.pylintrc",
                 "new_path": "linting\\.pylintrc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -593,7 +717,9 @@
                 "file_name": "docs.yml",
                 "old_path": ".github\\workflows\\docs.yml",
                 "new_path": ".github\\workflows\\docs.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -609,7 +735,9 @@
                 "file_name": "docs.yml",
                 "old_path": ".github\\workflows\\docs.yml",
                 "new_path": ".github\\workflows\\docs.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -625,7 +753,9 @@
                 "file_name": "docs.yml",
                 "old_path": ".github\\workflows\\docs.yml",
                 "new_path": ".github\\workflows\\docs.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -641,7 +771,9 @@
                 "file_name": "config.py",
                 "old_path": "rootski_api\\src\\rootski\\config\\config.py",
                 "new_path": "rootski_api\\src\\rootski\\config\\config.py",
-                "nloc": 193
+                "nloc": 193,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -657,7 +789,9 @@
                 "file_name": "make.xsh",
                 "old_path": "make.xsh",
                 "new_path": "make.xsh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -673,7 +807,9 @@
                 "file_name": "backup_or_restore.py",
                 "old_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
                 "new_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
-                "nloc": 294
+                "nloc": 294,
+                "added_lines": 3,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -716,7 +852,9 @@
                 "file_name": "docker-compose.yml",
                 "old_path": "docker-compose.yml",
                 "new_path": "docker-compose.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -732,7 +870,9 @@
                 "file_name": "backup_or_restore.py",
                 "old_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
                 "new_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
-                "nloc": 281
+                "nloc": 281,
+                "added_lines": 7,
+                "deleted_lines": 6
             }
         ],
         "is_dvc_related": false
@@ -748,7 +888,9 @@
                 "file_name": "docker-compose.yml",
                 "old_path": "docker-compose.yml",
                 "new_path": "docker-compose.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -764,7 +906,9 @@
                 "file_name": "backup_or_restore.py",
                 "old_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
                 "new_path": "infrastructure\\containers\\postgres\\automatic-backup\\backup_or_restore.py",
-                "nloc": 273
+                "nloc": 273,
+                "added_lines": 15,
+                "deleted_lines": 19
             }
         ],
         "is_dvc_related": false
@@ -780,13 +924,17 @@
                 "file_name": "docs.yml",
                 "old_path": ".github\\workflows\\docs.yml",
                 "new_path": ".github\\workflows\\docs.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "Makefile",
                 "old_path": "docs\\Makefile",
                 "new_path": "docs\\Makefile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 9,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -802,7 +950,9 @@
                 "file_name": "aws.md",
                 "old_path": "infrastructure\\clickup\\onboarding-tasks\\aws.md",
                 "new_path": "infrastructure\\clickup\\onboarding-tasks\\aws.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -818,7 +968,9 @@
                 "file_name": "rootski-ci.yml",
                 "old_path": ".github\\workflows\\rootski-ci.yml",
                 "new_path": ".github\\workflows\\rootski-ci.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 5
             }
         ],
         "is_dvc_related": false
@@ -834,7 +986,9 @@
                 "file_name": "rootski-ci.yml",
                 "old_path": ".github\\workflows\\rootski-ci.yml",
                 "new_path": ".github\\workflows\\rootski-ci.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -850,7 +1004,9 @@
                 "file_name": "index.rst",
                 "old_path": "docs\\source\\rst\\onboarding\\index.rst",
                 "new_path": "docs\\source\\rst\\onboarding\\index.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -866,7 +1022,9 @@
                 "file_name": "index.rst",
                 "old_path": "docs\\source\\rst\\architecture\\frontend\\index.rst",
                 "new_path": "docs\\source\\rst\\architecture\\frontend\\index.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -882,307 +1040,409 @@
                 "file_name": ".flake8",
                 "old_path": "linting\\.flake8",
                 "new_path": "linting\\.flake8",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 7,
+                "deleted_lines": 0
             },
             {
                 "file_name": "setup.py",
                 "old_path": "make_utils\\setup.py",
                 "new_path": "make_utils\\setup.py",
-                "nloc": 14
+                "nloc": 14,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "makefile.py",
                 "old_path": "make_utils\\src\\make_utils\\makefile.py",
                 "new_path": "make_utils\\src\\make_utils\\makefile.py",
-                "nloc": 247
+                "nloc": 247,
+                "added_lines": 54,
+                "deleted_lines": 21
             },
             {
                 "file_name": "utils_with_dependencies.py",
                 "old_path": "make_utils\\src\\make_utils\\utils_with_dependencies.py",
                 "new_path": "make_utils\\src\\make_utils\\utils_with_dependencies.py",
-                "nloc": 52
+                "nloc": 52,
+                "added_lines": 30,
+                "deleted_lines": 7
             },
             {
                 "file_name": "utils_without_dependencies.py",
                 "old_path": "make_utils\\src\\make_utils\\utils_without_dependencies.py",
                 "new_path": "make_utils\\src\\make_utils\\utils_without_dependencies.py",
-                "nloc": 53
+                "nloc": 53,
+                "added_lines": 10,
+                "deleted_lines": 1
             },
             {
                 "file_name": "settings.json",
                 "old_path": "rootski_api\\migrations\\.vscode\\settings.json",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 3
             },
             {
                 "file_name": "models.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\models\\models.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\models\\models.py",
-                "nloc": 341
+                "nloc": 341,
+                "added_lines": 39,
+                "deleted_lines": 32
             },
             {
                 "file_name": "README.rst",
                 "old_path": "rootski_api\\migrations\\README.rst",
                 "new_path": "rootski_db_migrations\\README.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "alembic.ini",
                 "old_path": "rootski_api\\migrations\\alembic.ini",
                 "new_path": "rootski_db_migrations\\alembic.ini",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "make.xsh",
                 "old_path": "rootski_api\\migrations\\make.xsh",
                 "new_path": "rootski_db_migrations\\make.xsh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 25,
+                "deleted_lines": 6
             },
             {
                 "file_name": "makefile",
                 "old_path": "rootski_api\\migrations\\makefile",
                 "new_path": "rootski_db_migrations\\makefile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "setup.cfg",
                 "old_path": "rootski_api\\migrations\\setup.cfg",
                 "new_path": "rootski_db_migrations\\setup.cfg",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "setup.py",
                 "old_path": "rootski_api\\migrations\\setup.py",
                 "new_path": "rootski_db_migrations\\setup.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": null,
                 "new_path": "rootski_db_migrations\\src\\migrations\\__init__.py",
-                "nloc": 1
+                "nloc": 1,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "Untitled.ipynb",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\Untitled.ipynb",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\Untitled.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": null,
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\__init__.py",
-                "nloc": 1
+                "nloc": 1,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "copy_initial_data_files.sh",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\copy_initial_data_files.sh",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\copy_initial_data_files.sh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": ".gitattributes",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\.gitattributes",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\.gitattributes",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": ".gitignore",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\.gitignore",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "Untitled.ipynb",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\Untitled.ipynb",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\Untitled.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "adjectives.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\adjectives.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\adjectives.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "breakdown-items.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\breakdown-items.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\breakdown-items.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "breakdowns-raw.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\breakdowns-raw.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\breakdowns-raw.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "clean_frequencies.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\clean_frequencies.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\clean_frequencies.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "conjugations.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\conjugations.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\conjugations.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "declensions.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\declensions.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\declensions.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "definition_contents.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\definition_contents.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\definition_contents.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "definition_examples.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\definition_examples.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\definition_examples.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "definitions.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\definitions.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\definitions.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "family_meanings_v1.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\family_meanings_v1.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\family_meanings_v1.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "morphemes_v3.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\morphemes_v3.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\morphemes_v3.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "nouns.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\nouns.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\nouns.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "sentences.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\sentences.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\sentences.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "translations.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\translations.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\translations.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "verb_pairs.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\verb_pairs.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\verb_pairs.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "word-to-breakdown.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\word-to-breakdown.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\word-to-breakdown.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "word_defs.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\word_defs.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\word_defs.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "word_to_breakdown.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\word_to_breakdown.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\word_to_breakdown.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "word_to_sentence.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\word_to_sentence.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\word_to_sentence.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "word_types.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\word_types.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\word_types.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "words.csv.dvc",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\data\\words.csv.dvc",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\data\\words.csv.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "gather_data.py",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\gather_data.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\gather_data.py",
-                "nloc": 323
+                "nloc": 323,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "initial_models.py",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\initial_data\\initial_models.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\initial_models.py",
-                "nloc": 358
+                "nloc": 358,
+                "added_lines": 35,
+                "deleted_lines": 3
             },
             {
                 "file_name": "env.py",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\rootski_db\\env.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\env.py",
-                "nloc": 49
+                "nloc": 49,
+                "added_lines": 12,
+                "deleted_lines": 0
             },
             {
                 "file_name": "script.py.mako",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\rootski_db\\script.py.mako",
                 "new_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\script.py.mako",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "1_start.py",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\rootski_db\\versions\\1_start.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\versions\\1_start.py",
-                "nloc": 18
+                "nloc": 18,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "2_create_tables.py",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\rootski_db\\versions\\2_create_tables.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\versions\\2_create_tables.py",
-                "nloc": 27
+                "nloc": 27,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "3_seed_database.py",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\rootski_db\\versions\\3_seed_database.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\versions\\3_seed_database.py",
-                "nloc": 22
+                "nloc": 22,
+                "added_lines": 5,
+                "deleted_lines": 8
             },
             {
                 "file_name": "__init__.py",
                 "old_path": null,
                 "new_path": "rootski_db_migrations\\src\\migrations\\utils\\__init__.py",
-                "nloc": 1
+                "nloc": 1,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "alembic_x_args.py",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\utils\\alembic_x_args.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\utils\\alembic_x_args.py",
-                "nloc": 35
+                "nloc": 35,
+                "added_lines": 2,
+                "deleted_lines": 1
             },
             {
                 "file_name": "get_new_revision_id.py",
                 "old_path": "rootski_api\\migrations\\src\\migrations\\utils\\get_new_revision_id.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\utils\\get_new_revision_id.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": true
@@ -1198,109 +1458,145 @@
                 "file_name": "makefile",
                 "old_path": "infrastructure\\iac\\aws-cdk\\cognito\\makefile",
                 "new_path": "infrastructure\\iac\\aws-cdk\\cognito\\makefile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 3
             },
             {
                 "file_name": "make.xsh",
                 "old_path": "make.xsh",
                 "new_path": "make.xsh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 4
             },
             {
                 "file_name": "makefile",
                 "old_path": "makefile",
                 "new_path": "makefile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 2
             },
             {
                 "file_name": ".gitignore",
                 "old_path": "rootski_api\\.gitignore",
                 "new_path": "rootski_api\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 4
             },
             {
                 "file_name": "LICENSE.txt",
                 "old_path": "rootski_api\\LICENSE.txt",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 3
             },
             {
                 "file_name": "setup.cfg",
                 "old_path": "rootski_api\\setup.cfg",
                 "new_path": "rootski_api\\setup.cfg",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 1
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "rootski_api\\tests\\smoke_tests\\__init__.py",
                 "new_path": "rootski_api\\tests\\smoke_tests\\__init__.py",
-                "nloc": 5
+                "nloc": 5,
+                "added_lines": 1,
+                "deleted_lines": 6
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "rootski_api\\tests\\unit_tests\\__init__.py",
                 "new_path": "rootski_api\\tests\\unit_tests\\__init__.py",
-                "nloc": 5
+                "nloc": 5,
+                "added_lines": 1,
+                "deleted_lines": 6
             },
             {
                 "file_name": "setup.py",
                 "old_path": "rootski_db_migrations\\setup.py",
                 "new_path": "rootski_db_migrations\\setup.py",
-                "nloc": 3
+                "nloc": 3,
+                "added_lines": 2,
+                "deleted_lines": 0
             },
             {
                 "file_name": "gather_data.py",
                 "old_path": "rootski_db_migrations\\src\\migrations\\initial_data\\gather_data.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\gather_data.py",
-                "nloc": 315
+                "nloc": 315,
+                "added_lines": 114,
+                "deleted_lines": 117
             },
             {
                 "file_name": "initial_models.py",
                 "old_path": "rootski_db_migrations\\src\\migrations\\initial_data\\initial_models.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\initial_data\\initial_models.py",
-                "nloc": 359
+                "nloc": 359,
+                "added_lines": 6,
+                "deleted_lines": 11
             },
             {
                 "file_name": "env.py",
                 "old_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\env.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\env.py",
-                "nloc": 49
+                "nloc": 49,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "script.py.mako",
                 "old_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\script.py.mako",
                 "new_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\script.py.mako",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "1_start.py",
                 "old_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\versions\\1_start.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\versions\\1_start.py",
-                "nloc": 16
+                "nloc": 16,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "2_create_tables.py",
                 "old_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\versions\\2_create_tables.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\versions\\2_create_tables.py",
-                "nloc": 27
+                "nloc": 27,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "3_seed_database.py",
                 "old_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\versions\\3_seed_database.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\versions\\3_seed_database.py",
-                "nloc": 22
+                "nloc": 22,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "alembic_x_args.py",
                 "old_path": "rootski_db_migrations\\src\\migrations\\utils\\alembic_x_args.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\utils\\alembic_x_args.py",
-                "nloc": 35
+                "nloc": 35,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "get_new_revision_id.py",
                 "old_path": "rootski_db_migrations\\src\\migrations\\utils\\get_new_revision_id.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\utils\\get_new_revision_id.py",
-                "nloc": 54
+                "nloc": 54,
+                "added_lines": 6,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1316,13 +1612,17 @@
                 "file_name": "make.xsh",
                 "old_path": "rootski_db_migrations\\make.xsh",
                 "new_path": "rootski_db_migrations\\make.xsh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 12
             },
             {
                 "file_name": "env.py",
                 "old_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\env.py",
                 "new_path": "rootski_db_migrations\\src\\migrations\\rootski_db\\env.py",
-                "nloc": 53
+                "nloc": 53,
+                "added_lines": 2,
+                "deleted_lines": 4
             }
         ],
         "is_dvc_related": false
@@ -1338,7 +1638,9 @@
                 "file_name": "Dockerfile",
                 "old_path": "docs\\Dockerfile",
                 "new_path": "docs\\Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 11,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1363,19 +1665,25 @@
                 "file_name": "Makefile",
                 "old_path": "rootski_api\\Makefile",
                 "new_path": "rootski_api\\Makefile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "make.xsh",
                 "old_path": "rootski_api\\make.xsh",
                 "new_path": "rootski_api\\make.xsh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 11
             },
             {
                 "file_name": "setup.cfg",
                 "old_path": "rootski_api\\setup.cfg",
                 "new_path": "rootski_api\\setup.cfg",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1391,25 +1699,33 @@
                 "file_name": "setup.cfg",
                 "old_path": "dynamo-db\\setup.cfg",
                 "new_path": "dynamo-db\\setup.cfg",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "breakdowns.py",
                 "old_path": "dynamo-db\\src\\dynamodb_play\\etl\\breakdowns.py",
                 "new_path": "dynamo-db\\src\\dynamodb_play\\etl\\breakdowns.py",
-                "nloc": 78
+                "nloc": 78,
+                "added_lines": 14,
+                "deleted_lines": 12
             },
             {
                 "file_name": "db_service.py",
                 "old_path": "dynamo-db\\src\\dynamodb_play\\etl\\db_service.py",
                 "new_path": "dynamo-db\\src\\dynamodb_play\\etl\\db_service.py",
-                "nloc": 21
+                "nloc": 21,
+                "added_lines": 2,
+                "deleted_lines": 0
             },
             {
                 "file_name": "rootski_dynamo_table.py",
                 "old_path": "dynamo-db\\tests\\fixtures\\rootski_dynamo_table.py",
                 "new_path": "dynamo-db\\tests\\fixtures\\rootski_dynamo_table.py",
-                "nloc": 58
+                "nloc": 58,
+                "added_lines": 16,
+                "deleted_lines": 7
             }
         ],
         "is_dvc_related": false
@@ -1425,31 +1741,41 @@
                 "file_name": "verified_breakdown.py",
                 "old_path": null,
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\verified_breakdown.py",
-                "nloc": 18
+                "nloc": 18,
+                "added_lines": 24,
+                "deleted_lines": 0
             },
             {
                 "file_name": "breakdown.py",
                 "old_path": null,
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\breakdown.py",
-                "nloc": 89
+                "nloc": 89,
+                "added_lines": 115,
+                "deleted_lines": 0
             },
             {
                 "file_name": "breakdown_item.py",
                 "old_path": null,
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\breakdown_item.py",
-                "nloc": 130
+                "nloc": 130,
+                "added_lines": 167,
+                "deleted_lines": 0
             },
             {
                 "file_name": "rootski_dynamo_table.py",
                 "old_path": null,
                 "new_path": "rootski_api\\tests\\fixtures\\rootski_dynamo_table.py",
-                "nloc": 56
+                "nloc": 56,
+                "added_lines": 65,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test__breakdown.py",
                 "old_path": null,
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\models2schemas\\test__breakdown.py",
-                "nloc": 78
+                "nloc": 78,
+                "added_lines": 97,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1465,19 +1791,25 @@
                 "file_name": "breakdown_actions.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\breakdown_actions.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\breakdown_actions.py",
-                "nloc": 120
+                "nloc": 120,
+                "added_lines": 62,
+                "deleted_lines": 26
             },
             {
                 "file_name": "dynamo.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\dynamo.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\dynamo.py",
-                "nloc": 18
+                "nloc": 18,
+                "added_lines": 17,
+                "deleted_lines": 2
             },
             {
                 "file_name": "db_service.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\db_service.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\db_service.py",
-                "nloc": 15
+                "nloc": 15,
+                "added_lines": 4,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1493,13 +1825,17 @@
                 "file_name": "breakdown_actions.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\breakdown_actions.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\breakdown_actions.py",
-                "nloc": 115
+                "nloc": 115,
+                "added_lines": 7,
+                "deleted_lines": 12
             },
             {
                 "file_name": "dynamo.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\dynamo.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\dynamo.py",
-                "nloc": 17
+                "nloc": 17,
+                "added_lines": 2,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -1515,13 +1851,17 @@
                 "file_name": "db_service.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\db_service.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\db_service.py",
-                "nloc": 15
+                "nloc": 15,
+                "added_lines": 1,
+                "deleted_lines": 2
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\__init__.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\__init__.py",
-                "nloc": 14
+                "nloc": 14,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -1537,19 +1877,25 @@
                 "file_name": "routes.py",
                 "old_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
                 "new_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
-                "nloc": 219
+                "nloc": 219,
+                "added_lines": 13,
+                "deleted_lines": 26
             },
             {
                 "file_name": "breakdown_actions.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\breakdown_actions.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\breakdown_actions.py",
-                "nloc": 120
+                "nloc": 120,
+                "added_lines": 4,
+                "deleted_lines": 3
             },
             {
                 "file_name": "seed_data.py",
                 "old_path": "rootski_api\\tests\\fixtures\\seed_data.py",
                 "new_path": "rootski_api\\tests\\fixtures\\seed_data.py",
-                "nloc": 297
+                "nloc": 297,
+                "added_lines": 128,
+                "deleted_lines": 23
             }
         ],
         "is_dvc_related": false
@@ -1565,145 +1911,193 @@
                 "file_name": ".gitignore",
                 "old_path": ".gitignore",
                 "new_path": ".gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 1
             },
             {
                 "file_name": ".pre-commit-config.yaml",
                 "old_path": ".pre-commit-config.yaml",
                 "new_path": ".pre-commit-config.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 1
             },
             {
                 "file_name": "deps.py",
                 "old_path": "rootski_api\\src\\rootski\\main\\deps.py",
                 "new_path": "rootski_api\\src\\rootski\\main\\deps.py",
-                "nloc": 83
+                "nloc": 83,
+                "added_lines": 23,
+                "deleted_lines": 44
             },
             {
                 "file_name": "routes.py",
                 "old_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
                 "new_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
-                "nloc": 222
+                "nloc": 222,
+                "added_lines": 18,
+                "deleted_lines": 14
             },
             {
                 "file_name": "breakdown_actions.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\breakdown_actions.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\breakdown_actions.py",
-                "nloc": 126
+                "nloc": 126,
+                "added_lines": 19,
+                "deleted_lines": 13
             },
             {
                 "file_name": "morpheme.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\morpheme.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\morpheme.py",
-                "nloc": 36
+                "nloc": 36,
+                "added_lines": 29,
+                "deleted_lines": 28
             },
             {
                 "file_name": "parallel_scan.py",
                 "old_path": null,
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\parallel_scan.py",
-                "nloc": 39
+                "nloc": 39,
+                "added_lines": 80,
+                "deleted_lines": 0
             },
             {
                 "file_name": "search_words.py",
                 "old_path": null,
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\search_words.py",
-                "nloc": 14
+                "nloc": 14,
+                "added_lines": 20,
+                "deleted_lines": 0
             },
             {
                 "file_name": "user.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\user.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\user.py",
-                "nloc": 39
+                "nloc": 39,
+                "added_lines": 55,
+                "deleted_lines": 4
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\__init__.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\__init__.py",
-                "nloc": 17
+                "nloc": 17,
+                "added_lines": 2,
+                "deleted_lines": 0
             },
             {
                 "file_name": "user.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\user.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\user.py",
-                "nloc": 31
+                "nloc": 31,
+                "added_lines": 18,
+                "deleted_lines": 1
             },
             {
                 "file_name": "word_for_search.py",
                 "old_path": null,
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\word_for_search.py",
-                "nloc": 38
+                "nloc": 38,
+                "added_lines": 53,
+                "deleted_lines": 0
             },
             {
                 "file_name": "breakdown.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models2schemas\\breakdown.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models2schemas\\breakdown.py",
-                "nloc": 30
+                "nloc": 30,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "breakdown_item.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models2schemas\\breakdown_item.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models2schemas\\breakdown_item.py",
-                "nloc": 31
+                "nloc": 31,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "morpheme.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models2schemas\\morpheme.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models2schemas\\morpheme.py",
-                "nloc": 18
+                "nloc": 18,
+                "added_lines": 14,
+                "deleted_lines": 4
             },
             {
                 "file_name": "user.py",
                 "old_path": null,
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models2schemas\\user.py",
-                "nloc": 7
+                "nloc": 7,
+                "added_lines": 9,
+                "deleted_lines": 0
             },
             {
                 "file_name": "morphemes.json",
                 "old_path": null,
                 "new_path": "rootski_api\\static\\morphemes.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 34362,
+                "deleted_lines": 0
             },
             {
                 "file_name": "general_fixtures.py",
                 "old_path": "rootski_api\\tests\\fixtures\\general_fixtures.py",
                 "new_path": "rootski_api\\tests\\fixtures\\general_fixtures.py",
-                "nloc": 104
+                "nloc": 104,
+                "added_lines": 7,
+                "deleted_lines": 7
             },
             {
                 "file_name": "seed_data.py",
                 "old_path": "rootski_api\\tests\\fixtures\\seed_data.py",
                 "new_path": "rootski_api\\tests\\fixtures\\seed_data.py",
-                "nloc": 311
+                "nloc": 311,
+                "added_lines": 15,
+                "deleted_lines": 3
             },
             {
                 "file_name": "test__get_breakdown.py",
                 "old_path": "rootski_api\\tests\\functional_tests\\main\\endpoints\\test__get_breakdown.py",
                 "new_path": "rootski_api\\tests\\functional_tests\\main\\endpoints\\test__get_breakdown.py",
-                "nloc": 19
+                "nloc": 19,
+                "added_lines": 7,
+                "deleted_lines": 7
             },
             {
                 "file_name": "Dockerfile",
                 "old_path": "rootski_api\\tests\\resources\\Dockerfile",
                 "new_path": "rootski_api\\tests\\resources\\Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test__breakdown_actions.py",
                 "old_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\actions\\test__breakdown_actions.py",
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\actions\\test__breakdown_actions.py",
-                "nloc": 96
+                "nloc": 96,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "test__user.py",
                 "old_path": null,
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\actions\\test__user.py",
-                "nloc": 27
+                "nloc": 27,
+                "added_lines": 38,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test__breakdown__.py",
                 "old_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\models2schemas\\test__breakdown__.py",
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\models2schemas\\test__breakdown__.py",
-                "nloc": 74
+                "nloc": 74,
+                "added_lines": 9,
+                "deleted_lines": 5
             }
         ],
         "is_dvc_related": false
@@ -1719,37 +2113,49 @@
                 "file_name": "errors.py",
                 "old_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\errors.py",
                 "new_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\errors.py",
-                "nloc": 17
+                "nloc": 17,
+                "added_lines": 6,
+                "deleted_lines": 1
             },
             {
                 "file_name": "morphemes.json",
                 "old_path": "rootski_api\\src\\resources\\morphemes.json",
                 "new_path": "rootski_api\\src\\rootski\\resources\\morphemes.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "breakdown.py",
                 "old_path": "rootski_api\\src\\rootski\\schemas\\breakdown.py",
                 "new_path": "rootski_api\\src\\rootski\\schemas\\breakdown.py",
-                "nloc": 208
+                "nloc": 208,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "user.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\user.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\user.py",
-                "nloc": 41
+                "nloc": 41,
+                "added_lines": 3,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test__breakdown_actions.py",
                 "old_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\actions\\test__breakdown_actions.py",
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\actions\\test__breakdown_actions.py",
-                "nloc": 96
+                "nloc": 96,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "test__breakdown__.py",
                 "old_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\models2schemas\\test__breakdown__.py",
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\models2schemas\\test__breakdown__.py",
-                "nloc": 74
+                "nloc": 74,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -1765,37 +2171,49 @@
                 "file_name": "base.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\base.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\base.py",
-                "nloc": 51
+                "nloc": 51,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "breakdown_item.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\breakdown_item.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\breakdown_item.py",
-                "nloc": 134
+                "nloc": 134,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "morpheme.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\morpheme.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\morpheme.py",
-                "nloc": 55
+                "nloc": 55,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "morpheme_family.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\morpheme_family.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\morpheme_family.py",
-                "nloc": 69
+                "nloc": 69,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "word.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\word.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\word.py",
-                "nloc": 44
+                "nloc": 44,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "word_for_search.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\word_for_search.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\models\\word_for_search.py",
-                "nloc": 38
+                "nloc": 38,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1811,19 +2229,25 @@
                 "file_name": "seed_data.py",
                 "old_path": "rootski_api\\tests\\fixtures\\seed_data.py",
                 "new_path": "rootski_api\\tests\\fixtures\\seed_data.py",
-                "nloc": 1280
+                "nloc": 1280,
+                "added_lines": 715,
+                "deleted_lines": 2
             },
             {
                 "file_name": "test__submit_breakdown.py",
                 "old_path": "rootski_api\\tests\\functional_tests\\main\\endpoints\\test__submit_breakdown.py",
                 "new_path": "rootski_api\\tests\\functional_tests\\main\\endpoints\\test__submit_breakdown.py",
-                "nloc": 216
+                "nloc": 216,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test__breakdown_actions.py",
                 "old_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\actions\\test__breakdown_actions.py",
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\actions\\test__breakdown_actions.py",
-                "nloc": 97
+                "nloc": 97,
+                "added_lines": 5,
+                "deleted_lines": 4
             }
         ],
         "is_dvc_related": false
@@ -1839,7 +2263,9 @@
                 "file_name": "routes.py",
                 "old_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
                 "new_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
-                "nloc": 253
+                "nloc": 253,
+                "added_lines": 4,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -1855,7 +2281,9 @@
                 "file_name": "routes.py",
                 "old_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
                 "new_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
-                "nloc": 253
+                "nloc": 253,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1871,7 +2299,9 @@
                 "file_name": "make.xsh",
                 "old_path": "rootski_api\\make.xsh",
                 "new_path": "rootski_api\\make.xsh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 8,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1887,49 +2317,65 @@
                 "file_name": "dynamo-data-model.drawio",
                 "old_path": "docs\\source\\_static\\infrastructure\\dynamo-data-model.drawio",
                 "new_path": "docs\\source\\_static\\infrastructure\\dynamo-data-model.drawio",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "routes.py",
                 "old_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
                 "new_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\routes.py",
-                "nloc": 245
+                "nloc": 245,
+                "added_lines": 16,
+                "deleted_lines": 30
             },
             {
                 "file_name": "breakdown_actions.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\breakdown_actions.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\breakdown_actions.py",
-                "nloc": 198
+                "nloc": 198,
+                "added_lines": 10,
+                "deleted_lines": 10
             },
             {
                 "file_name": "morpheme.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\morpheme.py",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 13
             },
             {
                 "file_name": "user.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\user.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\user.py",
-                "nloc": 40
+                "nloc": 40,
+                "added_lines": 8,
+                "deleted_lines": 13
             },
             {
                 "file_name": "word.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\word.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\word.py",
-                "nloc": 17
+                "nloc": 17,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "errors.py",
                 "old_path": null,
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\errors.py",
-                "nloc": 24
+                "nloc": 24,
+                "added_lines": 47,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test__submit_breakdown.py",
                 "old_path": "rootski_api\\tests\\functional_tests\\main\\endpoints\\test__submit_breakdown.py",
                 "new_path": "rootski_api\\tests\\functional_tests\\main\\endpoints\\test__submit_breakdown.py",
-                "nloc": 225
+                "nloc": 225,
+                "added_lines": 19,
+                "deleted_lines": 13
             }
         ],
         "is_dvc_related": false
@@ -1945,31 +2391,41 @@
                 "file_name": "rootski-ci.yml",
                 "old_path": ".github\\workflows\\rootski-ci.yml",
                 "new_path": ".github\\workflows\\rootski-ci.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 9
             },
             {
                 "file_name": "make.xsh",
                 "old_path": "make.xsh",
                 "new_path": "make.xsh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 1
             },
             {
                 "file_name": "makefile",
                 "old_path": "makefile",
                 "new_path": "makefile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "Makefile",
                 "old_path": "rootski_api\\Makefile",
                 "new_path": "rootski_api\\Makefile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 7,
+                "deleted_lines": 0
             },
             {
                 "file_name": "make.xsh",
                 "old_path": "rootski_api\\make.xsh",
                 "new_path": "rootski_api\\make.xsh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 15,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1985,19 +2441,25 @@
                 "file_name": "rootski-ci.yml",
                 "old_path": ".github\\workflows\\rootski-ci.yml",
                 "new_path": ".github\\workflows\\rootski-ci.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "Makefile",
                 "old_path": "rootski_api\\Makefile",
                 "new_path": "rootski_api\\Makefile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 40,
+                "deleted_lines": 22
             },
             {
                 "file_name": "make.xsh",
                 "old_path": "rootski_api\\make.xsh",
                 "new_path": "rootski_api\\make.xsh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 19,
+                "deleted_lines": 9
             }
         ],
         "is_dvc_related": false
@@ -2013,7 +2475,9 @@
                 "file_name": "rootski-ci.yml",
                 "old_path": ".github\\workflows\\rootski-ci.yml",
                 "new_path": ".github\\workflows\\rootski-ci.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -2029,43 +2493,57 @@
                 "file_name": "errors.py",
                 "old_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\errors.py",
                 "new_path": "rootski_api\\src\\rootski\\main\\endpoints\\breakdown\\errors.py",
-                "nloc": 31
+                "nloc": 31,
+                "added_lines": 9,
+                "deleted_lines": 0
             },
             {
                 "file_name": "breakdown_actions.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\breakdown_actions.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\breakdown_actions.py",
-                "nloc": 208
+                "nloc": 208,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "errors.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\errors.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\errors.py",
-                "nloc": 29
+                "nloc": 29,
+                "added_lines": 9,
+                "deleted_lines": 0
             },
             {
                 "file_name": "seed_data.py",
                 "old_path": "rootski_api\\tests\\fixtures\\seed_data.py",
                 "new_path": "rootski_api\\tests\\fixtures\\seed_data.py",
-                "nloc": 632
+                "nloc": 632,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test__get_breakdown.py",
                 "old_path": "rootski_api\\tests\\functional_tests\\main\\endpoints\\test__get_breakdown.py",
                 "new_path": "rootski_api\\tests\\functional_tests\\main\\endpoints\\test__get_breakdown.py",
-                "nloc": 38
+                "nloc": 38,
+                "added_lines": 2,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test__submit_breakdown.py",
                 "old_path": "rootski_api\\tests\\functional_tests\\main\\endpoints\\test__submit_breakdown.py",
                 "new_path": "rootski_api\\tests\\functional_tests\\main\\endpoints\\test__submit_breakdown.py",
-                "nloc": 223
+                "nloc": 223,
+                "added_lines": 3,
+                "deleted_lines": 5
             },
             {
                 "file_name": "test__breakdown_actions.py",
                 "old_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\actions\\test__breakdown_actions.py",
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\actions\\test__breakdown_actions.py",
-                "nloc": 102
+                "nloc": 102,
+                "added_lines": 4,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -2090,19 +2568,25 @@
                 "file_name": "dynamo-data-model.drawio",
                 "old_path": "docs\\source\\_static\\infrastructure\\dynamo-data-model.drawio",
                 "new_path": "docs\\source\\_static\\infrastructure\\dynamo-data-model.drawio",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 15,
+                "deleted_lines": 0
             },
             {
                 "file_name": "lambda_rest_api.py",
                 "old_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lambda_rest_api\\stacks\\lambda_rest_api.py",
                 "new_path": "infrastructure\\iac\\aws-cdk\\backend\\rootski_backend_cdk\\lambda_rest_api\\stacks\\lambda_rest_api.py",
-                "nloc": 186
+                "nloc": 186,
+                "added_lines": 27,
+                "deleted_lines": 1
             },
             {
                 "file_name": "deps.py",
                 "old_path": "rootski_api\\src\\rootski\\main\\deps.py",
                 "new_path": "rootski_api\\src\\rootski\\main\\deps.py",
-                "nloc": 84
+                "nloc": 84,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -2118,61 +2602,81 @@
                 "file_name": "launch.json",
                 "old_path": null,
                 "new_path": "rootski_api\\.vscode\\launch.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 40,
+                "deleted_lines": 0
             },
             {
                 "file_name": "rootski-config.yml",
                 "old_path": "rootski_api\\config\\rootski-config.yml",
                 "new_path": "rootski_api\\config\\rootski-config.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 6
             },
             {
                 "file_name": "setup.cfg",
                 "old_path": "rootski_api\\setup.cfg",
                 "new_path": "rootski_api\\setup.cfg",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "deps.py",
                 "old_path": "rootski_api\\src\\rootski\\main\\deps.py",
                 "new_path": "rootski_api\\src\\rootski\\main\\deps.py",
-                "nloc": 58
+                "nloc": 58,
+                "added_lines": 12,
+                "deleted_lines": 30
             },
             {
                 "file_name": "main.py",
                 "old_path": "rootski_api\\src\\rootski\\main\\main.py",
                 "new_path": "rootski_api\\src\\rootski\\main\\main.py",
-                "nloc": 63
+                "nloc": 63,
+                "added_lines": 0,
+                "deleted_lines": 6
             },
             {
                 "file_name": "core.py",
                 "old_path": "rootski_api\\src\\rootski\\schemas\\core.py",
                 "new_path": "rootski_api\\src\\rootski\\schemas\\core.py",
-                "nloc": 12
+                "nloc": 12,
+                "added_lines": 0,
+                "deleted_lines": 2
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\__init__.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\__init__.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 1
             },
             {
                 "file_name": "database.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\database.py",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 70
             },
             {
                 "file_name": "constants.py",
                 "old_path": "rootski_api\\tests\\constants.py",
                 "new_path": "rootski_api\\tests\\constants.py",
-                "nloc": 33
+                "nloc": 33,
+                "added_lines": 1,
+                "deleted_lines": 11
             },
             {
                 "file_name": "general_fixtures.py",
                 "old_path": "rootski_api\\tests\\fixtures\\general_fixtures.py",
                 "new_path": "rootski_api\\tests\\fixtures\\general_fixtures.py",
-                "nloc": 61
+                "nloc": 61,
+                "added_lines": 1,
+                "deleted_lines": 65
             }
         ],
         "is_dvc_related": false
@@ -2197,7 +2701,9 @@
                 "file_name": "config.py",
                 "old_path": "rootski_api\\src\\rootski\\config\\config.py",
                 "new_path": "rootski_api\\src\\rootski\\config\\config.py",
-                "nloc": 184
+                "nloc": 184,
+                "added_lines": 0,
+                "deleted_lines": 14
             }
         ],
         "is_dvc_related": false
@@ -2213,13 +2719,17 @@
                 "file_name": "setup.cfg",
                 "old_path": "rootski_api\\setup.cfg",
                 "new_path": "rootski_api\\setup.cfg",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 4
             },
             {
                 "file_name": "user.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\user.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\user.py",
-                "nloc": 46
+                "nloc": 46,
+                "added_lines": 9,
+                "deleted_lines": 4
             }
         ],
         "is_dvc_related": false
@@ -2235,25 +2745,33 @@
                 "file_name": "breakdown.py",
                 "old_path": "rootski_api\\src\\rootski\\schemas\\breakdown.py",
                 "new_path": "rootski_api\\src\\rootski\\schemas\\breakdown.py",
-                "nloc": 141
+                "nloc": 141,
+                "added_lines": 0,
+                "deleted_lines": 84
             },
             {
                 "file_name": "morpheme.py",
                 "old_path": "rootski_api\\src\\rootski\\schemas\\morpheme.py",
                 "new_path": "rootski_api\\src\\rootski\\schemas\\morpheme.py",
-                "nloc": 64
+                "nloc": 64,
+                "added_lines": 0,
+                "deleted_lines": 28
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\models\\__init__.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\models\\__init__.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 20
             },
             {
                 "file_name": "models.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\models\\models.py",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 541
             }
         ],
         "is_dvc_related": false
@@ -2269,7 +2787,9 @@
                 "file_name": "rootski-architecture.drawio",
                 "old_path": "docs\\source\\rst\\architecture\\rootski-architecture.drawio",
                 "new_path": "docs\\source\\rst\\architecture\\rootski-architecture.drawio",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1374
             }
         ],
         "is_dvc_related": false
@@ -2285,7 +2805,9 @@
                 "file_name": "Makefile",
                 "old_path": "docs\\Makefile",
                 "new_path": "docs\\Makefile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -2301,25 +2823,33 @@
                 "file_name": "__init__.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\__init__.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\__init__.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\__init__.py",
                 "new_path": "rootski_api\\src\\rootski\\services\\database\\dynamo\\actions\\__init__.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\actions\\__init__.py",
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\actions\\__init__.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\models2schemas\\__init__.py",
                 "new_path": "rootski_api\\tests\\unit_tests\\services\\database\\dynamo\\models2schemas\\__init__.py",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -2335,7 +2865,9 @@
                 "file_name": "docs.yml",
                 "old_path": ".github\\workflows\\docs.yml",
                 "new_path": ".github\\workflows\\docs.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false

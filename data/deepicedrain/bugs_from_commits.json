@@ -10,7 +10,9 @@
                 "file_name": ".stickler.yml",
                 "old_path": null,
                 "new_path": ".stickler.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -26,19 +28,25 @@
                 "file_name": "Pipfile",
                 "old_path": "Pipfile",
                 "new_path": "Pipfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 0
             },
             {
                 "file_name": "Pipfile.lock",
                 "old_path": "Pipfile.lock",
                 "new_path": "Pipfile.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 206,
+                "deleted_lines": 95
             },
             {
                 "file_name": "environment.yml",
                 "old_path": "environment.yml",
                 "new_path": "environment.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -54,7 +62,9 @@
                 "file_name": "environment.yml",
                 "old_path": "environment.yml",
                 "new_path": "environment.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -70,7 +80,9 @@
                 "file_name": "catalog.yaml",
                 "old_path": null,
                 "new_path": "catalog.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 49,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -86,7 +98,9 @@
                 "file_name": "environment.yml",
                 "old_path": "environment.yml",
                 "new_path": "environment.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -102,43 +116,57 @@
                 "file_name": "Dockerfile",
                 "old_path": "Dockerfile",
                 "new_path": "Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 14,
+                "deleted_lines": 15
             },
             {
                 "file_name": "Pipfile",
                 "old_path": "Pipfile",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 24
             },
             {
                 "file_name": "Pipfile.lock",
                 "old_path": "Pipfile.lock",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 1301
             },
             {
                 "file_name": "README.md",
                 "old_path": "README.md",
                 "new_path": "README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 32,
+                "deleted_lines": 1
             },
             {
                 "file_name": "environment.yml",
                 "old_path": "environment.yml",
                 "new_path": "environment.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 2
             },
             {
                 "file_name": "poetry.lock",
                 "old_path": null,
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1945,
+                "deleted_lines": 0
             },
             {
                 "file_name": "pyproject.toml",
                 "old_path": null,
                 "new_path": "pyproject.toml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 29,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -154,7 +182,9 @@
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -170,7 +200,9 @@
                 "file_name": "Dockerfile",
                 "old_path": "Dockerfile",
                 "new_path": "Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -186,13 +218,17 @@
                 "file_name": "atl06_play.ipynb",
                 "old_path": "atl06_play.ipynb",
                 "new_path": "atl06_play.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 64,
+                "deleted_lines": 40
             },
             {
                 "file_name": "catalog.yaml",
                 "old_path": "catalog.yaml",
                 "new_path": "catalog.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 53,
+                "deleted_lines": 8
             }
         ],
         "is_dvc_related": false
@@ -208,13 +244,17 @@
                 "file_name": "atl06_play.ipynb",
                 "old_path": "atl06_play.ipynb",
                 "new_path": "atl06_play.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 60,
+                "deleted_lines": 6
             },
             {
                 "file_name": "catalog.yaml",
                 "old_path": "catalog.yaml",
                 "new_path": "catalog.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -230,25 +270,33 @@
                 "file_name": "atl06_to_atl11.ipynb",
                 "old_path": null,
                 "new_path": "atl06_to_atl11.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 407,
+                "deleted_lines": 0
             },
             {
                 "file_name": "atl06_to_atl11.py",
                 "old_path": null,
                 "new_path": "atl06_to_atl11.py",
-                "nloc": 132
+                "nloc": 132,
+                "added_lines": 244,
+                "deleted_lines": 0
             },
             {
                 "file_name": "atl11_play_old.ipynb",
                 "old_path": "atl11_play.ipynb",
                 "new_path": "atl11_play_old.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 162
             },
             {
                 "file_name": "atl11_play_old.py",
                 "old_path": "atl11_play.py",
                 "new_path": "atl11_play_old.py",
-                "nloc": 184
+                "nloc": 184,
+                "added_lines": 2,
+                "deleted_lines": 90
             }
         ],
         "is_dvc_related": false
@@ -264,13 +312,17 @@
                 "file_name": "atl11_play.ipynb",
                 "old_path": "atl11_play_old.ipynb",
                 "new_path": "atl11_play.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 217,
+                "deleted_lines": 1
             },
             {
                 "file_name": "atl11_play.py",
                 "old_path": "atl11_play_old.py",
                 "new_path": "atl11_play.py",
-                "nloc": 234
+                "nloc": 234,
+                "added_lines": 127,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -286,7 +338,9 @@
                 "file_name": "environment.yml",
                 "old_path": "environment.yml",
                 "new_path": "environment.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -302,37 +356,49 @@
                 "file_name": "atl11_play.ipynb",
                 "old_path": "atl11_play.ipynb",
                 "new_path": "atl11_play.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 23
             },
             {
                 "file_name": "atl11_play.py",
                 "old_path": "atl11_play.py",
                 "new_path": "atl11_play.py",
-                "nloc": 390
+                "nloc": 390,
+                "added_lines": 3,
+                "deleted_lines": 18
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "deepicedrain\\__init__.py",
                 "new_path": "deepicedrain\\__init__.py",
-                "nloc": 3
+                "nloc": 3,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "deltamath.py",
                 "old_path": null,
                 "new_path": "deepicedrain\\deltamath.py",
-                "nloc": 24
+                "nloc": 24,
+                "added_lines": 29,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_calculate_delta.py",
                 "old_path": null,
                 "new_path": "tests\\test_calculate_delta.py",
-                "nloc": 40
+                "nloc": 40,
+                "added_lines": 59,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_catalog.yaml",
                 "old_path": null,
                 "new_path": "tests\\test_catalog.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 42,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -348,37 +414,49 @@
                 "file_name": ".gitignore",
                 "old_path": ".gitignore",
                 "new_path": ".gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "atl06_play.ipynb",
                 "old_path": "atl06_play.ipynb",
                 "new_path": "atl06_play.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 14
             },
             {
                 "file_name": "atl06_play.py",
                 "old_path": "atl06_play.py",
                 "new_path": "atl06_play.py",
-                "nloc": 236
+                "nloc": 236,
+                "added_lines": 4,
+                "deleted_lines": 7
             },
             {
                 "file_name": "atlas_catalog.yaml",
                 "old_path": "catalog.yaml",
                 "new_path": "atlas_catalog.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 9,
+                "deleted_lines": 1
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "deepicedrain\\__init__.py",
                 "new_path": "deepicedrain\\__init__.py",
-                "nloc": 7
+                "nloc": 7,
+                "added_lines": 8,
+                "deleted_lines": 2
             },
             {
                 "file_name": "test_calculate_delta.py",
                 "old_path": "tests\\test_calculate_delta.py",
                 "new_path": "tests\\test_calculate_delta.py",
-                "nloc": 35
+                "nloc": 35,
+                "added_lines": 5,
+                "deleted_lines": 16
             }
         ],
         "is_dvc_related": false
@@ -394,31 +472,41 @@
                 "file_name": "atl06_to_atl11.ipynb",
                 "old_path": "atl06_to_atl11.ipynb",
                 "new_path": "atl06_to_atl11.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 27,
+                "deleted_lines": 19
             },
             {
                 "file_name": "atl06_to_atl11.py",
                 "old_path": "atl06_to_atl11.py",
                 "new_path": "atl06_to_atl11.py",
-                "nloc": 129
+                "nloc": 129,
+                "added_lines": 8,
+                "deleted_lines": 8
             },
             {
                 "file_name": "atl11_play.ipynb",
                 "old_path": "atl11_play.ipynb",
                 "new_path": "atl11_play.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 2
             },
             {
                 "file_name": "atl11_play.py",
                 "old_path": "atl11_play.py",
                 "new_path": "atl11_play.py",
-                "nloc": 201
+                "nloc": 201,
+                "added_lines": 1,
+                "deleted_lines": 2
             },
             {
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -434,7 +522,9 @@
                 "file_name": "python-app.yml",
                 "old_path": ".github\\workflows\\python-app.yml",
                 "new_path": ".github\\workflows\\python-app.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -450,43 +540,57 @@
                 "file_name": "python-app.yml",
                 "old_path": ".github\\workflows\\python-app.yml",
                 "new_path": ".github\\workflows\\python-app.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "atlxi_dhdt.ipynb",
                 "old_path": "atlxi_dhdt.ipynb",
                 "new_path": "atlxi_dhdt.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 235,
+                "deleted_lines": 10
             },
             {
                 "file_name": "atlxi_dhdt.py",
                 "old_path": "atlxi_dhdt.py",
                 "new_path": "atlxi_dhdt.py",
-                "nloc": 156
+                "nloc": 156,
+                "added_lines": 114,
+                "deleted_lines": 3
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "deepicedrain\\__init__.py",
                 "new_path": "deepicedrain\\__init__.py",
-                "nloc": 13
+                "nloc": 13,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "deltamath.py",
                 "old_path": "deepicedrain\\deltamath.py",
                 "new_path": "deepicedrain\\deltamath.py",
-                "nloc": 54
+                "nloc": 54,
+                "added_lines": 26,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_nanlinregress.py",
                 "old_path": null,
                 "new_path": "deepicedrain\\tests\\test_nanlinregress.py",
-                "nloc": 26
+                "nloc": 26,
+                "added_lines": 42,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_nanptp.py",
                 "old_path": "deepicedrain\\tests\\test_nanptp.py",
                 "new_path": "deepicedrain\\tests\\test_nanptp.py",
-                "nloc": 20
+                "nloc": 20,
+                "added_lines": 12,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -502,37 +606,49 @@
                 "file_name": "atl11_play.ipynb",
                 "old_path": "atl11_play.ipynb",
                 "new_path": "atl11_play.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 19,
+                "deleted_lines": 25
             },
             {
                 "file_name": "atl11_play.py",
                 "old_path": "atl11_play.py",
                 "new_path": "atl11_play.py",
-                "nloc": 194
+                "nloc": 194,
+                "added_lines": 20,
+                "deleted_lines": 25
             },
             {
                 "file_name": "atlxi_dhdt.ipynb",
                 "old_path": "atlxi_dhdt.ipynb",
                 "new_path": "atlxi_dhdt.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 48,
+                "deleted_lines": 46
             },
             {
                 "file_name": "atlxi_dhdt.py",
                 "old_path": "atlxi_dhdt.py",
                 "new_path": "atlxi_dhdt.py",
-                "nloc": 146
+                "nloc": 146,
+                "added_lines": 36,
+                "deleted_lines": 43
             },
             {
                 "file_name": "spatiotemporal.py",
                 "old_path": "deepicedrain\\spatiotemporal.py",
                 "new_path": "deepicedrain\\spatiotemporal.py",
-                "nloc": 108
+                "nloc": 108,
+                "added_lines": 31,
+                "deleted_lines": 2
             },
             {
                 "file_name": "test_region.py",
                 "old_path": "deepicedrain\\tests\\test_region.py",
                 "new_path": "deepicedrain\\tests\\test_region.py",
-                "nloc": 47
+                "nloc": 47,
+                "added_lines": 25,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -548,37 +664,49 @@
                 "file_name": "README.md",
                 "old_path": "README.md",
                 "new_path": "README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "atl11_play.ipynb",
                 "old_path": "atl11_play.ipynb",
                 "new_path": "atl11_play.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 21,
+                "deleted_lines": 19
             },
             {
                 "file_name": "atl11_play.py",
                 "old_path": "atl11_play.py",
                 "new_path": "atl11_play.py",
-                "nloc": 196
+                "nloc": 196,
+                "added_lines": 20,
+                "deleted_lines": 18
             },
             {
                 "file_name": "atlxi_dhdt.ipynb",
                 "old_path": "atlxi_dhdt.ipynb",
                 "new_path": "atlxi_dhdt.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 45,
+                "deleted_lines": 57
             },
             {
                 "file_name": "atlxi_dhdt.py",
                 "old_path": "atlxi_dhdt.py",
                 "new_path": "atlxi_dhdt.py",
-                "nloc": 148
+                "nloc": 148,
+                "added_lines": 27,
+                "deleted_lines": 27
             },
             {
                 "file_name": "test_region.py",
                 "old_path": "deepicedrain\\tests\\test_region.py",
                 "new_path": "deepicedrain\\tests\\test_region.py",
-                "nloc": 47
+                "nloc": 47,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -594,13 +722,17 @@
                 "file_name": "atl06_play.ipynb",
                 "old_path": "atl06_play.ipynb",
                 "new_path": "atl06_play.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 13,
+                "deleted_lines": 6
             },
             {
                 "file_name": "atl06_play.py",
                 "old_path": "atl06_play.py",
                 "new_path": "atl06_play.py",
-                "nloc": 232
+                "nloc": 232,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -616,13 +748,17 @@
                 "file_name": "push.yml",
                 "old_path": ".github\\workflows\\push.yml",
                 "new_path": ".github\\workflows\\push.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 6,
+                "deleted_lines": 3
             },
             {
                 "file_name": "python-app.yml",
                 "old_path": ".github\\workflows\\python-app.yml",
                 "new_path": ".github\\workflows\\python-app.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 4
             }
         ],
         "is_dvc_related": false
@@ -638,13 +774,17 @@
                 "file_name": "atl06_to_atl11.ipynb",
                 "old_path": "atl06_to_atl11.ipynb",
                 "new_path": "atl06_to_atl11.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 42,
+                "deleted_lines": 30
             },
             {
                 "file_name": "atl06_to_atl11.py",
                 "old_path": "atl06_to_atl11.py",
                 "new_path": "atl06_to_atl11.py",
-                "nloc": 128
+                "nloc": 128,
+                "added_lines": 15,
+                "deleted_lines": 17
             }
         ],
         "is_dvc_related": false
@@ -660,13 +800,17 @@
                 "file_name": "atl06_to_atl11.ipynb",
                 "old_path": "atl06_to_atl11.ipynb",
                 "new_path": "atl06_to_atl11.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 7,
+                "deleted_lines": 1
             },
             {
                 "file_name": "atl06_to_atl11.py",
                 "old_path": "atl06_to_atl11.py",
                 "new_path": "atl06_to_atl11.py",
-                "nloc": 139
+                "nloc": 139,
+                "added_lines": 7,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -682,13 +826,17 @@
                 "file_name": "atl06_to_atl11.ipynb",
                 "old_path": "atl06_to_atl11.ipynb",
                 "new_path": "atl06_to_atl11.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 33,
+                "deleted_lines": 25
             },
             {
                 "file_name": "atl06_to_atl11.py",
                 "old_path": "atl06_to_atl11.py",
                 "new_path": "atl06_to_atl11.py",
-                "nloc": 140
+                "nloc": 140,
+                "added_lines": 22,
+                "deleted_lines": 20
             }
         ],
         "is_dvc_related": false
@@ -704,13 +852,17 @@
                 "file_name": "release-drafter.yml",
                 "old_path": ".github\\release-drafter.yml",
                 "new_path": ".github\\release-drafter.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 0
             },
             {
                 "file_name": "python-app.yml",
                 "old_path": ".github\\workflows\\python-app.yml",
                 "new_path": ".github\\workflows\\python-app.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 6
             }
         ],
         "is_dvc_related": false
@@ -735,19 +887,25 @@
                 "file_name": "ATL06_to_ATL11_Antarctica.sh",
                 "old_path": "ATL06_to_ATL11_Antarctica.sh",
                 "new_path": "ATL06_to_ATL11_Antarctica.sh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1742,
+                "deleted_lines": 1742
             },
             {
                 "file_name": "atl06_to_atl11.ipynb",
                 "old_path": "atl06_to_atl11.ipynb",
                 "new_path": "atl06_to_atl11.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 49,
+                "deleted_lines": 60
             },
             {
                 "file_name": "atl06_to_atl11.py",
                 "old_path": "atl06_to_atl11.py",
                 "new_path": "atl06_to_atl11.py",
-                "nloc": 138
+                "nloc": 138,
+                "added_lines": 39,
+                "deleted_lines": 50
             }
         ],
         "is_dvc_related": false
@@ -763,7 +921,9 @@
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 23,
+                "deleted_lines": 23
             }
         ],
         "is_dvc_related": false
@@ -779,13 +939,17 @@
                 "file_name": "atlxi_dhdt.ipynb",
                 "old_path": "atlxi_dhdt.ipynb",
                 "new_path": "atlxi_dhdt.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 14,
+                "deleted_lines": 32
             },
             {
                 "file_name": "atlxi_dhdt.py",
                 "old_path": "atlxi_dhdt.py",
                 "new_path": "atlxi_dhdt.py",
-                "nloc": 379
+                "nloc": 379,
+                "added_lines": 10,
+                "deleted_lines": 16
             }
         ],
         "is_dvc_related": false
@@ -801,25 +965,33 @@
                 "file_name": "README.md",
                 "old_path": "deepicedrain\\README.md",
                 "new_path": "deepicedrain\\README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "deepicedrain\\__init__.py",
                 "new_path": "deepicedrain\\__init__.py",
-                "nloc": 14
+                "nloc": 14,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "extraload.py",
                 "old_path": null,
                 "new_path": "deepicedrain\\extraload.py",
-                "nloc": 20
+                "nloc": 20,
+                "added_lines": 43,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_array_to_dataframe.py",
                 "old_path": null,
                 "new_path": "deepicedrain\\tests\\test_array_to_dataframe.py",
-                "nloc": 22
+                "nloc": 22,
+                "added_lines": 37,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -835,13 +1007,17 @@
                 "file_name": "environment.yml",
                 "old_path": "environment.yml",
                 "new_path": "environment.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 1
             },
             {
                 "file_name": "pyproject.toml",
                 "old_path": "pyproject.toml",
                 "new_path": "pyproject.toml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -857,25 +1033,33 @@
                 "file_name": "__init__.py",
                 "old_path": "deepicedrain\\__init__.py",
                 "new_path": "deepicedrain\\__init__.py",
-                "nloc": 19
+                "nloc": 19,
+                "added_lines": 8,
+                "deleted_lines": 4
             },
             {
                 "file_name": "spatiotemporal.py",
                 "old_path": "deepicedrain\\spatiotemporal.py",
                 "new_path": "deepicedrain\\spatiotemporal.py",
-                "nloc": 156
+                "nloc": 156,
+                "added_lines": 89,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_spatiotemporal_conversions.py",
                 "old_path": "deepicedrain\\tests\\test_spatiotemporal_conversions.py",
                 "new_path": "deepicedrain\\tests\\test_spatiotemporal_conversions.py",
-                "nloc": 75
+                "nloc": 75,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_spatiotemporal_gpu.py",
                 "old_path": null,
                 "new_path": "deepicedrain\\tests\\test_spatiotemporal_gpu.py",
-                "nloc": 27
+                "nloc": 27,
+                "added_lines": 36,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -891,7 +1075,9 @@
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 4
             }
         ],
         "is_dvc_related": false
@@ -907,43 +1093,57 @@
                 "file_name": "atl11_play.ipynb",
                 "old_path": "atl11_play.ipynb",
                 "new_path": "atl11_play.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 15
             },
             {
                 "file_name": "atl11_play.py",
                 "old_path": "atl11_play.py",
                 "new_path": "atl11_play.py",
-                "nloc": 175
+                "nloc": 175,
+                "added_lines": 1,
+                "deleted_lines": 9
             },
             {
                 "file_name": "atlxi_dhdt.ipynb",
                 "old_path": "atlxi_dhdt.ipynb",
                 "new_path": "atlxi_dhdt.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "atlxi_dhdt.py",
                 "old_path": "atlxi_dhdt.py",
                 "new_path": "atlxi_dhdt.py",
-                "nloc": 201
+                "nloc": 201,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "atlas_catalog.yaml",
                 "old_path": "deepicedrain\\atlas_catalog.yaml",
                 "new_path": "deepicedrain\\atlas_catalog.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "deepicedrain_regions.geojson",
                 "old_path": "deepicedrain\\deepicedrain_regions.geojson",
                 "new_path": "deepicedrain\\deepicedrain_regions.geojson",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_region.py",
                 "old_path": "deepicedrain\\tests\\test_region.py",
                 "new_path": "deepicedrain\\tests\\test_region.py",
-                "nloc": 71
+                "nloc": 71,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -959,31 +1159,41 @@
                 "file_name": "antarctic_subglacial_lakes.geojson",
                 "old_path": "antarctic_subglacial_lakes.geojson",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 164
             },
             {
                 "file_name": "antarctic_subglacial_lakes_3031.geojson",
                 "old_path": null,
                 "new_path": "antarctic_subglacial_lakes_3031.geojson",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 178,
+                "deleted_lines": 0
             },
             {
                 "file_name": "antarctic_subglacial_lakes_4326.geojson",
                 "old_path": null,
                 "new_path": "antarctic_subglacial_lakes_4326.geojson",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 177,
+                "deleted_lines": 0
             },
             {
                 "file_name": "atlxi_lake.ipynb",
                 "old_path": "atlxi_lake.ipynb",
                 "new_path": "atlxi_lake.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 692,
+                "deleted_lines": 51
             },
             {
                 "file_name": "atlxi_lake.py",
                 "old_path": "atlxi_lake.py",
                 "new_path": "atlxi_lake.py",
-                "nloc": 332
+                "nloc": 332,
+                "added_lines": 87,
+                "deleted_lines": 31
             }
         ],
         "is_dvc_related": false
@@ -999,31 +1209,41 @@
                 "file_name": "atlxi_lake.ipynb",
                 "old_path": "atlxi_lake.ipynb",
                 "new_path": "atlxi_lake.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 3
             },
             {
                 "file_name": "atlxi_lake.py",
                 "old_path": "atlxi_lake.py",
                 "new_path": "atlxi_lake.py",
-                "nloc": 435
+                "nloc": 435,
+                "added_lines": 1,
+                "deleted_lines": 3
             },
             {
                 "file_name": "README.md",
                 "old_path": "deepicedrain\\README.md",
                 "new_path": "deepicedrain\\README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 1
             },
             {
                 "file_name": "atlas_catalog.yaml",
                 "old_path": "deepicedrain\\atlas_catalog.yaml",
                 "new_path": "deepicedrain\\atlas_catalog.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 12,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_deepicedrain.py",
                 "old_path": "deepicedrain\\tests\\test_deepicedrain.py",
                 "new_path": "deepicedrain\\tests\\test_deepicedrain.py",
-                "nloc": 14
+                "nloc": 14,
+                "added_lines": 1,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1039,13 +1259,17 @@
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 57,
+                "deleted_lines": 29
             },
             {
                 "file_name": "pyproject.toml",
                 "old_path": "pyproject.toml",
                 "new_path": "pyproject.toml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1061,19 +1285,25 @@
                 "file_name": "vizplots.py",
                 "old_path": "deepicedrain\\vizplots.py",
                 "new_path": "deepicedrain\\vizplots.py",
-                "nloc": 334
+                "nloc": 334,
+                "added_lines": 3,
+                "deleted_lines": 2
             },
             {
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 17,
+                "deleted_lines": 15
             },
             {
                 "file_name": "pyproject.toml",
                 "old_path": "pyproject.toml",
                 "new_path": "pyproject.toml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1089,31 +1319,41 @@
                 "file_name": "atlxi_lake.ipynb",
                 "old_path": "atlxi_lake.ipynb",
                 "new_path": "atlxi_lake.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "atlxi_lake.py",
                 "old_path": "atlxi_lake.py",
                 "new_path": "atlxi_lake.py",
-                "nloc": 411
+                "nloc": 411,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "subglacial_lakes.feature",
                 "old_path": "deepicedrain\\features\\subglacial_lakes.feature",
                 "new_path": "deepicedrain\\features\\subglacial_lakes.feature",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 26,
+                "deleted_lines": 2
             },
             {
                 "file_name": "test_subglacial_lake_animation.py",
                 "old_path": null,
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
-                "nloc": 135
+                "nloc": 135,
+                "added_lines": 172,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_subglacial_lake_finder.py",
                 "old_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
-                "nloc": 49
+                "nloc": 49,
+                "added_lines": 5,
+                "deleted_lines": 5
             }
         ],
         "is_dvc_related": false
@@ -1129,37 +1369,49 @@
                 "file_name": "atlxi_lake.ipynb",
                 "old_path": "atlxi_lake.ipynb",
                 "new_path": "atlxi_lake.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "atlxi_lake.py",
                 "old_path": "atlxi_lake.py",
                 "new_path": "atlxi_lake.py",
-                "nloc": 411
+                "nloc": 411,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "atlas_catalog.yaml",
                 "old_path": "deepicedrain\\atlas_catalog.yaml",
                 "new_path": "deepicedrain\\atlas_catalog.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "deepicedrain_regions.geojson",
                 "old_path": "deepicedrain\\deepicedrain_regions.geojson",
                 "new_path": "deepicedrain\\deepicedrain_regions.geojson",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "subglacial_lakes.feature",
                 "old_path": "deepicedrain\\features\\subglacial_lakes.feature",
                 "new_path": "deepicedrain\\features\\subglacial_lakes.feature",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 15,
+                "deleted_lines": 15
             },
             {
                 "file_name": "test_subglacial_lake_animation.py",
                 "old_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
-                "nloc": 135
+                "nloc": 135,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1175,7 +1427,9 @@
                 "file_name": "python-app.yml",
                 "old_path": ".github\\workflows\\python-app.yml",
                 "new_path": ".github\\workflows\\python-app.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 9,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1191,7 +1445,9 @@
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -1207,19 +1463,25 @@
                 "file_name": "atl06_play.ipynb",
                 "old_path": "atl06_play.ipynb",
                 "new_path": "atl06_play.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 15,
+                "deleted_lines": 13
             },
             {
                 "file_name": "atl06_play.py",
                 "old_path": "atl06_play.py",
                 "new_path": "atl06_play.py",
-                "nloc": 232
+                "nloc": 232,
+                "added_lines": 5,
+                "deleted_lines": 3
             },
             {
                 "file_name": "atlas_catalog.yaml",
                 "old_path": "deepicedrain\\atlas_catalog.yaml",
                 "new_path": "deepicedrain\\atlas_catalog.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 4
             }
         ],
         "is_dvc_related": false
@@ -1235,43 +1497,57 @@
                 "file_name": ".gitignore",
                 "old_path": ".gitignore",
                 "new_path": ".gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 0
             },
             {
                 "file_name": "atlxi_lake.ipynb",
                 "old_path": "atlxi_lake.ipynb",
                 "new_path": "atlxi_lake.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 34,
+                "deleted_lines": 28
             },
             {
                 "file_name": "atlxi_lake.py",
                 "old_path": "atlxi_lake.py",
                 "new_path": "atlxi_lake.py",
-                "nloc": 411
+                "nloc": 411,
+                "added_lines": 31,
+                "deleted_lines": 26
             },
             {
                 "file_name": "subglacial_lakes.feature",
                 "old_path": "deepicedrain\\features\\subglacial_lakes.feature",
                 "new_path": "deepicedrain\\features\\subglacial_lakes.feature",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 31,
+                "deleted_lines": 16
             },
             {
                 "file_name": "spatiotemporal.py",
                 "old_path": "deepicedrain\\spatiotemporal.py",
                 "new_path": "deepicedrain\\spatiotemporal.py",
-                "nloc": 327
+                "nloc": 327,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_subglacial_lake_animation.py",
                 "old_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
-                "nloc": 154
+                "nloc": 154,
+                "added_lines": 45,
+                "deleted_lines": 18
             },
             {
                 "file_name": "vizplots.py",
                 "old_path": "deepicedrain\\vizplots.py",
                 "new_path": "deepicedrain\\vizplots.py",
-                "nloc": 472
+                "nloc": 472,
+                "added_lines": 16,
+                "deleted_lines": 7
             }
         ],
         "is_dvc_related": false
@@ -1287,13 +1563,17 @@
                 "file_name": "python-app.yml",
                 "old_path": ".github\\workflows\\python-app.yml",
                 "new_path": ".github\\workflows\\python-app.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 9
             },
             {
                 "file_name": "test_vizplots.py",
                 "old_path": "deepicedrain\\tests\\test_vizplots.py",
                 "new_path": "deepicedrain\\tests\\test_vizplots.py",
-                "nloc": 90
+                "nloc": 90,
+                "added_lines": 16,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1309,7 +1589,9 @@
                 "file_name": "vizplots.py",
                 "old_path": "deepicedrain\\vizplots.py",
                 "new_path": "deepicedrain\\vizplots.py",
-                "nloc": 470
+                "nloc": 470,
+                "added_lines": 13,
+                "deleted_lines": 14
             }
         ],
         "is_dvc_related": false
@@ -1325,19 +1607,25 @@
                 "file_name": "atlxi_lake.ipynb",
                 "old_path": "atlxi_lake.ipynb",
                 "new_path": "atlxi_lake.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 4
             },
             {
                 "file_name": "atlxi_lake.py",
                 "old_path": "atlxi_lake.py",
                 "new_path": "atlxi_lake.py",
-                "nloc": 408
+                "nloc": 408,
+                "added_lines": 2,
+                "deleted_lines": 5
             },
             {
                 "file_name": "vizplots.py",
                 "old_path": "deepicedrain\\vizplots.py",
                 "new_path": "deepicedrain\\vizplots.py",
-                "nloc": 541
+                "nloc": 541,
+                "added_lines": 102,
+                "deleted_lines": 16
             }
         ],
         "is_dvc_related": false
@@ -1353,25 +1641,33 @@
                 "file_name": "README.md",
                 "old_path": "README.md",
                 "new_path": "README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "atlxi_xover.ipynb",
                 "old_path": "atlxi_xover.ipynb",
                 "new_path": "atlxi_xover.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 33,
+                "deleted_lines": 14
             },
             {
                 "file_name": "atlxi_xover.py",
                 "old_path": "atlxi_xover.py",
                 "new_path": "atlxi_xover.py",
-                "nloc": 184
+                "nloc": 184,
+                "added_lines": 24,
+                "deleted_lines": 9
             },
             {
                 "file_name": "lake_algorithms.py",
                 "old_path": "deepicedrain\\lake_algorithms.py",
                 "new_path": "deepicedrain\\lake_algorithms.py",
-                "nloc": 172
+                "nloc": 172,
+                "added_lines": 20,
+                "deleted_lines": 18
             }
         ],
         "is_dvc_related": false
@@ -1387,25 +1683,33 @@
                 "file_name": "subglacial_lakes.feature",
                 "old_path": "deepicedrain\\features\\subglacial_lakes.feature",
                 "new_path": "deepicedrain\\features\\subglacial_lakes.feature",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 34,
+                "deleted_lines": 23
             },
             {
                 "file_name": "conftest.py",
                 "old_path": "deepicedrain\\tests\\conftest.py",
                 "new_path": "deepicedrain\\tests\\conftest.py",
-                "nloc": 65
+                "nloc": 65,
+                "added_lines": 78,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_subglacial_lake_animation.py",
                 "old_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
-                "nloc": 112
+                "nloc": 112,
+                "added_lines": 1,
+                "deleted_lines": 53
             },
             {
                 "file_name": "test_subglacial_lake_crossover.py",
                 "old_path": null,
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_crossover.py",
-                "nloc": 96
+                "nloc": 96,
+                "added_lines": 134,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1421,7 +1725,9 @@
                 "file_name": "conftest.py",
                 "old_path": "deepicedrain\\tests\\conftest.py",
                 "new_path": "deepicedrain\\tests\\conftest.py",
-                "nloc": 65
+                "nloc": 65,
+                "added_lines": 6,
+                "deleted_lines": 7
             }
         ],
         "is_dvc_related": false
@@ -1437,31 +1743,41 @@
                 "file_name": "atlas_catalog.yaml",
                 "old_path": "deepicedrain\\atlas_catalog.yaml",
                 "new_path": "deepicedrain\\atlas_catalog.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "subglacial_lakes.feature",
                 "old_path": "deepicedrain\\features\\subglacial_lakes.feature",
                 "new_path": "deepicedrain\\features\\subglacial_lakes.feature",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "conftest.py",
                 "old_path": "deepicedrain\\tests\\conftest.py",
                 "new_path": "deepicedrain\\tests\\conftest.py",
-                "nloc": 72
+                "nloc": 72,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_subglacial_lake_animation.py",
                 "old_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_animation.py",
-                "nloc": 107
+                "nloc": 107,
+                "added_lines": 0,
+                "deleted_lines": 5
             },
             {
                 "file_name": "test_subglacial_lake_finder.py",
                 "old_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
-                "nloc": 49
+                "nloc": 49,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1477,7 +1793,9 @@
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 34,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -1493,67 +1811,89 @@
                 "file_name": "antarctic_subglacial_lakes_3031.geojson",
                 "old_path": "antarctic_subglacial_lakes_3031.geojson",
                 "new_path": "antarctic_subglacial_lakes_3031.geojson",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 195,
+                "deleted_lines": 149
             },
             {
                 "file_name": "antarctic_subglacial_lakes_4326.geojson",
                 "old_path": "antarctic_subglacial_lakes_4326.geojson",
                 "new_path": "antarctic_subglacial_lakes_4326.geojson",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 195,
+                "deleted_lines": 149
             },
             {
                 "file_name": "atl11_play.ipynb",
                 "old_path": "atl11_play.ipynb",
                 "new_path": "atl11_play.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 6,
+                "deleted_lines": 6
             },
             {
                 "file_name": "atl11_play.py",
                 "old_path": "atl11_play.py",
                 "new_path": "atl11_play.py",
-                "nloc": 175
+                "nloc": 175,
+                "added_lines": 6,
+                "deleted_lines": 6
             },
             {
                 "file_name": "atlxi_dhdt.ipynb",
                 "old_path": "atlxi_dhdt.ipynb",
                 "new_path": "atlxi_dhdt.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 5
             },
             {
                 "file_name": "atlxi_dhdt.py",
                 "old_path": "atlxi_dhdt.py",
                 "new_path": "atlxi_dhdt.py",
-                "nloc": 221
+                "nloc": 221,
+                "added_lines": 5,
+                "deleted_lines": 5
             },
             {
                 "file_name": "atlxi_lake.ipynb",
                 "old_path": "atlxi_lake.ipynb",
                 "new_path": "atlxi_lake.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 141,
+                "deleted_lines": 177
             },
             {
                 "file_name": "atlxi_lake.py",
                 "old_path": "atlxi_lake.py",
                 "new_path": "atlxi_lake.py",
-                "nloc": 308
+                "nloc": 308,
+                "added_lines": 50,
+                "deleted_lines": 23
             },
             {
                 "file_name": "atlas_catalog.yaml",
                 "old_path": "deepicedrain\\atlas_catalog.yaml",
                 "new_path": "deepicedrain\\atlas_catalog.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 35,
+                "deleted_lines": 25
             },
             {
                 "file_name": "extraload.py",
                 "old_path": "deepicedrain\\extraload.py",
                 "new_path": "deepicedrain\\extraload.py",
-                "nloc": 157
+                "nloc": 157,
+                "added_lines": 7,
+                "deleted_lines": 1
             },
             {
                 "file_name": "vizplots.py",
                 "old_path": "deepicedrain\\vizplots.py",
                 "new_path": "deepicedrain\\vizplots.py",
-                "nloc": 575
+                "nloc": 575,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -1569,13 +1909,17 @@
                 "file_name": "python-app.yml",
                 "old_path": ".github\\workflows\\python-app.yml",
                 "new_path": ".github\\workflows\\python-app.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 102,
+                "deleted_lines": 38
             }
         ],
         "is_dvc_related": false
@@ -1591,37 +1935,49 @@
                 "file_name": "antarctic_subglacial_lakes_3031.geojson",
                 "old_path": "antarctic_subglacial_lakes_3031.geojson",
                 "new_path": "antarctic_subglacial_lakes_3031.geojson",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 4
             },
             {
                 "file_name": "antarctic_subglacial_lakes_4326.geojson",
                 "old_path": "antarctic_subglacial_lakes_4326.geojson",
                 "new_path": "antarctic_subglacial_lakes_4326.geojson",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 4
             },
             {
                 "file_name": "atlxi_lake.ipynb",
                 "old_path": "atlxi_lake.ipynb",
                 "new_path": "atlxi_lake.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 66,
+                "deleted_lines": 76
             },
             {
                 "file_name": "atlxi_lake.py",
                 "old_path": "atlxi_lake.py",
                 "new_path": "atlxi_lake.py",
-                "nloc": 314
+                "nloc": 314,
+                "added_lines": 11,
+                "deleted_lines": 5
             },
             {
                 "file_name": "atlas_catalog.yaml",
                 "old_path": "deepicedrain\\atlas_catalog.yaml",
                 "new_path": "deepicedrain\\atlas_catalog.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 28,
+                "deleted_lines": 28
             },
             {
                 "file_name": "lake_algorithms.py",
                 "old_path": "deepicedrain\\lake_algorithms.py",
                 "new_path": "deepicedrain\\lake_algorithms.py",
-                "nloc": 201
+                "nloc": 201,
+                "added_lines": 5,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1637,7 +1993,9 @@
                 "file_name": "docker-build.yml",
                 "old_path": ".github\\workflows\\push.yml",
                 "new_path": ".github\\workflows\\docker-build.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 4
             }
         ],
         "is_dvc_related": false
@@ -1653,7 +2011,9 @@
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 4
             }
         ],
         "is_dvc_related": false
@@ -1669,13 +2029,17 @@
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 40,
+                "deleted_lines": 40
             },
             {
                 "file_name": "pyproject.toml",
                 "old_path": "pyproject.toml",
                 "new_path": "pyproject.toml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1691,7 +2055,9 @@
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 7,
+                "deleted_lines": 4
             }
         ],
         "is_dvc_related": false
@@ -1707,13 +2073,17 @@
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 10,
+                "deleted_lines": 72
             },
             {
                 "file_name": "pyproject.toml",
                 "old_path": "pyproject.toml",
                 "new_path": "pyproject.toml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1729,31 +2099,41 @@
                 "file_name": "README.md",
                 "old_path": "README.md",
                 "new_path": "README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "atl06_to_atl11.ipynb",
                 "old_path": "atl06_to_atl11.ipynb",
                 "new_path": "atl06_to_atl11.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 11,
+                "deleted_lines": 1
             },
             {
                 "file_name": "atl06_to_atl11.py",
                 "old_path": "atl06_to_atl11.py",
                 "new_path": "atl06_to_atl11.py",
-                "nloc": 181
+                "nloc": 181,
+                "added_lines": 7,
+                "deleted_lines": 1
             },
             {
                 "file_name": "atlxi_dhdt.ipynb",
                 "old_path": "atlxi_dhdt.ipynb",
                 "new_path": "atlxi_dhdt.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 76,
+                "deleted_lines": 111
             },
             {
                 "file_name": "atlxi_dhdt.py",
                 "old_path": "atlxi_dhdt.py",
                 "new_path": "atlxi_dhdt.py",
-                "nloc": 213
+                "nloc": 213,
+                "added_lines": 6,
+                "deleted_lines": 26
             }
         ],
         "is_dvc_related": false
@@ -1769,61 +2149,81 @@
                 "file_name": "config",
                 "old_path": ".dvc\\config",
                 "new_path": ".dvc\\config",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 0
             },
             {
                 "file_name": "python-app.yml",
                 "old_path": ".github\\workflows\\python-app.yml",
                 "new_path": ".github\\workflows\\python-app.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 8,
+                "deleted_lines": 0
             },
             {
                 "file_name": ".gitignore",
                 "old_path": ".gitignore",
                 "new_path": ".gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 2
             },
             {
                 "file_name": "df_dhdt_amundsen_sea_embayment.parquet.dvc",
                 "old_path": null,
                 "new_path": "ATLXI\\df_dhdt_amundsen_sea_embayment.parquet.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 0
             },
             {
                 "file_name": "df_dhdt_slessor_downstream.parquet.dvc",
                 "old_path": null,
                 "new_path": "ATLXI\\df_dhdt_slessor_downstream.parquet.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 0
             },
             {
                 "file_name": "df_dhdt_whillans_downstream.parquet.dvc",
                 "old_path": null,
                 "new_path": "ATLXI\\df_dhdt_whillans_downstream.parquet.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 0
             },
             {
                 "file_name": "df_dhdt_whillans_upstream.parquet.dvc",
                 "old_path": null,
                 "new_path": "ATLXI\\df_dhdt_whillans_upstream.parquet.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 0
             },
             {
                 "file_name": "subglacial_lakes.feature",
                 "old_path": "deepicedrain\\features\\subglacial_lakes.feature",
                 "new_path": "deepicedrain\\features\\subglacial_lakes.feature",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 20,
+                "deleted_lines": 19
             },
             {
                 "file_name": "conftest.py",
                 "old_path": "deepicedrain\\tests\\conftest.py",
                 "new_path": "deepicedrain\\tests\\conftest.py",
-                "nloc": 80
+                "nloc": 80,
+                "added_lines": 6,
+                "deleted_lines": 6
             },
             {
                 "file_name": "test_subglacial_lake_finder.py",
                 "old_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
                 "new_path": "deepicedrain\\tests\\test_subglacial_lake_finder.py",
-                "nloc": 46
+                "nloc": 46,
+                "added_lines": 12,
+                "deleted_lines": 12
             }
         ],
         "is_dvc_related": true
@@ -1839,25 +2239,33 @@
                 "file_name": "environment-linux-64.lock",
                 "old_path": "environment-linux-64.lock",
                 "new_path": "environment-linux-64.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 65,
+                "deleted_lines": 63
             },
             {
                 "file_name": "environment.yml",
                 "old_path": "environment.yml",
                 "new_path": "environment.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 7,
+                "deleted_lines": 7
             },
             {
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 28,
+                "deleted_lines": 18
             },
             {
                 "file_name": "pyproject.toml",
                 "old_path": "pyproject.toml",
                 "new_path": "pyproject.toml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1873,13 +2281,17 @@
                 "file_name": "poetry.lock",
                 "old_path": "poetry.lock",
                 "new_path": "poetry.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 44,
+                "deleted_lines": 37
             },
             {
                 "file_name": "pyproject.toml",
                 "old_path": "pyproject.toml",
                 "new_path": "pyproject.toml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1895,25 +2307,33 @@
                 "file_name": "docker-build.yml",
                 "old_path": ".github\\workflows\\docker-build.yml",
                 "new_path": ".github\\workflows\\docker-build.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "python-app.yml",
                 "old_path": ".github\\workflows\\python-app.yml",
                 "new_path": ".github\\workflows\\python-app.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 10,
+                "deleted_lines": 24
             },
             {
                 "file_name": "Dockerfile",
                 "old_path": "Dockerfile",
                 "new_path": "Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 21,
+                "deleted_lines": 24
             },
             {
                 "file_name": "README.md",
                 "old_path": "README.md",
                 "new_path": "README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 27,
+                "deleted_lines": 17
             }
         ],
         "is_dvc_related": false

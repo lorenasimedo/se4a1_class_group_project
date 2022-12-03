@@ -10,13 +10,17 @@
                 "file_name": "Generate Sentence Embeddings - PAFE.ipynb",
                 "old_path": null,
                 "new_path": "cord19q_extra\\Generate Sentence Embeddings - PAFE.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 855,
+                "deleted_lines": 0
             },
             {
                 "file_name": "Information Retrieval - PAFE.ipynb",
                 "old_path": "cord19q_extra\\Information Retrieval - PAFE.ipynb",
                 "new_path": "cord19q_extra\\Information Retrieval - PAFE.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 375,
+                "deleted_lines": 207
             }
         ],
         "is_dvc_related": false
@@ -32,7 +36,9 @@
                 "file_name": "Information Retrieval - PAFE.ipynb",
                 "old_path": "notebooks\\cord19q_extra\\Information Retrieval - PAFE.ipynb",
                 "new_path": "notebooks\\cord19q_extra\\Information Retrieval - PAFE.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 19,
+                "deleted_lines": 28
             }
         ],
         "is_dvc_related": false
@@ -48,7 +54,9 @@
                 "file_name": "widget.py",
                 "old_path": "src\\bbsearch\\widget.py",
                 "new_path": "src\\bbsearch\\widget.py",
-                "nloc": 238
+                "nloc": 238,
+                "added_lines": 3,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -64,19 +72,25 @@
                 "file_name": "search_widget.ipynb",
                 "old_path": "notebooks\\search_widget.ipynb",
                 "new_path": "notebooks\\search_widget.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 36,
+                "deleted_lines": 10
             },
             {
                 "file_name": "models.py",
                 "old_path": "src\\bbsearch\\models.py",
                 "new_path": "src\\bbsearch\\models.py",
-                "nloc": 79
+                "nloc": 79,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "widget.py",
                 "old_path": "src\\bbsearch\\widget.py",
                 "new_path": "src\\bbsearch\\widget.py",
-                "nloc": 242
+                "nloc": 242,
+                "added_lines": 9,
+                "deleted_lines": 5
             }
         ],
         "is_dvc_related": false
@@ -101,19 +115,25 @@
                 "file_name": "setup.cfg",
                 "old_path": "setup.cfg",
                 "new_path": "setup.cfg",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 8,
+                "deleted_lines": 0
             },
             {
                 "file_name": "conftest.py",
                 "old_path": null,
                 "new_path": "tests\\conftest.py",
-                "nloc": 120
+                "nloc": 120,
+                "added_lines": 165,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_fixtures.py",
                 "old_path": null,
                 "new_path": "tests\\test_fixtures.py",
-                "nloc": 32
+                "nloc": 32,
+                "added_lines": 52,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -129,25 +149,33 @@
                 "file_name": "Create_Database.ipynb",
                 "old_path": "notebooks\\cord19q_extra\\Create_Database.ipynb",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 364
             },
             {
                 "file_name": "Generate Sentence Embeddings - PAFE.ipynb",
                 "old_path": "notebooks\\cord19q_extra\\Generate Sentence Embeddings - PAFE.ipynb",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 869
             },
             {
                 "file_name": "embedding_models.py",
                 "old_path": "src\\bbsearch\\embedding_models.py",
                 "new_path": "src\\bbsearch\\embedding_models.py",
-                "nloc": 145
+                "nloc": 145,
+                "added_lines": 86,
+                "deleted_lines": 0
             },
             {
                 "file_name": "sql.py",
                 "old_path": "src\\bbsearch\\sql.py",
                 "new_path": "src\\bbsearch\\sql.py",
-                "nloc": 159
+                "nloc": 159,
+                "added_lines": 149,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -163,31 +191,41 @@
                 "file_name": "BBS_BBG_poc.ipynb",
                 "old_path": "notebooks\\BBS_BBG_poc.ipynb",
                 "new_path": "notebooks\\BBS_BBG_poc.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 51,
+                "deleted_lines": 4
             },
             {
                 "file_name": "search_widget.ipynb",
                 "old_path": "notebooks\\search_widget.ipynb",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 134
             },
             {
                 "file_name": "data.py",
                 "old_path": "src\\bbsearch\\data.py",
                 "new_path": "src\\bbsearch\\data.py",
-                "nloc": 80
+                "nloc": 80,
+                "added_lines": 1,
+                "deleted_lines": 2
             },
             {
                 "file_name": "sql.py",
                 "old_path": "src\\bbsearch\\sql.py",
                 "new_path": "src\\bbsearch\\sql.py",
-                "nloc": 159
+                "nloc": 159,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "widget.py",
                 "old_path": "src\\bbsearch\\widget.py",
                 "new_path": "src\\bbsearch\\widget.py",
-                "nloc": 260
+                "nloc": 260,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -203,13 +241,17 @@
                 "file_name": "entity.py",
                 "old_path": "src\\bbsearch\\mining\\entity.py",
                 "new_path": "src\\bbsearch\\mining\\entity.py",
-                "nloc": 42
+                "nloc": 42,
+                "added_lines": 9,
+                "deleted_lines": 6
             },
             {
                 "file_name": "pipeline.py",
                 "old_path": "src\\bbsearch\\mining\\pipeline.py",
                 "new_path": "src\\bbsearch\\mining\\pipeline.py",
-                "nloc": 60
+                "nloc": 60,
+                "added_lines": 15,
+                "deleted_lines": 8
             }
         ],
         "is_dvc_related": false
@@ -225,13 +267,17 @@
                 "file_name": "BBS_BBG_poc.ipynb",
                 "old_path": "notebooks\\BBS_BBG_poc.ipynb",
                 "new_path": "notebooks\\BBS_BBG_poc.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 10,
+                "deleted_lines": 35
             },
             {
                 "file_name": "entity.py",
                 "old_path": "src\\bbsearch\\mining\\entity.py",
                 "new_path": "src\\bbsearch\\mining\\entity.py",
-                "nloc": 42
+                "nloc": 42,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -247,7 +293,9 @@
                 "file_name": "embeddings_entrypoint.py",
                 "old_path": "src\\bbsearch\\embeddings_entrypoint.py",
                 "new_path": "src\\bbsearch\\embeddings_entrypoint.py",
-                "nloc": 48
+                "nloc": 48,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -263,43 +311,57 @@
                 "file_name": "Dockerfile",
                 "old_path": "docker\\Dockerfile",
                 "new_path": "docker\\Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 6
             },
             {
                 "file_name": "BBS_BBG_poc.ipynb",
                 "old_path": "notebooks\\BBS_BBG_poc.ipynb",
                 "new_path": "notebooks\\BBS_BBG_poc.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 65,
+                "deleted_lines": 9
             },
             {
                 "file_name": "setup.py",
                 "old_path": "setup.py",
                 "new_path": "setup.py",
-                "nloc": 47
+                "nloc": 47,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "article_saver.py",
                 "old_path": null,
                 "new_path": "src\\bbsearch\\article_saver.py",
-                "nloc": 100
+                "nloc": 100,
+                "added_lines": 192,
+                "deleted_lines": 0
             },
             {
                 "file_name": "pipeline.py",
                 "old_path": "src\\bbsearch\\mining\\pipeline.py",
                 "new_path": "src\\bbsearch\\mining\\pipeline.py",
-                "nloc": 63
+                "nloc": 63,
+                "added_lines": 6,
+                "deleted_lines": 2
             },
             {
                 "file_name": "widget.py",
                 "old_path": "src\\bbsearch\\widget.py",
                 "new_path": "src\\bbsearch\\widget.py",
-                "nloc": 275
+                "nloc": 275,
+                "added_lines": 92,
+                "deleted_lines": 8
             },
             {
                 "file_name": "test_article_saver.py",
                 "old_path": null,
                 "new_path": "tests\\test_article_saver.py",
-                "nloc": 49
+                "nloc": 49,
+                "added_lines": 75,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -315,37 +377,49 @@
                 "file_name": "BBS_BBG_poc.ipynb",
                 "old_path": "notebooks\\BBS_BBG_poc.ipynb",
                 "new_path": "notebooks\\BBS_BBG_poc.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 13,
+                "deleted_lines": 21
             },
             {
                 "file_name": "database_entrypoint.py",
                 "old_path": "src\\bbsearch\\database_entrypoint.py",
                 "new_path": "src\\bbsearch\\database_entrypoint.py",
-                "nloc": 26
+                "nloc": 26,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "embeddings_entrypoint.py",
                 "old_path": "src\\bbsearch\\embeddings_entrypoint.py",
                 "new_path": "src\\bbsearch\\embeddings_entrypoint.py",
-                "nloc": 50
+                "nloc": 50,
+                "added_lines": 7,
+                "deleted_lines": 4
             },
             {
                 "file_name": "conftest.py",
                 "old_path": "tests\\conftest.py",
                 "new_path": "tests\\conftest.py",
-                "nloc": 144
+                "nloc": 144,
+                "added_lines": 1,
+                "deleted_lines": 10
             },
             {
                 "file_name": "test_fixtures.py",
                 "old_path": "tests\\test_fixtures.py",
                 "new_path": "tests\\test_fixtures.py",
-                "nloc": 31
+                "nloc": 31,
+                "added_lines": 1,
+                "deleted_lines": 3
             },
             {
                 "file_name": "test_search.py",
                 "old_path": "tests\\test_search.py",
                 "new_path": "tests\\test_search.py",
-                "nloc": 54
+                "nloc": 54,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -361,103 +435,137 @@
                 "file_name": "Dockerfile-search_server",
                 "old_path": null,
                 "new_path": "docker\\Dockerfile-search_server",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 51,
+                "deleted_lines": 0
             },
             {
                 "file_name": "BBS_BBG_poc.ipynb",
                 "old_path": "notebooks\\BBS_BBG_poc.ipynb",
                 "new_path": "notebooks\\BBS_BBG_poc.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 12,
+                "deleted_lines": 20
             },
             {
                 "file_name": "requirements.txt",
                 "old_path": "requirements.txt",
                 "new_path": "requirements.txt",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "setup.py",
                 "old_path": "setup.py",
                 "new_path": "setup.py",
-                "nloc": 54
+                "nloc": 54,
+                "added_lines": 4,
+                "deleted_lines": 3
             },
             {
                 "file_name": "__init__.py",
                 "old_path": null,
                 "new_path": "src\\bbsearch\\entrypoints\\__init__.py",
-                "nloc": 1
+                "nloc": 1,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "database_entrypoint.py",
                 "old_path": "src\\bbsearch\\database_entrypoint.py",
                 "new_path": "src\\bbsearch\\entrypoints\\database_entrypoint.py",
-                "nloc": 27
+                "nloc": 27,
+                "added_lines": 8,
+                "deleted_lines": 7
             },
             {
                 "file_name": "embedding_server_entrypoint.py",
                 "old_path": "src\\bbsearch\\server\\embedding_server_entrypoint.py",
                 "new_path": "src\\bbsearch\\entrypoints\\embedding_server_entrypoint.py",
-                "nloc": 36
+                "nloc": 36,
+                "added_lines": 10,
+                "deleted_lines": 15
             },
             {
                 "file_name": "embeddings_entrypoint.py",
                 "old_path": "src\\bbsearch\\embeddings_entrypoint.py",
                 "new_path": "src\\bbsearch\\entrypoints\\embeddings_entrypoint.py",
-                "nloc": 51
+                "nloc": 51,
+                "added_lines": 7,
+                "deleted_lines": 6
             },
             {
                 "file_name": "search_server_entrypoint.py",
                 "old_path": null,
                 "new_path": "src\\bbsearch\\entrypoints\\search_server_entrypoint.py",
-                "nloc": 39
+                "nloc": 39,
+                "added_lines": 47,
+                "deleted_lines": 0
             },
             {
                 "file_name": "remote_searcher.py",
                 "old_path": null,
                 "new_path": "src\\bbsearch\\remote_searcher.py",
-                "nloc": 44
+                "nloc": 44,
+                "added_lines": 75,
+                "deleted_lines": 0
             },
             {
                 "file_name": "search.py",
                 "old_path": "src\\bbsearch\\search.py",
                 "new_path": "src\\bbsearch\\search.py",
-                "nloc": 119
+                "nloc": 119,
+                "added_lines": 87,
+                "deleted_lines": 0
             },
             {
                 "file_name": "search_server.py",
                 "old_path": null,
                 "new_path": "src\\bbsearch\\server\\search_server.py",
-                "nloc": 73
+                "nloc": 73,
+                "added_lines": 101,
+                "deleted_lines": 0
             },
             {
                 "file_name": "widget.py",
                 "old_path": "src\\bbsearch\\widget.py",
                 "new_path": "src\\bbsearch\\widget.py",
-                "nloc": 261
+                "nloc": 261,
+                "added_lines": 23,
+                "deleted_lines": 34
             },
             {
                 "file_name": "conftest.py",
                 "old_path": "tests\\conftest.py",
                 "new_path": "tests\\conftest.py",
-                "nloc": 144
+                "nloc": 144,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_entrypoints.py",
                 "old_path": null,
                 "new_path": "tests\\test_entrypoints.py",
-                "nloc": 8
+                "nloc": 8,
+                "added_lines": 10,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_remote_searcher.py",
                 "old_path": null,
                 "new_path": "tests\\test_remote_searcher.py",
-                "nloc": 26
+                "nloc": 26,
+                "added_lines": 35,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_search.py",
                 "old_path": "tests\\test_search.py",
                 "new_path": "tests\\test_search.py",
-                "nloc": 78
+                "nloc": 78,
+                "added_lines": 84,
+                "deleted_lines": 47
             }
         ],
         "is_dvc_related": false
@@ -473,19 +581,25 @@
                 "file_name": ".travis.yml",
                 "old_path": ".travis.yml",
                 "new_path": ".travis.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 2
             },
             {
                 "file_name": "setup.py",
                 "old_path": "setup.py",
                 "new_path": "setup.py",
-                "nloc": 52
+                "nloc": 52,
+                "added_lines": 0,
+                "deleted_lines": 3
             },
             {
                 "file_name": "entity.py",
                 "old_path": "src\\bbsearch\\mining\\entity.py",
                 "new_path": "src\\bbsearch\\mining\\entity.py",
-                "nloc": 45
+                "nloc": 45,
+                "added_lines": 7,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -501,19 +615,25 @@
                 "file_name": "article_saver.py",
                 "old_path": "src\\bbsearch\\article_saver.py",
                 "new_path": "src\\bbsearch\\article_saver.py",
-                "nloc": 89
+                "nloc": 89,
+                "added_lines": 8,
+                "deleted_lines": 25
             },
             {
                 "file_name": "widget.py",
                 "old_path": "src\\bbsearch\\widget.py",
                 "new_path": "src\\bbsearch\\widget.py",
-                "nloc": 259
+                "nloc": 259,
+                "added_lines": 1,
+                "deleted_lines": 3
             },
             {
                 "file_name": "test_article_saver.py",
                 "old_path": "tests\\test_article_saver.py",
                 "new_path": "tests\\test_article_saver.py",
-                "nloc": 44
+                "nloc": 44,
+                "added_lines": 0,
+                "deleted_lines": 5
             }
         ],
         "is_dvc_related": false
@@ -529,55 +649,73 @@
                 "file_name": "NER_Evaluation.ipynb",
                 "old_path": null,
                 "new_path": "notebooks\\NER_Evaluation.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 337,
+                "deleted_lines": 0
             },
             {
                 "file_name": "requirements.txt",
                 "old_path": "requirements.txt",
                 "new_path": "requirements.txt",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 0
             },
             {
                 "file_name": "setup.py",
                 "old_path": "setup.py",
                 "new_path": "setup.py",
-                "nloc": 59
+                "nloc": 59,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "eval.py",
                 "old_path": "src\\bbsearch\\mining\\eval.py",
                 "new_path": "src\\bbsearch\\mining\\eval.py",
-                "nloc": 251
+                "nloc": 251,
+                "added_lines": 452,
+                "deleted_lines": 8
             },
             {
                 "file_name": "conftest.py",
                 "old_path": "tests\\conftest.py",
                 "new_path": "tests\\conftest.py",
-                "nloc": 163
+                "nloc": 163,
+                "added_lines": 24,
+                "deleted_lines": 0
             },
             {
                 "file_name": "iob_punctuation_after.csv",
                 "old_path": null,
                 "new_path": "tests\\data\\mining\\eval\\iob_punctuation_after.csv",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 17,
+                "deleted_lines": 0
             },
             {
                 "file_name": "iob_punctuation_before.csv",
                 "old_path": null,
                 "new_path": "tests\\data\\mining\\eval\\iob_punctuation_before.csv",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 26,
+                "deleted_lines": 0
             },
             {
                 "file_name": "ner_iob_sample.csv",
                 "old_path": null,
                 "new_path": "tests\\data\\mining\\eval\\ner_iob_sample.csv",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 201,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_eval.py",
                 "old_path": "tests\\test_mining\\test_eval.py",
                 "new_path": "tests\\test_mining\\test_eval.py",
-                "nloc": 214
+                "nloc": 214,
+                "added_lines": 186,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -593,61 +731,81 @@
                 "file_name": ".gitignore",
                 "old_path": ".gitignore",
                 "new_path": ".gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 0
             },
             {
                 "file_name": "Dockerfile",
                 "old_path": "docker\\Dockerfile",
                 "new_path": "docker\\Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "BBS_BBG_poc.ipynb",
                 "old_path": "notebooks\\BBS_BBG_poc.ipynb",
                 "new_path": "notebooks\\BBS_BBG_poc.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 22,
+                "deleted_lines": 127
             },
             {
                 "file_name": "article_saver.py",
                 "old_path": "src\\bbsearch\\article_saver.py",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 138
             },
             {
                 "file_name": "widget.py",
                 "old_path": "src\\bbsearch\\widget.py",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 394
             },
             {
                 "file_name": "__init__.py",
                 "old_path": null,
                 "new_path": "src\\bbsearch\\widgets\\__init__.py",
-                "nloc": 9
+                "nloc": 9,
+                "added_lines": 11,
+                "deleted_lines": 0
             },
             {
                 "file_name": "article_saver.py",
                 "old_path": null,
                 "new_path": "src\\bbsearch\\widgets\\article_saver.py",
-                "nloc": 181
+                "nloc": 181,
+                "added_lines": 298,
+                "deleted_lines": 0
             },
             {
                 "file_name": "mining_widget.py",
                 "old_path": null,
                 "new_path": "src\\bbsearch\\widgets\\mining_widget.py",
-                "nloc": 100
+                "nloc": 100,
+                "added_lines": 156,
+                "deleted_lines": 0
             },
             {
                 "file_name": "search_widget.py",
                 "old_path": null,
                 "new_path": "src\\bbsearch\\widgets\\search_widget.py",
-                "nloc": 467
+                "nloc": 467,
+                "added_lines": 651,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_article_saver.py",
                 "old_path": "tests\\test_article_saver.py",
                 "new_path": "tests\\test_article_saver.py",
-                "nloc": 53
+                "nloc": 53,
+                "added_lines": 55,
+                "deleted_lines": 34
             }
         ],
         "is_dvc_related": false
@@ -663,7 +821,9 @@
                 "file_name": "BBS_BBG_poc.ipynb",
                 "old_path": "notebooks\\BBS_BBG_poc.ipynb",
                 "new_path": "notebooks\\BBS_BBG_poc.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 10,
+                "deleted_lines": 4
             }
         ],
         "is_dvc_related": false
@@ -679,31 +839,41 @@
                 "file_name": "cord_19.py",
                 "old_path": "src\\bbsearch\\database\\cord_19.py",
                 "new_path": "src\\bbsearch\\database\\cord_19.py",
-                "nloc": 196
+                "nloc": 196,
+                "added_lines": 5,
+                "deleted_lines": 3
             },
             {
                 "file_name": "mining_cache.py",
                 "old_path": "src\\bbsearch\\database\\mining_cache.py",
                 "new_path": "src\\bbsearch\\database\\mining_cache.py",
-                "nloc": 347
+                "nloc": 347,
+                "added_lines": 2,
+                "deleted_lines": 3
             },
             {
                 "file_name": "test_benchmark_insert.py",
                 "old_path": null,
                 "new_path": "tests\\benchmarks\\test_benchmark_insert.py",
-                "nloc": 23
+                "nloc": 23,
+                "added_lines": 37,
+                "deleted_lines": 0
             },
             {
                 "file_name": "conftest.py",
                 "old_path": "tests\\conftest.py",
                 "new_path": "tests\\conftest.py",
-                "nloc": 256
+                "nloc": 256,
+                "added_lines": 6,
+                "deleted_lines": 3
             },
             {
                 "file_name": "test_mining_cache.py",
                 "old_path": "tests\\test_database\\test_mining_cache.py",
                 "new_path": "tests\\test_database\\test_mining_cache.py",
-                "nloc": 207
+                "nloc": 207,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -719,331 +889,441 @@
                 "file_name": ".gitignore",
                 "old_path": null,
                 "new_path": ".dvc\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "config",
                 "old_path": null,
                 "new_path": ".dvc\\config",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 0
             },
             {
                 "file_name": "confusion.json",
                 "old_path": null,
                 "new_path": ".dvc\\plots\\confusion.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 30,
+                "deleted_lines": 0
             },
             {
                 "file_name": "default.json",
                 "old_path": null,
                 "new_path": ".dvc\\plots\\default.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 29,
+                "deleted_lines": 0
             },
             {
                 "file_name": "scatter.json",
                 "old_path": null,
                 "new_path": ".dvc\\plots\\scatter.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 27,
+                "deleted_lines": 0
             },
             {
                 "file_name": "smooth.json",
                 "old_path": null,
                 "new_path": ".dvc\\plots\\smooth.json",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 39,
+                "deleted_lines": 0
             },
             {
                 "file_name": ".dvcignore",
                 "old_path": null,
                 "new_path": ".dvcignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "README.md",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 9,
+                "deleted_lines": 0
             },
             {
                 "file_name": ".gitignore",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 15,
+                "deleted_lines": 0
             },
             {
                 "file_name": "README.md",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 205,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations10_EmmanuelleLogette_2020-08-28_raw1_raw5_10EntityTypes.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations10_EmmanuelleLogette_2020-08-28_raw1_raw5_10EntityTypes.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations11_CharlotteLorin_2020-08-28_raw1_10EntityTypes.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations11_CharlotteLorin_2020-08-28_raw1_10EntityTypes.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations12_EmmanuelleLogette_2020-08-28_raw7_10EntityTypes.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations12_EmmanuelleLogette_2020-08-28_raw7_10EntityTypes.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations13_CharlotteLorin_2020-09-02_raw7_10EntityTypes.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations13_CharlotteLorin_2020-09-02_raw7_10EntityTypes.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations14_EmmanuelleLogette_2020-09-02_raw8_CellCompartmentDrugOrgan.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations14_EmmanuelleLogette_2020-09-02_raw8_CellCompartmentDrugOrgan.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations15_EmmanuelleLogette_2020-09-22_raw9_Pathway.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations15_EmmanuelleLogette_2020-09-22_raw9_Pathway.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations1_EmmanuelleLogette_2020-06-19_raw1_8FirstLabels.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations1_EmmanuelleLogette_2020-06-19_raw1_8FirstLabels.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations2_CharlotteLorin_2020-06-19_8FirstLabels.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations2_CharlotteLorin_2020-06-19_8FirstLabels.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations3_EmmanuelleLogette_2020-07-06_raw1_8FirstLabels.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations3_EmmanuelleLogette_2020-07-06_raw1_8FirstLabels.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations4_CharlotteLorin_2020-07-02_raw1_8FirstLabels.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations4_CharlotteLorin_2020-07-02_raw1_8FirstLabels.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations5_EmmanuelleLogette_2020-06-30_raw2_Disease.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations5_EmmanuelleLogette_2020-06-30_raw2_Disease.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations6_EmmanuelleLogette_2020-07-07_raw4_TaxonChebi.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations6_EmmanuelleLogette_2020-07-07_raw4_TaxonChebi.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations7_EmmanuelleLogette_2020-07-06_raw1_9EntityTypes.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations7_EmmanuelleLogette_2020-07-06_raw1_9EntityTypes.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations8_EmmanuelleLogette_2020-07-08_raw5_9EntityTypes.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations8_EmmanuelleLogette_2020-07-08_raw5_9EntityTypes.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "annotations9_EmmanuelleLogette_2020-07-08_raw6_CelltypeProtein.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\annotations9_EmmanuelleLogette_2020-07-08_raw6_CelltypeProtein.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": ".gitignore",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\patterns\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 2,
+                "deleted_lines": 0
             },
             {
                 "file_name": "README.md",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\patterns\\README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 14,
+                "deleted_lines": 0
             },
             {
                 "file_name": "pathway_patterns.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\patterns\\pathway_patterns.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "patterns.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\annotations\\ner\\patterns\\patterns.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": ".gitignore",
                 "old_path": null,
                 "new_path": "data_and_models\\metrics\\ner\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 9,
+                "deleted_lines": 0
             },
             {
                 "file_name": ".gitignore",
                 "old_path": null,
                 "new_path": "data_and_models\\models\\ner\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 0
             },
             {
                 "file_name": "README.md",
                 "old_path": "data_and_models\\pipelines\\README.md",
                 "new_path": "data_and_models\\pipelines\\README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 0
             },
             {
                 "file_name": "Dockerfile",
                 "old_path": null,
                 "new_path": "data_and_models\\pipelines\\ner\\Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 39,
+                "deleted_lines": 0
             },
             {
                 "file_name": "dvc.lock",
                 "old_path": null,
                 "new_path": "data_and_models\\pipelines\\ner\\dvc.lock",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 303,
+                "deleted_lines": 0
             },
             {
                 "file_name": "dvc.yaml",
                 "old_path": null,
                 "new_path": "data_and_models\\pipelines\\ner\\dvc.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 182,
+                "deleted_lines": 0
             },
             {
                 "file_name": "eval.py",
                 "old_path": null,
                 "new_path": "data_and_models\\pipelines\\ner\\eval.py",
-                "nloc": 79
+                "nloc": 79,
+                "added_lines": 94,
+                "deleted_lines": 0
             },
             {
                 "file_name": "params.yaml",
                 "old_path": null,
                 "new_path": "data_and_models\\pipelines\\ner\\params.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 50,
+                "deleted_lines": 0
             },
             {
                 "file_name": "train.py",
                 "old_path": null,
                 "new_path": "data_and_models\\pipelines\\ner\\train.py",
-                "nloc": 54
+                "nloc": 54,
+                "added_lines": 65,
+                "deleted_lines": 0
             },
             {
                 "file_name": ".gitignore",
                 "old_path": null,
                 "new_path": "data_and_models\\raw_sentences\\.gitignore",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 9,
+                "deleted_lines": 0
             },
             {
                 "file_name": "README.md",
                 "old_path": null,
                 "new_path": "data_and_models\\raw_sentences\\README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 64,
+                "deleted_lines": 0
             },
             {
                 "file_name": "raw1_2020-06-10_cord19_TestSet.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\raw_sentences\\raw1_2020-06-10_cord19_TestSet.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "raw2_2020-06-29_cord19_Disease.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\raw_sentences\\raw2_2020-06-29_cord19_Disease.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "raw3_2020-06-30_cord19_Disease.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\raw_sentences\\raw3_2020-06-30_cord19_Disease.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "raw4_2020-07-02_cord19_ChemicalOrganism.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\raw_sentences\\raw4_2020-07-02_cord19_ChemicalOrganism.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "raw5_2020-07-08_cord19_Drug_TestSet.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\raw_sentences\\raw5_2020-07-08_cord19_Drug_TestSet.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "raw6_2020-07-08_cord19_CelltypeProtein.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\raw_sentences\\raw6_2020-07-08_cord19_CelltypeProtein.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "raw7_2020-09-01_cord19v35_CellCompartment.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\raw_sentences\\raw7_2020-09-01_cord19v35_CellCompartment.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "raw8_2020-09-02_cord19v35_CellCompartmentDrugOrgan.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\raw_sentences\\raw8_2020-09-02_cord19v35_CellCompartmentDrugOrgan.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "raw9_2020-09-02_cord19v35_Pathway.jsonl.dvc",
                 "old_path": null,
                 "new_path": "data_and_models\\raw_sentences\\raw9_2020-09-02_cord19v35_Pathway.jsonl.dvc",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             },
             {
                 "file_name": "NER_Evaluation.ipynb",
                 "old_path": "notebooks\\NER_Evaluation.ipynb",
                 "new_path": "notebooks\\NER_Evaluation.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 8,
+                "deleted_lines": 13
             },
             {
                 "file_name": "requirements.txt",
                 "old_path": "requirements.txt",
                 "new_path": "requirements.txt",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "setup.py",
                 "old_path": "setup.py",
                 "new_path": "setup.py",
-                "nloc": 83
+                "nloc": 83,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "__init__.py",
                 "old_path": "src\\bbsearch\\mining\\__init__.py",
                 "new_path": "src\\bbsearch\\mining\\__init__.py",
-                "nloc": 18
+                "nloc": 18,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "eval.py",
                 "old_path": "src\\bbsearch\\mining\\eval.py",
                 "new_path": "src\\bbsearch\\mining\\eval.py",
-                "nloc": 245
+                "nloc": 245,
+                "added_lines": 40,
+                "deleted_lines": 45
             },
             {
                 "file_name": "test_eval.py",
                 "old_path": "tests\\test_mining\\test_eval.py",
                 "new_path": "tests\\test_mining\\test_eval.py",
-                "nloc": 227
+                "nloc": 227,
+                "added_lines": 29,
+                "deleted_lines": 17
             }
         ],
         "is_dvc_related": true
@@ -1059,19 +1339,25 @@
                 "file_name": "STS_evaluation.ipynb",
                 "old_path": null,
                 "new_path": "notebooks\\STS_evaluation.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 583,
+                "deleted_lines": 0
             },
             {
                 "file_name": "requirements.txt",
                 "old_path": "requirements.txt",
                 "new_path": "requirements.txt",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "setup.py",
                 "old_path": "setup.py",
                 "new_path": "setup.py",
-                "nloc": 84
+                "nloc": 84,
+                "added_lines": 1,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1087,7 +1373,9 @@
                 "file_name": "BBS_BBG_poc.ipynb",
                 "old_path": "notebooks\\BBS_BBG_poc.ipynb",
                 "new_path": "notebooks\\BBS_BBG_poc.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 4
             }
         ],
         "is_dvc_related": false
@@ -1103,37 +1391,49 @@
                 "file_name": "whatsnew.rst",
                 "old_path": "docs\\source\\whatsnew.rst",
                 "new_path": "docs\\source\\whatsnew.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 22,
+                "deleted_lines": 6
             },
             {
                 "file_name": "BBS_BBG_poc.ipynb",
                 "old_path": "notebooks\\BBS_BBG_poc.ipynb",
                 "new_path": "notebooks\\BBS_BBG_poc.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 14,
+                "deleted_lines": 1
             },
             {
                 "file_name": "stylesheet.css",
                 "old_path": "src\\bbsearch\\_css\\stylesheet.css",
                 "new_path": "src\\bbsearch\\_css\\stylesheet.css",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 8,
+                "deleted_lines": 0
             },
             {
                 "file_name": "mining_widget.py",
                 "old_path": "src\\bbsearch\\widgets\\mining_widget.py",
                 "new_path": "src\\bbsearch\\widgets\\mining_widget.py",
-                "nloc": 166
+                "nloc": 166,
+                "added_lines": 26,
+                "deleted_lines": 4
             },
             {
                 "file_name": "search_widget.py",
                 "old_path": "src\\bbsearch\\widgets\\search_widget.py",
                 "new_path": "src\\bbsearch\\widgets\\search_widget.py",
-                "nloc": 592
+                "nloc": 592,
+                "added_lines": 10,
+                "deleted_lines": 6
             },
             {
                 "file_name": "test_search_widget.py",
                 "old_path": "tests\\test_widgets\\test_search_widget.py",
                 "new_path": "tests\\test_widgets\\test_search_widget.py",
-                "nloc": 423
+                "nloc": 423,
+                "added_lines": 1,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1149,13 +1449,17 @@
                 "file_name": "embedding_models.py",
                 "old_path": "src\\bbsearch\\embedding_models.py",
                 "new_path": "src\\bbsearch\\embedding_models.py",
-                "nloc": 479
+                "nloc": 479,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_embedding_models.py",
                 "old_path": "tests\\test_embedding_models.py",
                 "new_path": "tests\\test_embedding_models.py",
-                "nloc": 390
+                "nloc": 390,
+                "added_lines": 30,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1171,43 +1475,57 @@
                 "file_name": "mining.Dockerfile",
                 "old_path": "docker\\mining.Dockerfile",
                 "new_path": "docker\\mining.Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "search.Dockerfile",
                 "old_path": "docker\\search.Dockerfile",
                 "new_path": "docker\\search.Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "BBS_BBG_poc.ipynb",
                 "old_path": "notebooks\\BBS_BBG_poc.ipynb",
                 "new_path": "notebooks\\BBS_BBG_poc.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 23
             },
             {
                 "file_name": "mining_cache.py",
                 "old_path": "src\\bbsearch\\database\\mining_cache.py",
                 "new_path": "src\\bbsearch\\database\\mining_cache.py",
-                "nloc": 358
+                "nloc": 358,
+                "added_lines": 12,
+                "deleted_lines": 1
             },
             {
                 "file_name": "mining_server.py",
                 "old_path": "src\\bbsearch\\server\\mining_server.py",
                 "new_path": "src\\bbsearch\\server\\mining_server.py",
-                "nloc": 256
+                "nloc": 256,
+                "added_lines": 2,
+                "deleted_lines": 0
             },
             {
                 "file_name": "mining_widget.py",
                 "old_path": "src\\bbsearch\\widgets\\mining_widget.py",
                 "new_path": "src\\bbsearch\\widgets\\mining_widget.py",
-                "nloc": 181
+                "nloc": 181,
+                "added_lines": 17,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_mining_cache.py",
                 "old_path": "tests\\test_database\\test_mining_cache.py",
                 "new_path": "tests\\test_database\\test_mining_cache.py",
-                "nloc": 232
+                "nloc": 232,
+                "added_lines": 8,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1223,13 +1541,17 @@
                 "file_name": ".travis.yml",
                 "old_path": ".travis.yml",
                 "new_path": ".travis.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 0
             },
             {
                 "file_name": "tox.ini",
                 "old_path": "tox.ini",
                 "new_path": "tox.ini",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1245,7 +1567,9 @@
                 "file_name": "BBS_BBG_poc.ipynb",
                 "old_path": "notebooks\\BBS_BBG_poc.ipynb",
                 "new_path": "notebooks\\BBS_BBG_poc.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 9,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1261,7 +1585,9 @@
                 "file_name": ".jenkins.sh",
                 "old_path": ".jenkins.sh",
                 "new_path": ".jenkins.sh",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 2
             }
         ],
         "is_dvc_related": false
@@ -1277,37 +1603,49 @@
                 "file_name": "bug-report.md",
                 "old_path": null,
                 "new_path": ".github\\ISSUE_TEMPLATE\\bug-report.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 45,
+                "deleted_lines": 0
             },
             {
                 "file_name": "documentation.md",
                 "old_path": null,
                 "new_path": ".github\\ISSUE_TEMPLATE\\documentation.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 10,
+                "deleted_lines": 0
             },
             {
                 "file_name": "feature-request.md",
                 "old_path": null,
                 "new_path": ".github\\ISSUE_TEMPLATE\\feature-request.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 32,
+                "deleted_lines": 0
             },
             {
                 "file_name": "other-questions-help.md",
                 "old_path": null,
                 "new_path": ".github\\ISSUE_TEMPLATE\\other-questions-help.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 12,
+                "deleted_lines": 0
             },
             {
                 "file_name": "PULL_REQUEST_TEMPLATE.md",
                 "old_path": null,
                 "new_path": ".github\\PULL_REQUEST_TEMPLATE.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 16,
+                "deleted_lines": 0
             },
             {
                 "file_name": "CONTRIBUTING.md",
                 "old_path": null,
                 "new_path": "CONTRIBUTING.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 108,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1323,7 +1661,9 @@
                 "file_name": "faq.rst",
                 "old_path": "docs\\source\\faq.rst",
                 "new_path": "docs\\source\\faq.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 22,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1339,13 +1679,17 @@
                 "file_name": "ACKNOWLEDGMENTS.md",
                 "old_path": "ACKNOWLEDGMENTS.md",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 3
             },
             {
                 "file_name": "README.md",
                 "old_path": "README.md",
                 "new_path": "README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 8,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1361,7 +1705,9 @@
                 "file_name": "README.md",
                 "old_path": "README.md",
                 "new_path": "README.md",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1377,37 +1723,49 @@
                 "file_name": "requirements.txt",
                 "old_path": "requirements.txt",
                 "new_path": "requirements.txt",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "embedding_models.py",
                 "old_path": "src\\bluesearch\\embedding_models.py",
                 "new_path": "src\\bluesearch\\embedding_models.py",
-                "nloc": 373
+                "nloc": 373,
+                "added_lines": 25,
+                "deleted_lines": 5
             },
             {
                 "file_name": "compute_embeddings.py",
                 "old_path": "src\\bluesearch\\entrypoint\\compute_embeddings.py",
                 "new_path": "src\\bluesearch\\entrypoint\\compute_embeddings.py",
-                "nloc": 177
+                "nloc": 177,
+                "added_lines": 12,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_embedding_models.py",
                 "old_path": "tests\\test_embedding_models.py",
                 "new_path": "tests\\test_embedding_models.py",
-                "nloc": 359
+                "nloc": 359,
+                "added_lines": 91,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_compute_embeddings.py",
                 "old_path": "tests\\test_entrypoint\\test_compute_embeddings.py",
                 "new_path": "tests\\test_entrypoint\\test_compute_embeddings.py",
-                "nloc": 123
+                "nloc": 123,
+                "added_lines": 54,
+                "deleted_lines": 0
             },
             {
                 "file_name": "tox.ini",
                 "old_path": "tox.ini",
                 "new_path": "tox.ini",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1423,103 +1781,137 @@
                 "file_name": "Dockerfile",
                 "old_path": "data_and_models\\pipelines\\ner\\Dockerfile",
                 "new_path": "data_and_models\\pipelines\\ner\\Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "Dockerfile",
                 "old_path": "data_and_models\\pipelines\\sentence_embedding\\Dockerfile",
                 "new_path": "data_and_models\\pipelines\\sentence_embedding\\Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "train.py",
                 "old_path": "data_and_models\\pipelines\\sentence_embedding\\train.py",
                 "new_path": "data_and_models\\pipelines\\sentence_embedding\\train.py",
-                "nloc": 70
+                "nloc": 70,
+                "added_lines": 5,
+                "deleted_lines": 5
             },
             {
                 "file_name": "base.Dockerfile",
                 "old_path": "docker\\base.Dockerfile",
                 "new_path": "docker\\base.Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "bbs.Dockerfile",
                 "old_path": "docker\\bbs.Dockerfile",
                 "new_path": "docker\\bbs.Dockerfile",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "whatsnew.rst",
                 "old_path": "docs\\source\\whatsnew.rst",
                 "new_path": "docs\\source\\whatsnew.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 0
             },
             {
                 "file_name": "NER_Evaluation.ipynb",
                 "old_path": "notebooks\\NER_Evaluation.ipynb",
                 "new_path": "notebooks\\NER_Evaluation.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 68,
+                "deleted_lines": 1
             },
             {
                 "file_name": "requirements.txt",
                 "old_path": "requirements.txt",
                 "new_path": "requirements.txt",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 4
             },
             {
                 "file_name": "setup.py",
                 "old_path": "setup.py",
                 "new_path": "setup.py",
-                "nloc": 106
+                "nloc": 106,
+                "added_lines": 4,
+                "deleted_lines": 6
             },
             {
                 "file_name": "embedding_models.py",
                 "old_path": "src\\bluesearch\\embedding_models.py",
                 "new_path": "src\\bluesearch\\embedding_models.py",
-                "nloc": 352
+                "nloc": 352,
+                "added_lines": 3,
+                "deleted_lines": 2
             },
             {
                 "file_name": "eval.py",
                 "old_path": "src\\bluesearch\\mining\\eval.py",
                 "new_path": "src\\bluesearch\\mining\\eval.py",
-                "nloc": 320
+                "nloc": 320,
+                "added_lines": 0,
+                "deleted_lines": 62
             },
             {
                 "file_name": "utils.py",
                 "old_path": "src\\bluesearch\\utils.py",
                 "new_path": "src\\bluesearch\\utils.py",
-                "nloc": 319
+                "nloc": 319,
+                "added_lines": 12,
+                "deleted_lines": 14
             },
             {
                 "file_name": "article_saver.py",
                 "old_path": "src\\bluesearch\\widgets\\article_saver.py",
                 "new_path": "src\\bluesearch\\widgets\\article_saver.py",
-                "nloc": 179
+                "nloc": 179,
+                "added_lines": 8,
+                "deleted_lines": 6
             },
             {
                 "file_name": "search_widget.py",
                 "old_path": "src\\bluesearch\\widgets\\search_widget.py",
                 "new_path": "src\\bluesearch\\widgets\\search_widget.py",
-                "nloc": 698
+                "nloc": 698,
+                "added_lines": 15,
+                "deleted_lines": 14
             },
             {
                 "file_name": "test_eval.py",
                 "old_path": "tests\\test_mining\\test_eval.py",
                 "new_path": "tests\\test_mining\\test_eval.py",
-                "nloc": 517
+                "nloc": 517,
+                "added_lines": 0,
+                "deleted_lines": 6
             },
             {
                 "file_name": "test_article_saver.py",
                 "old_path": "tests\\test_widgets\\test_article_saver.py",
                 "new_path": "tests\\test_widgets\\test_article_saver.py",
-                "nloc": 75
+                "nloc": 75,
+                "added_lines": 4,
+                "deleted_lines": 4
             },
             {
                 "file_name": "test_search_widget.py",
                 "old_path": "tests\\test_widgets\\test_search_widget.py",
                 "new_path": "tests\\test_widgets\\test_search_widget.py",
-                "nloc": 478
+                "nloc": 478,
+                "added_lines": 8,
+                "deleted_lines": 11
             }
         ],
         "is_dvc_related": false
@@ -1535,31 +1927,41 @@
                 "file_name": "whatsnew.rst",
                 "old_path": "docs\\source\\whatsnew.rst",
                 "new_path": "docs\\source\\whatsnew.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 0
             },
             {
                 "file_name": "embedding_models.py",
                 "old_path": "src\\bluesearch\\embedding_models.py",
                 "new_path": "src\\bluesearch\\embedding_models.py",
-                "nloc": 352
+                "nloc": 352,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "eval.py",
                 "old_path": "src\\bluesearch\\mining\\eval.py",
                 "new_path": "src\\bluesearch\\mining\\eval.py",
-                "nloc": 492
+                "nloc": 492,
+                "added_lines": 147,
+                "deleted_lines": 65
             },
             {
                 "file_name": "conftest.py",
                 "old_path": "tests\\conftest.py",
                 "new_path": "tests\\conftest.py",
-                "nloc": 340
+                "nloc": 340,
+                "added_lines": 15,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_eval.py",
                 "old_path": "tests\\test_mining\\test_eval.py",
                 "new_path": "tests\\test_mining\\test_eval.py",
-                "nloc": 573
+                "nloc": 573,
+                "added_lines": 58,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1575,7 +1977,9 @@
                 "file_name": "eval.py",
                 "old_path": "src\\bluesearch\\mining\\eval.py",
                 "new_path": "src\\bluesearch\\mining\\eval.py",
-                "nloc": 493
+                "nloc": 493,
+                "added_lines": 6,
+                "deleted_lines": 5
             }
         ],
         "is_dvc_related": false
@@ -1591,121 +1995,161 @@
                 "file_name": "whatsnew.rst",
                 "old_path": "docs\\source\\whatsnew.rst",
                 "new_path": "docs\\source\\whatsnew.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "setup.py",
                 "old_path": "setup.py",
                 "new_path": "setup.py",
-                "nloc": 107
+                "nloc": 107,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "mining_cache.py",
                 "old_path": "src\\bluesearch\\database\\mining_cache.py",
                 "new_path": "src\\bluesearch\\database\\mining_cache.py",
-                "nloc": 371
+                "nloc": 371,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "embedding_models.py",
                 "old_path": "src\\bluesearch\\embedding_models.py",
                 "new_path": "src\\bluesearch\\embedding_models.py",
-                "nloc": 352
+                "nloc": 352,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "entity.py",
                 "old_path": "src\\bluesearch\\mining\\entity.py",
                 "new_path": "src\\bluesearch\\mining\\entity.py",
-                "nloc": 193
+                "nloc": 193,
+                "added_lines": 1,
+                "deleted_lines": 9
             },
             {
                 "file_name": "eval.py",
                 "old_path": "src\\bluesearch\\mining\\eval.py",
                 "new_path": "src\\bluesearch\\mining\\eval.py",
-                "nloc": 493
+                "nloc": 493,
+                "added_lines": 2,
+                "deleted_lines": 3
             },
             {
                 "file_name": "embedding_server.py",
                 "old_path": "src\\bluesearch\\server\\embedding_server.py",
                 "new_path": "src\\bluesearch\\server\\embedding_server.py",
-                "nloc": 157
+                "nloc": 157,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "search_server.py",
                 "old_path": "src\\bluesearch\\server\\search_server.py",
                 "new_path": "src\\bluesearch\\server\\search_server.py",
-                "nloc": 176
+                "nloc": 176,
+                "added_lines": 10,
+                "deleted_lines": 6
             },
             {
                 "file_name": "article_saver.py",
                 "old_path": "src\\bluesearch\\widgets\\article_saver.py",
                 "new_path": "src\\bluesearch\\widgets\\article_saver.py",
-                "nloc": 179
+                "nloc": 179,
+                "added_lines": 4,
+                "deleted_lines": 4
             },
             {
                 "file_name": "mining_schema.py",
                 "old_path": "src\\bluesearch\\widgets\\mining_schema.py",
                 "new_path": "src\\bluesearch\\widgets\\mining_schema.py",
-                "nloc": 54
+                "nloc": 54,
+                "added_lines": 2,
+                "deleted_lines": 9
             },
             {
                 "file_name": "search_widget.py",
                 "old_path": "src\\bluesearch\\widgets\\search_widget.py",
                 "new_path": "src\\bluesearch\\widgets\\search_widget.py",
-                "nloc": 698
+                "nloc": 698,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "test_cord_19.py",
                 "old_path": "tests\\test_database\\test_cord_19.py",
                 "new_path": "tests\\test_database\\test_cord_19.py",
-                "nloc": 184
+                "nloc": 184,
+                "added_lines": 4,
+                "deleted_lines": 8
             },
             {
                 "file_name": "test_mining_cache.py",
                 "old_path": "tests\\test_database\\test_mining_cache.py",
                 "new_path": "tests\\test_database\\test_mining_cache.py",
-                "nloc": 238
+                "nloc": 238,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_attribute.py",
                 "old_path": "tests\\test_mining\\test_attribute.py",
                 "new_path": "tests\\test_mining\\test_attribute.py",
-                "nloc": 1030
+                "nloc": 1030,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_mining_server.py",
                 "old_path": "tests\\test_server\\test_mining_server.py",
                 "new_path": "tests\\test_server\\test_mining_server.py",
-                "nloc": 125
+                "nloc": 125,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_sql.py",
                 "old_path": "tests\\test_sql.py",
                 "new_path": "tests\\test_sql.py",
-                "nloc": 292
+                "nloc": 292,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_article_saver.py",
                 "old_path": "tests\\test_widgets\\test_article_saver.py",
                 "new_path": "tests\\test_widgets\\test_article_saver.py",
-                "nloc": 74
+                "nloc": 74,
+                "added_lines": 4,
+                "deleted_lines": 5
             },
             {
                 "file_name": "test_mining_schema.py",
                 "old_path": "tests\\test_widgets\\test_mining_schema.py",
                 "new_path": "tests\\test_widgets\\test_mining_schema.py",
-                "nloc": 32
+                "nloc": 32,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_search_widget.py",
                 "old_path": "tests\\test_widgets\\test_search_widget.py",
                 "new_path": "tests\\test_widgets\\test_search_widget.py",
-                "nloc": 478
+                "nloc": 478,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "tox.ini",
                 "old_path": "tox.ini",
                 "new_path": "tox.ini",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 25,
+                "deleted_lines": 26
             }
         ],
         "is_dvc_related": false
@@ -1721,25 +2165,33 @@
                 "file_name": "article.py",
                 "old_path": null,
                 "new_path": "src\\bluesearch\\database\\article.py",
-                "nloc": 202
+                "nloc": 202,
+                "added_lines": 253,
+                "deleted_lines": 0
             },
             {
                 "file_name": "cord_19.py",
                 "old_path": "src\\bluesearch\\database\\cord_19.py",
                 "new_path": "src\\bluesearch\\database\\cord_19.py",
-                "nloc": 339
+                "nloc": 339,
+                "added_lines": 8,
+                "deleted_lines": 16
             },
             {
                 "file_name": "conftest.py",
                 "old_path": "tests\\conftest.py",
                 "new_path": "tests\\conftest.py",
-                "nloc": 367
+                "nloc": 367,
+                "added_lines": 13,
+                "deleted_lines": 2
             },
             {
                 "file_name": "test_article.py",
                 "old_path": null,
                 "new_path": "tests\\test_database\\test_article.py",
-                "nloc": 92
+                "nloc": 92,
+                "added_lines": 136,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1755,85 +2207,113 @@
                 "file_name": "requirements-data_and_models.txt",
                 "old_path": "requirements-data_and_models.txt",
                 "new_path": "requirements-data_and_models.txt",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 5,
+                "deleted_lines": 6
             },
             {
                 "file_name": "requirements-dev.txt",
                 "old_path": "requirements-dev.txt",
                 "new_path": "requirements-dev.txt",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 6,
+                "deleted_lines": 6
             },
             {
                 "file_name": "requirements.txt",
                 "old_path": "requirements.txt",
                 "new_path": "requirements.txt",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 15,
+                "deleted_lines": 15
             },
             {
                 "file_name": "mining_cache.py",
                 "old_path": "src\\bluesearch\\database\\mining_cache.py",
                 "new_path": "src\\bluesearch\\database\\mining_cache.py",
-                "nloc": 346
+                "nloc": 346,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "attribute.py",
                 "old_path": "src\\bluesearch\\mining\\attribute.py",
                 "new_path": "src\\bluesearch\\mining\\attribute.py",
-                "nloc": 359
+                "nloc": 359,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "entity.py",
                 "old_path": "src\\bluesearch\\mining\\entity.py",
                 "new_path": "src\\bluesearch\\mining\\entity.py",
-                "nloc": 184
+                "nloc": 184,
+                "added_lines": 7,
+                "deleted_lines": 4
             },
             {
                 "file_name": "eval.py",
                 "old_path": "src\\bluesearch\\mining\\eval.py",
                 "new_path": "src\\bluesearch\\mining\\eval.py",
-                "nloc": 506
+                "nloc": 506,
+                "added_lines": 4,
+                "deleted_lines": 2
             },
             {
                 "file_name": "search_widget.py",
                 "old_path": "src\\bluesearch\\widgets\\search_widget.py",
                 "new_path": "src\\bluesearch\\widgets\\search_widget.py",
-                "nloc": 698
+                "nloc": 698,
+                "added_lines": 2,
+                "deleted_lines": 2
             },
             {
                 "file_name": "conftest.py",
                 "old_path": "tests\\conftest.py",
                 "new_path": "tests\\conftest.py",
-                "nloc": 382
+                "nloc": 382,
+                "added_lines": 17,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_cord_19.py",
                 "old_path": "tests\\test_database\\test_cord_19.py",
                 "new_path": "tests\\test_database\\test_cord_19.py",
-                "nloc": 184
+                "nloc": 184,
+                "added_lines": 5,
+                "deleted_lines": 5
             },
             {
                 "file_name": "test_embedding_models.py",
                 "old_path": "tests\\test_embedding_models.py",
                 "new_path": "tests\\test_embedding_models.py",
-                "nloc": 295
+                "nloc": 295,
+                "added_lines": 9,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_eval.py",
                 "old_path": "tests\\test_mining\\test_eval.py",
                 "new_path": "tests\\test_mining\\test_eval.py",
-                "nloc": 573
+                "nloc": 573,
+                "added_lines": 6,
+                "deleted_lines": 6
             },
             {
                 "file_name": "test_pipeline.py",
                 "old_path": "tests\\test_mining\\test_pipeline.py",
                 "new_path": "tests\\test_mining\\test_pipeline.py",
-                "nloc": 112
+                "nloc": 112,
+                "added_lines": 3,
+                "deleted_lines": 3
             },
             {
                 "file_name": "tox.ini",
                 "old_path": "tox.ini",
                 "new_path": "tox.ini",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1849,19 +2329,25 @@
                 "file_name": "whatsnew.rst",
                 "old_path": "docs\\source\\whatsnew.rst",
                 "new_path": "docs\\source\\whatsnew.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "article.py",
                 "old_path": "src\\bluesearch\\database\\article.py",
                 "new_path": "src\\bluesearch\\database\\article.py",
-                "nloc": 602
+                "nloc": 602,
+                "added_lines": 4,
+                "deleted_lines": 4
             },
             {
                 "file_name": "test_article.py",
                 "old_path": "tests\\unit\\database\\test_article.py",
                 "new_path": "tests\\unit\\database\\test_article.py",
-                "nloc": 319
+                "nloc": 319,
+                "added_lines": 11,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1877,13 +2363,17 @@
                 "file_name": "run-tests.yml",
                 "old_path": ".github\\workflows\\run-tests.yml",
                 "new_path": ".github\\workflows\\run-tests.yml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 4
             },
             {
                 "file_name": "test_bbs_database.py",
                 "old_path": "tests\\integration\\test_bbs_database.py",
                 "new_path": "tests\\integration\\test_bbs_database.py",
-                "nloc": 87
+                "nloc": 87,
+                "added_lines": 8,
+                "deleted_lines": 9
             }
         ],
         "is_dvc_related": false
@@ -1899,13 +2389,17 @@
                 "file_name": "test_add.py",
                 "old_path": "tests\\unit\\entrypoint\\database\\test_add.py",
                 "new_path": "tests\\unit\\entrypoint\\database\\test_add.py",
-                "nloc": 105
+                "nloc": 105,
+                "added_lines": 14,
+                "deleted_lines": 2
             },
             {
                 "file_name": "test_embeddings.py",
                 "old_path": "tests\\unit\\entrypoint\\test_embeddings.py",
                 "new_path": "tests\\unit\\entrypoint\\test_embeddings.py",
-                "nloc": 122
+                "nloc": 122,
+                "added_lines": 4,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1921,25 +2415,33 @@
                 "file_name": "pdf.py",
                 "old_path": "src\\bluesearch\\database\\pdf.py",
                 "new_path": "src\\bluesearch\\database\\pdf.py",
-                "nloc": 61
+                "nloc": 61,
+                "added_lines": 29,
+                "deleted_lines": 0
             },
             {
                 "file_name": "convert_pdf.py",
                 "old_path": "src\\bluesearch\\entrypoint\\database\\convert_pdf.py",
                 "new_path": "src\\bluesearch\\entrypoint\\database\\convert_pdf.py",
-                "nloc": 242
+                "nloc": 242,
+                "added_lines": 165,
+                "deleted_lines": 38
             },
             {
                 "file_name": "test_pdf.py",
                 "old_path": "tests\\unit\\database\\test_pdf.py",
                 "new_path": "tests\\unit\\database\\test_pdf.py",
-                "nloc": 34
+                "nloc": 34,
+                "added_lines": 26,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_convert_pdf.py",
                 "old_path": "tests\\unit\\entrypoint\\database\\test_convert_pdf.py",
                 "new_path": "tests\\unit\\entrypoint\\database\\test_convert_pdf.py",
-                "nloc": 197
+                "nloc": 197,
+                "added_lines": 208,
+                "deleted_lines": 23
             }
         ],
         "is_dvc_related": false
@@ -1955,13 +2457,17 @@
                 "file_name": "test_mining_widget.py",
                 "old_path": "tests\\unit\\widgets\\test_mining_widget.py",
                 "new_path": "tests\\unit\\widgets\\test_mining_widget.py",
-                "nloc": 219
+                "nloc": 219,
+                "added_lines": 6,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_search_widget.py",
                 "old_path": "tests\\unit\\widgets\\test_search_widget.py",
                 "new_path": "tests\\unit\\widgets\\test_search_widget.py",
-                "nloc": 489
+                "nloc": 489,
+                "added_lines": 10,
+                "deleted_lines": 0
             }
         ],
         "is_dvc_related": false
@@ -1977,7 +2483,9 @@
                 "file_name": "test_bbs_database.py",
                 "old_path": "tests\\integration\\test_bbs_database.py",
                 "new_path": "tests\\integration\\test_bbs_database.py",
-                "nloc": 142
+                "nloc": 142,
+                "added_lines": 2,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -1993,31 +2501,41 @@
                 "file_name": "test_pdf.py",
                 "old_path": "tests\\unit\\database\\test_pdf.py",
                 "new_path": "tests\\unit\\database\\test_pdf.py",
-                "nloc": 34
+                "nloc": 34,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_eval.py",
                 "old_path": "tests\\unit\\mining\\test_eval.py",
                 "new_path": "tests\\unit\\mining\\test_eval.py",
-                "nloc": 576
+                "nloc": 576,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_embedding_models.py",
                 "old_path": "tests\\unit\\test_embedding_models.py",
                 "new_path": "tests\\unit\\test_embedding_models.py",
-                "nloc": 294
+                "nloc": 294,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_search_widget.py",
                 "old_path": "tests\\unit\\widgets\\test_search_widget.py",
                 "new_path": "tests\\unit\\widgets\\test_search_widget.py",
-                "nloc": 485
+                "nloc": 485,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "tox.ini",
                 "old_path": "tox.ini",
                 "new_path": "tox.ini",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 3
             }
         ],
         "is_dvc_related": false
@@ -2033,49 +2551,65 @@
                 "file_name": "create_indices.ipynb",
                 "old_path": null,
                 "new_path": "notebooks\\create_indices.ipynb",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 186,
+                "deleted_lines": 0
             },
             {
                 "file_name": "requirements.txt",
                 "old_path": "requirements.txt",
                 "new_path": "requirements.txt",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "setup.py",
                 "old_path": "setup.py",
                 "new_path": "setup.py",
-                "nloc": 113
+                "nloc": 113,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "connect.py",
                 "old_path": null,
                 "new_path": "src\\bluesearch\\k8s\\connect.py",
-                "nloc": 21
+                "nloc": 21,
+                "added_lines": 31,
+                "deleted_lines": 0
             },
             {
                 "file_name": "create_indices.py",
                 "old_path": null,
                 "new_path": "src\\bluesearch\\k8s\\create_indices.py",
-                "nloc": 62
+                "nloc": 62,
+                "added_lines": 77,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_create_indices.py",
                 "old_path": null,
                 "new_path": "tests\\unit\\k8s\\test_create_indices.py",
-                "nloc": 4
+                "nloc": 4,
+                "added_lines": 8,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_decouple.py",
                 "old_path": null,
                 "new_path": "tests\\unit\\test_decouple.py",
-                "nloc": 3
+                "nloc": 3,
+                "added_lines": 5,
+                "deleted_lines": 0
             },
             {
                 "file_name": "tox.ini",
                 "old_path": "tox.ini",
                 "new_path": "tox.ini",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 3,
+                "deleted_lines": 1
             }
         ],
         "is_dvc_related": false
@@ -2091,91 +2625,121 @@
                 "file_name": "ci.yaml",
                 "old_path": ".github\\workflows\\ci.yaml",
                 "new_path": ".github\\workflows\\ci.yaml",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 14,
+                "deleted_lines": 0
             },
             {
                 "file_name": "bluesearch.k8s.connect.rst",
                 "old_path": null,
                 "new_path": "docs\\source\\api\\bluesearch.k8s.connect.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 7,
+                "deleted_lines": 0
             },
             {
                 "file_name": "bluesearch.k8s.create_indices.rst",
                 "old_path": null,
                 "new_path": "docs\\source\\api\\bluesearch.k8s.create_indices.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 7,
+                "deleted_lines": 0
             },
             {
                 "file_name": "bluesearch.k8s.rst",
                 "old_path": null,
                 "new_path": "docs\\source\\api\\bluesearch.k8s.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 19,
+                "deleted_lines": 0
             },
             {
                 "file_name": "bluesearch.rst",
                 "old_path": "docs\\source\\api\\bluesearch.rst",
                 "new_path": "docs\\source\\api\\bluesearch.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "requirements.txt",
                 "old_path": "requirements.txt",
                 "new_path": "requirements.txt",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 1
             },
             {
                 "file_name": "cord_19.py",
                 "old_path": "src\\bluesearch\\database\\cord_19.py",
                 "new_path": "src\\bluesearch\\database\\cord_19.py",
-                "nloc": 339
+                "nloc": 339,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "add.py",
                 "old_path": "src\\bluesearch\\entrypoint\\database\\add.py",
                 "new_path": "src\\bluesearch\\entrypoint\\database\\add.py",
-                "nloc": 152
+                "nloc": 152,
+                "added_lines": 1,
+                "deleted_lines": 1
             },
             {
                 "file_name": "__init__.py",
                 "old_path": null,
                 "new_path": "src\\bluesearch\\k8s\\__init__.py",
-                "nloc": 1
+                "nloc": 1,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "connect.py",
                 "old_path": "src\\bluesearch\\k8s\\connect.py",
                 "new_path": "src\\bluesearch\\k8s\\connect.py",
-                "nloc": 22
+                "nloc": 22,
+                "added_lines": 20,
+                "deleted_lines": 3
             },
             {
                 "file_name": "create_indices.py",
                 "old_path": "src\\bluesearch\\k8s\\create_indices.py",
                 "new_path": "src\\bluesearch\\k8s\\create_indices.py",
-                "nloc": 92
+                "nloc": 92,
+                "added_lines": 48,
+                "deleted_lines": 4
             },
             {
                 "file_name": "sql.py",
                 "old_path": "src\\bluesearch\\sql.py",
                 "new_path": "src\\bluesearch\\sql.py",
-                "nloc": 358
+                "nloc": 358,
+                "added_lines": 3,
+                "deleted_lines": 1
             },
             {
                 "file_name": "test_create_indices.py",
                 "old_path": "tests\\unit\\k8s\\test_create_indices.py",
                 "new_path": "tests\\unit\\k8s\\test_create_indices.py",
-                "nloc": 21
+                "nloc": 21,
+                "added_lines": 27,
+                "deleted_lines": 3
             },
             {
                 "file_name": "test_decouple.py",
                 "old_path": "tests\\unit\\test_decouple.py",
                 "new_path": null,
-                "nloc": null
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 5
             },
             {
                 "file_name": "tox.ini",
                 "old_path": "tox.ini",
                 "new_path": "tox.ini",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 4,
+                "deleted_lines": 5
             }
         ],
         "is_dvc_related": false
@@ -2191,49 +2755,65 @@
                 "file_name": "bluesearch.entrypoint.database.add_es.rst",
                 "old_path": null,
                 "new_path": "docs\\source\\api\\bluesearch.entrypoint.database.add_es.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 7,
+                "deleted_lines": 0
             },
             {
                 "file_name": "bluesearch.entrypoint.database.rst",
                 "old_path": "docs\\source\\api\\bluesearch.entrypoint.database.rst",
                 "new_path": "docs\\source\\api\\bluesearch.entrypoint.database.rst",
-                "nloc": null
+                "nloc": null,
+                "added_lines": 1,
+                "deleted_lines": 0
             },
             {
                 "file_name": "add_es.py",
                 "old_path": null,
                 "new_path": "src\\bluesearch\\entrypoint\\database\\add_es.py",
-                "nloc": 139
+                "nloc": 139,
+                "added_lines": 174,
+                "deleted_lines": 0
             },
             {
                 "file_name": "parent.py",
                 "old_path": "src\\bluesearch\\entrypoint\\database\\parent.py",
                 "new_path": "src\\bluesearch\\entrypoint\\database\\parent.py",
-                "nloc": 120
+                "nloc": 120,
+                "added_lines": 6,
+                "deleted_lines": 0
             },
             {
                 "file_name": "conftest.py",
                 "old_path": "tests\\conftest.py",
                 "new_path": "tests\\conftest.py",
-                "nloc": 412
+                "nloc": 412,
+                "added_lines": 24,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_bbs_database.py",
                 "old_path": "tests\\integration\\test_bbs_database.py",
                 "new_path": "tests\\integration\\test_bbs_database.py",
-                "nloc": 142
+                "nloc": 142,
+                "added_lines": 2,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_add_es.py",
                 "old_path": null,
                 "new_path": "tests\\unit\\entrypoint\\database\\test_add_es.py",
-                "nloc": 75
+                "nloc": 75,
+                "added_lines": 95,
+                "deleted_lines": 0
             },
             {
                 "file_name": "test_create_indices.py",
                 "old_path": "tests\\unit\\k8s\\test_create_indices.py",
                 "new_path": "tests\\unit\\k8s\\test_create_indices.py",
-                "nloc": 9
+                "nloc": 9,
+                "added_lines": 0,
+                "deleted_lines": 17
             }
         ],
         "is_dvc_related": false
@@ -2249,13 +2829,17 @@
                 "file_name": "add_es.py",
                 "old_path": "src\\bluesearch\\entrypoint\\database\\add_es.py",
                 "new_path": "src\\bluesearch\\entrypoint\\database\\add_es.py",
-                "nloc": 157
+                "nloc": 157,
+                "added_lines": 32,
+                "deleted_lines": 13
             },
             {
                 "file_name": "test_add_es.py",
                 "old_path": "tests\\unit\\entrypoint\\database\\test_add_es.py",
                 "new_path": "tests\\unit\\entrypoint\\database\\test_add_es.py",
-                "nloc": 107
+                "nloc": 107,
+                "added_lines": 56,
+                "deleted_lines": 9
             }
         ],
         "is_dvc_related": false

@@ -10059,8 +10059,34 @@
         ],
         "is_dvc_related": false
     },
-    "non_dvc_not_bug_count": 1222,
+    "19ab03397474eb0f4a63760550d2fb5fa8f7bd41": {
+        "committer_date": "2022-12-05 22:47:48+08:00",
+        "author_date": "2022-12-05 22:47:48+08:00",
+        "commit_message": "Convert module request issue template into yaml configured form (#2216)",
+        "in_main_branch": true,
+        "committer": "noreply@github.com",
+        "modified_files": [
+            {
+                "file_name": "module_request.md",
+                "old_path": ".github\\ISSUE_TEMPLATE\\module_request.md",
+                "new_path": null,
+                "nloc": null,
+                "added_lines": 0,
+                "deleted_lines": 29
+            },
+            {
+                "file_name": "module_request.yaml",
+                "old_path": null,
+                "new_path": ".github\\ISSUE_TEMPLATE\\module_request.yaml",
+                "nloc": null,
+                "added_lines": 34,
+                "deleted_lines": 0
+            }
+        ],
+        "is_dvc_related": false
+    },
+    "non_dvc_not_bug_count": 1225,
     "dvc_not_bug_count": 79,
-    "non_dvc_bug_count": 211,
+    "non_dvc_bug_count": 212,
     "dvc_bug_count": 15
 }

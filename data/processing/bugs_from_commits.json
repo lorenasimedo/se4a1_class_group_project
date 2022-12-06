@@ -8294,7 +8294,7 @@
         ],
         "is_dvc_related": false
     },
-    "non_dvc_not_bug_count": 1340,
+    "non_dvc_not_bug_count": 1349,
     "dvc_not_bug_count": 92,
     "non_dvc_bug_count": 355,
     "dvc_bug_count": 2

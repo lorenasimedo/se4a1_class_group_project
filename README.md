@@ -11,9 +11,10 @@ In this project we studied the effect of using DVC tool from a bug analysis poin
 ## Methodology
 
 * Mining github dvc projects 
-* Analysing bug issues related to dvc
-* Analysing bugfix commit messages and contents
-* Answering the Research Questions
+* Analysis of the files present on the changes from bug-labeled Github issues solutions and bugfix-related commits
+* Check the number of modified lines in each type of bug fixes for the commits analysis.
+* Compare the time to resolution and number of comments for issues related to dvc to the general scenario.
+* Manual analysis of the DVC-related bugs resolutions checking for the DVC files modifications
 * Result analysis and validation 
 
 

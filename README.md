@@ -28,7 +28,8 @@ code blocks for commands
 ## Help
 
 command to run if program contains helper info
-```
+``
+
 
 ## Authors
 Lorena Barreto Simedo Pacheco
